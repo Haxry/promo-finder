@@ -1,0 +1,38 @@
+# ---- Which models to use: ONE line each, written as  provider/model ---------------------------------------------
+# Providers built in: openai, anthropic, groq, openrouter, gemini, bedrock, deepseek, mistral, together, ollama, custom
+# Examples:  "groq/openai/gpt-oss-120b"  "openai/gpt-4.1"  "anthropic/claude-sonnet-4-5"  "bedrock/deepseek.v3.2"
+#            "ollama/llama3.1" (local, no key)   "custom/<model>" (any OpenAI-compatible API: CUSTOM_BASE_URL + CUSTOM_API_KEY)
+# Put the key in .env (e.g. GROQ_API_KEY=...). Test a model first:  python -m promo.llm check groq/openai/gpt-oss-120b
+[run]
+model  = "bedrock/openai.gpt-oss-120b-1:0"   # finds the promos   (free option: "groq/openai/gpt-oss-120b")
+critic = "bedrock/deepseek.v3.2"             # checks them - use a DIFFERENT model (free option: "groq/openai/gpt-oss-20b")
+
+max_promos = 6        # promos the model may suggest per episode
+votes      = 3        # critic votes per clip (2, plus a 3rd only if they disagree)
+workers    = 6        # episodes processed in parallel (use 1 on free tiers with per-minute limits)
+max_calls  = 16       # API calls allowed at the same time
+stitch     = true     # also build stitched promos (type B: one episode, type C: several episodes)
+top        = 40       # promos kept in the final ranking
+
+[rank]
+min_quality     = 2   # drop promos below this critic score (0-4)
+max_per_pattern = 3   # variety: at most 3 promos of one story pattern in the top 10
+min_stitched    = 2   # keep 2 stitched promos in the top 20 when they are good enough
+ranked_by_llm   = 20  # the top N get an LLM "post it first because ..." line
+
+# ---- Optional: change how a provider is called (only if you need to) ---------------------------------------------
+# [providers.groq]
+# reasoning = "low"          # low | medium | high - for reasoning models (set automatically for gpt-oss, o1, R1 ...)
+# max_tokens = 8192
+# [providers.myapi]          # a provider that isn't built in
+# base_url = "https://my-endpoint/v1"
+# key_env  = "MYAPI_KEY"
+
+# ---- Prices (USD per million tokens) for the cost estimate in run_stats.json -------------------------------------
+[prices."openai.gpt-oss-120b-1:0"]
+in_per_m = 0.15
+out_per_m = 0.60
+[prices."openai/gpt-oss-120b"]   # Groq free tier
+in_per_m = 0.0
+out_per_m = 0.0
+# [prices."deepseek.v3.2"]   fill in from the Bedrock pricing page

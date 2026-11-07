@@ -1,0 +1,17 @@
+# Look of the app (streamlit run app.py). Light, calm, readable.
+[theme]
+base = "light"
+primaryColor = "#4f46e5"              # indigo accent
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f6fb"  # sidebar / panels
+textColor = "#1f2937"                 # slate, softer than pure black
+font = "sans-serif"
+baseFontSize = 17
+headingFontWeights = [800, 700, 700]
+baseRadius = "10px"
+
+[server]
+headless = true
+
+[client]
+toolbarMode = "minimal"      # hide the Deploy button
