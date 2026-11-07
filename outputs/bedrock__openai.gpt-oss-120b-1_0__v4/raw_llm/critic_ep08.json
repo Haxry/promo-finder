@@ -1,0 +1,160 @@
+{
+ "items": {
+  "E8-1": {
+   "sig": "7ec41f7634e4",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show gentle domestic banter about trimming a beard. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is instructional information about medicinal plants. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No lines after the last one. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Two people in a relationship having a light conversation. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows domestic moment, no plot reveals. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s are gentle offer and refusal, not a conflict hook. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is plant lore, not an open-ended cliffhanger. [0/3 yes]"
+     }
+    },
+    "pattern": "other",
+    "hook_type": "other",
+    "cliff_type": "other"
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E8-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show gentle domestic banter about trimming a beard."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is instructional information about medicinal plants."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger exists to resolve."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people in a relationship having a light conversation."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows domestic moment, no plot reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are gentle offer and refusal, not a conflict hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is plant lore, not an open-ended cliffhanger."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "other"
+    },
+    {
+     "id": "E8-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about trimming a beard - no conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an instructional statement about herbs."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No lines after the last one."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people having a gentle, teasing conversation."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No plot reveals, just character interaction."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not a conflict hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "other"
+    },
+    {
+     "id": "E8-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a gentle offer about trimming, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is instructional about herbs, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the herb instruction."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people bantering about a beard is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are domestic banter, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a calm instruction, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "other"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana offers to trim Alexander's beard, but he wants to keep it long for now, then shifts to discussing medicinal plants.",
+    "conflict_between": "Juliana vs Alexander's beard preferences",
+    "want_to_know_next": "Why Alexander wants to keep his beard long and what advantages he refers to",
+    "would_keep_watching": false,
+    "why": "The scene feels like a minor domestic moment without clear stakes or compelling tension to drive continued interest."
+   }
+  }
+ }
+}

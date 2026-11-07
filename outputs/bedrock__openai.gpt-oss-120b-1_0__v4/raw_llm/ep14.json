@@ -1,0 +1,72 @@
+{
+ "episode": 14,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L14"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Viewers may not know why the constable seizes the emerald ring or who Alexander really is.",
+   "spoiler": false,
+   "why": "The constable snatching the ring instantly raises tension, and Alexander’s clenched fist of vengeance ends on a dangerous promise, leaving the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L49",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "revenge",
+   "missing_context": "New viewers won’t know why Alexander is bandaging Juliana or the significance of the ring she holds.",
+   "spoiler": false,
+   "why": "A stark warning about losing her hands grabs attention, and the final shot of Alexander’s fist tightening promises violent retribution that’s left unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L14"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "The emerald signet ring’s importance isn’t explained, leaving newcomers curious about its power.",
+   "spoiler": false,
+   "why": "The visceral image of a blood‑streaked hand revealing a glittering emerald instantly hooks viewers, and the cut to Alexander’s clenched fist leaves a menacing question unanswered."
+  }
+ ]
+}

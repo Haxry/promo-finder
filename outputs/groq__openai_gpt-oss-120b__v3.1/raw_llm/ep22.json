@@ -1,0 +1,49 @@
+{
+ "episode": 22,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L3",
+     "end_line": "L21"
+    },
+    {
+     "start_line": "L74",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "The viewer doesn’t know who the Dowager Duchess is or why Juliana is disguised as a maid.",
+   "spoiler": false,
+   "why": "A tense warning (“If anyone recognizes you, everything is over”) grabs attention, and the final desperate question (“Who has been treating you?”) leaves the mystery of the Duchess’s illness unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L42",
+     "end_line": "L55"
+    },
+    {
+     "start_line": "L74",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L42",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "New viewers won’t know the power dynamics in the manor or the significance of the West Wing.",
+   "spoiler": false,
+   "why": "The Housekeeper’s menacing demand (“And can you keep your eyes and ears where they belong?”) instantly raises stakes, and the ending question about the Duchess’s treatment forces viewers to want to see the answer."
+  }
+ ]
+}

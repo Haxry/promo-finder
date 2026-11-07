@@ -1,0 +1,45 @@
+{
+ "episode": 5,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L35",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L57",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The cruel taunt about the ledger instantly grabs attention, then the mysterious man's chilling warning leaves the conflict hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L57",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The ledger’s brutal toss is a visual shock, and the warrior’s ominous threat cuts off before any resolution, urging viewers to see what happens next."
+  }
+ ]
+}

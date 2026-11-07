@@ -1,0 +1,26 @@
+{
+ "episode": 10,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L10",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L10",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L47",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Who is Alexander and why is he bloodied?",
+   "spoiler": false,
+   "why": "The urgent call about blood grabs attention, then the sudden question leaves viewers hanging on their chemistry."
+  }
+ ]
+}

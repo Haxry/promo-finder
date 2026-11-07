@@ -1,0 +1,656 @@
+{
+ "items": {
+  "E37-1": {
+   "sig": "c1090a3db16a",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lines mention 'Juliana's execution comes after the wedding' - immediate conflict with stakes. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a statement ('To every woman who thinks she can rise above the place she was given.') not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Cliffhanger is the final line. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear that Catherine/Rupert are planning a wedding followed by Juliana's execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals that Juliana's execution is planned after a wedding - a late reveal about the wedding ploy. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are 'shocking_line' - execution after wedding breaks norms. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a statement/declaration, not an unanswered question, threat, cut-off, or about-to-learn-truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E37-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines mention 'Juliana's execution comes after the wedding' - immediate conflict with stakes."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement ('To every woman who thinks she can rise above the place she was given.') not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear that Catherine/Rupert are planning a wedding followed by Juliana's execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals that Juliana's execution is planned after a wedding - a late reveal about the wedding ploy."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are 'shocking_line' - execution after wedding breaks norms."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement/declaration, not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E37-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show Catherine planning Juliana's execution after a wedding - immediate life-or-death conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement of purpose ('To every woman who thinks she can rise above...'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed - no cliffhanger exists."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Viewer understands Catherine plans execution after wedding, Clarissa receives invitation, they discuss public execution as warning."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals 'Juliana's execution comes after the wedding' - this is a late reveal about the wedding being a ploy for execution."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Juliana's execution comes after the wedding' is a shocking_line - breaks norm of wedding celebration."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a closing statement, not an unanswered question, threat, cut-off, or about-to-learn truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect logically: Catherine's plan → invitation delivery → Clarissa reading it → discussing execution as warning."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E37-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's line 'Juliana's execution comes after the wedding' immediately establishes a plot to kill someone."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'To every woman who thinks she can rise above the place she was given' is a closing statement/declaration, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Clarissa's declaration with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow that Catherine is planning a wedding and execution, and Clarissa is receiving an invitation to witness it."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals 'Juliana's execution' which is a LATE REVEAL (the lavish wedding is a ploy to publicly execute Juliana)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Catherine's line 'Juliana's execution comes after the wedding' is a shocking_line (breaks a norm/promise)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a declaration/statement, not one of the CLIFFHANGER TYPES."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman plans a wedding followed by a public execution as a warning, and sends invitations to rival families.",
+    "conflict_between": "Catherine vs Juliana (and potentially the Ashcrofts)",
+    "want_to_know_next": "Why Juliana is being executed and what the Ashcrofts' reaction will be.",
+    "would_keep_watching": true,
+    "why": "The premise combines political intrigue, personal vendettas, and high-stakes drama in a historical setting."
+   }
+  },
+  "E37-2": {
+   "sig": "ab8f0f511c03",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a general threat about 'every woman' and 'Juliana's ruin' - no immediate conflict shown. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Do you think she'll actually be executed?\" is an unanswered question about imminent danger. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question about execution with no answer. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear: a woman is imprisoned and defiant while enemies gloat about her execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Shows Juliana imprisoned and facing execution, which is a late reveal (the wedding ploy to execute her). [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a general threat/lesson, not a specific hook type from the rubric. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E37-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a general threat about 'every woman' and 'Juliana's ruin' - no immediate conflict shown."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question about imminent danger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question about execution with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a woman is imprisoned and defiant while enemies gloat about her execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Juliana imprisoned and facing execution, which is a late reveal (the wedding ploy to execute her)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a general threat/lesson, not a specific hook type from the rubric."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a general warning, not a specific conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Juliana is defiant in prison; nobles discuss her execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clarissa's line \"Juliana's ruin will be a lesson\" reveals the plot to publicly ruin her, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a warning/threat, but not a direct, immediate conflict."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a general warning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a prisoner defying captors and a question about execution."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Juliana's imprisonment is known by Ep5; execution threat is new but not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a threat, but not a direct threat with stakes to a person present."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman imprisoned in a dungeon defiantly refuses to surrender while another noblewoman gloats about her impending ruin.",
+    "conflict_between": "Juliana vs Lady Clarissa and the noble class",
+    "want_to_know_next": "Will Juliana be executed or escape?",
+    "would_keep_watching": true,
+    "why": "The defiant prisoner's spirit creates compelling tension against the smug oppressors."
+   }
+  },
+  "E37-3": {
+   "sig": "47e3f64f4921",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are planning dialogue ('Every important family...', 'The wedding?') with no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'Do you think she'll actually be executed?' is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Cliffhanger is the final line; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: villains planning a public wedding/execution vs. imprisoned heroine defying them. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals Juliana's imprisonment and planned execution, which are late plot developments beyond episode 5. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are expositional planning, not a defined hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an 'unanswered_question' about execution. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut connects villains' planning to Juliana's defiant imprisonment clearly. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E37-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are planning dialogue ('Every important family...', 'The wedding?') with no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Do you think she'll actually be executed?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: villains planning a public wedding/execution vs. imprisoned heroine defying them."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana's imprisonment and planned execution, which are late plot developments beyond episode 5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are expositional planning, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an 'unanswered_question' about execution."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut connects villains' planning to Juliana's defiant imprisonment clearly."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Every important family in the county should witness it.\" is vague planning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question about a pending threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question about execution; no line follows to answer it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is imprisoned and defiant against unnamed captors plotting her public ruin; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana is imprisoned and facing execution, a late plot point not known by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are vague conspiratorial planning, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from conspirators planning a public event to Juliana defiant in a dungeon creates a clear 'they plot, she suffers' story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Every important family in the county should witness it.\" is vague planning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question about impending danger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question about execution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner (Juliana) defies captors who plan her public ruin; clear underdog vs. powerful foes."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is imprisoned and facing execution, a late plot development not known by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are planning dialogue, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from conspirators planning a public spectacle to Juliana defiant in dungeon connects as cause and effect."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman named Juliana is imprisoned and defiant while aristocratic society plans to watch her downfall.",
+    "conflict_between": "Juliana vs aristocratic society (Lady Clarissa, Rupert, etc.)",
+    "want_to_know_next": "Will Juliana be executed or escape?",
+    "would_keep_watching": true,
+    "why": "The tension between Juliana's defiance and the nobles' cruel plans creates compelling drama."
+   }
+  },
+  "E37-4": {
+   "sig": "c3ebb9904afa",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are internal monologue about 'they think hunger will make me surrender' - no visible conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'Do you think she'll actually be executed?' is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question with no answer. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "No context for who 'they' are or why she's chained - viewer wouldn't know the conflict. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal late plot twists about Alexander's identity or poisoning schemes. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show internal defiance, not a hook type (no slap/attack, humiliation, arrest, shocking line, identity reveal, or threat). [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E37-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are internal monologue about 'they think hunger will make me surrender' - no visible conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Do you think she'll actually be executed?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'they' are or why she's chained - viewer wouldn't know the conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late plot twists about Alexander's identity or poisoning schemes."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show internal defiance, not a hook type (no slap/attack, humiliation, arrest, shocking line, identity reveal, or threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"They think hunger will make me surrender\" is internal monologue, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'they' are or why she's imprisoned."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Internal monologue, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E37-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines show Juliana's internal resolve, not immediate conflict with another character."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Do you think she'll actually be executed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner defies captors who want her to surrender; someone questions if she'll be executed."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is imprisoned and facing execution, which is a late reveal (the execution ploy)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Internal monologue of defiance, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A prisoner named Juliana defiantly resists her captors' attempts to break her spirit through deprivation and fear.",
+    "conflict_between": "Juliana vs her captors",
+    "want_to_know_next": "Will she actually be executed?",
+    "would_keep_watching": true,
+    "why": "The nobleman's question creates immediate suspense about her fate."
+   }
+  }
+ }
+}

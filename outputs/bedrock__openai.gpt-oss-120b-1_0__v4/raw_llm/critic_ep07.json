@@ -1,0 +1,491 @@
+{
+ "items": {
+  "E7-1": {
+   "sig": "1f54609ccc69",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald threatens to make a beggar disappear, showing immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"What are you staring at?\" is a defensive command, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Gerald's line, no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man threatens another's disappearance while a scarred man approaches; clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "No late reveals about Alexander's identity, poisoning, or marriage invalidation are given. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"What are you staring at?\" is not an unanswered question, threat, cut-off, or about-to-learn truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E7-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald threatens to make a beggar disappear, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is a defensive command, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Gerald's line, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man threatens another's disappearance while a scarred man approaches; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals about Alexander's identity, poisoning, or marriage invalidation are given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is not an unanswered question, threat, cut-off, or about-to-learn truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald threatens to make a beggar disappear, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is a defensive command, not an open-ended cliffhanger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Gerald's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man threatens a beggar, then is confronted by a scarred man; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals about Alexander's identity or poisoning plots are given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is not one of the CLIFFHANGER TYPES; it's a defensive retort."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments flow: threat, husband's arrival, Gerald's fear, and his final line connect clearly."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald threatens to make someone disappear, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is a defensive command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Gerald's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man threatens someone, then reacts to another's arrival - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Gerald's threat but doesn't reveal Alexander's identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is not an unanswered question, threat, cut-off, or reveal."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A threatening aristocrat is confronted by a scarred man carrying firewood",
+    "conflict_between": "Gerald vs the scarred bearded man",
+    "want_to_know_next": "Who is the scarred man and why does he frighten Gerald",
+    "would_keep_watching": true,
+    "why": "The power dynamic shift from arrogant threat to sudden fear creates intriguing tension"
+   }
+  },
+  "E7-2": {
+   "sig": "57f9d34452bb",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First line is an insult about a home, not immediate conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action description, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The action line is the end. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: ex-fiancé insults heroine's new life with her scarred husband. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows ongoing tension but no late reveals about Alexander's true identity or poisoning plots. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are insults, not a defined hook type (slap_attack, public_humiliation, etc.). [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action description, not a defined cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E7-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line is an insult about a home, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action description, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The action line is the end."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: ex-fiancé insults heroine's new life with her scarred husband."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing tension but no late reveals about Alexander's true identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are insults, not a defined hook type (slap_attack, public_humiliation, etc.)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action description, not a defined cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's insult 'A fitting home for a woman who threw away everything for a penniless soldier' immediately establishes conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action description of a man carrying firewood, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger exists to resolve after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man insults a woman about her home and choice of husband; she defends herself; he threatens her husband."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows ongoing conflict with Gerald but doesn't reveal Alexander's true identity or the poisoning/framing plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's line 'A fitting home for a woman who threw away everything...' is a public_humiliation hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action line, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"A fitting home for a woman who threw away everything...\" is an insult, not an immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"The Scarred Bearded Man marches purposefully toward the cottage...\" is an action line, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The action line is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see a man insulting a woman about her home and her choice of husband."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows conflict but doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"A fitting home...\" is a put-down, not a slap, public humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"The Scarred Bearded Man marches...\" is an action line, not an unanswered question, threat, cut sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is being insulted in her modest home by two aristocratic visitors who mock her lifestyle and marriage choice.",
+    "conflict_between": "Juliana vs Gerald and the Aristocratic Woman",
+    "want_to_know_next": "Will the scarred husband arrive and what will happen when he confronts Gerald?",
+    "would_keep_watching": true,
+    "why": "The tension is escalating with Gerald's threat and the husband's imminent arrival creates suspense about a potential confrontation."
+   }
+  },
+  "E7-3": {
+   "sig": "819d818ca914",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald insults Juliana's choice of 'scarred beggar' over him, showing immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"What are you staring at?\" is a defensive command, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Gerald's line with no resolution. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man insults a woman's husband, she defends him, he threatens her, her husband arrives intimidatingly. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "No late reveals about Alexander's true identity or poisoning plots are given away. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a put-down and a defense, not a slap, public humiliation, arrest, shocking line, identity reveal, or threat. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"What are you staring at?\" is not a cliffhanger type; it's a defensive retort. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E7-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald insults Juliana's choice of 'scarred beggar' over him, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is a defensive command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Gerald's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man insults a woman's husband, she defends him, he threatens her, her husband arrives intimidatingly."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals about Alexander's true identity or poisoning plots are given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's insult is a public_humiliation of Juliana's choice."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is not a cliffhanger type; it's a defensive retort."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments flow from argument to threat to husband's arrival and Gerald's fear."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's line \"You chose that scarred beggar over a life of comfort\" shows immediate conflict about a choice."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is a defensive command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Gerald's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man mocks a woman's choice of husband, she defends him, he threatens her, her husband arrives."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conflict with Gerald but doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a put-down and a defense, not a slap, public humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What are you staring at?\" is not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E7-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's bitter accusation 'You chose that scarred beggar over a life of comfort' immediately shows conflict between ex-fiancé and woman."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'What are you staring at?' is a defensive retort, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Not applicable - last line is not a cliffhanger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger sees ex-fiancé confronting woman about her new husband, husband arrives intimidatingly."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conflict but doesn't reveal Alexander's true identity or any late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are verbal confrontation, not a slap/attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defensive question, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman defends her choice of a scarred man over a wealthy suitor, who threatens her husband.",
+    "conflict_between": "Juliana vs Gerald",
+    "want_to_know_next": "Will Gerald's threat succeed, or will the scarred husband intervene?",
+    "would_keep_watching": true,
+    "why": "The tension is high with a clear threat and the husband's arrival, creating immediate stakes."
+   }
+  }
+ }
+}

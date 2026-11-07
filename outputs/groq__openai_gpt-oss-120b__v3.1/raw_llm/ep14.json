@@ -1,0 +1,28 @@
+{
+ "episode": 14,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L7"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L50",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "The identities of Juliana and Alexander and why the emerald ring matters are not explained",
+   "spoiler": false,
+   "why": "Opens with the striking visual of the emerald signet ring (instant hook) and cuts to a solemn vow followed by an ominous boom and blackout, leaving the viewer desperate to learn who they are and what comes next."
+  }
+ ]
+}

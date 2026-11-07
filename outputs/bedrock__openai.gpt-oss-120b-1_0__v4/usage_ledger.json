@@ -1,0 +1,94 @@
+[
+ {
+  "time": "2026-11-07 06:32:49",
+  "role": "proposer",
+  "model": "openai.gpt-oss-120b-1:0",
+  "calls": 19,
+  "prompt_tokens": 56182,
+  "completion_tokens": 64182,
+  "seconds": 461.2,
+  "note": "seeded from the previous run_stats.json: only that run's last invocation was recorded before the ledger existed"
+ },
+ {
+  "time": "2026-11-07 06:32:49",
+  "role": "judge",
+  "model": "deepseek.v3.2",
+  "calls": 240,
+  "prompt_tokens": 356852,
+  "completion_tokens": 67123,
+  "seconds": 2115.2,
+  "note": "seeded from the previous run_stats.json: only that run's last invocation was recorded before the ledger existed"
+ },
+ {
+  "time": "2026-11-07 06:32:49",
+  "role": "proposer",
+  "model": "openai.gpt-oss-120b-1:0",
+  "calls": 9,
+  "prompt_tokens": 61097,
+  "completion_tokens": 15237,
+  "seconds": 116.8
+ },
+ {
+  "time": "2026-11-07 06:32:49",
+  "role": "judge",
+  "model": "deepseek.v3.2",
+  "calls": 634,
+  "prompt_tokens": 1056768,
+  "completion_tokens": 186048,
+  "seconds": 4945.4
+ },
+ {
+  "time": "2026-11-07 06:34:36",
+  "role": "proposer",
+  "model": "openai.gpt-oss-120b-1:0",
+  "calls": 2,
+  "prompt_tokens": 5234,
+  "completion_tokens": 2657,
+  "seconds": 17.2
+ },
+ {
+  "time": "2026-11-07 06:34:36",
+  "role": "judge",
+  "model": "deepseek.v3.2",
+  "calls": 10,
+  "prompt_tokens": 6870,
+  "completion_tokens": 2413,
+  "seconds": 72.2
+ },
+ {
+  "time": "2026-11-07 07:09:08",
+  "model": "deepseek.v3.2",
+  "calls": 5,
+  "prompt_tokens": 2882,
+  "completion_tokens": 1060,
+  "reasoning_tokens": 0,
+  "seconds": 26.3,
+  "cut_off_retries": 0,
+  "json_repairs": 0,
+  "dropped_params": []
+ },
+ {
+  "time": "2026-11-07 16:16:14",
+  "model": "openai.gpt-oss-120b-1:0",
+  "calls": 1,
+  "prompt_tokens": 2617,
+  "completion_tokens": 1486,
+  "reasoning_tokens": 0,
+  "seconds": 20.2,
+  "cut_off_retries": 0,
+  "json_repairs": 0,
+  "dropped_params": []
+ },
+ {
+  "time": "2026-11-07 16:16:14",
+  "model": "deepseek.v3.2",
+  "calls": 4,
+  "prompt_tokens": 6115,
+  "completion_tokens": 976,
+  "reasoning_tokens": 0,
+  "seconds": 28.9,
+  "cut_off_retries": 0,
+  "json_repairs": 0,
+  "dropped_params": []
+ }
+]

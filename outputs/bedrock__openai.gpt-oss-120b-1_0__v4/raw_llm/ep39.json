@@ -1,0 +1,83 @@
+{
+ "episode": 39,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L21",
+     "end_line": "L54"
+    }
+   ],
+   "hook_line": "L21",
+   "hook_type": "slap_attack",
+   "hook_strength": 5,
+   "cliff_line": "L54",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "rescue",
+   "missing_context": "Juliana’s execution and Alexander’s disguise aren’t shown, but the violent start and his bold claim are clear.",
+   "spoiler": false,
+   "why": "The opening strike grabs attention instantly, and the promise to retake his house ends on a high‑stakes threat that leaves the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L40",
+     "end_line": "L56"
+    }
+   ],
+   "hook_line": "L40",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L58",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "Viewers don’t yet know who the scarred stranger is, but the line hints at a buried duke returning.",
+   "spoiler": true,
+   "why": "The line “They buried Alexander Ashwin three years ago” shocks instantly, and the cut to black after his vow leaves the rescue’s success hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L56"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "identity_reveal",
+   "hook_strength": 5,
+   "cliff_line": "L58",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "The audience hasn’t seen Alexander’s transformation, but the visual reveal of his ducal regalia is self‑explanatory.",
+   "spoiler": true,
+   "why": "The dazzling emergence of the scarred warrior in ducal finery instantly hooks viewers, and the abrupt blackout after his promise creates a tense cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L41",
+     "end_line": "L56"
+    }
+   ],
+   "hook_line": "L41",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L58",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "New viewers won’t know why “he comes home,” but the line signals a dramatic return.",
+   "spoiler": true,
+   "why": "“Today, he comes home” delivers a powerful hook, and the sudden cut after his vow to bring his wife home leaves the climax unresolved."
+  }
+ ]
+}

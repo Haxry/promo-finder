@@ -1,0 +1,326 @@
+{
+ "items": {
+  "E26-1": {
+   "sig": "099b1de15714",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First line is a question about poisoning, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Where... where... Where did you get this ring? Speak to me!\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question, no answer given. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear: Duchess accuses poisoning, Juliana comforts her, then ring causes shock. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Duchess is being poisoned and Juliana is working as a maid, which are late plot points. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First line is an accusation of poisoning, not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered_question. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E26-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line is a question about poisoning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Where... where... Where did you get this ring? Speak to me!\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question, no answer given."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Duchess accuses poisoning, Juliana comforts her, then ring causes shock."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Duchess is being poisoned and Juliana is working as a maid, which are late plot points."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is an accusation of poisoning, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E26-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a question about poisoning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Where did you get this ring? Speak to me!' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a maid is caring for a poisoned duchess who spots her ring."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the Duchess is being poisoned by Rupert and Catherine (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No cuts, continuous scene."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E26-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a question about poisoning, not immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Where... where... Where did you get this ring? Speak to me!\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the Duchess's demanding question"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Duchess suspects poisoning, sees ring, demands explanation"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Duchess is being poisoned by Rupert and Catherine (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are accusation/question, not physical conflict or public humiliation"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Where did you get this ring?\" is unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A maid reveals she was cast out by her family while caring for a poisoned duchess, who becomes fixated on the maid's ring.",
+    "conflict_between": "Duchess vs. Rupert and Catherine (poisoners), Duchess vs. Juliana (ring mystery)",
+    "want_to_know_next": "Why the ring causes such shock and what connection it reveals.",
+    "would_keep_watching": true,
+    "why": "The sudden intense focus on the ring creates a compelling mystery about Juliana's true identity."
+   }
+  },
+  "E26-2": {
+   "sig": "d2e7ff07ea8c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a question about poisoning and reassurance, not immediate conflict [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Then tell me... why is a girl of such noble spirit working as a common maid?\" is an unanswered question [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question with no answer [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear: someone is being poisoned, being treated, and questioned about her status [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Rupert and Catherine are poisoning the Dowager Duchess - a LATE REVEAL [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Then tell me... why is a girl...\" is unanswered_question [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E26-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a question about poisoning and reassurance, not immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Then tell me... why is a girl of such noble spirit working as a common maid?\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question with no answer"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: someone is being poisoned, being treated, and questioned about her status"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert and Catherine are poisoning the Dowager Duchess - a LATE REVEAL"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Then tell me... why is a girl...\" is unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E26-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a question about poisoning and reassurance, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'why is a girl of such noble spirit working as a common maid?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger won't know who Rupert/Catherine are or why poisoning matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (Rupert/Catherine poisoning Duchess) which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a hook type; they're a revelation and reassurance."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E26-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line: 'Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line: 'Then tell me... why is a girl of such noble spirit working as a common maid?'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A Duchess accuses two people of poisoning her; a maid reassures her and is then questioned about her status."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (a LATE REVEAL) and that Juliana is working as a maid."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s: shocking_line (accusation of poisoning)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line: unanswered_question ('why is a girl... working as a common maid?')."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman reveals she's being poisoned, then learns her maid is secretly noble.",
+    "conflict_between": "Dowager Duchess vs Rupert and Catherine",
+    "want_to_know_next": "Why Juliana is hiding as a maid",
+    "would_keep_watching": true,
+    "why": "Intrigue about poisoning plot and hidden identity creates compelling mystery."
+   }
+  }
+ }
+}

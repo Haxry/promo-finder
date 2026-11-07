@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E15-1": {
+   "sig": "7b90a56231de",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug says 'Get out of the way!' and shoves Juliana; immediate physical conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'You want to fight us, veteran?' is a challenge, not an unanswered question or cut-off threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the thug's challenge; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Thugs attack a woman; her protector arrives; clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows thugs vs. Juliana/Alexander; no late reveals given away. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First 3s: thug shoves Juliana - slap_attack. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a challenge, not a cliffhanger type (unanswered_question, threat_with_stakes, cut_mid_sentence, about_to_learn_truth). [1/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug says 'Get out of the way!' and shoves Juliana; immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'You want to fight us, veteran?' is a challenge, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman; her protector arrives; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows thugs vs. Juliana/Alexander; no late reveals given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s: thug shoves Juliana - slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a challenge, not a cliffhanger type (unanswered_question, threat_with_stakes, cut_mid_sentence, about_to_learn_truth)."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug: 'Get out of the way!' / Juliana: 'No.' / ACTION: Thug violently shoves Juliana"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'What? You want to fight us, veteran?' is a challenge, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no resolution follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack woman defending plants; scarred man arrives to protect her"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict with thugs, not revealing Alexander's identity or poisoning plot"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug shoves Juliana - physical attack in first seconds"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a challenge/threat but not 'threat_with_stakes' as defined (no 'if/then' or imminent danger)"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug demands 'Get out of the way!' and Juliana defiantly says 'No.' before being shoved."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends on a challenging question: 'What? You want to fight us, veteran?'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman protecting plants; her protector arrives; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which viewers know by EP5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s include a violent shove - physical attack (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a challenging question (unanswered_question)."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being violently assaulted by thugs while trying to protect her mother's plants, then a man intervenes.",
+    "conflict_between": "Juliana vs thugs, now Alexander vs thugs",
+    "want_to_know_next": "Will Alexander fight the thugs and what will happen to Juliana?",
+    "would_keep_watching": true,
+    "why": "The scene has escalating tension, clear emotional stakes with Juliana's vulnerability, and a dramatic intervention that creates anticipation for the confrontation."
+   }
+  },
+  "E15-2": {
+   "sig": "481f383c9378",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug violently shoves Juliana; she cries out and crashes onto wet stone path. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"What? You want to fight us, veteran?\" is a challenge, not an unanswered question or cut threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the thug's challenge; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Thugs attack a woman; a man arrives to defend her; clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander defending Juliana, which is known by Ep5; no late reveals given. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Thug shoves Juliana - a physical attack (slap_attack). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"What? You want to fight us, veteran?\" is a challenge, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E15-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug violently shoves Juliana; she cries out and crashes onto wet stone path."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What? You want to fight us, veteran?\" is a challenge, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman; a man arrives to defend her; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander defending Juliana, which is known by Ep5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug shoves Juliana - a physical attack (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"What? You want to fight us, veteran?\" is a challenge, not a cliffhanger type."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug violently shoves Juliana; she crashes onto wet stone path"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What? You want to fight us, veteran?\" is a challenge, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack woman, man arrives to defend her"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander defending Juliana, which viewers know by EP5"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug shoves Juliana = slap_attack"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Challenge/threat is not one of the specified cliffhanger types"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug violently shoves Juliana; she cries out and crashes onto path"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"What? You want to fight us, veteran?\" is a taunt, not an unanswered question/threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the taunt; no resolution follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack woman; man arrives to defend her; clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal Alexander's identity or late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "slap_attack - physical shove/attack lands immediately"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Taunt/challenge is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being attacked by thugs who are destroying her mother's plants, and a man named Alexander intervenes to protect her.",
+    "conflict_between": "Juliana vs thugs, now Alexander vs thugs",
+    "want_to_know_next": "Will Alexander fight the thugs and protect Juliana?",
+    "would_keep_watching": true,
+    "why": "The scene has emotional stakes with Juliana's vulnerability and Alexander's dramatic entrance creates tension."
+   }
+  },
+  "E15-3": {
+   "sig": "ae7b6936aeb8",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug mocks crying woman, she screams 'Stop!' as another raises club to destroy herbs - immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered challenge/question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the thug's challenge; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Thugs threaten woman destroying her herbs, protector arrives - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander protecting Juliana, which is established by EP5; no late reveals given. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First 3s show thug mocking and raising club to attack herbs - qualifies as slap_attack (destruction of property/threat of violence). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "slap_attack",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E15-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug mocks crying woman, she screams 'Stop!' as another raises club to destroy herbs - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered challenge/question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs threaten woman destroying her herbs, protector arrives - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which is established by EP5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show thug mocking and raising club to attack herbs - qualifies as slap_attack (destruction of property/threat of violence)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered_question."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug mocking crying woman, she screams 'Stop!', club raised to destroy herbs - immediate physical threat."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered challenge/threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no answer or resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs harassing a woman, her protector arrives - clear conflict without show context."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows generic thug confrontation, no late reveals about identity, poisoning, or marriage."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show club raised to crush herbs - physical attack/threat (slap_attack type)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a challenge/threat that hasn't landed (threat_with_stakes)."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E15-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug taunting 'Look at her! Crying over weeds!' and Juliana screaming 'Stop!' shows immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge, no resolution follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs threatening a woman, man arrives to protect her - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which viewers know by EP5"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show thug mocking Juliana - public_humiliation"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'What? You want to fight us, veteran?' is unanswered_question"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Thugs are destroying someone's herbs while she protests, then a man intervenes to protect her.",
+    "conflict_between": "Alexander vs the thugs",
+    "want_to_know_next": "Will Alexander fight the thugs and what will happen?",
+    "would_keep_watching": true,
+    "why": "The tension is high with a clear protector vs bullies dynamic that creates immediate stakes."
+   }
+  }
+ }
+}

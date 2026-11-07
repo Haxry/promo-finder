@@ -1,0 +1,45 @@
+{
+ "episode": 4,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L41",
+     "end_line": "L86"
+    }
+   ],
+   "hook_line": "L41",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L86",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Gerald's relationship to Juliana and why he opposes the marriage",
+   "spoiler": false,
+   "why": "Shows Juliana's defiant refusal, the solemn vow, and the immediate family backlash, ending on Gerald's furious outburst that leaves the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L4",
+     "end_line": "L11"
+    },
+    {
+     "start_line": "L86",
+     "end_line": "L98"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L98",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who Gerald and Lady Ashcroft are; why they disown Juliana",
+   "spoiler": false,
+   "why": "Starts with a cutting insult that grabs attention, then jumps to the dramatic disowning, delivering a punchy 30‑second teaser that ends on a high‑stakes threat."
+  }
+ ]
+}

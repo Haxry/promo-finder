@@ -1,0 +1,45 @@
+{
+ "episode": 9,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L58",
+     "end_line": "L80"
+    }
+   ],
+   "hook_line": "L58",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L80",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "Who the scarred war veteran is",
+   "spoiler": false,
+   "why": "A sharp threat grabs attention, then a sudden question about the rumor’s source leaves viewers hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L87"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L87",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "pattern": "hidden_identity",
+   "missing_context": "What the nobleman finds impossible",
+   "spoiler": false,
+   "why": "The rumor about a scarred war veteran sparks intrigue, and the nobleman's shocked “Impossible.” leaves the mystery unresolved."
+  }
+ ]
+}

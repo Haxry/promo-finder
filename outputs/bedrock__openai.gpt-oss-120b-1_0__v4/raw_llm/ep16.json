@@ -1,0 +1,53 @@
+{
+ "episode": 16,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L13",
+     "end_line": "L28"
+    },
+    {
+     "start_line": "L35",
+     "end_line": "L41"
+    }
+   ],
+   "hook_line": "L13",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L41",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The clip opens with Alexander catching a thug’s weapon in mid‑air – a visceral slap‑attack that stops scrolling – then builds through brutal combat to a tense “Who?!” that leaves the mystery of the attackers’ master unanswered."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L28"
+    },
+    {
+     "start_line": "L35",
+     "end_line": "L41"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L41",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Begins with the thug’s menacing command “Move aside, soldier,” instantly grabbing attention, then showcases Alexander’s lethal skill before cutting to the frantic “Who?!” that teases the hidden mastermind."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "episode": 49,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L49",
+     "end_line": "L55"
+    }
+   ],
+   "hook_line": "L49",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L55",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Catherine is a scheming noble; new viewers may not know her role yet",
+   "spoiler": false,
+   "why": "A chilling threat followed by the moment of a secret pact leaves the audience hanging on whether the alliance will be sealed"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L34",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L34",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "The council hearing and its stakes are not explained for newcomers",
+   "spoiler": false,
+   "why": "Catherine’s cold declaration of a long‑term stall plan shocks viewers, then a priest warns of deadly consequences, ending on high tension"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L22",
+     "end_line": "L38"
+    }
+   ],
+   "hook_line": "L22",
+   "hook_type": "public_humiliation",
+   "hook_strength": 3,
+   "cliff_line": "L38",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "pattern": "betrayal",
+   "missing_context": "The “her” being humiliated refers to Juliana, unknown to first‑time viewers",
+   "spoiler": false,
+   "why": "A reference to a public disgrace grabs attention, then the priest’s skeptical question leaves the audience wondering what Catherine truly seeks"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "episode": 19,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L26",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L26",
+   "hook_type": "other",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Viewer may not know who Alexander is or why his mother is imprisoned.",
+   "spoiler": false,
+   "why": "Starts with a mysterious scarred figure and ends with a bold vow, creating tension and a clear cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L5"
+    },
+    {
+     "start_line": "L42",
+     "end_line": "L53"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "The fire and the characters' titles are new, but the stakes are clear.",
+   "spoiler": false,
+   "why": "Shows the devastation then jumps to the secret meeting where Alexander vows revenge, giving a dramatic contrast and unresolved promise."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Names like Lord Sterling and Rupert are introduced without explanation.",
+   "spoiler": false,
+   "why": "Reveals the political takeover and ends with Alexander’s threat, delivering a concise, tension‑filled teaser."
+  }
+ ]
+}

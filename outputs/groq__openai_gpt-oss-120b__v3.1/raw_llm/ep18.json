@@ -1,0 +1,24 @@
+{
+ "episode": 18,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L59",
+     "end_line": "L73"
+    }
+   ],
+   "hook_line": "L59",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L73",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Viewer doesn't know who Alexander and Juliana are or why they're fleeing the fire",
+   "spoiler": false,
+   "why": "Shows a dramatic escape through a burning window and ends on an ominous threat, creating immediate tension and a question that compels new viewers to watch the full episode"
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E29-1": {
+   "sig": "ceef37bfadad",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line \"Your mother's little book of weeds?\" immediately establishes mocking conflict over an object. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Your scarred soldier?' is a mocking rhetorical question, not an unanswered cliffhanger [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Catherine's line with no resolution [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain threatens heroine with witchcraft accusation over a book [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal Alexander's true identity or poisoning plot resolution [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are about a book/legacy - not a physical conflict, public humiliation, arrest, shocking line, identity reveal, or threat [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a mocking rhetorical question, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E29-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about a 'book of weeds' and 'legacy' - no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Your scarred soldier?' is a mocking rhetorical question, not an unanswered cliffhanger"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's line with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain threatens heroine with witchcraft accusation over a book"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's true identity or poisoning plot resolution"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are about a book/legacy - not a physical conflict, public humiliation, arrest, shocking line, identity reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a mocking rhetorical question, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E29-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line \"Your mother's little book of weeds?\" immediately establishes mocking conflict over an object."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"Your scarred soldier?\" is a rhetorical put-down, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's scoffing line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Catherine mocks Juliana's legacy/herbal book and threatens witchcraft charges."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals given away; shows ongoing conflict about the book and witchcraft accusation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s lines show Catherine mocking Juliana's legacy - public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a dismissive rhetorical question, not an open cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E29-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine mocks Juliana's 'book of weeds' as worthless, immediate conflict over legacy."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is Catherine scoffing at Juliana's husband - a put-down, not an open question/threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's scoff, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain threatens heroine over a book, accuses witchcraft, heroine defiant."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine framing Juliana for witchcraft - a late reveal about poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are mocking/accusation, not physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a scoff/put-down, not unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Catherine is threatening Juliana with accusations of witchcraft over her mother's herbal medicine book, planning to destroy it and have Juliana executed.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Juliana's husband arrive in time to save her and the book?",
+    "would_keep_watching": true,
+    "why": "The tension is high with clear stakes—Juliana's life and her mother's legacy are in immediate danger from a cruel antagonist."
+   }
+  },
+  "E29-2": {
+   "sig": "c2e742da841d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Threat of corpse on rope shows immediate danger. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a rhetorical put-down, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Catherine's derisive question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain threatening heroine about her husband. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal Alexander's true identity or late plot twists. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"And when they find your corpse at the end of the rope...\" is a threat. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a rhetorical challenge, not an unanswered question or cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E29-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Threat of corpse on rope shows immediate danger."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a rhetorical put-down, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's derisive question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain threatening heroine about her husband."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"And when they find your corpse at the end of the rope...\" is a threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical challenge, not an unanswered question or cliffhanger type."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E29-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines threaten a corpse at the end of a rope, immediate life-or-death conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a rhetorical put-down, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's derisive question, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Catherine threatens Juliana's death, Juliana defies, Catherine mocks her husband's power."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveal given; Catherine's threat and Juliana's defiance fit early-episode tension."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a direct threat with stakes (corpse at the end of a rope)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical taunt, not a cliffhanger type from rubric."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E29-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines describe finding a corpse at the end of a rope - immediate threat of death."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a rhetorical put-down ('What exactly do you think...'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's derisive question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Catherine threatens Juliana's life, Juliana defies her, Catherine mocks her husband's power."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal Alexander's true identity or the poisoning plot resolution."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a direct threat with stakes ('corpse at the end of the rope')."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical challenge, not an unanswered question, threat with stakes, cut-off sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Catherine is threatening Juliana with hanging and mocking her defiance.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Juliana's husband actually be able to rescue her?",
+    "would_keep_watching": true,
+    "why": "The power dynamic and personal history hinted at creates compelling tension."
+   }
+  },
+  "E29-3": {
+   "sig": "f4b299bfe9de",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L3: 'Juliana resists furiously... as the guards forcibly propel her forward' shows immediate physical conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "L21: 'The magistrate will call it witchcraft' is a threat that hasn't landed yet. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Catherine's threat about witchcraft. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A prisoner is being dragged while pleading for her mother's book, which the captor mocks and threatens to frame as witchcraft. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Juliana being arrested and threatened with witchcraft fits early-episode conflicts, not late reveals. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L3: Guards forcibly propelling Juliana is an arrest/seizure. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "L21: Threat of witchcraft accusation is a threat_with_stakes. [2/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E29-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L3: 'Juliana resists furiously... as the guards forcibly propel her forward' shows immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L21: 'The magistrate will call it witchcraft' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's threat about witchcraft."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner is being dragged while pleading for her mother's book, which the captor mocks and threatens to frame as witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Juliana being arrested and threatened with witchcraft fits early-episode conflicts, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L3: Guards forcibly propelling Juliana is an arrest/seizure."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L21: Threat of witchcraft accusation is a threat_with_stakes."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E29-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L3: Guards forcibly propel Juliana forward - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L21: Threatens witchcraft accusation - threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's threat with no answer or defusal."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: prisoner resisting guards while antagonist mocks her mother's book."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Arrest and witchcraft accusation are early conflicts, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L3: Guards forcibly propel her - arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L21: \"The magistrate will call it witchcraft.\" - threat_with_stakes."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E29-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana is being forcibly dragged by guards, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"The magistrate will call it witchcraft.\" is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's threat; no line follows to resolve it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being dragged by guards while pleading over a book; her antagonist mocks and threatens her with witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows conflict over a book and a witchcraft accusation, which aligns with early-episode tensions, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Juliana being forcibly dragged by guards qualifies as arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"The magistrate will call it witchcraft.\" is a statement of accusation/threat, but not an open-ended cliffhanger type like unanswered_question or cut_mid_sentence."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana is being dragged by guards while pleading for her mother's book, which Catherine mocks as worthless and potentially witchcraft.",
+    "conflict_between": "Juliana vs Catherine",
+    "want_to_know_next": "Will Juliana's book be saved or condemned as witchcraft?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high with a mother's legacy threatened by accusations of witchcraft."
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "episode": 3,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L58",
+     "end_line": "L84"
+    }
+   ],
+   "hook_line": "L58",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L84",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The stranger’s brutal command stops the guards, then his ominous \"I can...\" leaves viewers hanging on what he'll do next."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L58",
+     "end_line": "L105"
+    }
+   ],
+   "hook_line": "L58",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L105",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "From the violent rescue to the stranger’s unexpected offer, the clip builds tension and ends on a proposal that begs a response."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L30"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L30",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "missing_context": "why Juliana is being expelled from the chapel",
+   "spoiler": false,
+   "why": "A biting insult and the Matriarch’s cold decree set up a dramatic exile, leaving viewers curious about Juliana’s fate."
+  }
+ ]
+}

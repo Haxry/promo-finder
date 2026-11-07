@@ -1,0 +1,656 @@
+{
+ "items": {
+  "E13-1": {
+   "sig": "a23ca5cfd582",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Look at her hands.\" is vague without context [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line shows her grabbing a ring - a completed action, not an open question [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends with her grabbing the ring [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear: Juliana searches painfully while Alexander is restrained, Gerald mocks. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal late plot twists about identity or poisoning [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Look at her hands.\" is not a hook type listed [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Grabbing a ring is not a cliffhanger type listed [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is vague without context"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line shows her grabbing a ring - a completed action, not an open question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with her grabbing the ring"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Why is she crawling through thorns? Who is Alexander? Why does the ring matter?"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late plot twists about identity or poisoning"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is not a hook type listed"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Grabbing a ring is not a cliffhanger type listed"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is just an observation, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with her grabbing the ring, no resolution after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Juliana searches painfully while Alexander is restrained, Gerald mocks."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's suffering and search, doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is not a hook type (no slap, humiliation, arrest, shocking line, identity reveal, threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing ring), not an unanswered question, threat, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is just an observation, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the action of grabbing the ring."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being taunted while desperately searching for a ring, and a man is restrained and tormented watching her."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander imprisoned and tormented, a major peril not known by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Look at her hands.\" is not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Grabbing a ring is not an unanswered question, threat, cut sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is desperately searching through a thorny garden while being mocked by observers, apparently looking for something to free her husband.",
+    "conflict_between": "Juliana vs Clarissa/Gerald",
+    "want_to_know_next": "Will Juliana find what she needs to free her husband?",
+    "would_keep_watching": true,
+    "why": "The intense physical suffering combined with high emotional stakes creates compelling tension."
+   }
+  },
+  "E13-3": {
+   "sig": "fd5d2d747427",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show Gerald taunting Juliana about searching for something, not immediate physical conflict [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action (finding object), not an unanswered question or threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the discovery moment [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Without context, unclear why Juliana is searching, who Alexander is, or what's at stake [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows search for object but doesn't reveal late plot twists [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Taunting line is not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Action of finding object is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.43,
+   "raw_samples": [
+    {
+     "id": "E13-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Gerald taunting Juliana about searching for something, not immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (finding object), not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the discovery moment"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Without context, unclear why Juliana is searching, who Alexander is, or what's at stake"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows search for object but doesn't reveal late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Taunting line is not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Action of finding object is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald taunts Juliana about her husband's freedom, showing immediate conflict between captor and desperate wife."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (finding an object), not an unanswered question, threat, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this doesn't apply."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man taunts a woman searching desperately while her husband begs for her to stop - clear captor/victim dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana searching under duress but doesn't reveal late plot twists like Alexander's identity or poisoning schemes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's taunt \"Your husband's freedom is somewhere in that garden\" is a threat_with_stakes."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (finding object), not one of the cliffhanger types."
+      }
+     },
+     "hook_type": "threat_with_stakes",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Gerald's taunt 'Keep searching...' needs context about husband's freedom to feel like conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Her finger brushes against a solid metallic object...' is discovery, not unanswered question/threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on discovery of object."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Why is Juliana searching in briars? Why is Alexander restrained? Why does ring matter? Unclear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Search for object in garden doesn't reveal late reveals about identity, poisoning, or frame-up."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Gerald's taunt is cruel but not public humiliation, attack, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Discovery of object is not unanswered question, threat, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is desperately searching through a dangerous thorny garden while being taunted, as a man watches helplessly.",
+    "conflict_between": "Gerald vs Juliana/Alexander",
+    "want_to_know_next": "What is the metallic object she found?",
+    "would_keep_watching": true,
+    "why": "The intense emotional stakes and mystery of what she's searching for create compelling tension."
+   }
+  },
+  "E13-4": {
+   "sig": "9f1d790abf7c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Clarissa's mocking line 'The lady has finally found something worthy of her' shows immediate contempt. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, cut-off, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "N/A - no cliffhanger present. [0/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: Juliana searches painfully while captors mock her; Alexander is restrained trying to help. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana's suffering and search for a ring, but doesn't reveal late plot twists like Alexander's true identity or poisoning scheme. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are mocking/taunting (public humiliation), but no physical blow, arrest, shocking line, identity reveal, or direct threat in first 3 seconds. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E13-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line 'The lady has finally found something worthy of her' shows immediate contempt."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "N/A - no cliffhanger present."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana searches painfully while captors mock her; Alexander is restrained trying to help."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's suffering and search for a ring, but doesn't reveal late plot twists like Alexander's true identity or poisoning scheme."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are mocking/taunting (public humiliation), but no physical blow, arrest, shocking line, identity reveal, or direct threat in first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line 'The lady has finally found something worthy of her' shows immediate scorn."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Juliana reaches out her torn, bloodied hand and wraps her fingers tightly around the emerald ring' is an action, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this doesn't apply."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana is being mocked while desperately searching for something important, with Alexander restrained and in torment."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's suffering and search but doesn't reveal Alexander's true identity, the poisoning plot, or the marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Clarissa's line is mockery/taunting but not public_humiliation (no audience), shocking_line, or other listed hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing ring), not an unanswered question, threat, cut-off sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line \"The lady has finally found something worthy of her\" shows immediate contempt and conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this check is irrelevant."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being mocked while desperately searching for something in a dangerous garden while a man watches helplessly."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's suffering but doesn't reveal late plot twists like Alexander's identity or poisoning schemes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Clarissa's line is public_humiliation - mocking Juliana in front of Gerald."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing ring), not one of the cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] markers present in this clip."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana is desperately searching through thorny briars for an emerald ring while being mocked by Gerald and Clarissa, with Alexander restrained nearby.",
+    "conflict_between": "Juliana vs Gerald/Clarissa",
+    "want_to_know_next": "Will Juliana find what she needs and what will happen to Alexander?",
+    "would_keep_watching": true,
+    "why": "The intense physical suffering and emotional torment create compelling tension about the characters' fates."
+   }
+  },
+  "E13-2": {
+   "sig": "debb2bdb8f61",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald's line 'Perhaps the beggar's wife will finally learn what her new life is worth' is a direct humiliation. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'Please, ring... you have to be here' is an unanswered question about finding the ring. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Juliana's plea; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger sees a woman being forced to crawl through thorns while a man is restrained and taunted. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Shows Alexander restrained and Juliana tortured, revealing a late plot point of their capture and torment. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Gerald's line is public_humiliation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is unanswered_question. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut continues the same scene of Juliana crawling through thorns under torment. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.38,
+   "raw_samples": [
+    {
+     "id": "E13-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Perhaps the beggar's wife will finally learn what her new life is worth.\" is a taunt, not an immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Please, ring... you have to be here.\" is a plea, not an unanswered question, cut-off sentence, or pending threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's plea; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger sees a woman being forced to crawl through thorns while a man is restrained and taunted."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander restrained and Juliana tortured, revealing a late plot point of their capture and torment."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a taunt (public_humiliation), but no physical conflict or immediate hook type in first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a desperate plea, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut continues the same scene of Juliana crawling through thorns under torment."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's line 'Perhaps the beggar's wife will finally learn what her new life is worth' is a direct humiliation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Please, ring... you have to be here' is an unanswered question about finding the ring."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's desperate plea with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana is being forced to search painfully while her husband watches helplessly."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander imprisoned/restrained, which viewers don't know by EP5 and is a late development."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's line is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut maintains continuous story of Juliana's painful search and Alexander's distress."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E13-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's line 'Perhaps the beggar's wife will finally learn what her new life is worth' is a direct insult to Juliana's status."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Juliana's line 'Please, ring... you have to be here' is an unanswered plea for an object's location."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's desperate prayer, with no resolution shown."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel man mocks a woman who is crawling painfully through thorns while a man (her husband) watches helplessly; she's searching for something to free him."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana's suffering and search, but doesn't reveal Alexander's true identity, the poisoning plot, or the marriage's invalidity."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's line is a public humiliation, shaming Juliana's new status as a 'beggar's wife'."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Juliana's line is an unanswered question about the ring's location."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut maintains the same scene: Juliana continues crawling painfully through the briars while Alexander watches in torment."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is crawling through painful blackthorn briars, apparently searching for something (a ring?) while being mocked by onlookers Gerald and Clarissa, as a man named Alexander desperately tries to stop her.",
+    "conflict_between": "Juliana vs. Gerald/Clarissa (and the physical obstacle of the thorns)",
+    "want_to_know_next": "What is Juliana searching for, and will she find it?",
+    "would_keep_watching": true,
+    "why": "The clip creates strong tension with visceral pain and cruelty, making me want to see if Juliana succeeds and what the consequences are."
+   }
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "episode": 20,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L3",
+     "end_line": "L33"
+    }
+   ],
+   "hook_line": "L3",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L33",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Viewer may not know who Catherine and Rupert are or why they covet the ducal crown.",
+   "spoiler": false,
+   "why": "The taunting opening grabs attention and the promise of peasants learning their place leaves a dangerous power grab unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L14",
+     "end_line": "L26"
+    }
+   ],
+   "hook_line": "L14",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L26",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Viewer may not know who Alexander is or why his death matters to Rupert’s claim.",
+   "spoiler": false,
+   "why": "Rupert’s cold declaration about Alexander’s death shocks the viewer, and the threat to the Dowager’s life ends on a deadly deadline."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 3,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "Viewer may not know the village’s lung fever crisis or why Juliana is the only healer.",
+   "spoiler": false,
+   "why": "Juliana’s fierce declaration of stakes hooks the audience, and her final “I am not finished” leaves her next move unknown."
+  }
+ ]
+}

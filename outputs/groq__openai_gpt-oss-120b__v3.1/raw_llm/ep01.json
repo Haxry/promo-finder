@@ -1,0 +1,58 @@
+{
+ "episode": 1,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L39"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L39",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Who Gerald is and why his change matters",
+   "spoiler": false,
+   "why": "Matriarch’s warning hooks viewers, and the groom’s sudden change leaves the betrayal unresolved, compelling viewers to watch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L26",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L26",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L46",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Who Clarissa is and why the family backs her",
+   "spoiler": false,
+   "why": "Sister’s smug confession grabs attention, and her question “And you knew?” creates a tense cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L83"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L83",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Who the former groom is and why he can reject her",
+   "spoiler": false,
+   "why": "The groom’s cold “I changed my mind” shocks, and his later dismissal “You have nothing to offer me anymore” leaves Juliana’s fate uncertain."
+  }
+ ]
+}

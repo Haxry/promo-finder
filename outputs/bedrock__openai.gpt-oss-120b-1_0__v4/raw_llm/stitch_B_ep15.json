@@ -1,0 +1,26 @@
+{
+ "version": "s1",
+ "episode": 15,
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L36"
+    },
+    {
+     "start_line": "L40",
+     "end_line": "L45"
+    },
+    {
+     "start_line": "L50",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L30",
+   "cliff_line": "L52",
+   "pattern": "Rising Conflict → Heroic Intervention → Tense Standoff",
+   "why": "Shows Juliana’s defiance, Alexander’s dramatic rescue, and ends on a cliff‑hanger challenge that forces the audience to wonder if the veteran will fight."
+  }
+ ]
+}

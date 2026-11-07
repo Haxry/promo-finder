@@ -1,0 +1,640 @@
+{
+ "items": {
+  "E28-1": {
+   "sig": "9deb02275977",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine yanks locket off Juliana's neck - immediate physical conflict [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Drag her to the wet cells\" is a command, not an unanswered question or threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the command answers or defuses it [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain (Catherine) humiliating victim (Juliana) over stolen heirloom [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Catherine's cruelty but doesn't reveal poisoning plot or Alexander's identity [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Catherine yanking locket is physical action happening TO someone [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Drag her to the wet cells\" is a command, not a cliffhanger type [0/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E28-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine yanks locket off Juliana's neck - immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Drag her to the wet cells\" is a command, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the command answers or defuses it"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain (Catherine) humiliating victim (Juliana) over stolen heirloom"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but doesn't reveal poisoning plot or Alexander's identity"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Catherine yanking locket is physical action happening TO someone"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Drag her to the wet cells\" is a command, not a cliffhanger type"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E28-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine yanks locket off Juliana's neck - immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Drag her to the wet cells\" is a command, not an open question/threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the command - no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear bully-victim dynamic with locket theft and identity taunting"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but no late reveals about poisoning or Alexander's identity"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Physical theft qualifies as action line"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Command to arrest is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth"
+      }
+     },
+     "hook_type": "action_line",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E28-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine yanks a locket off Juliana's neck while Juliana cries 'No!'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Drag her to the wet cells...' is a command, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the command to drag her away."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel woman bullies a maid, steals her heirloom, mocks her past, and orders her arrest."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana's secret identity 'Lady Juliana Ashcroft' which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show Catherine yanking the locket - a physical action TO someone."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command to arrest, not an unanswered question or cut-off threat."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman is tormenting a servant, revealing her secret noble identity and taking her mother's locket.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "What will happen to Juliana in the wet cells?",
+    "would_keep_watching": true,
+    "why": "The power dynamics and revealed secrets create compelling tension."
+   }
+  },
+  "E28-2": {
+   "sig": "04e59e176e7f",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine's venomous address 'Lady Juliana Ashcroft' immediately establishes a hostile confrontation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line '...before he sends you to the gallows' is a threat with stakes that hasn't landed yet. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the gallows threat with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain (Catherine) taunting and threatening a humiliated noblewoman (Juliana) about her past and impending execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Juliana is scrubbing fireplaces in Catherine's house, which is a later development in her undercover infiltration arc. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are public_humiliation - Catherine mocking Juliana's disgrace. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is threat_with_stakes - gallows threat. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E28-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's venomous address 'Lady Juliana Ashcroft' immediately establishes a hostile confrontation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line '...before he sends you to the gallows' is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the gallows threat with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain (Catherine) taunting and threatening a humiliated noblewoman (Juliana) about her past and impending execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is scrubbing fireplaces in Catherine's house, which is a later development in her undercover infiltration arc."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are public_humiliation - Catherine mocking Juliana's disgrace."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is threat_with_stakes - gallows threat."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No cuts marked; continuous confrontation."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E28-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's mocking tone and 'disgraced daughter' line immediately show conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line '...before he sends you to the gallows' is a threat but lands as a closing statement."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the gallows threat with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict between Catherine mocking Juliana's fall and Juliana defending her husband."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but doesn't reveal late plot twists like poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Catherine's mocking 'disgraced daughter' line is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a threat but not an open-ended cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E28-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's venomous address 'Lady Juliana Ashcroft' immediately establishes a hostile confrontation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line '...before he sends you to the gallows' is a threat with stakes (execution)."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat of the gallows; no line follows to resolve it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman is being mocked and threatened with arrest and execution by a cruel rival."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana is 'scrubbing fireplaces' and has been disgraced, which is part of her established downfall by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a 'shocking_line' (venomous personal attack with no context)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a 'threat_with_stakes' (gallows)."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman is publicly shaming and threatening a lower-status woman with her past disgrace and a book as evidence.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Juliana be able to defend herself or escape?",
+    "would_keep_watching": true,
+    "why": "The power imbalance and personal stakes create compelling tension."
+   }
+  },
+  "E28-3": {
+   "sig": "b25a4087d893",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine's line 'She looks exactly like a poisoner' is an immediate accusation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Catherine knew!' is an accusation, not an unanswered question or cut threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The accusation ends the clip. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: Juliana is accused of poisoning, defended by the victim who accuses Catherine. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the Dowager Duchess was poisoned and that Catherine knew, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are an 'arrest_accusation' (poisoner accusation). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an accusation, not an unanswered question, threat, cut, or about-to-learn. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E28-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's line 'She looks exactly like a poisoner' is an immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Catherine knew!' is an accusation, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The accusation ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana is accused of poisoning, defended by the victim who accuses Catherine."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the Dowager Duchess was poisoned and that Catherine knew, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an 'arrest_accusation' (poisoner accusation)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not an unanswered question, threat, cut, or about-to-learn."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E28-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine accuses Juliana of poisoning someone immediately"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Catherine knew!\" is an accusation, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the accusation with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear accuser, accused, victim, and poisoning plot"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Dowager Duchess was poisoned and Catherine's involvement - major late reveal"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"She looks exactly like a poisoner\" is an accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Catherine knew!\" is an accusation, not an unanswered question or threat"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E28-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's line 'She looks exactly like a poisoner' immediately frames Juliana as accused."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Catherine knew!' is an accusation, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the accusation with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana is accused of poisoning, defended by the victim who accuses Catherine."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the Dowager Duchess was poisoned and that Catherine knew, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Catherine's line is a public accusation, fitting 'arrest_accusation'."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not an unanswered question, threat, cut-off, or about-to-learn."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman accused of poisoning is defended by the victim who reveals the real poisoner.",
+    "conflict_between": "Juliana vs Catherine and the Blond Nobleman",
+    "want_to_know_next": "Who poisoned the Duchess and why Catherine was involved",
+    "would_keep_watching": true,
+    "why": "The twist of the victim defending the accused and exposing the real culprit creates immediate intrigue."
+   }
+  },
+  "E28-4": {
+   "sig": "7581997d1a04",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Stop this!\" and \"She is innocent.\" are generic commands/defenses with no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "The last line is an action (collapse/coughing), not an unanswered question, threat, cut-off, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The collapse is the final moment shown. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A duchess accuses someone of poisoning her, clear accuser/victim/accused dynamic. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the Dowager Duchess was poisoned, a late reveal (Rupert and Catherine are poisoning the Dowager Duchess). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a command and a defense, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (collapse), not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E28-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Stop this!\" and \"She is innocent.\" are generic commands/defenses with no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "The last line is an action (collapse/coughing), not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The collapse is the final moment shown."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A duchess accuses someone of poisoning her, clear accuser/victim/accused dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the Dowager Duchess was poisoned, a late reveal (Rupert and Catherine are poisoning the Dowager Duchess)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a command and a defense, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (collapse), not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E28-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Stop this!\" and \"She is innocent.\" are generic commands/defenses, not immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "The last line is an action (collapse/coughing), not an unanswered question, threat, cut-off, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The collapse is the final line; nothing after it resolves or defuses the scene."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: a Duchess defends someone (Juliana) and accuses Catherine of poisoning her."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Catherine poisoned the Dowager Duchess, a late reveal (poison plot)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Stop this!\" and \"She is innocent.\" are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The collapse is an action line, not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E28-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Stop this!\" and \"She is innocent.\" are commands/declarations, not immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (collapse), not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The collapse is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A Duchess defends someone's innocence, accuses Catherine of poisoning, then collapses."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the poisoning plot, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Stop this!\" and \"She is innocent.\" are not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Collapse is an action, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A dowager duchess is accusing someone of poisoning her while defending another woman's innocence.",
+    "conflict_between": "Dowager Duchess vs Catherine (and possibly others)",
+    "want_to_know_next": "Who poisoned her and why Catherine knew about it",
+    "would_keep_watching": true,
+    "why": "The dramatic accusation of poisoning creates immediate tension and raises questions about conspiracy."
+   }
+  }
+ }
+}

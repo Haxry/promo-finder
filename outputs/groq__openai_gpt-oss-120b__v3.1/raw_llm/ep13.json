@@ -1,0 +1,28 @@
+{
+ "episode": 13,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L9",
+     "end_line": "L13"
+    },
+    {
+     "start_line": "L65",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L9",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L69",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Juliana is risking her life in a thorn garden to save her husband Alexander; new viewers may not know their relationship or the significance of the emerald ring",
+   "spoiler": false,
+   "why": "The opening threat grabs attention instantly, the brutal crawl builds tension, and the final moment of grabbing the emerald ring leaves viewers desperate to see if she survives and what the ring means."
+  }
+ ]
+}

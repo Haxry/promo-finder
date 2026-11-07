@@ -1,0 +1,35 @@
+{
+ "version": "s1",
+ "mode": "arc",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "episode": 1,
+     "start_line": "L30",
+     "end_line": "L34"
+    },
+    {
+     "episode": 3,
+     "start_line": "L56",
+     "end_line": "L68"
+    },
+    {
+     "episode": 31,
+     "start_line": "L66",
+     "end_line": "L70"
+    }
+   ],
+   "hook_line": {
+    "episode": 1,
+    "line": "L30"
+   },
+   "cliff_line": {
+    "episode": 31,
+    "line": "L70"
+   },
+   "pattern": "humiliation → rescue → confrontation",
+   "why": "Juliana is betrayed at the altar, later defended by a scarred stranger, and finally stands up against Catherine’s cruelty."
+  }
+ ]
+}

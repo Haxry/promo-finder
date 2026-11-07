@@ -1,0 +1,632 @@
+{
+ "items": {
+  "E1-1": {
+   "sig": "e73d42859073",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Not anymore.\" is cryptic without context. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"And you knew?\" is a question, but it's answered by the sister's earlier mocking line. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "The sister's earlier line \"People change their minds, sister.\" already answered the betrayal. [1/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A bride sees her groom holding another woman's hand at the altar. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows the initial betrayal, which is the premise. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Not anymore.\" is not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"And you knew?\" is not unanswered; the sister's involvement was already shown. [1/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E1-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Not anymore.\" is cryptic without context."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"And you knew?\" is a question, but it's answered by the sister's earlier mocking line."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "The sister's earlier line \"People change their minds, sister.\" already answered the betrayal."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A bride sees her groom holding another woman's hand at the altar."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows the initial betrayal, which is the premise."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Not anymore.\" is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"And you knew?\" is not unanswered; the sister's involvement was already shown."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line \"Not anymore\" is vague without context."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends on unanswered question \"And you knew?\""
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after \"And you knew?\" answers it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: bride discovers groom marrying her sister at altar."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows premise setup, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Not anymore\" is not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"And you knew?\" is unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Not anymore.\" is cryptic without context."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"And you knew?\" is a question, but it's answered by the sister's mocking line before it."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "The last line is not a cliffhanger; the conflict is established earlier."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A bride is abandoned at the altar for her sister."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "This is the premise; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Not anymore.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"And you knew?\" is not an unanswered_question (implied answer is yes), threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman discovers her fiancé is marrying her sister instead of her at the altar.",
+    "conflict_between": "Lady Juliana vs Gerald (former groom) and her sister",
+    "want_to_know_next": "Why Gerald changed his mind and how Juliana will react",
+    "would_keep_watching": true,
+    "why": "The raw emotional betrayal and family drama create compelling tension."
+   }
+  },
+  "E1-2": {
+   "sig": "0d7b25ff988d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"I changed my mind.\" is a clear rejection that creates immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Embarrassed you?\" is a rhetorical question that serves as a closing retort, not an unanswered cliffhanger. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the line \"Embarrassed you?\" with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A groom rejects a bride, her sister mocks her, and her father ignores her pleas - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows the initial betrayal, which is the premise, not a late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I changed my mind.\" is a shocking_line that breaks a promise. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Embarrassed you?\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E1-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" is a clear rejection that creates immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is a rhetorical question that serves as a closing retort, not an unanswered cliffhanger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line \"Embarrassed you?\" with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A groom rejects a bride, her sister mocks her, and her father ignores her pleas - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows the initial betrayal, which is the premise, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" is a shocking_line that breaks a promise."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" - a groom's rejection at the altar is immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is a rhetorical retort, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's line; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A groom rejects bride, sister mocks, father ignores - clear betrayal dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows only the public humiliation premise, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" is a shocking_line that breaks a promise."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is a retort, not an unanswered_question or threat_with_stakes."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" - groom's rejection creates immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is a rhetorical retort, not an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's retort with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear betrayal: groom chooses sister, father ignores, matriarch shames"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows premise setup, not late reveals about Alexander or poisoning"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I changed my mind.\" is a shocking_line"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Embarrassed you?\" is not an unanswered question or cliffhanger type"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A wedding is being called off at the altar, with the groom rejecting the bride and her sister mocking her.",
+    "conflict_between": "Lady Juliana vs her former groom, her sister, and her family",
+    "want_to_know_next": "Why the family is siding against Juliana and what will happen to her",
+    "would_keep_watching": true,
+    "why": "The emotional betrayal and family dynamics create compelling drama."
+   }
+  },
+  "E1-3": {
+   "sig": "ddea73e098bc",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"You should turn around, Juliana.\" is a command, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Why are you holding her hand?\" is an unanswered question. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after answers the question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Juliana arrives for wedding, is stopped, sees fiancé with another woman. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows premise betrayal, not late reveals. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Command to turn around is not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Why are you holding her hand?\" is an unanswered_question. [2/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E1-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You should turn around, Juliana.\" is a command, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Why are you holding her hand?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after answers the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Juliana arrives for wedding, is stopped, sees fiancé with another woman."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows premise betrayal, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Command to turn around is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Why are you holding her hand?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You should turn around, Juliana.\" is a command, not a conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Why are you holding her hand?\" is answered by the scene - he's with someone else at the altar."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A bride sees her groom holding another woman's hand at the altar - clear betrayal."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows the altar betrayal premise, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Command to turn around is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Question answered by visual context, not an open cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a command and a question - no clear conflict shown."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Why are you holding her hand?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear setup: woman at altar sees her fiancé with another woman."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows only the initial betrayal, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Why are you holding her hand?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana arrives expecting to meet Gerald, but the Matriarch stops her and reveals Gerald is with someone else at the altar.",
+    "conflict_between": "Juliana vs Matriarch, and potentially Juliana vs Gerald",
+    "want_to_know_next": "Who is Gerald holding hands with and why?",
+    "would_keep_watching": true,
+    "why": "The emotional betrayal and shock create immediate intrigue about the relationships and what will happen next."
+   }
+  },
+  "E1-4": {
+   "sig": "0e93e42ccbb1",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"And you knew?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A bride is accusing her groom and sister of betrayal at the altar. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows the premise betrayal, not late reveals. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are a shocking_line (broken promise). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "shocking_line",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E1-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"And you knew?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A bride is accusing her groom and sister of betrayal at the altar."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows the premise betrayal, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a shocking_line (broken promise)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation with no backstory needed."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"And you knew?\" is an unanswered question demanding a response."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no line follows to answer it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A bride accuses someone of betrayal before her wedding; sister mocks her; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows the altar betrayal premise, not late reveals like Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a shocking accusation of betrayal (shocking_line)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Ends on an unanswered question (unanswered_question)."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E1-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L30: 'You knew this before I walked through those doors!' shows immediate accusation of betrayal"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L46: 'And you knew?' is an unanswered question demanding explanation"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question 'And you knew?' with no answer"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows bride betrayed at altar, groom changed mind, sister mocking - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows only the altar betrayal premise, no late reveals about Alexander or poisoning"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L30-L44 show public humiliation at altar - 'public_humiliation' type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L46: 'And you knew?' is an 'unanswered_question'"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A bride discovers her groom has jilted her at the altar, with apparent collusion from others.",
+    "conflict_between": "Lady Juliana vs The Former Groom and Lady In Gold Gown",
+    "want_to_know_next": "Why the groom changed his mind and who else was involved in the deception.",
+    "would_keep_watching": true,
+    "why": "The raw emotional betrayal and mystery of the conspiracy create compelling drama."
+   }
+  }
+ }
+}

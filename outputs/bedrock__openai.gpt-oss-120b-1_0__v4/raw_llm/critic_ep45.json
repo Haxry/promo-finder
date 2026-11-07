@@ -1,0 +1,491 @@
+{
+ "items": {
+  "E45-1": {
+   "sig": "5322c6c2c97f",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"You poisoned my mother. You tortured my wife.\" is an immediate accusation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"No one will bow yet!\" is a threat that hasn't landed. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the High Priest's line. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man accuses a woman of poisoning, then presents his wife as Duchess, interrupted by a priest. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander and Juliana are married and she is Duchess, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is an accusation of poisoning. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"No one will bow yet!\" is a threat_with_stakes. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E45-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"You poisoned my mother. You tortured my wife.\" is an immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the High Priest's line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man accuses a woman of poisoning, then presents his wife as Duchess, interrupted by a priest."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander and Juliana are married and she is Duchess, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an accusation of poisoning."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Alexander accuses Catherine of poisoning his mother and torturing his wife - clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a command that interrupts the triumph, creating an open threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the High Priest's command with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man accuses a woman of crimes against his family, then presents his wife as Duchess before being interrupted by authority."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother was poisoned (late reveal) and that Juliana becomes Duchess (major arc resolution)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Alexander's accusation \"You poisoned my mother. You tortured my wife\" is a shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a threat_with_stakes - authority figure halting the triumph."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Alexander accuses Catherine: 'You poisoned my mother. You tortured my wife.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'No one will bow yet!' is a command, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is the end, but it's not an open cliffhanger type."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear accuser vs. accused; poisoning and torture accusations; wife reveal shocks others."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother was poisoned (late reveal) and Juliana is his wife/duchess (premise)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an accusation of poisoning/torture - fits 'arrest_accusation'."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Continuous scene: accusation → wife reveal → presentation → bishop arrival."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man publicly accuses a woman of harming his family and reveals his secret marriage",
+    "conflict_between": "Alexander vs Catherine",
+    "want_to_know_next": "Why Catherine is shocked about the wife and what the Bishop's arrival means",
+    "would_keep_watching": true,
+    "why": "The dramatic accusations, secret marriage reveal, and sudden arrival of religious/legal authorities create compelling tension"
+   }
+  },
+  "E45-2": {
+   "sig": "2bf1a529ba71",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Alexander accuses someone of hurting his mother and wife - clear conflict. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"No one will bow yet!\" is a command that interrupts the triumph, creating immediate tension. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the High Priest's command with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Alexander declares Juliana his wife and duchess, presenting her to shocked nobles. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's marriage to Juliana and her duchess status, which are late reveals. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Alexander's accusation is a direct threat/accusation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"No one will bow yet!\" is a threat with stakes that interrupts the victory. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.38,
+   "raw_samples": [
+    {
+     "id": "E45-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s line \"You hurt the two women who mattered most to me: my mother, and my wife.\" is an accusation needing backstory."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"No one will bow yet!\" is a command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the High Priest's command with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Alexander declares Juliana his wife and duchess, presenting her to shocked nobles."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's marriage to Juliana and her duchess status, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s is an accusation, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Alexander accuses someone of hurting his mother and wife - clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a command that interrupts the triumph, creating immediate tension."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the High Priest's command with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man accuses someone of harming his family, presents his wife as a duchess, then authority figure interrupts."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander and Juliana are married and she is Duchess - major late identity reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Alexander's accusation is a direct threat/accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"No one will bow yet!\" is a threat with stakes that interrupts the victory."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments flow: accusation → wife reveal → presentation → interruption by authority."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Alexander's line 'You hurt the two women who mattered most to me' is a direct accusation of harm."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "'No one will bow yet!' is a command that interrupts the presentation, creating an immediate threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the High Priest's command; no line follows to resolve the interruption."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man accuses someone of harming his family, presents his wife as a Duchess, and is interrupted by a priest."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander and Juliana's marriage and her title as Duchess, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Alexander's accusation is a shocking_line that breaks a norm (public condemnation)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "The High Priest's command is a threat_with_stakes, halting the ceremony."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man publicly declares a woman as his wife and duchess at a formal gathering, shocking attendees including a woman named Catherine and a man named Rupert.",
+    "conflict_between": "Alexander vs Catherine/Rupert/aristocratic guests",
+    "want_to_know_next": "Why Catherine and others are so shocked by this marriage declaration, and who the arriving bishop and officer are.",
+    "would_keep_watching": true,
+    "why": "The dramatic revelation creates immediate intrigue about relationships, status, and the sudden interruption by religious/legal authorities."
+   }
+  },
+  "E45-3": {
+   "sig": "9b35d4ddfa72",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a calm identity reveal, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an accusation ('You knew exactly what you were doing!'), not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the accusation line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "A stranger wouldn't know who Catherine is, why she poisoned Alexander's mother, or the wife reference. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke (a late reveal) and that Catherine poisoned his mother. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are an identity_reveal ('Alexander Ashburton. The rightful Duke of Ashburton.'). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an accusation, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "identity_reveal",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E45-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a calm identity reveal, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation ('You knew exactly what you were doing!'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the accusation line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Catherine is, why she poisoned Alexander's mother, or the wife reference."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (a late reveal) and that Catherine poisoned his mother."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an identity_reveal ('Alexander Ashburton. The rightful Duke of Ashburton.')."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are identity reveal and emotional reaction, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation ('You knew exactly what you were doing!'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the accusation line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Alexander accuses Catherine of poisoning his mother and torturing his wife."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (late reveal) and that Catherine poisoned his mother (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s contain 'Alexander Ashburton. The rightful Duke of Ashburton.' - identity_reveal."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E45-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a calm identity reveal, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation ('You knew...'), not an open question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the accusation."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine is or the poisoning backstory."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Alexander Ashburton. The rightful Duke of Ashburton.' is an identity_reveal."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not a cliffhanger type."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man reveals his true noble identity to a woman who loved him when he was nobody, while a third woman watches in distress.",
+    "conflict_between": "Alexander vs Catherine",
+    "want_to_know_next": "What will Alexander do to Catherine for poisoning his mother and torturing his wife?",
+    "would_keep_watching": true,
+    "why": "The emotional revelation and sudden shift to a tense confrontation creates compelling drama."
+   }
+  }
+ }
+}

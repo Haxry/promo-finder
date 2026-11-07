@@ -1,0 +1,123 @@
+{
+ "premise": "Lady Juliana is publicly abandoned at the altar when her fiancé Gerald chooses her cruel sister Clarissa, prompting her to denounce his honor. She is then rescued by a scarred stranger who proposes marriage, offering her a chance at dignity.",
+ "known_by_ep5": "By episode 5, viewers know Juliana has been disowned, stripped of her inheritance, and humiliated by her stepmother. She has married the mysterious scarred warrior, Alexander, who defends her against her family's cruelty and they have fled together.",
+ "characters": [
+  {
+   "name": "Lady Juliana",
+   "role": "Betrayed noblewoman seeking justice"
+  },
+  {
+   "name": "Gerald Harrington",
+   "role": "Juliana's former fiancé and betrayer"
+  },
+  {
+   "name": "Clarissa",
+   "role": "Juliana's cruel sister, conspirator"
+  },
+  {
+   "name": "Alexander",
+   "role": "Scarred warrior, Juliana's husband, rightful duke"
+  },
+  {
+   "name": "Rupert",
+   "role": "Treacherous noble plotting ducal usurpation"
+  },
+  {
+   "name": "Catherine",
+   "role": "Rupert's ally, poisoner and schemer"
+  },
+  {
+   "name": "Dowager Duchess",
+   "role": "Aging matriarch poisoned by conspirators"
+  },
+  {
+   "name": "Prudence",
+   "role": "Juliana's ally, helps infiltrate Ashbury"
+  },
+  {
+   "name": "Lord Sterling",
+   "role": "Elder noble colluding with Rupert"
+  },
+  {
+   "name": "Father Thomas",
+   "role": "Corrupt cleric aiding Catherine"
+  },
+  {
+   "name": "Agnes",
+   "role": "Maid who witnesses Catherine's affair"
+  },
+  {
+   "name": "Alexander's mother",
+   "role": "Elderly ducal mother revealing conspiracy"
+  },
+  {
+   "name": "Constable",
+   "role": "Arresting officer serving Rupert"
+  },
+  {
+   "name": "High Priest",
+   "role": "Ecclesiastical authority invalidating marriage"
+  }
+ ],
+ "late_reveals": [
+  "The scarred stranger who proposes is Alexander, a war veteran and the rightful Duke.",
+  "Alexander's mother is alive, imprisoned, and reveals Rupert's usurpation of the ducal seat.",
+  "Rupert and Catherine are poisoning the Dowager Duchess with arsenic.",
+  "Rupert and Catherine frame Juliana for witchcraft and the Duchess's poisoning.",
+  "The lavish wedding is a ploy to publicly execute Juliana.",
+  "The High Priest declares Alexander and Juliana's marriage invalid due to lack of royal license.",
+  "Catherine conspires with Father Thomas to sabotage the council hearing and retain power."
+ ],
+ "episodes": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50
+ ]
+}

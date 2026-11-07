@@ -1,0 +1,58 @@
+{
+ "episode": 28,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L0",
+     "end_line": "L30"
+    }
+   ],
+   "hook_line": "L0",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L30",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with Juliana’s desperate struggle and ends with the Duchess’s shocking confession of being poisoned, leaving the mystery unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L94"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L94",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Reveals Juliana’s true noble identity and ends on Catherine’s deadly threat, a perfect hook‑cliffhanger that needs no prior knowledge."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L52",
+     "end_line": "L91"
+    }
+   ],
+   "hook_line": "L52",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L91",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Shows the brutal removal of Juliana’s heirloom and her desperate plea about her mother’s work, cutting off before the final threat."
+  }
+ ]
+}

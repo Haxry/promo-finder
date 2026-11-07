@@ -1,0 +1,64 @@
+{
+ "episode": 42,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L9",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L9",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L35",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "Viewers won’t know who the “imposter” is or why Rupert is being threatened.",
+   "spoiler": true,
+   "why": "The frantic call for arrest grabs attention, and the final threat leaves the showdown hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L20",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L20",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L35",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "The claim “Alexander died” is baffling without prior knowledge of his supposed death.",
+   "spoiler": true,
+   "why": "A bold denial of Alexander’s death shocks the viewer, and the looming threat to Rupert ends on a tense cliff."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L22",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L22",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L35",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "pattern": "hidden_identity",
+   "missing_context": "The audience may not know why Alexander’s presence is a lie for the nobles.",
+   "spoiler": true,
+   "why": "Alexander’s defiant proclamation hints at a deeper secret, and the final threat leaves the conflict unresolved."
+  }
+ ]
+}

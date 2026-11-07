@@ -1,0 +1,660 @@
+{
+ "items": {
+  "E11-1": {
+   "sig": "f428433c4e48",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A constable accuses someone of theft immediately. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"One blow would end this.\" is a statement, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Alexander's line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A constable searches a home on a false theft accusation while a cruel man taunts the couple. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows a false accusation and harassment, not a late reveal about Alexander's identity or the poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I have received a complaint of theft.\" is an arrest_accusation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"One blow would end this.\" is a statement of intent, not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E11-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A constable accuses someone of theft immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"One blow would end this.\" is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A constable searches a home on a false theft accusation while a cruel man taunts the couple."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a false accusation and harassment, not a late reveal about Alexander's identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I have received a complaint of theft.\" is an arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"One blow would end this.\" is a statement of intent, not a cliffhanger type."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable immediately accuses someone of theft."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"One blow would end this\" is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: constable searches home on false theft accusation."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal late identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Arrest/accusation hook: \"I have received a complaint of theft.\""
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"One blow would end this\" is a statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable: 'I have received a complaint of theft.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Alexander: 'One blow would end this.' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: constable accuses, Juliana defends, Gerald taunts, Alexander restrained."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing harassment, not a late reveal like Alexander's true identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "arrest_accusation: Constable announces theft complaint."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Alexander's line is a threat_with_stakes, but it's a statement, not an imminent danger."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] in this clip, so check omitted."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A constable is searching a home for stolen goods based on a complaint, while the residents protest the invasion.",
+    "conflict_between": "Juliana and Alexander vs. Constable and Gerald",
+    "want_to_know_next": "Will they find anything incriminating, and will Alexander act on his violent thoughts?",
+    "would_keep_watching": true,
+    "why": "The tension is high with personal history and potential violence, making it compelling."
+   }
+  },
+  "E11-2": {
+   "sig": "e5af5fec660b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lines show Gerald demanding a search and Alexander allowing it - immediate conflict between accuser and defender. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"That is his coat!\" is an exclamation, not an unanswered question or cut threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the line, no resolution follows. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger sees a man ordering a search, a woman protesting, and a soldier restrained. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict but doesn't reveal Alexander's identity or the poisoning plot resolution. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines show Gerald demanding a search - qualifies as 'arrest_accusation' (authority action). [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"That is his coat!\" is not an unanswered question, threat, cut-off, or about-to-learn-truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E11-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"If he has nothing to hide... let the constable search.\" is a taunt, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"That is his coat!\" is an exclamation, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the line, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger sees a man ordering a search, a woman protesting, and a soldier restrained."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal Alexander's identity or the poisoning plot resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Taunting accusation is not a listed hook type (not physical attack, public humiliation, etc.)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"That is his coat!\" is not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show Gerald demanding a search and Alexander allowing it - immediate conflict between accuser and defender."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'That is his coat!' is a statement of fact, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: authorities search home while woman protests, man taunts her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows search and accusation but doesn't reveal late plot twists like Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show Gerald demanding a search - qualifies as 'arrest_accusation' (authority action)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement identifying an object, not an unanswered question or threat."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] markers present, so check omitted."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show Gerald taunting about a search and smugly calling for constable - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'That is his coat!' is a statement, not an unanswered question, threat, cut-off, or about-to-learn moment."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this is N/A."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger sees a man ordering a search of a couple's home, with clear conflict between the searchers and the distressed woman."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows a search/accusation scene; doesn't reveal Alexander's true identity or the poisoning plot resolution."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are Gerald's accusation leading to a constable search - fits 'arrest_accusation'."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'That is his coat!' is a statement, not one of the defined cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Clip contains no [cut] marker, so this check is omitted."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A constable is violently searching a home while a woman pleads for him to stop, and a man named Gerald appears to be orchestrating the search to torment her.",
+    "conflict_between": "Juliana vs Gerald and the Constable",
+    "want_to_know_next": "What the constable finds in the coat pockets, and whether Alexander will intervene.",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high, with clear injustice and tension that makes me want to see the outcome."
+   }
+  },
+  "E11-3": {
+   "sig": "695a1d513637",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Constable: 'I have received a complaint of theft.' - Immediate accusation creates conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Juliana: 'That is his coat!' - This is a statement of fact, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The last line is the end of the clip; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A constable accuses someone of theft, the accused protests, and a search begins - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows a false theft accusation and search, which is consistent with early-episode harassment, not a late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Constable's accusation is an 'arrest_accusation' hook. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Juliana's line is a statement identifying an object, not one of the defined cliffhanger types. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": "The clip contains a [cut] (L71-L73 are V.O. internal thoughts) that creates a confusing jump from the physical confrontation to internal monologue and back. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E11-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable: 'I have received a complaint of theft.' - Immediate accusation creates conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Juliana: 'That is his coat!' - This is a statement of fact, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The last line is the end of the clip; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A constable accuses someone of theft, the accused protests, and a search begins - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows a false theft accusation and search, which is consistent with early-episode harassment, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Constable's accusation is an 'arrest_accusation' hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Juliana's line is a statement identifying an object, not one of the defined cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "The clip contains a [cut] (L71-L73 are V.O. internal thoughts) that creates a confusing jump from the physical confrontation to internal monologue and back."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable: 'I have received a complaint of theft.' vs Juliana: 'A complaint is not proof.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'That is his coat!' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with the line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: constable searches home on accusation, husband allows it, wife protests."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a search and tension, but no late reveals about identity, poisoning, or marriage."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "arrest_accusation - Constable announces complaint of theft, implying accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable: 'I have received a complaint of theft.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Juliana: 'That is his coat!' is a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A constable accuses someone of theft, the accused protests, a search begins."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a false theft accusation, which is consistent with early episodes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "arrest_accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "other"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A constable is searching a home for stolen goods after a complaint, while the residents protest.",
+    "conflict_between": "Juliana and Alexander vs. Constable and Gerald",
+    "want_to_know_next": "Will they find anything planted or will the search prove fruitless?",
+    "would_keep_watching": true,
+    "why": "The tension is high with clear injustice and personal history revealed."
+   }
+  },
+  "E11-4": {
+   "sig": "8089f4da1611",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald's mocking accusation 'You married a beggar!' shows immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "'One blow would end this' is a statement, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Alexander's line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man accuses a woman of marrying a beggar, constable searches home, conflict is clear. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows conflict but doesn't reveal Alexander's true identity or late plot twists. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Gerald's 'You married a beggar!' is public_humiliation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "'One blow would end this' is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E11-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's mocking accusation 'You married a beggar!' shows immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "'One blow would end this' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man accuses a woman of marrying a beggar, constable searches home, conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conflict but doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's 'You married a beggar!' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'One blow would end this' is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's mocking line 'You married a beggar!' shows immediate conflict between characters."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'One blow would end this' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see Gerald is antagonizing Juliana and Alexander, with constable searching their home."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conflict but doesn't reveal Alexander's true identity or the poisoning conspiracy."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's 'You married a beggar!' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'One blow would end this' is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E11-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's mocking line 'You married a beggar!' shows immediate conflict with no backstory needed."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'One blow would end this' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Constable searches home after theft accusation - clear conflict between accusers and defenders."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows ongoing conflict but doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's 'You married a beggar!' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'One blow would end this' is not one of the cliffhanger types - it's a statement."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A constable is searching a home for stolen goods based on an accusation, while the residents protest.",
+    "conflict_between": "Juliana and Alexander vs Gerald and the Constable",
+    "want_to_know_next": "Will they find anything, and what will Alexander do?",
+    "would_keep_watching": true,
+    "why": "The tension is high, and I want to see if the accusation is true and how the conflict resolves."
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "episode": 32,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L25"
+    },
+    {
+     "start_line": "L102",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L113",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "The scene takes place in a dungeon where Catherine is torturing a chained Juliana; new viewers may not know the back‑story of their rivalry.",
+   "spoiler": false,
+   "why": "Opens with a chilling threat, showcases Juliana’s fierce defiance, and ends on the brand‑iron inches from her eye, leaving the outcome unknown and compelling viewers to watch."
+  }
+ ]
+}

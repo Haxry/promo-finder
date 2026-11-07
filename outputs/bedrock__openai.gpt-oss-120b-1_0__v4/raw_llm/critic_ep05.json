@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E5-1": {
+   "sig": "b919013f200b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Clarissa mocks Juliana about her mother's legacy being 'cast into the dirt' immediately. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Choose your next words carefully.\" is a direct threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the threat; no line follows to answer or defuse it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A cruel sister and smug man mock a weeping woman in a bridal gown; a scarred stranger defends her. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows Juliana's humiliation and a stranger's defense, which aligns with viewer knowledge by EP5. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Clarissa's line \"Even your mother's precious legacy has been cast into the dirt!\" is public humiliation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Choose your next words carefully.\" is a threat_with_stakes. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa mocks Juliana about her mother's legacy being 'cast into the dirt' immediately."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is a direct threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel sister and smug man mock a weeping woman in a bridal gown; a scarred stranger defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana's humiliation and a stranger's defense, which aligns with viewer knowledge by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Clarissa's line \"Even your mother's precious legacy has been cast into the dirt!\" is public humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line about Juliana's mother's legacy being 'cast into the dirt' shows immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Choose your next words carefully.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows cruel taunting of a kneeling woman in bridal gown, with a stranger defending her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's true identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Clarissa's line is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line about Juliana's mother's legacy being 'cast into the dirt' shows immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Choose your next words carefully.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see a woman being mocked while kneeling in a bridal gown, with a man defending her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana's humiliation and Alexander's defense, which viewers know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show public humiliation (Clarissa mocking Juliana's mother's legacy)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes ('Choose your next words carefully.')."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman's mother's legacy has been destroyed by antagonists, and a mysterious man comforts her.",
+    "conflict_between": "Juliana and the Mysterious Bearded Man vs. Clarissa and Gerald",
+    "want_to_know_next": "Who is the Mysterious Bearded Man and what will he do?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high, the mysterious protector is intriguing, and tension is escalating."
+   }
+  },
+  "E5-2": {
+   "sig": "2c3bef3add01",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A woman snatches a book and flings it away while another screams 'Barbara, don't!' [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Choose your next words carefully.\" is a threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the threat; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A cruel group destroys a woman's treasured book and mocks her; a stranger defends her. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows early humiliation and a stranger's kindness, not late reveals like Alexander's true identity. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "The book being snatched and flung is a physical action happening TO someone (Juliana). [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Choose your next words carefully.\" is a threat_with_stakes. [3/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "slap_attack",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E5-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A woman snatches a book and flings it away while another screams 'Barbara, don't!'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel group destroys a woman's treasured book and mocks her; a stranger defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows early humiliation and a stranger's kindness, not late reveals like Alexander's true identity."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "The book being snatched and flung is a physical action happening TO someone (Juliana)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E5-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Book snatched and flung while Juliana screams 'Barbara, don't!'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Threat that hasn't landed: 'Choose your next words carefully.'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: cruel people destroy a cherished book, victim is comforted by a stranger, then mocked."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation and Alexander's protective presence, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Public humiliation: book destroyed while Juliana protests."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Threat with stakes: 'Choose your next words carefully.'"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E5-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A book is snatched and flung away while Juliana screams 'Barbara, don't!'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is a threat that hasn't landed: 'Choose your next words carefully.'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no line after defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: cruel people destroy a cherished item, a stranger defends the victim."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation and Alexander's kindness, not his ducal identity or late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show an object destroyed, not a slap/attack, public humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes: 'Choose your next words carefully.'"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman's cherished book is destroyed by antagonists, then a mysterious man comforts her and retrieves it.",
+    "conflict_between": "Juliana vs Lady Ashcroft/Gerald/Clarissa",
+    "want_to_know_next": "Who is the mysterious man and what will he do to Gerald?",
+    "would_keep_watching": true,
+    "why": "The scene has emotional depth, clear villains, and a protective stranger creating intrigue."
+   }
+  }
+ }
+}

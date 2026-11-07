@@ -1,0 +1,30 @@
+{
+ "episode": 35,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L26",
+     "end_line": "L33"
+    },
+    {
+     "start_line": "L63",
+     "end_line": "L67"
+    }
+   ],
+   "hook_line": "L26",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L67",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "Why does the mother believe Alexander is dead?",
+   "spoiler": false,
+   "why": "Opens with the mother’s shocking confession “I buried you,” instantly raising the stakes, then cuts to Alexander’s furious declaration “The ambush was not an accident” and ends on the desperate question “Who?” leaving the mystery unresolved."
+  }
+ ]
+}

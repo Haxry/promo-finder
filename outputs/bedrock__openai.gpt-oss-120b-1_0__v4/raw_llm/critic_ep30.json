@@ -1,0 +1,853 @@
+{
+ "items": {
+  "E30-1": {
+   "sig": "dd8967ba2db3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s: 'We use the law to destroy her' - no immediate conflict shown, just planning. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line: 'Tomorrow, she stops being a prisoner. She becomes a witch' - a statement, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last line answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Unclear who 'her' is or why she's a prisoner - needs show context. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the witch framing plot, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s: 'We use the law to destroy her' - not a hook type (other). [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line: 'Tomorrow, she stops being a prisoner. She becomes a witch' - not a cliff type (other). [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments connect: plotting leads to arrest warrant. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E30-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s: 'We use the law to destroy her' - no immediate conflict shown, just planning."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line: 'Tomorrow, she stops being a prisoner. She becomes a witch' - a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Unclear who 'her' is or why she's a prisoner - needs show context."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the witch framing plot, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s: 'We use the law to destroy her' - not a hook type (other)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line: 'Tomorrow, she stops being a prisoner. She becomes a witch' - not a cliff type (other)."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect: plotting leads to arrest warrant."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"We use the law to destroy her.\" - No immediate conflict shown, just planning."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" - A declarative statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the chilling statement."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is 'her'? Who are these schemers? Why does it matter? No context given."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot and framing for witchcraft, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"We use the law to destroy her.\" - Not a hook type; it's planning/accusation without immediate action."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" - Not a cliffhanger type; it's a declarative statement."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut connects the planning to the decision to act, forming a continuous mini-story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"We use the law to destroy her.\" is a plan, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" is a closing statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The last line is the end of the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear plot: conspirators plan to frame a woman as a witch to have her executed."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the late plot that Rupert and Catherine frame Juliana for witchcraft."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a plan (shocking_line at best), not a direct conflict hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a declaration, not an unanswered question or imminent threat."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut shows the plan being developed, then confirmed for execution."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Nobles are conspiring to frame an innocent woman using false evidence and legal manipulation.",
+    "conflict_between": "Powerful nobles vs. an accused woman",
+    "want_to_know_next": "Will the woman be able to defend herself against these false charges?",
+    "would_keep_watching": true,
+    "why": "The injustice creates compelling tension and raises questions about whether the victim can escape this conspiracy."
+   }
+  },
+  "E30-2": {
+   "sig": "5afd580ac8c3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Elder Nobleman pins Rupert against wall with walking stick. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a declarative statement, not an open question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after 'She becomes a witch' answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conspiracy to frame 'her' as a witch for execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the poisoning conspiracy and framing plot (late reveal). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "ACTION line: physical confrontation with walking stick. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a declaration, not an unanswered question or imminent threat. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments connect as a continuous conspiracy discussion. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E30-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Elder Nobleman pins Rupert against wall with walking stick."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a declarative statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after 'She becomes a witch' answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'her' as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning conspiracy and framing plot (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "ACTION line: physical confrontation with walking stick."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a declaration, not an unanswered question or imminent threat."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect as a continuous conspiracy discussion."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Elder Nobleman pins Rupert against wall with walking stick."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" is a closing statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No lines after the last line to resolve it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'her' (Juliana) as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the poisoning conspiracy and framing plot, which are LATE REVEALS."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Physical confrontation with walking stick is an attack."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a definitive statement, not an unanswered question, threat with stakes, cut-off, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow as one continuous conspiracy planning scene."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Elder Nobleman pins Rupert against wall with walking stick - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" is a statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the Elder Nobleman's chilling statement, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear plot: powerful man orders subordinates to frame a woman as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert and Catherine's poisoning/framing plot - a late reveal viewers shouldn't know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Physical attack with walking stick qualifies as slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of intent, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow logically: threat → planning evidence → confirming execution plan."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman pressures Rupert to frame and execute a woman (Juliana) as a witch.",
+    "conflict_between": "Elder Nobleman and Catherine vs Juliana (and possibly Rupert's conscience)",
+    "want_to_know_next": "Will Rupert go through with framing Juliana, and will she be saved?",
+    "would_keep_watching": true,
+    "why": "The moral dilemma and high-stakes conspiracy create immediate tension and intrigue."
+   }
+  },
+  "E30-3": {
+   "sig": "965c6beff8c1",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "Lines L44-L46 are just stating a legal fact ('Witchcraft is a capital charge.') and agreement ('Precisely.') [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line L66 is a declarative statement ('Tomorrow, she stops being a prisoner. She becomes a witch.') [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on L66 with no resolution [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conspiracy to frame 'Juliana' for witchcraft and have her executed [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Rupert's direct involvement in framing Juliana, which viewers don't know by EP5 [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "L44-L46 is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L66 is a closing statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut connects the conspiracy planning to its implementation [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E30-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines L44-L46 are just stating a legal fact ('Witchcraft is a capital charge.') and agreement ('Precisely.')"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line L66 is a declarative statement ('Tomorrow, she stops being a prisoner. She becomes a witch.')"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on L66 with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'Juliana' for witchcraft and have her executed"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert's direct involvement in framing Juliana, which viewers don't know by EP5"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "L44-L46 is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L66 is a closing statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut connects the conspiracy planning to its implementation"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are just stating a fact ('Witchcraft is a capital charge') and agreeing ('Precisely') - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the last line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'Juliana' as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert and Catherine's poisoning/framing plot, which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut flows from planning the frame-up to discussing Juliana's fate."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Witchcraft is a capital charge.\" is a statement, not a conflict in action."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tomorrow, she stops being a prisoner. She becomes a witch.\" is a declarative statement, not an open-ended threat or question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the Elder Nobleman's chilling statement."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'her' (Juliana) as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the specific poisoning frame-up (witchcraft) and planned execution, which are LATE REVEALS."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Statement about witchcraft charge is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Declarative statement about her fate is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut connects the planning of the frame-up to the discussion of Juliana's fate, forming one continuous conspiracy."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Nobles conspiring to frame a woman for witchcraft",
+    "conflict_between": "Conspirators vs Juliana",
+    "want_to_know_next": "Will Juliana be successfully framed and executed?",
+    "would_keep_watching": true,
+    "why": "The political intrigue and moral stakes create compelling tension"
+   }
+  },
+  "E30-4": {
+   "sig": "e00755dfc17e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Elder Nobleman accuses Rupert: 'You have a rat in your cellar.' [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a closing statement, not an open question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the chilling declaration. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear plot: conspirators framing a prisoner (Ashcroft girl) as a witch for execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the Ashcroft girl is imprisoned and will be framed as a witch, which is a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Hook type: shocking_line (accusation of hidden prisoner). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a chilling declaration, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth. [1/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments connect: accusation → plan to frame → resolve to execute. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E30-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Elder Nobleman accuses Rupert: 'You have a rat in your cellar.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a closing statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the chilling declaration."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear plot: conspirators framing a prisoner (Ashcroft girl) as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the Ashcroft girl is imprisoned and will be framed as a witch, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Hook type: shocking_line (accusation of hidden prisoner)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a chilling declaration, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect: accusation → plan to frame → resolve to execute."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Elder Nobleman accuses Rupert of having 'a rat in your cellar' and servants noticing, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line about her becoming a witch, with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Villains plotting to frame and hang a woman for witchcraft is clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (soup bowls) and framing for witchcraft, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show 'arrest_accusation' - Elder Nobleman accusing Rupert of evidence being discovered."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of plan, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cuts connect logically: accusation → plotting evidence → deciding to frame her."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'You have a rat in your cellar, Rupert' is an immediate accusation of a hidden problem."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat of framing Juliana as a witch."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame someone as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning conspiracy and framing plot that are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a shocking accusation about hidden evidence."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes (becoming a witch)."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect as a continuous conspiracy discussion about framing someone."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Nobleman pressures Rupert to frame and execute a captive girl as a witch",
+    "conflict_between": "Elder Nobleman vs Juliana (the captive)",
+    "want_to_know_next": "Will Juliana escape or be framed?",
+    "would_keep_watching": true,
+    "why": "Intriguing political conspiracy with high stakes for the captive"
+   }
+  },
+  "E30-5": {
+   "sig": "387c49155add",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line 'Do not hide the evidence, manufacture it... let the State hang her' shows immediate conspiracy. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a statement, not an open question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the 'witch' declaration with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conspiracy to frame 'her' as a witch for execution. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the poisoning conspiracy (Rupert/Catherine poisoning Dowager) which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is a 'threat' with stakes ('let the State hang her'). [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a statement of intent, not an unanswered question, pending threat, cut-off, or imminent reveal. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E30-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Do not hide the evidence, manufacture it... let the State hang her' shows immediate conspiracy."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Tomorrow, she stops being a prisoner. She becomes a witch.' is a statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the 'witch' declaration with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'her' as a witch for execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning conspiracy (Rupert/Catherine poisoning Dowager) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a 'threat' with stakes ('let the State hang her')."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of intent, not an unanswered question, pending threat, cut-off, or imminent reveal."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are conspirators planning a frame-up, not an immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement of transformation ('She becomes a witch'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the chilling statement; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame 'her' (Juliana) as a witch for execution; antagonists are scheming nobles."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (Dowager's weakness) and the witchcraft framing, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are conspirators planning, not a hook type (slap_attack, public_humiliation, etc.)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of transformation, not a cliffhanger type (unanswered_question, threat_with_stakes, etc.)."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E30-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line is about manufacturing evidence to frame someone for execution"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement about her becoming a witch, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the chilling declaration"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conspiracy to frame a woman as a witch for execution"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning conspiracy and framing plot that viewers don't know until later"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "shocking_line - manufacturing evidence for execution"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not a cliffhanger type"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Nobles are conspiring to frame an innocent woman for witchcraft using fabricated evidence.",
+    "conflict_between": "The conspiring nobles vs Juliana (and possibly the Dowager)",
+    "want_to_know_next": "Will Juliana be saved from their plot?",
+    "would_keep_watching": true,
+    "why": "The tension of an innocent person being framed creates immediate investment in her fate."
+   }
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "episode": 30,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L34"
+    },
+    {
+     "start_line": "L60",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "poison_plot",
+   "missing_context": "Who \"her\" is (Juliana) and why the law matters to her.",
+   "spoiler": false,
+   "why": "A chilling legal threat is set up, then the episode ends on the looming witch‑craft execution, leaving the viewer desperate to know Juliana's fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L16",
+     "end_line": "L20"
+    },
+    {
+     "start_line": "L48",
+     "end_line": "L52"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L16",
+   "hook_type": "slap_attack",
+   "hook_strength": 5,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Who is being pinned (Rupert) and why he’s a threat to Juliana.",
+   "spoiler": false,
+   "why": "A brutal physical attack grabs attention, then the clip jumps to the conspirators’ final plan to brand Juliana a witch, ending on a deadly deadline."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L48"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "poison_plot",
+   "missing_context": "Who is being called a witch (Juliana) and why the accusation matters.",
+   "spoiler": false,
+   "why": "The line “Then call it witchcraft” shocks the viewer, then the clip cuts to the ominous proclamation that Juliana will be executed as a witch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L6",
+     "end_line": "L10"
+    },
+    {
+     "start_line": "L48",
+     "end_line": "L52"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L6",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Who Rupert is and why his secrecy threatens Juliana.",
+   "spoiler": false,
+   "why": "An accusation that a “rat” is in the cellar instantly raises stakes, and the clip ends on the conspirators’ plan to turn Juliana into a witch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L48",
+     "end_line": "L70"
+    }
+   ],
+   "hook_line": "L48",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L70",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "Who “her” refers to (Juliana) and why the fabricated evidence matters.",
+   "spoiler": false,
+   "why": "The villain’s cold command to manufacture proof hooks the viewer, and the final shot of a terrified Juliana leaves the audience hanging on her imminent fate."
+  }
+ ]
+}

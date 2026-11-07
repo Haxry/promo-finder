@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E47-1": {
+   "sig": "c456093ff9e3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Immediate confrontation: 'You dare show your face in Ashbourne courtyard?' [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a command ('Do it, Vaughn!'), not an unanswered question or cut-off threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "Cliffhanger is not open-ended (command is executed) [1/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear power dynamic: noblewoman ordering punishment of desperate woman [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Catherine's downfall but doesn't reveal poisoning resolution [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"You dare show your face in Ashbourne courtyard?\" is public_humiliation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a command execution, not threat_with_stakes or unanswered_question [0/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E47-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate confrontation: 'You dare show your face in Ashbourne courtyard?'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command ('Do it, Vaughn!'), not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is not open-ended (command is executed)"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: noblewoman ordering punishment of desperate woman"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's downfall but doesn't reveal poisoning resolution"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is accusation but not public_humiliation or arrest_accusation (no guards/seizure)"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command execution, not threat_with_stakes or unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E47-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"You dare show your face in Ashbourne courtyard?\" shows immediate confrontation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Do it, Vaughn! Throw her past the estate perimeter!\" is a command, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "The last line is a command that resolves the scene's tension by ordering the action."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman is confronting a desperate woman in her courtyard, ordering her expulsion."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Catherine being expelled, which is not a late reveal about poisoning or usurpation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"You dare show your face in Ashbourne courtyard?\" is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The last line is a command, not one of the defined cliffhanger types."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E47-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L25: 'You dare show your face in Ashbourne courtyard?' shows immediate confrontation"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L36: 'Do it, Vaughn! Throw her past the estate perimeter!' is a command, not an open question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the command with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: noblewoman ordering expulsion of desperate woman"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's downfall but doesn't reveal poisoning conspiracy or Alexander's identity"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L25: 'You dare show your face...' is public_humiliation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L36 is a command, not one of the cliffhanger types"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A desperate woman is being expelled from an estate by angry nobles",
+    "conflict_between": "Lady Ashbourne/Alexander vs Catherine",
+    "want_to_know_next": "Why Catherine is accused of aiding poison and what will happen to her",
+    "would_keep_watching": true,
+    "why": "The dramatic confrontation and poisoning accusation create immediate intrigue"
+   }
+  },
+  "E47-2": {
+   "sig": "a00dd6d80c15",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Juliana orders Catherine to scrub floors as an impostor - immediate power reversal. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an ultimatum/command ('Take the apron, or leave the county'), not an open question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Juliana's ultimatum with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear someone in power is humiliating someone who wronged them. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana's rise to power but doesn't reveal Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"You will scrub the floors you walked on as an impostor\" is public_humiliation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an ultimatum/command, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [1/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.43,
+   "raw_samples": [
+    {
+     "id": "E47-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana orders Catherine to scrub floors as an impostor - immediate power reversal."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Take the apron, or leave the county\" is an ultimatum with stakes, not a closed statement."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's ultimatum with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone in power is humiliating someone who wronged them."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's rise to power but doesn't reveal Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"You will scrub the floors you walked on as an impostor\" is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Take the apron, or leave the county\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E47-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show Juliana ordering Catherine to scrub floors, establishing immediate power conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an ultimatum/command ('Take the apron, or leave the county'), not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the ultimatum with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: one woman is humiliating another with menial tasks."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana in power position, but doesn't reveal late twists about Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Juliana's commands are 'public_humiliation' - shaming Catherine with menial labor."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an ultimatum/command, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E47-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are commands about scrubbing floors, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an ultimatum/command ('Take the apron, or leave'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the ultimatum with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power reversal: Juliana commands Catherine to do menial work or be exiled."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana in power position, consistent with early episodes."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are commands, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an ultimatum, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman in authority is imposing harsh domestic punishments on someone who previously deceived her.",
+    "conflict_between": "Juliana vs Catherine",
+    "want_to_know_next": "Will Catherine accept the demeaning work or leave?",
+    "would_keep_watching": true,
+    "why": "The power dynamic and humiliation create compelling tension about Catherine's choice."
+   }
+  },
+  "E47-3": {
+   "sig": "3279fa89f5fc",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are Catherine pleading, no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a plea, not an open question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Catherine's plea. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is being cast out for aiding poison; clear conflict. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Catherine's role in poisoning and that she's being punished. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are pleading, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a plea, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E47-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are Catherine pleading, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a plea, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's plea."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who Catherine is, why she's being cast out, and who 'Your Grace' is unclear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine's role in poisoning and that she's being punished."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are pleading, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a plea, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E47-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine pleading, not a conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Please, Alexander! Have mercy!' is a plea, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The plea ends the clip with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being cast out for aiding poison; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine aided poisoning, a late reveal about the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are pleading, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a plea, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E47-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine pleading, not conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Please, Alexander! Have mercy!' is a plea, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's plea with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is being banished for aiding poisoning."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine's poisoning role, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are pleading, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a plea, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being cast out by a noble household, pleading for mercy after being disowned by her family.",
+    "conflict_between": "Catherine vs Alexander/Lady Ashbourne",
+    "want_to_know_next": "Why Catherine is being blamed for poisoning and if she'll be shown mercy",
+    "would_keep_watching": true,
+    "why": "The emotional intensity and clear injustice create compelling drama about a desperate woman's fate."
+   }
+  }
+ }
+}

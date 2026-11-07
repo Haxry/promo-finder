@@ -1,0 +1,58 @@
+{
+ "episode": 39,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L21",
+     "end_line": "L54"
+    }
+   ],
+   "hook_line": "L21",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L54",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A brutal surprise attack grabs attention, then Alexander’s bold declaration to retake his house builds tension and ends on an unresolved promise."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L34",
+     "end_line": "L56"
+    }
+   ],
+   "hook_line": "L34",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L56",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The dramatic haircut reveals Alexander shedding his disguise, leading to his regal entrance and a powerful vow that leaves viewers craving the outcome."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L38",
+     "end_line": "L56"
+    }
+   ],
+   "hook_line": "L38",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L56",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The terse \"Enough hiding\" line shocks the audience, then escalates to Alexander’s fierce promise to bring his wife home, ending on a cliffhanger."
+  }
+ ]
+}

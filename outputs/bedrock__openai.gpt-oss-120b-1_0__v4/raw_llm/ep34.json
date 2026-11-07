@@ -1,0 +1,45 @@
+{
+ "episode": 34,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L90",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L90",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L115",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Opens with a chilling threat from the judge, then cuts on the moment the judge raises his hand to deliver the verdict – the audience is left hanging on Juliana’s fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L68",
+     "end_line": "L90"
+    }
+   ],
+   "hook_line": "L68",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L90",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "poison_plot",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with the crowd’s outcry that Juliana’s remedies are “poisoning,” then ends on the judge’s ominous demand for her to renounce her practices – the outcome remains unknown."
+  }
+ ]
+}

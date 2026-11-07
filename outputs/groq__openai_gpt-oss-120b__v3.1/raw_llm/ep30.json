@@ -1,0 +1,62 @@
+{
+ "episode": 30,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L6",
+     "end_line": "L18"
+    },
+    {
+     "start_line": "L60",
+     "end_line": "L70"
+    }
+   ],
+   "hook_line": "L6",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L70",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana's imprisonment and why she is targeted",
+   "spoiler": false,
+   "why": "A visceral physical threat grabs attention, then the cut to Juliana in darkness leaves viewers desperate to know her fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L38",
+     "end_line": "L62"
+    }
+   ],
+   "hook_line": "L38",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L62",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Who Juliana is and the stakes of the witchcraft accusation",
+   "spoiler": false,
+   "why": "The promise of a deadly accusation is introduced, ending on Catherine’s triumphant declaration of hanging, creating urgent curiosity."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L66",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Juliana’s role and the political context of witchcraft charges",
+   "spoiler": false,
+   "why": "A stark statement about capital punishment hooks viewers, and the final line about becoming a witch leaves the outcome unresolved."
+  }
+ ]
+}

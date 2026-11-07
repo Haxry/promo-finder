@@ -1,0 +1,24 @@
+{
+ "episode": 25,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L8",
+     "end_line": "L34"
+    }
+   ],
+   "hook_line": "L8",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L34",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The opening grab and wince instantly shocks the viewer, and the abrupt question \"Who?\" leaves the mystery of the attacker unresolved, compelling a click to find out."
+  }
+ ]
+}

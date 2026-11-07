@@ -1,0 +1,62 @@
+{
+ "episode": 29,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L33"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L33",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Shows Catherine’s cruel threat and Juliana’s desperate defiance, ending on a chilling promise that leaves the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L29",
+     "end_line": "L35"
+    },
+    {
+     "start_line": "L68",
+     "end_line": "L71"
+    }
+   ],
+   "hook_line": "L29",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L71",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Begins with a shocking threat to burn the book, then jumps to Juliana’s vow that Alexander won’t be taken, leaving the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L71"
+    }
+   ],
+   "hook_line": "L53",
+   "hook_type": "pleading",
+   "hook_strength": 3,
+   "cliff_line": "L71",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Juliana is pleading to guards; new viewers may not know who she is.",
+   "spoiler": false,
+   "why": "Captures Juliana’s raw desperation in the cell and ends on her fierce promise, creating emotional tension."
+  }
+ ]
+}

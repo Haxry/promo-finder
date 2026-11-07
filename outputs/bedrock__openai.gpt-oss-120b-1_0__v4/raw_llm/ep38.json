@@ -1,0 +1,64 @@
+{
+ "episode": 38,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L37",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A defiant, emotionally charged line grabs attention instantly and ends on a chilling implication of execution, leaving viewers desperate to know her fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The desperate question “What if I never see you again?” hooks viewers emotionally, then the clip cuts on her grim realization that she may be the next victim."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L47",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A compassionate guard’s unexpected kindness draws viewers in, and the clip ends just as Juliana discovers the wedding bells—hinting at an imminent, deadly twist."
+  }
+ ]
+}

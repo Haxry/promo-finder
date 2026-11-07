@@ -1,0 +1,640 @@
+{
+ "items": {
+  "E48-1": {
+   "sig": "005d5a0c34d1",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show Catherine picking fruit and talking about 'ten days' - no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'That is precisely your job tonight.' is a command, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "References to 'council', 'Alexander', 'chapel humiliation', 'Father Thomas', 'hearing' require backstory. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Catherine scheming but doesn't reveal late twists like poisoning or Alexander's identity. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are 'other' - no slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is 'other' - not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E48-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine picking fruit and talking about 'ten days' - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'That is precisely your job tonight.' is a command, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "References to 'council', 'Alexander', 'chapel humiliation', 'Father Thomas', 'hearing' require backstory."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine scheming but doesn't reveal late twists like poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are 'other' - no slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is 'other' - not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine picking fruit and scheming, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command ('That is precisely your job tonight'), not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the command, nothing resolves it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine, Alexander, or the council are, or why the humiliation matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Catherine scheming, which is consistent with her known role as a poisoner and schemer by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine picking fruit and talking about 'ten days' - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'That is precisely your job tonight.' is a command, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the command line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine, Alexander, Agnes, Father Thomas are or what 'hearing' means."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning, or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are 'other' - no slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is 'other' - not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman named Catherine is plotting revenge after being publicly humiliated, using a ten-day deadline to manipulate events and recruit her maid Agnes for a secret mission.",
+    "conflict_between": "Catherine vs Alexander (and possibly the Duke)",
+    "want_to_know_next": "What exactly does Catherine plan to do in the house, and what will happen to Father Thomas?",
+    "would_keep_watching": true,
+    "why": "The dialogue is sharp and layered with intrigue, and Catherine's menacing confidence creates compelling tension about her revenge scheme."
+   }
+  },
+  "E48-2": {
+   "sig": "9634ab61d805",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show Catherine complaining about humiliation, not immediate conflict a stranger feels [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Then no one sees him' is a command/threat, not an unanswered question or cut-off. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Catherine's threatening line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "References to 'chapel humiliation', 'Father Thomas', 'hearing' require show knowledge [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows Catherine scheming but doesn't reveal late plot twists like poisoning or framing. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Catherine's humiliation complaint is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a threat but not 'threat_with_stakes' as stakes aren't specified; it's more a command. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E48-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's 'Everyone in that chapel saw me humiliated today' shows immediate conflict about public shame."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Then no one sees him' is a command/threat, not an unanswered question or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's threatening line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A schemer planning revenge after humiliation is clear without backstory."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Catherine scheming but doesn't reveal late plot twists like poisoning or framing."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show 'public_humiliation' (Catherine mentions being humiliated in chapel)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a threat but not 'threat_with_stakes' as stakes aren't specified; it's more a command."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E48-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine complaining about humiliation, not immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then no one sees him\" is a command/threat, not an unanswered question or cut-off line"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threatening line"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "References to 'chapel humiliation', 'Father Thomas', 'hearing' require show knowledge"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Catherine's humiliation complaint is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Then no one sees him\" is a threat but not with stakes that haven't landed yet (other)"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] markers in this clip"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Catherine confronting Agnes, but no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Then no one sees him.' is a command/threat, not an unanswered question or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the end of the clip."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "References to 'chapel humiliation', 'Duke's bailiffs', 'Father Thomas', and 'hearing' require show knowledge."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a threat but not a threat_with_stakes; it's a closing command."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman reveals her plan to exploit public humiliation for a scheme against a household.",
+    "conflict_between": "Catherine vs the Duke/household",
+    "want_to_know_next": "What Catherine plans to do in the house and what Father Thomas must do.",
+    "would_keep_watching": true,
+    "why": "Intriguing power play with high stakes and sinister undertones."
+   }
+  },
+  "E48-3": {
+   "sig": "5b7b00b4780e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are about a priest doing his part and needing more - no immediate conflict a stranger feels. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a command ('make sure no one sees him arrive'), not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the command. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Who is Catherine, Father Thomas, or what hearing? No context for why it matters. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal late twists like Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E48-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about a priest doing his part and needing more - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command ('make sure no one sees him arrive'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the command."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is Catherine, Father Thomas, or what hearing? No context for why it matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Father Thomas did his part beautifully today.\" - No immediate conflict a stranger can feel."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"And make sure no one sees him arrive.\" - A command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the command line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is Catherine? Who is Father Thomas? What hearing? No clear opposing sides shown."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine scheming with a priest, which fits her established role as a poisoner and schemer."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Father Thomas did his part beautifully today.\" - Not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"And make sure no one sees him arrive.\" - Not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about a priest doing his part and needing more - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command ('make sure no one sees him arrive'), not an open question, threat, cut-off, or reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the command."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who Catherine is, what hearing, why the priest matters - unclear to a new viewer."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are scheming talk, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Catherine is arranging a secret meeting with Father Thomas, possibly to influence an upcoming hearing.",
+    "conflict_between": "Catherine vs unknown opposition",
+    "want_to_know_next": "What does Catherine want Father Thomas to do?",
+    "would_keep_watching": true,
+    "why": "The scheming tone and secretive meeting setup create intrigue about the hearing and Catherine's plans."
+   }
+  },
+  "E48-4": {
+   "sig": "60026cd915aa",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are metaphorical threats ('Ten days is not a wall...') with no immediate physical conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a command/statement ('Now I need him to do a little more...'), not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Catherine's demand with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who Catherine, Agnes, Father Thomas are or what 'hearing' refers to. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows Catherine scheming but doesn't reveal late twists like poisoning or marriage invalidation. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a metaphorical threat, not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat with stakes. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a command about needing more help, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth moment. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E48-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are metaphorical threats ('Ten days is not a wall...') with no immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command/statement ('Now I need him to do a little more...'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's demand with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine, Agnes, Father Thomas are or what 'hearing' refers to."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Catherine scheming but doesn't reveal late twists like poisoning or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a metaphorical threat, not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat with stakes."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command about needing more help, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth moment."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Ten days is not a wall, Alexander. It's a door.\" is cryptic, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Now I need him to do a little more before that hearing convenes.\" is a command/statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine, Agnes, Alexander, Father Thomas are or what 'hearing' matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Catherine scheming, which is consistent with her known role as a poisoner and schemer by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a metaphorical threat, not a clear slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command about needing more help, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E48-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are cryptic threats about 'ten days' and 'doors', no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command/statement ('Now I need him to do a little more'), not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's line, nothing after resolves it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Catherine, Agnes, Alexander, Father Thomas are or why the 'hearing' matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip doesn't reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are vague threats, not a clear slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command/plan, not an unanswered_question, threat_with_stakes, etc."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Catherine is plotting revenge after being publicly humiliated, using grief as cover to manipulate others.",
+    "conflict_between": "Catherine vs the Duke's household",
+    "want_to_know_next": "What is Catherine's specific plan and what she wants Father Thomas to do",
+    "would_keep_watching": true,
+    "why": "Intriguing power dynamics and mysterious revenge plot with high stakes"
+   }
+  }
+ }
+}

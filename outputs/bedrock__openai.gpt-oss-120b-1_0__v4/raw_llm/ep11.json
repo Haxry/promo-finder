@@ -1,0 +1,83 @@
+{
+ "episode": 11,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L71"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L71",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "threat",
+   "missing_context": "Viewers may not know who the Constable is or why he’s accusing Alexander.",
+   "spoiler": false,
+   "why": "Starts with a sudden accusation and ends on Alexander’s ominous half‑sentence, leaving the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L41",
+     "end_line": "L75"
+    }
+   ],
+   "hook_line": "L41",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L75",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "threat",
+   "missing_context": "New viewers won’t know whose coat is being searched.",
+   "spoiler": false,
+   "why": "A direct threat leads to a tense moment as the constable reaches for a coat that could change everything."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L76"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L76",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The significance of the coat isn’t clear without prior episodes.",
+   "spoiler": false,
+   "why": "Accusation escalates to the reveal that the coat belongs to someone crucial, stopping just before the secret is exposed."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L27",
+     "end_line": "L71"
+    }
+   ],
+   "hook_line": "L27",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L71",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The insult ‘beggar’ hints at Alexander’s hidden status.",
+   "spoiler": false,
+   "why": "A harsh insult draws viewers in, then Alexander’s haunting voice cuts off, promising a dangerous decision."
+  }
+ ]
+}

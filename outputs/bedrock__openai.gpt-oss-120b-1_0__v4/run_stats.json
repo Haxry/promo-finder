@@ -1,0 +1,84 @@
+{
+ "proposer": "openai.gpt-oss-120b-1:0",
+ "critic": "deepseek.v3.2",
+ "episodes": 50,
+ "complete": true,
+ "failed_episodes": [],
+ "unscored_promos": [],
+ "empty_episodes": [],
+ "proposed": 156,
+ "valid": 157,
+ "rejected": 16,
+ "duplicates_dropped": 60,
+ "ranked": 40,
+ "hallucinated_line_ids": {
+  "count": 5,
+  "examples": [
+   "L105",
+   "L40.5"
+  ]
+ },
+ "stitch": {
+  "proposed": {
+   "B": 4,
+   "C": 6
+  },
+  "valid": {
+   "B": 4,
+   "C": 6
+  },
+  "rejected": {},
+  "calls": 0,
+  "skipped": null,
+  "in_top20": 2
+ },
+ "top10_patterns": {
+  "humiliation_revenge": 2,
+  "betrayal": 3,
+  "underdog_stands_up": 3,
+  "rescue": 2
+ },
+ "types_top40": {
+  "A": 36,
+  "B": 4
+ },
+ "episodes_in_top40": 33,
+ "spoilers_in_top10": 0,
+ "weak_openings_in_top10": 0,
+ "quality_4_top40": {
+  "2": 9,
+  "3": 24,
+  "4": 7
+ },
+ "rank_llm_calls": 0,
+ "usage_this_run": {
+  "openai.gpt-oss-120b-1:0": {
+   "calls": 1,
+   "prompt_tokens": 2617,
+   "completion_tokens": 1486,
+   "reasoning_tokens": 0,
+   "seconds": 20.2,
+   "cut_off_retries": 0,
+   "json_repairs": 0,
+   "dropped_params": []
+  },
+  "deepseek.v3.2": {
+   "calls": 4,
+   "prompt_tokens": 6115,
+   "completion_tokens": 976,
+   "reasoning_tokens": 0,
+   "seconds": 28.9,
+   "cut_off_retries": 0,
+   "json_repairs": 0,
+   "dropped_params": []
+  }
+ },
+ "cost_usd": {
+  "total": 0.0689,
+  "per_episode": 0.00138,
+  "missing_prices": [
+   "deepseek.v3.2"
+  ]
+ },
+ "seconds": 49.3
+}

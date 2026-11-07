@@ -1,0 +1,28 @@
+{
+ "episode": 21,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L23"
+    },
+    {
+     "start_line": "L65",
+     "end_line": "L72"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L72",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Who the Dowager Duchess is and why her illness matters to the plot",
+   "spoiler": false,
+   "why": "The loud barn‑door slam instantly grabs attention, the frantic rescue of the fever‑stricken boy shows high stakes, and the sudden revelation that the powerful Dowager Duchess is dying from a mysterious illness ends on a chilling unanswered threat, compelling viewers to click for more."
+  }
+ ]
+}

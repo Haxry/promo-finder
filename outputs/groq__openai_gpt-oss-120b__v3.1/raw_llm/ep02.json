@@ -1,0 +1,58 @@
+{
+ "episode": 2,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L0",
+     "end_line": "L16"
+    }
+   ],
+   "hook_line": "L0",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L16",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with the groom’s brutal rejection, ends with his cold justification, leaving viewers wondering what will happen next."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L61",
+     "end_line": "L72"
+    }
+   ],
+   "hook_line": "L61",
+   "hook_type": "confrontation",
+   "hook_strength": 5,
+   "cliff_line": "L70",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana’s marriage to Gerald is implied but not shown",
+   "spoiler": false,
+   "why": "Juliana’s fierce challenge to Gerald hooks viewers, and her declaration of leaving without a husband ends on a powerful unanswered question."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "taunt",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "The sister’s mockery assumes knowledge of family rivalry",
+   "spoiler": false,
+   "why": "The sister’s cruel taunt grabs attention, and the matriarch’s command leaves the audience hanging on Juliana’s fate."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "episode": 47,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L36"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L36",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Viewer may not know who Lady Ashbourne is or why Catherine is suddenly accused of poisoning the Dowager Duchess.",
+   "spoiler": true,
+   "why": "A bold accusation shames Catherine instantly, then Alexander orders her to be thrown out – the tension of whether she’ll survive hangs in the air."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L56",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Juliana’s fierce decree forces Catherine into a humiliating choice, ending on the moment she must decide – a perfect cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L28",
+     "end_line": "L38"
+    }
+   ],
+   "hook_line": "L28",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L38",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Viewer may not know why Catherine is being punished or why Alexander holds the power to decide her fate.",
+   "spoiler": true,
+   "why": "Catherine’s desperate plea is met with Alexander’s brutal command, cutting off just as she begs for mercy – the outcome is left hanging."
+  }
+ ]
+}

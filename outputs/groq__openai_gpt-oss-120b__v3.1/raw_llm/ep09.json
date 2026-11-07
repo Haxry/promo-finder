@@ -1,0 +1,66 @@
+{
+ "episode": 9,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L5",
+     "end_line": "L31"
+    },
+    {
+     "start_line": "L70",
+     "end_line": "L87"
+    }
+   ],
+   "hook_line": "L5",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L87",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Why the Blond Nobleman says \"Impossible\" about the rumor",
+   "spoiler": false,
+   "why": "Starts with a tense command as the door is forced open, then jumps to a nobleman's shocked whisper, leaving a mystery that compels viewers to watch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L31"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L58"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L58",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Why Alexander warns about village gossip spreading",
+   "spoiler": false,
+   "why": "The heavy pounding on the door grabs attention, and Alexander's warning about dangerous gossip creates an unresolved tension."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L87"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "reveal",
+   "hook_strength": 3,
+   "cliff_line": "L87",
+   "cliff_strength": 5,
+   "standalone": 2,
+   "missing_context": "What the rumor is about and why it’s deemed impossible",
+   "spoiler": false,
+   "why": "A quick rumor exchange culminates in a whispered \"Impossible,\" a hook that teases a larger conspiracy."
+  }
+ ]
+}

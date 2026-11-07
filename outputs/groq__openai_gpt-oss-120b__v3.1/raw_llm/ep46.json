@@ -1,0 +1,58 @@
+{
+ "episode": 46,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L63"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L63",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "viewer may not know who Alexander, Juliana, and the High Priest are or why the Crown matters",
+   "spoiler": false,
+   "why": "Starts with the High Priest’s shocking seizure decree and ends on a high‑stakes ten‑day threat, creating immediate tension for new viewers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L53"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L53",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "who Juliana is, why the church opposes her, and who Catherine is",
+   "spoiler": false,
+   "why": "Juliana’s defiant claim grabs attention, and the priest’s threat of undoing her three‑year struggle leaves the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L56",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L64",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "who the High Priest is and the stakes of the wager",
+   "spoiler": false,
+   "why": "Alexander’s bold challenge to the priest’s authority hooks viewers, and his wager line ends on a cliff that begs to see the outcome."
+  }
+ ]
+}

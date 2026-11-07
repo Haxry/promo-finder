@@ -1,0 +1,126 @@
+{
+ "version": "s1",
+ "mode": "early_to_late",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "episode": 1,
+     "start_line": "L30",
+     "end_line": "L34"
+    },
+    {
+     "episode": 12,
+     "start_line": "L36",
+     "end_line": "L44"
+    }
+   ],
+   "hook_line": {
+    "episode": 1,
+    "line": "L30"
+   },
+   "cliff_line": {
+    "episode": 12,
+    "line": "L44"
+   },
+   "pattern": "betrayal → looming execution threat",
+   "why": "Juliana’s heartbreak at the altar erupts into a deadly ultimatum after she marries Alexander."
+  },
+  {
+   "segments": [
+    {
+     "episode": 3,
+     "start_line": "L58",
+     "end_line": "L66"
+    },
+    {
+     "episode": 15,
+     "start_line": "L45",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": {
+    "episode": 3,
+    "line": "L58"
+   },
+   "cliff_line": {
+    "episode": 15,
+    "line": "L52"
+   },
+   "pattern": "rescue → violent showdown",
+   "why": "The bearded stranger’s bold command to free Juliana foreshadows a brutal clash with thugs."
+  },
+  {
+   "segments": [
+    {
+     "episode": 4,
+     "start_line": "L86",
+     "end_line": "L90"
+    },
+    {
+     "episode": 22,
+     "start_line": "L67",
+     "end_line": "L75"
+    }
+   ],
+   "hook_line": {
+    "episode": 4,
+    "line": "L86"
+   },
+   "cliff_line": {
+    "episode": 22,
+    "line": "L75"
+   },
+   "pattern": "public insult → hidden illness",
+   "why": "Gerald’s accusation of Juliana’s worth spirals into a tense moment when a mysterious fever threatens the Duchess."
+  },
+  {
+   "segments": [
+    {
+     "episode": 7,
+     "start_line": "L31",
+     "end_line": "L38"
+    },
+    {
+     "episode": 12,
+     "start_line": "L46",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": {
+    "episode": 7,
+    "line": "L31"
+   },
+   "cliff_line": {
+    "episode": 12,
+    "line": "L50"
+   },
+   "pattern": "threatened power → protective promise",
+   "why": "Gerald boasts of silencing a beggar, then Alexander vows to shield Juliana as danger closes in."
+  },
+  {
+   "segments": [
+    {
+     "episode": 9,
+     "start_line": "L8",
+     "end_line": "L14"
+    },
+    {
+     "episode": 32,
+     "start_line": "L108",
+     "end_line": "L113"
+    }
+   ],
+   "hook_line": {
+    "episode": 9,
+    "line": "L8"
+   },
+   "cliff_line": {
+    "episode": 32,
+    "line": "L113"
+   },
+   "pattern": "herbal aid → brutal branding",
+   "why": "Juliana’s desperate healing of a feverish child leads to a later, terrifying moment where Catherine threatens her with a branding iron."
+  }
+ ]
+}

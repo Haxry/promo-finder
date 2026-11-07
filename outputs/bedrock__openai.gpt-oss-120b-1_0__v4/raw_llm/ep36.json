@@ -1,0 +1,64 @@
+{
+ "episode": 36,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L99",
+     "end_line": "L118"
+    }
+   ],
+   "hook_line": "L99",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L118",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": true,
+   "why": "The line ‘…and killing my wife afterward.’ instantly threatens the heroine, then cuts to the ominous promise that the dead Duke is returning – a high‑stakes cliffhanger that compels viewers to click."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L65",
+     "end_line": "L99"
+    }
+   ],
+   "hook_line": "L65",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L99",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "An accusation that Juliana is a poison‑witch grabs attention, then the threat that the upcoming wedding will end with her murder leaves the story hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L90",
+     "end_line": "L118"
+    }
+   ],
+   "hook_line": "L90",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L118",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "none",
+   "spoiler": true,
+   "why": "‘What wedding?’ shocks the viewer with a hidden plot, then the promise that the dead Duke is coming home creates a tantalizing, unresolved mystery."
+  }
+ ]
+}

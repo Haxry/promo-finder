@@ -1,0 +1,26 @@
+{
+ "version": "s1",
+ "episode": 5,
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L41"
+    },
+    {
+     "start_line": "L44",
+     "end_line": "L52"
+    },
+    {
+     "start_line": "L54",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L35",
+   "cliff_line": "L57",
+   "pattern": "mockery‑to‑rescue‑to‑threat",
+   "why": "Shows the cruel sister’s taunt, the scarred stranger’s protective aid, and ends on his chilling warning, packing betrayal, hope, and danger into a 38‑second mini‑story."
+  }
+ ]
+}

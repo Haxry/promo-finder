@@ -1,0 +1,83 @@
+{
+ "episode": 41,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L16",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L16",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L47",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Juliana is chained and paraded; a new viewer won’t know why she’s being humiliated.",
+   "spoiler": false,
+   "why": "The opening humiliation grabs attention, and the sudden explosion leaves the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "The viewer sees Juliana’s defiance but doesn’t know who the silhouetted figures are.",
+   "spoiler": false,
+   "why": "Juliana’s bold line hooks the audience, and the reveal of mysterious armed figures creates a cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L47",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Why is Juliana being called out by name and displayed in chains?",
+   "spoiler": false,
+   "why": "Catherine’s taunt instantly shocks, and the explosion stops before we see who saves Juliana."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "pattern": "betrayal",
+   "missing_context": "The audience doesn’t know the power struggle behind Catherine’s threat.",
+   "spoiler": false,
+   "why": "A chilling threat raises stakes, and the emergence of armed figures leaves the rescue ambiguous."
+  }
+ ]
+}

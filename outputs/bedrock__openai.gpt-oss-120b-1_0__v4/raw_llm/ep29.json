@@ -1,0 +1,64 @@
+{
+ "episode": 29,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine mocks Juliana’s “legacy” then abruptly asks “Your scarred soldier?” leaving a tense, unanswered question about the mysterious husband."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L47",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine threatens Juliana’s death (“And when they find your corpse…”) and then challenges her husband’s power with “What exactly do you think a penniless veteran can do against Ashbrook?” – a daring question that stops the scene."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L3",
+     "end_line": "L21"
+    }
+   ],
+   "hook_line": "L3",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L21",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The clip opens with Juliana being violently forced forward, then builds to Catherine’s chilling warning “The magistrate will call it witchcraft,” a threat that leaves the audience hanging."
+  }
+ ]
+}

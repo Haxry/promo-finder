@@ -1,0 +1,62 @@
+{
+ "episode": 10,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L0",
+     "end_line": "L23"
+    },
+    {
+     "start_line": "L47",
+     "end_line": "L58"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L58",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Who is Alexander and why is he wounded?",
+   "spoiler": false,
+   "why": "The sudden door slam grabs attention, the tense wound‑care scene builds drama, and the final confession leaves the emotional stakes unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L23",
+     "end_line": "L55"
+    }
+   ],
+   "hook_line": "L23",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L55",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Alexander’s scarred past is hinted but not explained.",
+   "spoiler": false,
+   "why": "A provocative command sparks intrigue, and the vulnerable confession about his hand creates a cliffhanger that urges viewers to see what follows."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L47",
+     "end_line": "L58"
+    }
+   ],
+   "hook_line": "L47",
+   "hook_type": "confrontation",
+   "hook_strength": 3,
+   "cliff_line": "L58",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A tender, intimate exchange starts with a questioning line and ends on a heartfelt confession, leaving the audience wanting more."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "episode": 23,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L65",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "Viewers don’t know the Dowager Duchess is being poisoned, but the line “Someone is poisoning her.” instantly signals danger.",
+   "spoiler": true,
+   "why": "The hook declares a murder mystery, then the door latch clanks as someone approaches, leaving the fate of the Duchess unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L48",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L48",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L65",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "poison_plot",
+   "missing_context": "New viewers won’t know who is in danger, but the desperate plea “Can you save her?” creates immediate urgency.",
+   "spoiler": false,
+   "why": "A frantic question sets the stakes, and the sudden door latch turn stops the clip right before the intruder appears."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L62"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L62",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "The audience may not know the Duchess’s condition, but the list of symptoms hints at a hidden toxin.",
+   "spoiler": false,
+   "why": "Juliana’s clinical breakdown of the symptoms intrigues viewers, and the cliff “Juliana… someone is coming.” leaves the threat hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L62"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L62",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "The word “Arsenic” instantly signals a classic noble‑court poison, even if viewers don’t know the conspirators yet.",
+   "spoiler": true,
+   "why": "The explicit poison name spikes curiosity, and the warning “someone is coming” cuts off before we see who arrives."
+  }
+ ]
+}

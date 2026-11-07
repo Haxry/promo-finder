@@ -1,0 +1,83 @@
+{
+ "episode": 48,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L5",
+     "end_line": "L36"
+    }
+   ],
+   "hook_line": "L5",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L36",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Catherine is the scheming former maid who now plots against Juliana and Alexander.",
+   "spoiler": false,
+   "why": "The opening line “Ten days… to fix it” instantly signals a ticking‑clock threat, and it cuts off on Catherine’s chilling command “That is precisely your job tonight,” leaving the audience desperate to know what she’s planning."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L22",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L22",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L35",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "“Everyone in that chapel saw me humiliated today” refers to Juliana’s public disgrace at the altar, which new viewers haven’t seen yet.",
+   "spoiler": false,
+   "why": "The hook immediately draws attention to a fresh wound, and the clip ends on the ominous “Then no one sees him,” promising a deadly covert move."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L40"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L40",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Father Thomas is a corrupt cleric allied with Catherine; new viewers won’t know his role yet.",
+   "spoiler": false,
+   "why": "“Father Thomas did his part beautifully today” feels like a sinister triumph, and the final command “And make sure no one sees him arrive” leaves the audience hanging on who will be hidden."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L31"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L31",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "The line mentions “Alexander,” whose true identity as the rightful Duke is a later reveal.",
+   "spoiler": false,
+   "why": "The metaphor “Ten days is not a wall, Alexander. It's a door.” hints at a looming plan, and it stops on “Now I need him to do a little more before that hearing convenes,” a question that begs answers."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "episode": 24,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L23",
+     "end_line": "L33"
+    },
+    {
+     "start_line": "L56",
+     "end_line": "L68"
+    }
+   ],
+   "hook_line": "L23",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L68",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "The backstory of the poisoned Dowager Duchess and why Juliana is hiding an antidote.",
+   "spoiler": false,
+   "why": "Starts with a brutal riding‑crop strike that instantly grabs attention, then cuts to Juliana secretly retrieving her hidden remedy and ending on her defiant vow, leaving viewers desperate to see if she can outwit her captor."
+  }
+ ]
+}

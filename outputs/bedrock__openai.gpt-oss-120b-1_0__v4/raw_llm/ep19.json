@@ -1,0 +1,45 @@
+{
+ "episode": 19,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L26",
+     "end_line": "L42"
+    }
+   ],
+   "hook_line": "L26",
+   "hook_type": "identity_reveal",
+   "hook_strength": 4,
+   "cliff_line": "L42",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "none",
+   "spoiler": true,
+   "why": "The scarred stranger appears, instantly raising intrigue, then drops the bomb that his mother is imprisoned – a cliffhanger that forces viewers to learn the conspiracy."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Names and motives of Lord Sterling, Rupert, and Catherine are unknown to a new viewer.",
+   "spoiler": true,
+   "why": "A rapid-fire briefing reveals the usurpers’ grip on Ashburg, ending on Alexander’s vow of vengeance – a high‑stakes promise that leaves the audience hanging."
+  }
+ ]
+}

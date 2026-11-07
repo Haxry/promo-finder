@@ -1,0 +1,632 @@
+{
+ "items": {
+  "E46-1": {
+   "sig": "a5fe0130d91e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "High Priest's line \"Love doesn't make a Duchess, girl. Paper does.\" immediately establishes power conflict. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"this county watches you lose her twice\" is a threat with stakes that hasn't landed yet. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the threat - no line after defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: church authority challenges marriage validity vs. couple defending it. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is a Duke (\"A Duke's marriage\"), which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"Love doesn't make a Duchess, girl. Paper does.\" is a shocking_line that breaks norms. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"this county watches you lose her twice\" is a threat_with_stakes. [2/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "shocking_line",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.29,
+   "raw_samples": [
+    {
+     "id": "E46-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "High Priest's line \"Love doesn't make a Duchess, girl. Paper does.\" immediately establishes power conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"this county watches you lose her twice\" is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat - no line after defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: church authority challenges marriage validity vs. couple defending it."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is a Duke (\"A Duke's marriage\"), which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Love doesn't make a Duchess, girl. Paper does.\" is a shocking_line that breaks norms."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"this county watches you lose her twice\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E46-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a philosophical argument about marriage legitimacy, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a conditional threat ('if...'), not an unanswered question, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat is the final line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know why the marriage is contested or who 'her' refers to."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the High Priest declaring the marriage invalid, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a debate, not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a scheduled threat, not an unanswered question, imminent threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E46-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "High Priest's condescending 'Love doesn't make a Duchess, girl. Paper does.' immediately establishes authority conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is a threat with stakes: 'this county watches you lose her twice' - outcome depends on council ruling."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat - no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: church authority vs. couple defending their marriage, with power struggle evident."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals High Priest declares marriage invalid - a late reveal from spoilers list."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "shocking_line - High Priest dismisses love vs. paperwork for nobility."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "threat_with_stakes - 'lose her twice' threat depends on council ruling."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A heated confrontation about the validity of a marriage between Juliana and Alexander, challenged by church authorities.",
+    "conflict_between": "Juliana and Alexander vs. the High Priest and Catherine",
+    "want_to_know_next": "Will the council rule against their marriage, and what will happen to Juliana?",
+    "would_keep_watching": true,
+    "why": "The stakes are high with emotional, legal, and religious tension, and the threat of public humiliation and loss."
+   }
+  },
+  "E46-2": {
+   "sig": "3860b265a775",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "High Priest threatens a girl immediately: 'Careful, girl. You mistake my patience for weakness.' [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"this county watches you lose her twice\" is a threat with stakes that hasn't landed. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The threat ends the clip; no line follows to answer or defuse it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Conflict is clear: High Priest challenges a marriage's validity; Alexander defends it as a Duke. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows ongoing conflict about marriage validity, not revealing late twists like poisoning or usurpation. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are a direct threat: 'Careful, girl. You mistake my patience for weakness.' [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"lose her twice\" is a threat_with_stakes. [2/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "threat",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.29,
+   "raw_samples": [
+    {
+     "id": "E46-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "High Priest threatens a girl immediately: 'Careful, girl. You mistake my patience for weakness.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a definitive threat with a timeline ('Ten days. And if the council rules against you, this county watches you lose her twice.') - not an unanswered question or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat ends the clip; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Conflict is clear: High Priest challenges a marriage's validity; Alexander defends it as a Duke."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows ongoing conflict about marriage validity, not revealing late twists like poisoning or usurpation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a direct threat: 'Careful, girl. You mistake my patience for weakness.'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a threat with stakes, but it's delivered as a closing statement ('Ten days...'), not an open-ended cliffhanger type."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E46-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Careful, girl. You mistake my patience for weakness.\" is a warning, not a clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"this county watches you lose her twice\" is a threat with stakes that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat ends the clip; no line defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A priest challenges a marriage's validity; a man (likely the husband) argues it's a ducal matter; the priest sets a high-stakes deadline."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the High Priest can rule the marriage invalid, a late reveal from the show bible."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a warning/threat, not a clear slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or defined threat hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"lose her twice\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E46-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "High Priest warns 'Careful, girl. You mistake my patience for weakness.'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends on threat 'this county watches you lose her twice'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: High Priest challenges marriage validity, Alexander defends it"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's true identity or poisoning plot"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "threat: 'Careful, girl. You mistake my patience for weakness.'"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "threat_with_stakes: 'this county watches you lose her twice'"
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A religious authority is challenging the validity of a marriage, threatening to annul it through ecclesiastical power.",
+    "conflict_between": "Alexander vs High Priest",
+    "want_to_know_next": "Will Alexander's marriage be annulled by the High Religious Council?",
+    "would_keep_watching": true,
+    "why": "The high-stakes power struggle between secular nobility and religious authority creates compelling tension."
+   }
+  },
+  "E46-3": {
+   "sig": "524a939d00ce",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Careful, healer. The floor isn't finished with you.\" is vague - no clear conflict a stranger feels immediately. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Lower them! Or explain to the Crown...\" is a command/threat, not an unanswered question or cut-off line. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Alexander's command line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: High Priest challenges marriage validity, Alexander asserts ducal authority against armed threat. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is confirmed as Duke by the Crown (late reveal). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First line is a vague threat, not one of the specified hook types. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a command/threat that has landed, not an unanswered question or cut-off. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E46-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Careful, healer. The floor isn't finished with you.\" is vague - no clear conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Lower them! Or explain to the Crown...\" is a command/threat, not an unanswered question or cut-off line."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Alexander's command line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: High Priest challenges marriage validity, Alexander asserts ducal authority against armed threat."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is confirmed as Duke by the Crown (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a vague threat, not one of the specified hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command/threat that has landed, not an unanswered question or cut-off."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E46-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's taunt 'Careful, healer. The floor isn't finished with you.' immediately shows a threat."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Lower them! Or explain to the Crown...' is a command/threat, not an unanswered question or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Alexander's command; no line after resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Conflict between High Priest challenging marriage and Alexander asserting ducal authority is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is 'the Duke it just confirmed' - a late reveal (rightful Duke)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Catherine's line is a direct threat ('The floor isn't finished with you')."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a command/threat, not an unanswered question, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E46-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line is a vague threat ('The floor isn't finished with you') with no clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a command ('Lower them!') and a threat, but it's a closing statement, not an open question or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the command/threat line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'healer' is, why marriage is contested, or who 'the Duke' is."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is a Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a threat, but lacks stakes and clear conflict."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a threat_with_stakes, but it's a command/statement, not an open-ended cliffhanger."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A tense confrontation between a Duke and a High Priest over the validity of the Duke's marriage.",
+    "conflict_between": "Alexander (the Duke) vs. High Priest",
+    "want_to_know_next": "Will the High Religious Council rule against Alexander's marriage?",
+    "would_keep_watching": true,
+    "why": "High-stakes political and religious conflict with personal consequences creates compelling tension."
+   }
+  },
+  "E46-4": {
+   "sig": "236efb287a15",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a formal declaration of Crown seizure, not immediate conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a closing statement ('Paper does'), not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the High Priest's final line. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: church declares a marriage invalid despite the couple's defiance. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the Duke, a late reveal per the bible. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a formal announcement, not a hook type. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a dismissive statement, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E46-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a formal declaration of Crown seizure, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a closing statement ('Paper does'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the High Priest's final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: church declares a marriage invalid despite the couple's defiance."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the Duke, a late reveal per the bible."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a formal announcement, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a dismissive statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E46-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are formal declarations about sanctuary seizure, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a condescending statement ('Paper does'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the High Priest's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: church authority challenges validity of a marriage between a duke and commoner."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is a Duke, which is a late reveal (rightful Duke identity)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are formal seizure announcement, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a closing statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E46-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "High Priest declares sanctuary seized by Crown command, creating immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Love doesn't make a Duchess, girl. Paper does.' is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check fails because last line is not a cliffhanger type."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: church authority challenges validity of a marriage between a Duke and a 'ruined lady'."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is the rightful Duke, a late reveal per show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show arrest_accusation: Crown seizes sanctuary and restricts movement."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a dismissive statement, not one of the cliffhanger types."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A High Priest is declaring a marriage invalid because the husband was a beggar when married but later became a Duke, and proper procedures weren't followed.",
+    "conflict_between": "High Priest vs Juliana and Alexander",
+    "want_to_know_next": "Will the Crown recognize their marriage or separate them?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high with a defiant couple fighting for their love against rigid authority."
+   }
+  }
+ }
+}

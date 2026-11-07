@@ -1,0 +1,45 @@
+{
+ "episode": 26,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L48",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The Duchess’s desperate warning about poison creates immediate danger, then the sudden demand about the distinctive ring leaves viewers hanging on a secret identity."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L30"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L30",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with a chilling accusation of poisoning, then cuts to Juliana’s painful confession about her exile, ending on a question that teases her hidden noble status."
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "items": {
+  "E21-2": {
+   "sig": "791915278f5c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show Prudence pleading for help, not a conflict between opponents. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'Is someone ill? The Dowager Duchess?' is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear: a healer saves a sick boy, then asks about another patient. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Mentions Dowager Duchess's illness, which is part of poisoning plot revealed later. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s are a plea for help, not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E21-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Prudence pleading for help, not a conflict between opponents."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Is someone ill? The Dowager Duchess?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a healer saves a sick boy, then asks about another patient."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Mentions Dowager Duchess's illness, which is part of poisoning plot revealed later."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are a plea for help, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E21-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show pleading for help, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Is someone ill? The Dowager Duchess?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip cuts immediately after the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: woman rushes to save sick child using herbal knowledge."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Mentions Dowager Duchess, who viewers know by EP5 is poisoned (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are pleading/desperation, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E21-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Prudence pleading for help, not a conflict between opponents."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Is someone ill? The Dowager Duchess?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip cuts immediately after Juliana's question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a healer saves a sick boy, then asks about another patient."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's healing skills, not the poisoning conspiracy or identity reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are a desperate plea, not a conflict hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A healer (Lady Juliana) saves a sick boy using herbal remedies after his mother (Prudence) begs for help.",
+    "conflict_between": "",
+    "want_to_know_next": "Who is ill and why Lady Juliana is startled about the Dowager Duchess."
+   }
+  }
+ }
+}

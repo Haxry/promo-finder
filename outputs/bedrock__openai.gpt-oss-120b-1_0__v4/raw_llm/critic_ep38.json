@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E38-1": {
+   "sig": "7a49010ad6f8",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"And if I have only one thing left to give...\" is a vague statement, not a clear conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Then I suppose I'm next.\" is a closing statement, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the line, nothing answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear someone is imprisoned and a threatening wedding is starting [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows Juliana in a cell, which is consistent with her disowned status by Ep5. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a vow of loyalty, not a slap_attack, public_humiliation, etc. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Then I suppose I'm next.\" is a statement, not an unanswered_question or threat_with_stakes. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E38-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And if I have only one thing left to give...\" is a vague statement, not a clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line, nothing answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'them' or 'my husband' are, or why bells mean a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Juliana in a cell, which is consistent with her disowned status by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a vow of loyalty, not a slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a statement, not an unanswered_question or threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And if I have only one thing left to give...\" - no immediate conflict visible"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" - closing statement, not an open question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No lines after the cliffhanger"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is imprisoned and a threatening wedding is starting"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is imprisoned and a wedding is happening - spoils her capture arc"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "No hook type - starts with a vow, not conflict"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "No cliff type - ends on a statement, not an open question or threat"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are internal resolve, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a closing statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is imprisoned, wedding bells signal danger."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman in a dungeon realizes a wedding is starting while defiantly refusing to betray her husband.",
+    "conflict_between": "Juliana vs whoever imprisoned her",
+    "want_to_know_next": "Who is getting married and why Juliana is imprisoned",
+    "would_keep_watching": true,
+    "why": "The dramatic tension and mystery about the wedding and her fate are compelling."
+   }
+  },
+  "E38-2": {
+   "sig": "638a0f37b1fa",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"What if I never see you again?\" is a lament, not conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Then I suppose I'm next.\" is a statement, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman in a dungeon hears wedding bells and knows she's next. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana imprisoned and defiant, not the wedding ploy or Alexander's identity. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a lament and a tear falling, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Then I suppose I'm next.\" is a closing statement, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E38-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"What if I never see you again?\" is a lament, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman in a dungeon hears wedding bells and knows she's next."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana imprisoned and defiant, not the wedding ploy or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a lament and a tear falling, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a closing statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"What if I never see you again?\" is emotional but not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after L51 resolves the wedding threat."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Juliana is imprisoned, hearing wedding bells, fearing she's next - clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Juliana imprisoned, doesn't reveal Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are emotional worry, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a grim statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"What if I never see you again?\" is emotional but lacks immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the cliffhanger line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner hears wedding bells and realizes her turn is coming."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late plot twists like Alexander's identity or poisoning scheme."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are emotional worry, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Then I suppose I'm next.\" is a statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is imprisoned and praying for her husband's safety while a wedding ceremony begins above.",
+    "conflict_between": "Juliana vs. unknown captors",
+    "want_to_know_next": "What will happen to Juliana now that the wedding has begun?",
+    "would_keep_watching": true,
+    "why": "The emotional intensity and mystery about her husband's fate and her own impending danger create compelling tension."
+   }
+  },
+  "E38-3": {
+   "sig": "5f374be80e8d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a guard offering bread, not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Bells.' is an observation, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on 'Bells.' with no resolution. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A prisoner receives food and fears for her husband's safety. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana imprisoned, which is known by Ep5. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a kind act, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line 'Bells.' is not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E38-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a guard offering bread, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Bells.' is an observation, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on 'Bells.' with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner receives food and fears for her husband's safety."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana imprisoned, which is known by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a kind act, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'Bells.' is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a guard giving bread, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Bells.\" is an observation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line \"Bells.\""
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A prisoner receiving food and fearing for her husband is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana imprisoned but doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are compassionate, not a conflict hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Bells.\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E38-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a guard offering bread, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Bells.' is an observation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger present to resolve."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a prisoner being fed and fearing death, clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana imprisoned, which is known by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are compassionate aid, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'Bells.' is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A guard secretly gives bread to a starving prisoner named Juliana, who eats desperately while worrying about her husband Alexander.",
+    "conflict_between": "Juliana vs her captors/condemners",
+    "want_to_know_next": "Who is Alexander and what happened to Juliana?",
+    "would_keep_watching": true,
+    "why": "The emotional intensity and mystery about Juliana's situation creates compelling intrigue."
+   }
+  }
+ }
+}

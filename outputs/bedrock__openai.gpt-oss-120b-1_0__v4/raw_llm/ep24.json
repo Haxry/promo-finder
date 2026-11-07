@@ -1,0 +1,83 @@
+{
+ "episode": 24,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L23",
+     "end_line": "L68"
+    }
+   ],
+   "hook_line": "L23",
+   "hook_type": "slap_attack",
+   "hook_strength": 5,
+   "cliff_line": "L68",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Why is Juliana being struck and forced to clean the hearth?",
+   "spoiler": false,
+   "why": "The brutal strike grabs attention instantly and the final defiant stare leaves the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L27",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L27",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Viewers don’t know why the noblewoman calls Juliana a maid and punishes her.",
+   "spoiler": false,
+   "why": "The humiliating line shocks the viewer, and Juliana’s fierce resolve at the end promises a showdown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L68"
+    }
+   ],
+   "hook_line": "L53",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L68",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "threat",
+   "missing_context": "The audience isn’t aware of the power dynamics that let the noblewoman threaten others.",
+   "spoiler": false,
+   "why": "A direct threat escalates tension, and Juliana’s final vow leaves the outcome hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L20",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L20",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "New viewers won’t know why the noblewoman says “Then let her suffer.”",
+   "spoiler": false,
+   "why": "The ominous line instantly hooks the audience, and the cut on Juliana’s defiant stare creates a powerful cliffhanger."
+  }
+ ]
+}

@@ -1,0 +1,664 @@
+{
+ "items": {
+  "E41-1": {
+   "sig": "3d04b6e4c839",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s lines are just people noticing and mocking her arrival. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line describes an explosion happening, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The explosion is the final event. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is being mocked in a chapel, then an explosion happens. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The explosion is a new event not in the late reveals. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are mockery, not a defined hook type like public_humiliation. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (explosion), not an unanswered question or threat. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E41-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s lines are just people noticing and mocking her arrival."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes an explosion happening, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The explosion is the final event."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being mocked in a chapel, then an explosion happens."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The explosion is a new event not in the late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are mockery, not a defined hook type like public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (explosion), not an unanswered question or threat."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E41-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show nobles mocking Juliana's return to chapel - immediate public humiliation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes explosion action, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger present to resolve."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Juliana vs. mocking nobles, with Catherine as antagonist."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows public shaming but doesn't reveal late plot twists like poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show public_humiliation: nobles mock Juliana's return."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is action description, not a cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E41-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are just smug looks and whispers - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action description of an explosion, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The explosion is the final event shown."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Juliana is being publicly mocked in a chapel by nobles led by Catherine."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"There she is\" and mocking whispers are not one of the defined hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Explosion action line is not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments connect: public humiliation in chapel → defiance → explosion."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is being publicly humiliated by Catherine and nobles in a chapel, then the chapel explodes.",
+    "conflict_between": "Catherine and nobles vs Juliana",
+    "want_to_know_next": "Who caused the explosion and why?",
+    "would_keep_watching": true,
+    "why": "The sudden explosion creates immediate danger and raises urgent questions about who is attacking and why."
+   }
+  },
+  "E41-2": {
+   "sig": "eacac0d2b51a",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"You needed an entire chapel to feel powerful over one chained woman?\" is a defiant question, not immediate conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Juliana slowly turns her head, glancing back toward the light.\" is an action, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the action line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is chained in a chapel, conspirators plot a title, then an explosion and armed figures arrive - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Defiant question and murmured line are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Action of figures emerging and Juliana turning is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "No [cut] in clip segments, so check omitted. [2/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E41-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You needed an entire chapel to feel powerful over one chained woman?\" is a defiant question, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Juliana slowly turns her head, glancing back toward the light.\" is an action, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the action line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is chained in a chapel, conspirators plot a title, then an explosion and armed figures arrive - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Defiant question and murmured line are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Action of figures emerging and Juliana turning is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] in clip segments, so check omitted."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E41-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You needed an entire chapel to feel powerful over one chained woman?\" is a defiant question, not immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Juliana slowly turns her head, glancing back toward the light\" is an action, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the armed figures emerging and Juliana turning."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A chained woman defies captors, explosion happens, armed figures arrive."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Defiant question is not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Action of figures emerging is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E41-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana's line 'You needed an entire chapel to feel powerful over one chained woman?' shows immediate defiance against captors."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Juliana slowly turns her head, glancing back toward the light.' is an action, not an unanswered question, threat, or cut-off sentence."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the armed figures emerging and Juliana looking back, with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A chained woman defies captors in a chapel, conspirators plot, then an explosion brings armed rescuers - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana captive and a rescue attempt, but doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are defiant dialogue ('You needed an entire chapel...'), not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (Juliana turns her head), not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "No [cut] markers present, so check not applicable."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A tense confrontation in a chapel between Juliana and Catherine, interrupted by a violent explosion.",
+    "conflict_between": "Juliana vs Catherine",
+    "want_to_know_next": "Who are the armed figures and what happens to Juliana?",
+    "would_keep_watching": true,
+    "why": "The explosion creates immediate high stakes and introduces new armed characters."
+   }
+  },
+  "E41-3": {
+   "sig": "a8c22a89478b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s lines are just Catherine mocking Juliana - no physical conflict or immediate stakes. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "The last line describes an explosion, not an unanswered question, threat, cut-off sentence, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the explosion with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is publicly shamed in a cathedral, defies her tormentor, then an explosion happens - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows public confrontation and an explosion, not revealing late plot twists about identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s lines are public humiliation, but not a hook type - they're just mocking words. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "The explosion is an action, not one of the defined cliffhanger types (unanswered_question, threat_with_stakes, cut_mid_sentence, about_to_learn_truth). [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E41-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's opening lines 'Look around... they can all see what you truly are' immediately establish public shaming."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "The last line describes an explosion, not an unanswered question, threat, cut-off sentence, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the explosion with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is publicly shamed in a cathedral, defies her tormentor, then an explosion happens - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows public confrontation and an explosion, not revealing late plot twists about identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Look around... they can all see what you truly are' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The explosion is an action, not one of the defined cliffhanger types (unanswered_question, threat_with_stakes, cut_mid_sentence, about_to_learn_truth)."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E41-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s lines are just Catherine mocking Juliana - no physical conflict or immediate stakes."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes an explosion happening, not an unanswered question or imminent threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The explosion is the final event shown."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: Catherine humiliating Juliana in a cathedral."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's ambition and an explosion, not late reveals like poisoning or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are public humiliation, but not a hook type - they're just mocking words."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (explosion), not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E41-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are Catherine mocking Juliana's status, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes an explosion, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with the explosion, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: Catherine humiliates Juliana in a cathedral."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but not the poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are public humiliation, but not in first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (explosion), not a cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is publicly humiliated in a cathedral before it explodes.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Who caused the explosion and why?",
+    "would_keep_watching": true,
+    "why": "The sudden explosion creates immediate danger and raises urgent questions about who attacked the cathedral and why."
+   }
+  },
+  "E41-4": {
+   "sig": "5691202cfff7",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are conspirators talking about their plan, no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is Juliana turning to look - an action, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends with armed figures emerging, no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Conspirators plotting takeover, explosion, armed figures arriving - clear conflict [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are conspiratorial dialogue, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (figures emerge), not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Plotting → explosion → armed arrival flows as one continuous mini-story [2/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E41-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are conspirators talking about their plan, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is Juliana turning to look - an action, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with armed figures emerging, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who Catherine is, what 'Ashburgh title' means, or why explosion matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are conspiratorial dialogue, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (figures emerge), not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E41-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are conspirators plotting, no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is Juliana turning her head - an action, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the end - no resolution follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Conspirators plotting takeover, explosion, armed figures arriving - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are conspirators plotting - not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is Juliana turning - not a cliffhanger type"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Plotting → explosion → armed arrival flows as one continuous mini-story"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E41-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are conspiratorial planning, not immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action description of silhouettes emerging, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the end; no line after it resolves the armed entry."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: conspirators plotting, then explosion and armed entry at a ceremony."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows attack on ceremony but doesn't reveal late plot twists like poisoning or identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are conspiratorial dialogue, not a hook type like slap_attack or shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (armed figures emerge), not a cliffhanger type like unanswered_question or threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow: conspirators plot, priest asks 'Shall we?', explosion, armed entry - continuous mini-story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A cathedral ceremony is violently interrupted by an explosion and armed intruders.",
+    "conflict_between": "Unknown attackers vs. congregation/nobles",
+    "want_to_know_next": "Who are the attackers and what do they want?",
+    "would_keep_watching": true,
+    "why": "The sudden violent disruption creates immediate tension and raises urgent questions about the attackers' motives."
+   }
+  }
+ }
+}

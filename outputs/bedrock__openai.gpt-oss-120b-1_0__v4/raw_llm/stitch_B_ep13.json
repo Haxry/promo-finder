@@ -1,0 +1,22 @@
+{
+ "version": "s1",
+ "episode": 13,
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L22",
+     "end_line": "L31"
+    },
+    {
+     "start_line": "L55",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L24",
+   "cliff_line": "L69",
+   "pattern": "Hook → Rising Tension → Cliffhanger",
+   "why": "Gerald’s cruel taunt ignites Juliana’s desperate crawl through the thorns, building tension that erupts when she finally grasps the mysterious emerald ring."
+  }
+ ]
+}

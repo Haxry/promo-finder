@@ -1,0 +1,64 @@
+{
+ "episode": 31,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L66",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L66",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L85",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Why Juliana is chained in a dungeon and who Catherine is.",
+   "spoiler": false,
+   "why": "The blow lands on Juliana, then the iron stops inches from her eyes – a visceral hook and a deadly cliffhanger that works without prior knowledge."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L74",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L74",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L85",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Juliana’s imprisonment and the significance of her mother’s botanical book.",
+   "spoiler": false,
+   "why": "Catherine threatens to turn Juliana’s cherished heirloom to ash, then the iron hovers over her eyes – a perfect tension‑filled promo."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L85",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The power dynamic between Catherine and the imprisoned Juliana.",
+   "spoiler": false,
+   "why": "Catherine’s enraged scream ‘Enough!’ erupts into a deadly iron‑blade moment, delivering a concise, high‑stakes hook."
+  }
+ ]
+}

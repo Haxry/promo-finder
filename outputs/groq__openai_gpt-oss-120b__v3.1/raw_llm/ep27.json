@@ -1,0 +1,58 @@
+{
+ "episode": 27,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L27",
+     "end_line": "L61"
+    }
+   ],
+   "hook_line": "L27",
+   "hook_type": "slap",
+   "hook_strength": 4,
+   "cliff_line": "L61",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The sudden door burst grabs attention, then the nobleman's menacing threat leaves the viewer hanging on Juliana's fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L30"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L30",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Juliana's ring connection to the Ashbourne family and why it matters",
+   "spoiler": false,
+   "why": "A shocking family‑crest revelation followed by an abrupt intrusion creates tension and an unanswered question about Juliana's safety."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L74",
+     "end_line": "L90"
+    }
+   ],
+   "hook_line": "L74",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L90",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The word \"Poison\" jolts the viewer, and the nobleman's command to seize Juliana ends on a cliffhanger, urging viewers to see what happens next."
+  }
+ ]
+}

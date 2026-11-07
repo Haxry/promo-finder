@@ -1,0 +1,62 @@
+{
+ "episode": 42,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L9",
+     "end_line": "L22"
+    }
+   ],
+   "hook_line": "L9",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L22",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Rupert is the usurper; new viewers don’t know his identity",
+   "spoiler": false,
+   "why": "Begins with a guard’s defiant shout that stops scrolling and ends with Alexander’s challenge to the lie, leaving the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L3"
+    },
+    {
+     "start_line": "L22",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L35",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Rupert is the antagonist who claimed the dukedom",
+   "spoiler": false,
+   "why": "A shocked question grabs attention, then the cut jumps to Alexander’s deadly promise to Rupert, creating a compelling cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L14",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L14",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L35",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Rupert’s claim and Alexander’s return are unclear to newcomers",
+   "spoiler": false,
+   "why": "A desperate outcry leads straight into Alexander’s final threat, delivering high stakes and an unresolved showdown."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "episode": 33,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L65",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The lord threatens the maid’s brother, then cuts to her desperate question, creating tension without needing prior knowledge."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L57",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Shows the escalating coercion and hints at a forbidden book, leaving viewers craving the secret."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L49",
+     "end_line": "L61"
+    }
+   ],
+   "hook_line": "L49",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L61",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A sharp accusation about a mysterious circle of herbs leads to a chilling reveal that the maid can’t explain."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L65",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L65",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The maid’s frantic “Praying… or chanting?” question ends on her shocked reaction, a perfect cliff for new viewers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Accusation of forbidden book use builds tension, then the maid’s “My testimony?!” leaves the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L69",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L69",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The lord’s cold “You saw a woman draw a circle of herbs” threatens the maid, ending on her panicked question for maximum suspense."
+  }
+ ]
+}

@@ -1,0 +1,503 @@
+{
+ "items": {
+  "E14-1": {
+   "sig": "af263ff10832",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First line 'Now release my husband' is a command, not an immediate conflict a stranger feels. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is SFX of ominous boom - not a question, threat, cut-off sentence, or reveal about to happen. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The ominous SFX ends the clip with no resolution. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Shows a woman demanding her husband's release from custody, with clear protector/victim dynamic. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict with authorities but doesn't reveal Alexander's true identity or the poisoning plot. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show a command and an arrest being reversed - not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Ends on ominous SFX - not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from inspecting her wounds to his protective vow flows as one continuous mini-story. [2/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.38,
+   "raw_samples": [
+    {
+     "id": "E14-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line 'Now release my husband' is a command, not an immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX of ominous boom - not a question, threat, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The ominous SFX ends the clip with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a woman demanding her husband's release from custody, with clear protector/victim dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict with authorities but doesn't reveal Alexander's true identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show a command and an arrest being reversed - not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Ends on ominous SFX - not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from inspecting her wounds to his protective vow flows as one continuous mini-story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana demands 'Now release my husband' while Constable takes ring from her bloodied fingers - immediate conflict over arrest."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous boom) - not a question, threat, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger line exists to resolve after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Woman demands husband's release while injured, husband freed, vows protection - clear conflict and stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows arrest conflict and protection vow, doesn't reveal Alexander's true identity or poisoning plot resolutions."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Now release my husband' is a shocking_line breaking authority norm."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX only, not a CLIFFHANGER TYPE."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from inspecting injuries to protection vow flows as continuous mini-story of rescue aftermath."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Now release my husband.\" is a command, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "SFX swell to black is not an unanswered question, threat, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The SFX swell ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman demands her husband's release from custody, he's freed and reacts to her injuries."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander freed and Juliana injured protecting him, revealing a key rescue/reversal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Command to release is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "SFX swell is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman has secured her husband's release from handcuffs, apparently at personal cost, and he vows to protect her.",
+    "conflict_between": "",
+    "want_to_know_next": "Who hurt her and why was he imprisoned?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes and mystery of the backstory are compelling."
+   }
+  },
+  "E14-2": {
+   "sig": "4152807ca002",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are 'You could have lost your hands' - no immediate conflict a stranger feels [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is SFX (ominous boom), not an unanswered question or threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "No cliffhanger present to resolve [0/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "No context for why hands were at risk or who is protecting whom [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows tender moment between married couple, no late reveals [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are concern/reassurance, not a hook type [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is SFX only, not a cliffhanger type [0/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E14-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are 'You could have lost your hands' - no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous boom), not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger present to resolve"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for why hands were at risk or who is protecting whom"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows tender moment between married couple, no late reveals"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are concern/reassurance, not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX only, not a cliffhanger type"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are 'You could have lost your hands' - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous boom), not an unanswered question, threat, cut-off, or reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger exists to resolve after."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who 'you' refers to or why hands were at risk."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows tender moment between Juliana and Alexander, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are SFX of fireplace and 'You could have lost your hands' - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous bass boom) - not an unanswered question, threat, cut-off, or reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger exists to resolve after."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who 'you' refers to, why hands were at risk, or what 'taking my place' means."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "No late reveals given away; just emotional moment between married couple."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX, not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "other"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A tense, emotional conversation between two people after a dangerous incident where one was protecting the other.",
+    "conflict_between": "",
+    "want_to_know_next": "What danger were they facing and what happened?",
+    "would_keep_watching": true,
+    "why": "The emotional intensity and protective dynamic creates compelling character chemistry and raises intriguing questions about their backstory."
+   }
+  },
+  "E14-3": {
+   "sig": "8687c55d3c40",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show a hand revealing a ring - no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is SFX (ominous boom) - not an unanswered question, threat, cut-off, or reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The ominous SFX ends the clip. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who Alexander is, why he's cuffed, or what the ring means. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana retrieving something to free Alexander - doesn't reveal late plot twists. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show a hand revealing a ring - not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is SFX (ominous boom) - not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from inspecting wounds to protective vow shows clear emotional progression. [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E14-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show a hand revealing a ring - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous boom) - not an unanswered question, threat, cut-off, or reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The ominous SFX ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander is, why he's cuffed, or what the ring means."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana retrieving something to free Alexander - doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show a hand revealing a ring - not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX (ominous boom) - not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from inspecting wounds to protective vow shows clear emotional progression."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "L1-L2 show a hand revealing a ring - no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L50 is SFX only, no spoken line to create a cliffhanger"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "No cliffhanger line exists to resolve"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows Juliana retrieving something to free Alexander, clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander freed - resolves his arrest arc which is a late reveal"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "L1-L2 show object reveal, not one of the specified hook types"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L50 is SFX only, not one of the cliffhanger types"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from inspecting wounds to vow of protection connects logically"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E14-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "L1 shows a hand revealing a ring, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L50 is SFX only, no open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The SFX ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for why she's injured or who the husband is."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana retrieving a ring to free Alexander, no late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "SFX only, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from inspecting injuries to later vow connects as one story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana has retrieved a valuable ring to secure her husband Alexander's release from custody, showing she endured physical hardship to obtain it.",
+    "conflict_between": "Juliana and Alexander vs The Constable",
+    "want_to_know_next": "Why was Alexander imprisoned and what vengeance will Alexander seek?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high with clear character motivations and a promise of impending conflict."
+   }
+  }
+ }
+}

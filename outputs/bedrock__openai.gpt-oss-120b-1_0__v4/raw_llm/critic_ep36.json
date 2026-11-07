@@ -1,0 +1,326 @@
+{
+ "items": {
+  "E36-2": {
+   "sig": "79f41093b6a6",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line \"Rupert and Catherine accused her of poisoning me!\" shows immediate accusation and conflict [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line \"...and killing my wife afterward\" is a statement of fact, not an open question or threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the execution threat with no resolution [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: someone's wife has been falsely accused and faces execution [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's mother is alive and that Juliana is condemned - both are late reveals [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is an accusation (arrest_accusation type) [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a statement, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth [0/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E36-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line \"Rupert and Catherine accused her of poisoning me!\" shows immediate accusation and conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"...and killing my wife afterward\" is a statement of fact, not an open question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the execution threat with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: someone's wife has been falsely accused and faces execution"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and that Juliana is condemned - both are late reveals"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an accusation (arrest_accusation type)"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E36-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Rupert and Catherine accused her of poisoning me!' immediately presents an accusation and conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line '...and killing my wife afterward.' is a statement of fact, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on that line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow that someone has been falsely accused, condemned, and faces execution after a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals that Juliana is condemned to execution, which is a late plot point (the lavish wedding is a ploy to publicly execute Juliana)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an 'arrest_accusation' (accusing someone of poisoning)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E36-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Rupert and Catherine accused her of poisoning me!' shows immediate accusation conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line '...and killing my wife afterward.' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line answers or defuses the threat."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is accused, condemned, and a wife is threatened with execution after a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is condemned and will be executed, a major late plot point."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an 'arrest_accusation' (accusation of poisoning)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not one of the CLIFFHANGER TYPES."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Alexander learns his wife Juliana has been falsely accused of poisoning his mother, condemned as a witch, and is scheduled for execution after Rupert and Catherine's wedding.",
+    "conflict_between": "Alexander vs Rupert and Catherine",
+    "want_to_know_next": "Will Alexander save Juliana before the execution?",
+    "would_keep_watching": true,
+    "why": "High-stakes drama with a clear injustice and urgent deadline creates compelling tension."
+   }
+  },
+  "E36-3": {
+   "sig": "fbb8e0d28e0b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"What wedding?\" is a question needing context. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"...their dead Duke is coming home.\" is a threat that hasn't landed. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The threat is the final line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A usurper's wedding is in two days; the hero vows to stop it. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"What wedding?\" is not a listed hook type. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"...their dead Duke is coming home.\" is a threat_with_stakes. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E36-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"What wedding?\" is a question needing context."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home.\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A usurper's wedding is in two days; the hero vows to stop it."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"What wedding?\" is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home.\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E36-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"What wedding?\" shows immediate suspicion and conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home.\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line after defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Alexander learns Rupert and Catherine are marrying in two days and plan to kill his wife; he vows revenge."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (\"dead Duke\"), which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"What wedding?\" is a shocking_line (breaks norm with no context)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home.\" is a threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect as one continuous mini-story: Alexander learns of the wedding plot and vows revenge."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E36-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"What wedding?\" is a question needing context, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Rupert and Catherine are villains planning a wedding and to kill Juliana; Alexander vows revenge."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"What wedding?\" is not a hook type; it's a question needing setup."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"...their dead Duke is coming home\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Alexander learns his enemies are marrying in two days and plan to kill his wife Juliana afterward",
+    "conflict_between": "Alexander vs Rupert and Catherine",
+    "want_to_know_next": "Will Alexander save Juliana and stop the wedding?",
+    "would_keep_watching": true,
+    "why": "High-stakes revenge plot with emotional urgency and clear deadline creates compelling tension"
+   }
+  }
+ }
+}

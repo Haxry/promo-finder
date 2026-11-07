@@ -1,0 +1,83 @@
+{
+ "episode": 13,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L38",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L38",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L69",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Why is Juliana crawling into the thorns and what does the emerald ring signify?",
+   "spoiler": false,
+   "why": "The clip opens with a cruel taunt that instantly grabs attention, then ends as Juliana finally grasps the mysterious emerald ring, leaving the viewer desperate to learn its importance."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L24",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L24",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L65",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Who is the ‘beggar’s wife’ and why is a ring being sought?",
+   "spoiler": false,
+   "why": "Gerald’s sneering line shames Juliana, then the clip cuts just as she pleads for the ring, creating a tense, unanswered moment."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L43",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L43",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "undercover_stands_up",
+   "missing_context": "Why must Juliana find something in the garden to free Alexander?",
+   "spoiler": false,
+   "why": "Gerald’s taunt threatens Juliana’s husband, then the clip stops as her blood‑stained finger brushes the hidden ring, promising a crucial revelation."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L40",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L40",
+   "hook_type": "public_humiliation",
+   "hook_strength": 3,
+   "cliff_line": "L69",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "What is the significance of the emerald ring Juliana discovers?",
+   "spoiler": false,
+   "why": "Clarissa’s mocking line spotlights Juliana’s suffering, and the clip ends on the moment she finally clutches the emerald ring, leaving the audience hanging."
+  }
+ ]
+}

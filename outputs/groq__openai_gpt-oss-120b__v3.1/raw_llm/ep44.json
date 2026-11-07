@@ -1,0 +1,62 @@
+{
+ "episode": 44,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L3",
+     "end_line": "L14"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L3",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L52",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "the past romance between Catherine and Alexander and who Juliana is",
+   "spoiler": false,
+   "why": "Starts with a dramatic arrest, builds emotional tension, and ends on Catherine's shocked gasp \"Her?!\" leaving the love‑triangle unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L5",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L5",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L46",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "the history of Catherine and Alexander’s relationship",
+   "spoiler": false,
+   "why": "The defiant \"You have no authority!\" grabs attention, then the scene escalates to Alexander’s cold question \"Did you?\" which leaves viewers hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L29",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L29",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "who Juliana is and why Alexander is choosing her",
+   "spoiler": false,
+   "why": "Alexander’s abrupt rejection is a visual hook, and the promo cuts to Catherine’s incredulous \"Her?!\" for a powerful cliffhanger."
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "episode": 46,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L37",
+     "end_line": "L63"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L63",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with a cutting threat from the High Priest and ends on a looming ten‑day deadline that could strip Juliana of her dukedom."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L49",
+     "end_line": "L63"
+    }
+   ],
+   "hook_line": "L49",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L63",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The High Priest’s warning grabs attention, then the clip cuts on the High Priest’s ominous ten‑day ultimatum."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L47",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L47",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine’s menacing line hooks viewers, and Alexander’s defiant demand to lower the guards leaves the conflict hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L37"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L37",
+   "cliff_type": "threat",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The High Priest’s seizure of the sanctuary may be unclear without prior episode.",
+   "spoiler": false,
+   "why": "The priest’s sudden seizure of the church creates immediate tension, ending on his cruel reminder that love won’t make a duchess."
+  }
+ ]
+}

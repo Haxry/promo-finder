@@ -1,0 +1,64 @@
+{
+ "episode": 18,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L73",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L73",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Starts with a chilling threat and ends on Juliana’s desperate question, leaving viewers hanging on his next move."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L38"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L38",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The brutal door crash grabs attention, then the looming ceiling collapse raises immediate danger without resolution."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L27",
+     "end_line": "L38"
+    }
+   ],
+   "hook_line": "L27",
+   "hook_type": "slap_attack",
+   "hook_strength": 3,
+   "cliff_line": "L38",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The crashing rafters create a visceral hook, and the ceiling‑fall threat leaves the audience on edge."
+  }
+ ]
+}

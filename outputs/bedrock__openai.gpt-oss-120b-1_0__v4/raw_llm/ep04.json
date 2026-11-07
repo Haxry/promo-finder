@@ -1,0 +1,64 @@
+{
+ "episode": 4,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L4",
+     "end_line": "L33"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L33",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Viewer may not know why Gerald is mocking Juliana at the altar.",
+   "spoiler": false,
+   "why": "Starts with Gerald’s humiliating taunt, then cuts just as Juliana hints at her family’s betrayal, leaving the secret unanswered."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L86",
+     "end_line": "L102"
+    }
+   ],
+   "hook_line": "L86",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L102",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Gerald’s explosive outburst grabs attention, then the clip ends on the stranger’s invitation, teasing the escape without revealing the outcome."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L96",
+     "end_line": "L108"
+    }
+   ],
+   "hook_line": "L96",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L108",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Lady Ashcroft’s public banishment creates drama, and the clip freezes as the massive doors begin to open, promising a decisive move."
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+[
+ {
+  "episode": 4,
+  "proposal": 3,
+  "reason": "total length 13.3s < 20s and extending the start would push the hook out of the first 3s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L96",
+     "end_line": "L108"
+    }
+   ],
+   "hook_line": "L96",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L108",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Lady Ashcroft’s public banishment creates drama, and the clip freezes as the massive doors begin to open, promising a decisive move."
+  }
+ },
+ {
+  "episode": 6,
+  "proposal": 1,
+  "reason": "segment 1 cites a line that does not exist: {'start_line': 'L57', 'end_line': 'L105'}",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L57",
+     "end_line": "L105"
+    }
+   ],
+   "hook_line": "L57",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L105",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A bold declaration of agency (“If this is our home, I want it clean.”) grabs attention, then the voice‑over cuts off at “And yet…”, leaving the audience desperate to hear what comes next."
+  }
+ },
+ {
+  "episode": 6,
+  "proposal": 3,
+  "reason": "segment 1 cites a line that does not exist: {'start_line': 'L45', 'end_line': 'L105'}",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L45",
+     "end_line": "L105"
+    }
+   ],
+   "hook_line": "L45",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L105",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A quiet moment (“It is quiet.”) offers a stark contrast to her turmoil, then the clip stops at the unfinished thought “And yet…”, creating a strong cliffhanger that teases the next emotional turn."
+  }
+ },
+ {
+  "episode": 15,
+  "proposal": 4,
+  "reason": "total length 18.9s < 20s and extending the start would push the hook out of the first 3s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L45",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L45",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "viewers won’t know Alexander’s identity or why he’s defending Juliana",
+   "spoiler": false,
+   "why": "Alexander’s sudden, fierce entrance is a visual threat that instantly excites, ending on the thugs’ provocative question to leave the outcome unknown."
+  }
+ },
+ {
+  "episode": 21,
+  "proposal": 1,
+  "reason": "segment 1 cites a line that does not exist: {'start_line': 'L2', 'end_line': 'L40.5'}",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L40.5"
+    },
+    {
+     "start_line": "L65",
+     "end_line": "L67"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L67",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "hidden_identity",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Opens with a dramatic door slam that grabs attention, follows Juliana’s frantic rush to save a boy, then cuts to her sudden, shocked realization that the Dowager Duchess is dying—leaving the answer hanging."
+  }
+ },
+ {
+  "episode": 21,
+  "proposal": 2,
+  "reason": "stitched segment(s) [2] shorter than 4s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L20",
+     "end_line": "L58"
+    },
+    {
+     "start_line": "L65",
+     "end_line": "L67"
+    }
+   ],
+   "hook_line": "L20",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L67",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Begins with Juliana’s urgent promise to save a dying child (“If you do not come, he will die!”), then jumps to her startled discovery about the Duchess’s mysterious illness, ending on a haunting, unanswered question."
+  }
+ },
+ {
+  "episode": 32,
+  "proposal": 3,
+  "reason": "total length 18.6s < 20s and extending the start would push the hook out of the first 3s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L45"
+    },
+    {
+     "start_line": "L112",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Juliana is publicly called a “disgraced woman,” then the scene jumps to the branding iron about to strike—perfect tension for new viewers."
+  }
+ },
+ {
+  "episode": 32,
+  "proposal": 4,
+  "reason": "stitched segment(s) [2] shorter than 4s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L56",
+     "end_line": "L71"
+    },
+    {
+     "start_line": "L112",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "Juliana is chained in a dungeon, which new viewers may not know.",
+   "spoiler": false,
+   "why": "Her declaration of freedom and love for a “nobody” surprises viewers, then the branding iron looms—an emotional hook followed by lethal danger."
+  }
+ },
+ {
+  "episode": 36,
+  "proposal": 1,
+  "reason": "clip opens mid-sentence: '\"...and killing my wife afterward.\"'",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L99",
+     "end_line": "L118"
+    }
+   ],
+   "hook_line": "L99",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L118",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": true,
+   "why": "The line ‘…and killing my wife afterward.’ instantly threatens the heroine, then cuts to the ominous promise that the dead Duke is returning – a high‑stakes cliffhanger that compels viewers to click."
+  }
+ },
+ {
+  "episode": 1,
+  "proposal": "C-arc-1",
+  "type": "C",
+  "reason": "duplicate of E1-4 (time overlap > 50%)",
+  "raw": null
+ },
+ {
+  "episode": 3,
+  "proposal": "C-early_to_late-2",
+  "type": "C",
+  "reason": "duplicate of E3-1 (time overlap > 50%)",
+  "raw": null
+ },
+ {
+  "episode": 15,
+  "proposal": "B15-1",
+  "type": "B",
+  "reason": "duplicate of E15-3 (time overlap > 50%)",
+  "raw": null
+ },
+ {
+  "episode": 1,
+  "proposal": "C-early_to_late-1",
+  "type": "C",
+  "reason": "duplicate of E1-4 (time overlap > 50%)",
+  "raw": null
+ },
+ {
+  "episode": 4,
+  "proposal": "C-early_to_late-3",
+  "type": "C",
+  "reason": "duplicate of E4-2 (time overlap > 50%)",
+  "raw": null
+ },
+ {
+  "episode": 7,
+  "proposal": "C-early_to_late-4",
+  "type": "C",
+  "reason": "duplicate of E12-1 (back to back (gap 0.4s))",
+  "raw": null
+ },
+ {
+  "episode": 9,
+  "proposal": "C-early_to_late-5",
+  "type": "C",
+  "reason": "duplicate of E32-1 (time overlap > 50%)",
+  "raw": null
+ }
+]

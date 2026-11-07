@@ -1,0 +1,1734 @@
+{
+ "items": {
+  "B5-1": {
+   "sig": "5a7f6cf90bd4",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Clarissa's mocking line about Juliana's mother's legacy being 'cast into the dirt' shows immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "'Choose your next words carefully.' is a threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the threat; no line answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger can see a woman is being mocked by a cruel couple while a mysterious man defends her. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows Juliana's humiliation and a stranger's defense, which is known by Ep5; it doesn't reveal Alexander's true identity or the poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Clarissa's line 'Even your mother's precious legacy has been cast into the dirt!' is public_humiliation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "'Choose your next words carefully.' is threat_with_stakes. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut from the courtyard to the man handing her the ledger shows a continuous mini-story of humiliation and rescue. [3/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "B5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa's mocking line about Juliana's mother's legacy being 'cast into the dirt' shows immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "'Choose your next words carefully.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see a woman is being mocked by a cruel couple while a mysterious man defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana's humiliation and a stranger's defense, which is known by Ep5; it doesn't reveal Alexander's true identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Clarissa's line 'Even your mother's precious legacy has been cast into the dirt!' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "'Choose your next words carefully.' is threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the courtyard to the man handing her the ledger shows a continuous mini-story of humiliation and rescue."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "B5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa mocks Juliana about her mother's legacy being 'cast into the dirt' immediately."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is a threat that hasn't landed: 'Choose your next words carefully.'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat is the final line; no answer or defusing follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger sees a woman being mocked over her mother's legacy, then a man defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's humiliation and a stranger's defense, which viewers know by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are Clarissa's public humiliation of Juliana about her mother's legacy."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat with stakes: 'Choose your next words carefully.'"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from Juliana dropping the ledger to the man returning it flows as one continuous mini-story of humiliation and comfort."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "B5-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Clarissa mocks Juliana about her mother's legacy being 'cast into the dirt' - immediate public humiliation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is a direct threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being mocked by a cruel sister and smug man while kneeling in a bridal gown; a scarred stranger defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows early humiliation and a stranger's kindness, not revealing Alexander's identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Clarissa's line is public_humiliation (shaming about mother's legacy)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Choose your next words carefully.\" is threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the courtyard humiliation to the stranger kneeling beside her shows a continuous rescue moment."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman's mother's legacy has been destroyed, and a mysterious man comforts her while confronting the mockers.",
+    "conflict_between": "Juliana and the Mysterious Bearded Man vs. Clarissa and Gerald",
+    "want_to_know_next": "Who is the Mysterious Bearded Man, and what will Gerald do next?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high, and the mysterious man's protective presence creates intrigue."
+   }
+  },
+  "B13-1": {
+   "sig": "d696f7877c70",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "Lines are vague insults ('That garden has swallowed better women than you') with no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, or cut-off sentence. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends with her grabbing the ring; no resolution follows. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "A stranger wouldn't know why she's crawling through thorns or what the ring means. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows a painful search but doesn't reveal late plot twists. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are insults, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (grabbing a ring), not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut continues the same scene of Juliana crawling through thorns to find something. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "B13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines are vague insults ('That garden has swallowed better women than you') with no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, or cut-off sentence."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with her grabbing the ring; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know why she's crawling through thorns or what the ring means."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows a painful search but doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are insults, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut continues the same scene of Juliana crawling through thorns to find something."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "B13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines are vague threats about a garden and a 'beggar's wife' - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with her grabbing the ring - nothing after answers what happens next."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is Clarissa? Why is Juliana crawling through thorns? Why is Alexander screaming? No context given."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's true identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are vague threats/insults, not one of the specified hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing ring), not one of the specified cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut shows continuous action of Juliana crawling through thorns to find something."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "B13-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"That garden has swallowed better women than you.\" is a vague threat, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L69 is an action (grabbing a ring), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this check is not applicable."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is Juliana, why is she crawling through thorns, and what ring? No context."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana suffering but doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a vague threat, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (grabbing a ring), not a defined cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut shows continuous, agonizing crawl through thorns to find a ring."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Juliana is desperately crawling through a dangerous, thorn-filled garden while being watched by others, searching for something valuable.",
+    "conflict_between": "Juliana vs. the garden/others watching",
+    "want_to_know_next": "Why is Juliana risking her life for this ring?",
+    "would_keep_watching": true,
+    "why": "The intense physical struggle and emotional torment create compelling tension about what's at stake."
+   }
+  },
+  "B15-1": {
+   "sig": "9b7188cab71b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug's 'Get out of the way!' and Juliana's defiant 'No.' show immediate confrontation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'What? You want to fight us, veteran?' is a challenge, not an unanswered question or threat that hasn't landed. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the thug's challenge; no answer or action follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Thugs attack a woman; a man arrives to defend her. Clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows generic thug confrontation; no late reveals about identity or poisoning plots. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L33: 'The Thug with Cap violently shoves Juliana back' is a slap_attack. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a challenge/threat but not one of the specified cliffhanger types. [1/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments connect: thugs attack Juliana, Alexander arrives and positions himself between them. [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "B15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug's 'Get out of the way!' and Juliana's defiant 'No.' show immediate confrontation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "'What? You want to fight us, veteran?' is a direct, unanswered challenge."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge; no answer or action follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman; a man arrives to defend her. Clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows generic thug confrontation; no late reveals about identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L33: 'The Thug with Cap violently shoves Juliana back' is a slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L52: 'What? You want to fight us, veteran?' is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect: thugs attack Juliana, Alexander arrives and positions himself between them."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "B15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug demands 'Get out of the way!' and Juliana defiantly says 'No.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'What? You want to fight us, veteran?' is a challenge, not an unanswered question or threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the thug's challenge with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman, her husband arrives to protect her - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which viewers know by episode 5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug shoves Juliana - physical attack in first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a challenge/threat but not one of the specified cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Shows attack, Juliana injured, thugs mocking, Alexander arriving - continuous story."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "B15-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug demands 'Get out of the way!' and Juliana defiantly says 'No.' before being shoved."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'What? You want to fight us, veteran?' is a challenge, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the thug's challenge with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a woman; a man arrives to defend her - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander defending Juliana, which aligns with early episodes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s contain a physical shove - 'slap_attack' type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a challenge, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cuts flow from attack to Alexander's arrival to confrontation."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being attacked by thugs who are destroying her plants, and a man intervenes to protect her.",
+    "conflict_between": "Juliana vs thugs, Alexander vs thugs",
+    "want_to_know_next": "Will Alexander fight the thugs and what will happen to Juliana?",
+    "would_keep_watching": true,
+    "why": "The scene has clear stakes, emotional intensity, and a protective intervention that creates immediate tension."
+   }
+  },
+  "B16-1": {
+   "sig": "06490ee1b42e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A thug attacks with a club and Alexander catches it mid-swing. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Gerald...\" is a reaction, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Juliana's reaction; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger sees a thug attack, gets beaten, reveals a client's name, and the heroine reacts. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Gerald's betrayal is known by Ep5; no late reveal is given away. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "A physical attack lands in the first seconds (club swing). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Gerald...\" is a reaction, not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut flows from the fight to the interrogation seamlessly. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "B16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A thug attacks with a club and Alexander catches it mid-swing."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's reaction; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger sees a thug attack, gets beaten, reveals a client's name, and the heroine reacts."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Gerald's betrayal is known by Ep5; no late reveal is given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "A physical attack lands in the first seconds (club swing)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut flows from the fight to the interrogation seamlessly."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "B16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug swings club, Alexander catches it - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's line, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thug attacks, hero fights back, reveals employer, heroine reacts - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Reveals Gerald hired thugs, which is early conflict, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug swings club - physical attack (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from fight to interrogation flows as one continuous scene."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "B16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug swings club, Alexander catches it mid-air - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after \"Gerald...\" answers or defuses the revelation."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack, hero fights back, reveals employer - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Gerald hiring thugs fits early betrayal premise, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "slap_attack - physical attack lands immediately."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Gerald...\" is a reaction, not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Fight leads to interrogation revealing employer - continuous story."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man named Alexander is violently interrogating a thug who attacked him, demanding to know who hired them.",
+    "conflict_between": "Alexander vs the thug",
+    "want_to_know_next": "Who is Gerald Harrington and why did he send thugs?",
+    "would_keep_watching": true,
+    "why": "The action is intense and the reveal of Gerald Harrington creates immediate intrigue about the larger conflict."
+   }
+  },
+  "C-early_to_late-1": {
+   "sig": "9f6bdcdeedc6",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is a threat that hasn't landed. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the threat; no line follows to answer or defuse it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is being forced to do something under threat of her husband's execution. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip shows Juliana's husband is alive and in peril, which is a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"You knew this before I walked through those doors!\" is a shocking_line. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is a threat_with_stakes. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut connects Juliana's initial outrage to her being forced to perform a task under threat. [2/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "shocking_line",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "C-early_to_late-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being forced to do something under threat of her husband's execution."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Juliana's husband is alive and in peril, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"You knew this before I walked through those doors!\" is a shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is a threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut connects Juliana's initial outrage to her being forced to perform a task under threat."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-early_to_late-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You knew this before I walked through those doors!\" is too vague - a stranger doesn't know what 'this' is or who she's accusing."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows\" is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat - no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "The jump from episode 1 to 12 is confusing - a stranger can't tell who 'your husband' is or what 'it' she must retrieve."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana has a husband, which viewers don't know until after episode 5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an accusation but not one of the listed hook types - no slap, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows\" is a threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "The jump from episode 1 to 12 creates a confusing disconnect - the early accusation doesn't clearly connect to the later retrieval threat."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "C-early_to_late-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show Juliana's immediate outrage at a betrayal: 'You knew this before I walked through those doors!'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is a threat with stakes that hasn't landed: 'Fail, or refuse, and your husband hangs from the gallows.'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat ends the clip; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow that Juliana is being forced to do something dangerous under threat to her husband."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana has a husband, which viewers don't learn until after episode 5 (she marries Alexander)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are a shocking_line: 'You knew this before I walked through those doors!'"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes: 'Fail, or refuse, and your husband hangs from the gallows.'"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut connects Juliana's initial accusation to the later scene where she's being threatened, forming a coherent mini-story of coercion."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being forced to retrieve something dangerous to save her husband from execution.",
+    "conflict_between": "Clarissa vs Lady Juliana",
+    "want_to_know_next": "Will she attempt the retrieval and what will happen to her husband?",
+    "would_keep_watching": true,
+    "why": "High-stakes emotional blackmail with immediate life-or-death consequences creates compelling tension."
+   }
+  },
+  "C-early_to_late-2": {
+   "sig": "a90c2b6a666d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"Take your hands off her.\" shows immediate conflict over a woman being restrained. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line \"What? You want to fight us, veteran?\" is a challenge/taunt, not an unanswered question, threat that hasn't landed, cut-off sentence, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the thug's challenge with no answer or resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger protects a woman from guards/thugs; clear protector vs. aggressors conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander protecting Juliana, which aligns with viewer knowledge by Ep5; no late reveals given. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"Take your hands off her.\" is a threat/protective command fitting 'threat' type. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a taunt/challenge, not one of the specified cliffhanger types. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from chapel confrontation to outdoor protection scene flows as one continuous 'protector defends heroine' story. [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "C-early_to_late-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" shows immediate conflict over a woman being restrained."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"What? You want to fight us, veteran?\" is a challenge/taunt, not an unanswered question, threat that hasn't landed, cut-off sentence, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the thug's challenge with no answer or resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger protects a woman from guards/thugs; clear protector vs. aggressors conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which aligns with viewer knowledge by Ep5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" is a threat/protective command fitting 'threat' type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a taunt/challenge, not one of the specified cliffhanger types."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from chapel confrontation to outdoor protection scene flows as one continuous 'protector defends heroine' story."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "C-early_to_late-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Stranger orders 'Take your hands off her' against guards, immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'What? You want to fight us, veteran?' is a taunt, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger protects woman from guards/thugs, clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a threat: 'Take your hands off her.'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a taunt/challenge, not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut connects stranger's threat in chapel to Alexander's protective action later."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "C-early_to_late-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line \"Take your hands off her.\" shows immediate conflict over a woman being touched."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"What? You want to fight us, veteran?\" is a rhetorical challenge, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the thug's challenge with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger defends woman against thugs; clear protector vs. aggressors conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander protecting Juliana, which is known by Ep5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" is a threat with stakes (threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical challenge, not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from chapel confrontation to Alexander protecting Juliana from thugs flows as one continuous defense story."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A stranger intervenes to protect a woman from thugs in a chapel",
+    "conflict_between": "The bearded stranger vs thugs and noble matriarch",
+    "want_to_know_next": "Will Alexander fight the thugs and what happens to Juliana",
+    "would_keep_watching": true,
+    "why": "Intense confrontation with clear stakes and mysterious protector"
+   }
+  },
+  "C-early_to_late-3": {
+   "sig": "a4a3170b6859",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - immediate conflict of a woman being denounced for her choice. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'This isn't ordinary fever.' is an unanswered question about what is really happening. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last line resolves the realization. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man is furious at a woman's choice, then she tends to a sick person and suspects something worse - clear conflict and mystery. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals poisoning plot (arsenic) which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Gerald's lines are public humiliation - shaming her choice in front of others. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered question about the nature of the illness. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "First part shows conflict over her choice, second shows her caring for someone and suspecting foul play - connects as her new life leading to a mystery. [2/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.25,
+   "raw_samples": [
+    {
+     "id": "C-early_to_late-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines are accusations about a past choice, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"This isn't ordinary fever\" is a statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line resolves the realization."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Viewer doesn't know who 'Your Grace' is, why the fever matters, or who Gerald is."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are accusations about a past choice, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a realization, not a defined cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jump from Gerald's anger to Juliana at a sickbed is confusing; no clear connection."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "C-early_to_late-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - immediate conflict of a woman being denounced for her choice."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'This isn't ordinary fever.' is an unanswered question about what is really happening."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on that line; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man is furious at a woman's choice, then she tends to a sick person and suspects something worse - clear conflict and mystery."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Juliana discovering the poisoning, which is a late reveal (Rupert and Catherine are poisoning the Dowager Duchess)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's lines are public humiliation - shaming her choice in front of others."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered question about the nature of the illness."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "First part shows conflict over her choice, second shows her caring for someone and suspecting foul play - connects as her new life leading to a mystery."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "C-early_to_late-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald shouts 'You have thrown yourself away! For a penniless nobody!' - immediate conflict, no backstory needed."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'This isn't ordinary fever.' is a shocking realization that implies a hidden truth, creating an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the shocking realization line; no following line answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man angrily accuses a woman of throwing herself away for a 'penniless nobody'; later she tends to a sick person and realizes it's not a normal fever. Clear conflict and mystery."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana tending to a sick 'Grace' and realizing poisoning ('This isn't ordinary fever'), which is a LATE REVEAL (Rupert and Catherine are poisoning the Dowager Duchess)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's lines 'You have thrown yourself away! For a penniless nobody!' are a public humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'This isn't ordinary fever.' is a shocking line that breaks a norm (sickness is not natural)."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "First part shows conflict with Gerald; cut to Juliana tending to a sick person and realizing something is wrong. The connection is she's moved on from the humiliation to a new crisis."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "shocking_line",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man is angrily confronting a woman about her life choices, then a different scene shows the same woman tending to a sick person and realizing something is seriously wrong.",
+    "conflict_between": "Gerald vs Juliana",
+    "want_to_know_next": "What is wrong with the sick person and why it's not ordinary fever",
+    "would_keep_watching": true,
+    "why": "The sudden shift from emotional confrontation to medical mystery creates intriguing tension."
+   }
+  },
+  "C-early_to_late-4": {
+   "sig": "7b75f6d8efea",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald threatens to make a beggar disappear - immediate threat [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"I am not letting them take you\" is a statement, not an open question/threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "Cliffhanger check failed, so this is N/A. [1/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "A stranger wouldn't know who Gerald, Juliana, or Alexander are, or why 'them' matters. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict but doesn't reveal late plot twists like Alexander's identity or poisoning. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"I am not letting them take you\" is not an unanswered question, cut sentence, or about-to-learn-truth [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": "Jump from Gerald threatening to Alexander chopping wood to a tense conversation is confusing without context. [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "C-early_to_late-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald threatens to make a beggar disappear - immediate threat"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I am not letting them take you\" is a statement, not an open question/threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after Juliana's statement resolves the threat"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: man threatens woman, she vows to protect her husband from 'them'"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Alexander alive and with Juliana after marriage - spoils early arc resolution"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I am not letting them take you\" is not an unanswered question, cut sentence, or about-to-learn-truth"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut connects Gerald's threat about the husband to Alexander/Juliana defending against 'them'"
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-early_to_late-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's threat 'I have enough influence to make a beggar disappear' shows immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Juliana's line 'I am not letting them take you' is a declaration, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this is N/A."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Gerald, Juliana, or Alexander are, or why 'them' matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal late plot twists like Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's line 'make a beggar disappear' is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Juliana's line is a protective declaration, not an unanswered question or threat."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jump from Gerald threatening to Alexander chopping wood to a tense conversation is confusing without context."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-early_to_late-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald's threat 'I have enough influence to make a beggar disappear' shows immediate conflict with stakes."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Juliana's line 'I am not letting them take you' is a declaration, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this check is not applicable."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "The jump from Gerald's threat to Alexander chopping wood to a later scene with 'the law' is confusing without context."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal Alexander's identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's line 'make a beggar disappear' is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Juliana's line is a declaration, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "The jump from Gerald's threat to Alexander chopping wood to a later protective scene is disjointed and confusing."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man threatens a woman about her husband while another man arrives carrying wood and tries to protect her.",
+    "conflict_between": "Gerald vs Juliana/Alexander",
+    "want_to_know_next": "Will Gerald use his influence against them and what will happen to the husband?",
+    "would_keep_watching": true,
+    "why": "The threat creates tension and the protective dynamic between characters raises stakes."
+   }
+  },
+  "C-early_to_late-5": {
+   "sig": "2e1f622879cc",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show Alexander opening a door and a mother pleading for help, not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'Then let's see how brave you are when it touches your skin!' is a threat that hasn't landed. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Catherine's threat; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger won't know why Catherine is threatening Juliana or their relationship. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict but no late reveal about Alexander's identity, poisoning, or marriage invalidation. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s lines are 'other' (plea for help), not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is a threat_with_stakes. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": "Jump from Juliana helping a sick boy to Catherine threatening her with a branding rod is confusing; no clear connection. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "C-early_to_late-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Alexander opening a door and a mother pleading for help, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Then let's see how brave you are when it touches your skin!' is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger won't know why Catherine is threatening Juliana or their relationship."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but no late reveal about Alexander's identity, poisoning, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are 'other' (plea for help), not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jump from Juliana helping a sick boy to Catherine threatening her with a branding rod is confusing; no clear connection."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-early_to_late-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a door opening and a plea for medical help, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Then let's see how brave you are when it touches your skin!\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's threat; no line after it defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is about to be branded by an enraged rival; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a threat of violence, not a late reveal or arc resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a plea for help and a door opening, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Then let's see how brave you are when it touches your skin!\" is a threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jump from a sick child scene to a branding threat is confusing; no clear connection."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-early_to_late-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Alexander opening a door and a mother pleading for help for her sick boy - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Then let's see how brave you are when it touches your skin!' is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's threat with the branding rod raised."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger cannot tell why Catherine is threatening Juliana with a branding rod or who these people are."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Catherine threatening Juliana with violence, revealing a direct antagonist conflict that viewers don't know by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are 'other' - a plea for medical help, not a conflict hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a 'threat_with_stakes'."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jump from Juliana helping a sick boy to Catherine threatening her with a branding rod is confusing - no connection shown."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A peasant mother brings her sick boy to Juliana for herbal healing, then cuts to Juliana confronting Catherine who threatens her with a branding rod.",
+    "conflict_between": "Juliana vs Catherine",
+    "want_to_know_next": "Will Catherine brand Juliana and what happens to the sick boy?",
+    "would_keep_watching": true,
+    "why": "Intense dual plotlines with medical urgency and violent confrontation create compelling suspense."
+   }
+  },
+  "C-arc-1": {
+   "sig": "644d03603eba",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L30: 'You knew this before I walked through those doors!' shows immediate accusation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "L70: 'Enough!' is a command, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Catherine's command. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger defends a woman from guards and a matriarch, then a woman accuses Catherine of false power. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict but doesn't reveal late plot twists like Alexander's identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L30: 'You knew this...' is a shocking_line. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L70: 'Enough!' is not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments show accusation, rescue, and defiance, forming a mini-story of conflict and resistance. [2/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "C-arc-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L30: 'You knew this before I walked through those doors!' shows immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is a command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's command."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Multiple jumps between episodes 1, 3, and 31 make the conflict and characters confusing."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but doesn't reveal late plot twists like Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L30: 'You knew this...' is a shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "Jumps from altar accusation to stranger rescue to later confrontation with Catherine are disjointed."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-arc-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L30: 'You knew this before I walked through those doors!' shows immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is a command/outburst, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's scream, no line after it resolves the conflict."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger defends a woman from guards and a matriarch, then a woman accuses Catherine of false power."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict and defiance, but no late reveals like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L30: 'You knew this...' is a shocking_line breaking a promise."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is not a cliffhanger type; it's a command."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments show accusation, rescue, and defiance, forming a mini-story of conflict and resistance."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "C-arc-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L30: 'You knew this before I walked through those doors!' shows immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is a command/outburst, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's scream; no line after it resolves the conflict."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger defends a woman from guards; a noblewoman accuses another of deceit."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict and rescue, but not Alexander's identity or late poisoning/framing plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L30: 'You knew this...' is a shocking_line (accusation of prior deceit)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L70: 'Enough!' is not a cliffhanger type; it's a command/outburst."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments connect: accusation, rescue, then confrontation with Catherine."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman confronts someone who deceived her, then a stranger intervenes in a tense chapel standoff, and later the woman challenges another's authority.",
+    "conflict_between": "Lady Juliana vs. unknown deceiver, then The Bearded Stranger vs. Noble Matriarch/Royal Guard, then Juliana vs. Catherine",
+    "want_to_know_next": "Who deceived Juliana and why? What happens in the chapel confrontation?",
+    "would_keep_watching": true,
+    "why": "The emotional intensity, multiple conflicts, and mysterious characters create compelling intrigue."
+   }
+  }
+ }
+}

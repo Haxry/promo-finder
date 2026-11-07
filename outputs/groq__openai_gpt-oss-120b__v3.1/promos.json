@@ -1,0 +1,1333 @@
+[
+ {
+  "episode": 2,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 2,
+    "start": "01:23.00",
+    "end": "01:47.40",
+    "start_s": 83.0,
+    "end_s": 107.4
+   }
+  ],
+  "length_s": 24.4,
+  "hook": "\"Do not mistake my heartbreak for your victory, Gerald.\"",
+  "hook_type": "confrontation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"I may leave this chapel without a husband...\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "Juliana’s marriage to Gerald is implied but not shown",
+  "spoiler": false,
+  "why": "Juliana’s fierce challenge to Gerald hooks viewers, and her declaration of leaving without a husband ends on a powerful unanswered question.",
+  "heuristic_score": 3.76,
+  "notes": "",
+  "id": "E2-2",
+  "base": 4.7,
+  "formula": 5.1,
+  "formula_adj": 5.1,
+  "formula_rank": 1,
+  "rank": 1
+ },
+ {
+  "episode": 28,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 28,
+    "start": "01:35.20",
+    "end": "02:16.70",
+    "start_s": 95.2,
+    "end_s": 136.7
+   }
+  ],
+  "length_s": 41.5,
+  "hook": "Juliana gasps in horror, realizing her secret identity has been laid bare.",
+  "hook_type": "reveal",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"...before he sends you to the gallows.\"",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Reveals Juliana’s true noble identity and ends on Catherine’s deadly threat, a perfect hook‑cliffhanger that needs no prior knowledge.",
+  "heuristic_score": 6.61,
+  "notes": "",
+  "id": "E28-2",
+  "base": 5.0,
+  "formula": 5.0,
+  "formula_adj": 5.0,
+  "formula_rank": 2,
+  "rank": 2
+ },
+ {
+  "episode": 2,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 2,
+    "start": "00:00.00",
+    "end": "00:23.70",
+    "start_s": 0.0,
+    "end_s": 23.7
+   }
+  ],
+  "length_s": 23.7,
+  "hook": "\"I cannot marry you, Juliana.\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Promises change when a better choice appears.\"",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Starts with the groom’s brutal rejection, ends with his cold justification, leaving viewers wondering what will happen next.",
+  "heuristic_score": 6.67,
+  "notes": "",
+  "id": "E2-1",
+  "base": 4.65,
+  "formula": 5.05,
+  "formula_adj": 4.8,
+  "formula_rank": 3,
+  "rank": 3
+ },
+ {
+  "episode": 3,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 3,
+    "start": "01:09.90",
+    "end": "01:40.80",
+    "start_s": 69.9,
+    "end_s": 100.8
+   }
+  ],
+  "length_s": 30.9,
+  "hook": "\"Take your hands off her.\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"I can...\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The stranger’s brutal command stops the guards, then his ominous \"I can...\" leaves viewers hanging on what he'll do next.",
+  "heuristic_score": 4.75,
+  "notes": "",
+  "id": "E3-1",
+  "base": 4.35,
+  "formula": 4.75,
+  "formula_adj": 4.75,
+  "formula_rank": 4,
+  "rank": 4
+ },
+ {
+  "episode": 24,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 24,
+    "start": "00:32.50",
+    "end": "00:44.80",
+    "start_s": 32.5,
+    "end_s": 44.8
+   },
+   {
+    "episode": 24,
+    "start": "01:12.50",
+    "end": "01:29.80",
+    "start_s": 72.5,
+    "end_s": 89.8
+   }
+  ],
+  "length_s": 29.6,
+  "hook": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+  "hook_type": "slap",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"I will return. You cannot stop the healer.\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "The backstory of the poisoned Dowager Duchess and why Juliana is hiding an antidote.",
+  "spoiler": false,
+  "why": "Starts with a brutal riding‑crop strike that instantly grabs attention, then cuts to Juliana secretly retrieving her hidden remedy and ending on her defiant vow, leaving viewers desperate to see if she can outwit her captor.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E24-1",
+  "base": 4.7,
+  "formula": 4.7,
+  "formula_adj": 4.7,
+  "formula_rank": 5,
+  "rank": 5
+ },
+ {
+  "episode": 26,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 26,
+    "start": "00:14.20",
+    "end": "00:35.50",
+    "start_s": 14.2,
+    "end_s": 35.5
+   },
+   {
+    "episode": 26,
+    "start": "01:27.00",
+    "end": "01:55.50",
+    "start_s": 87.0,
+    "end_s": 115.5
+   }
+  ],
+  "length_s": 49.8,
+  "hook": "\"Who are you? Speak to me. I have not seen your face before.\"",
+  "hook_type": "reveal",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Where... where... Where did you get this ring? Speak to me!\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "Why the Duchess is interrogating Juliana and the significance of the ring",
+  "spoiler": false,
+  "why": "Begins with a tense confrontation, cuts to the shocking ring reveal, and finishes on a frantic demand, creating a tight, high‑stakes teaser.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E26-2",
+  "base": 4.7,
+  "formula": 4.7,
+  "formula_adj": 4.7,
+  "formula_rank": 6,
+  "rank": 6
+ },
+ {
+  "episode": 44,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 44,
+    "start": "00:03.30",
+    "end": "00:24.40",
+    "start_s": 3.3,
+    "end_s": 24.4
+   },
+   {
+    "episode": 44,
+    "start": "01:02.50",
+    "end": "01:10.40",
+    "start_s": 62.5,
+    "end_s": 70.4
+   }
+  ],
+  "length_s": 29.0,
+  "hook": "\"Lord Henry Sterling, you are under arrest by order of the Crown.\"",
+  "hook_type": "reveal",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Her?!\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "the past romance between Catherine and Alexander and who Juliana is",
+  "spoiler": false,
+  "why": "Starts with a dramatic arrest, builds emotional tension, and ends on Catherine's shocked gasp \"Her?!\" leaving the love‑triangle unresolved.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E44-1",
+  "base": 4.7,
+  "formula": 4.7,
+  "formula_adj": 4.7,
+  "formula_rank": 7,
+  "rank": 7
+ },
+ {
+  "episode": 20,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 20,
+    "start": "01:06.70",
+    "end": "01:28.00",
+    "start_s": 66.7,
+    "end_s": 88.0
+   }
+  ],
+  "length_s": 21.3,
+  "hook": "\"If I stop, Seamus, the lung fever in the valley wins.\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"And I am not finished.\"",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Juliana’s defiant stand against the valley fever creates immediate high stakes and ends on her unresolved determination.",
+  "heuristic_score": 7.67,
+  "notes": "",
+  "id": "E20-2",
+  "base": 4.65,
+  "formula": 4.65,
+  "formula_adj": 4.65,
+  "formula_rank": 8,
+  "rank": 8
+ },
+ {
+  "episode": 4,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 4,
+    "start": "00:03.40",
+    "end": "00:14.20",
+    "start_s": 3.4,
+    "end_s": 14.2
+   },
+   {
+    "episode": 4,
+    "start": "01:55.00",
+    "end": "02:14.50",
+    "start_s": 115.0,
+    "end_s": 134.5
+   }
+  ],
+  "length_s": 30.3,
+  "hook": "\"Look at him.\"",
+  "hook_type": "confrontation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"You are disowned!\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Who Gerald and Lady Ashcroft are; why they disown Juliana",
+  "spoiler": false,
+  "why": "Starts with a cutting insult that grabs attention, then jumps to the dramatic disowning, delivering a punchy 30‑second teaser that ends on a high‑stakes threat.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E4-2",
+  "base": 4.05,
+  "formula": 4.45,
+  "formula_adj": 4.45,
+  "formula_rank": 9,
+  "rank": 9
+ },
+ {
+  "episode": 5,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 5,
+    "start": "00:44.30",
+    "end": "01:40.80",
+    "start_s": 44.3,
+    "end_s": 100.8
+   }
+  ],
+  "length_s": 56.5,
+  "hook": "\"And the ledger...\"",
+  "hook_type": "confrontation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Choose your next words carefully.\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "who Lady Ashcroft is and why the ledger matters",
+  "spoiler": false,
+  "why": "Lady Ashcroft’s demand for the ledger sets a tense tone, culminating in the Bearded Man’s lethal warning that leaves viewers craving the next move.",
+  "heuristic_score": 6.05,
+  "notes": "",
+  "id": "E5-3",
+  "base": 4.05,
+  "formula": 4.45,
+  "formula_adj": 4.45,
+  "formula_rank": 10,
+  "rank": 10
+ },
+ {
+  "episode": 1,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 1,
+    "start": "00:11.30",
+    "end": "01:01.80",
+    "start_s": 11.3,
+    "end_s": 61.8
+   }
+  ],
+  "length_s": 50.5,
+  "hook": "\"You should turn around, Juliana.\"",
+  "hook_type": "reveal",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"I changed my mind.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Who Gerald is and why his change matters",
+  "spoiler": false,
+  "why": "Matriarch’s warning hooks viewers, and the groom’s sudden change leaves the betrayal unresolved, compelling viewers to watch.",
+  "heuristic_score": 7.68,
+  "notes": "",
+  "id": "E1-1",
+  "base": 4.0,
+  "formula": 4.4,
+  "formula_adj": 4.4,
+  "formula_rank": 11,
+  "rank": 11
+ },
+ {
+  "episode": 12,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 12,
+    "start": "00:26.80",
+    "end": "01:09.20",
+    "start_s": 26.8,
+    "end_s": 69.2
+   }
+  ],
+  "length_s": 42.4,
+  "hook": "\"You planted it!\"",
+  "hook_type": "confrontation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Fail, or refuse, and your husband hangs from the gallows.\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Juliana doesn't know who Clarissa is or why she can order a death threat",
+  "spoiler": false,
+  "why": "A fierce accusation launches into Clarissa's deadly ultimatum, ending on the hanging threat that forces viewers to wonder if she'll comply",
+  "heuristic_score": 8.27,
+  "notes": "",
+  "id": "E12-1",
+  "base": 4.4,
+  "formula": 4.4,
+  "formula_adj": 4.4,
+  "formula_rank": 12,
+  "rank": 12
+ },
+ {
+  "episode": 43,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 43,
+    "start": "01:09.00",
+    "end": "01:52.50",
+    "start_s": 69.0,
+    "end_s": 112.5
+   }
+  ],
+  "length_s": 43.5,
+  "hook": "\"You sold my men to the enemy.\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Going somewhere, Lord Sterling?\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "The significance of Lord Sterling’s escape isn’t explained",
+  "spoiler": false,
+  "why": "Alexander’s furious accusation hooks the viewer, and the final line hints at a looming chase, demanding to see what happens next.",
+  "heuristic_score": 9.76,
+  "notes": "",
+  "id": "E43-3",
+  "base": 4.4,
+  "formula": 4.4,
+  "formula_adj": 4.4,
+  "formula_rank": 13,
+  "rank": 13
+ },
+ {
+  "episode": 19,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 19,
+    "start": "00:43.00",
+    "end": "01:28.90",
+    "start_s": 43.0,
+    "end_s": 88.9
+   }
+  ],
+  "length_s": 45.9,
+  "hook": "A bald, scarred man dressed in a dark coat emerges from between the trees, immediately coming to a halt and bowing with clasped hands in formal deference.",
+  "hook_type": "other",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Then Ashburg will remember who it belongs to.\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "Viewer may not know who Alexander is or why his mother is imprisoned.",
+  "spoiler": false,
+  "why": "Starts with a mysterious scarred figure and ends with a bold vow, creating tension and a clear cliffhanger.",
+  "heuristic_score": 1.7,
+  "notes": "",
+  "id": "E19-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 14,
+  "rank": 14
+ },
+ {
+  "episode": 25,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 25,
+    "start": "00:13.20",
+    "end": "00:55.20",
+    "start_s": 13.2,
+    "end_s": 55.2
+   }
+  ],
+  "length_s": 42.0,
+  "hook": "Alexander steps forward and reaches out, his gloved hand firmly grasping her left shoulder. Juliana winces sharply and gasps in sudden pain.",
+  "hook_type": "slap",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Who?\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The opening grab and wince instantly shocks the viewer, and the abrupt question \"Who?\" leaves the mystery of the attacker unresolved, compelling a click to find out.",
+  "heuristic_score": 4.42,
+  "notes": "",
+  "id": "E25-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 15,
+  "rank": 15
+ },
+ {
+  "episode": 27,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 27,
+    "start": "00:48.80",
+    "end": "01:43.40",
+    "start_s": 48.8,
+    "end_s": 103.4
+   }
+  ],
+  "length_s": 54.6,
+  "hook": "The heavy mahogany double doors burst open, revealing the Blond Nobleman flanked by Lady Catherine and a royal guard in uniform.",
+  "hook_type": "slap",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"And now we find an unknown maid alone beside her bed...\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The sudden door burst grabs attention, then the nobleman's menacing threat leaves the viewer hanging on Juliana's fate.",
+  "heuristic_score": 5.9,
+  "notes": "",
+  "id": "E27-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 16,
+  "rank": 16
+ },
+ {
+  "episode": 32,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 32,
+    "start": "00:16.20",
+    "end": "00:36.20",
+    "start_s": 16.2,
+    "end_s": 36.2
+   },
+   {
+    "episode": 32,
+    "start": "02:15.00",
+    "end": "02:34.38",
+    "start_s": 135.0,
+    "end_s": 154.38
+   }
+  ],
+  "length_s": 39.4,
+  "hook": "\"Say goodbye to your mother.\"",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Then let's see how brave you are when it touches your skin!\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "The scene takes place in a dungeon where Catherine is torturing a chained Juliana; new viewers may not know the back‑story of their rivalry.",
+  "spoiler": false,
+  "why": "Opens with a chilling threat, showcases Juliana’s fierce defiance, and ends on the brand‑iron inches from her eye, leaving the outcome unknown and compelling viewers to watch.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E32-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 17,
+  "rank": 17
+ },
+ {
+  "episode": 39,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 39,
+    "start": "00:32.80",
+    "end": "01:30.20",
+    "start_s": 32.8,
+    "end_s": 90.2
+   }
+  ],
+  "length_s": 57.4,
+  "hook": "The driver leaps off the cart, striking the sentry across the chest, seizing his neck, and tackling him violently against the wooden carriage wheel.",
+  "hook_type": "slap",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"I am taking back my house.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "A brutal surprise attack grabs attention, then Alexander’s bold declaration to retake his house builds tension and ends on an unresolved promise.",
+  "heuristic_score": 2.67,
+  "notes": "",
+  "id": "E39-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 18,
+  "rank": 18
+ },
+ {
+  "episode": 45,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 45,
+    "start": "01:14.60",
+    "end": "01:41.10",
+    "start_s": 74.6,
+    "end_s": 101.1
+   }
+  ],
+  "length_s": 26.5,
+  "hook": "\"Lady Juliana Ashcroft is my lawful wife... and the Duchess of Ashburton!\"",
+  "hook_type": "reveal",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"This ceremony was performed without a Crown marriage license, by a priest without authority to sanctify a ducal union.\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "the significance of a ducal title and the Crown marriage license in this world",
+  "spoiler": false,
+  "why": "Begins with the triumphant proclamation of Juliana as Duchess, then abruptly halts with the priest declaring the ceremony invalid, forcing viewers to wonder what happens next",
+  "heuristic_score": 2.48,
+  "notes": "",
+  "id": "E45-3",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.35,
+  "formula_rank": 19,
+  "rank": 19
+ },
+ {
+  "episode": 27,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 27,
+    "start": "01:58.70",
+    "end": "02:24.90",
+    "start_s": 118.7,
+    "end_s": 144.9
+   }
+  ],
+  "length_s": 26.2,
+  "hook": "\"Poison.\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Take her.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The word \"Poison\" jolts the viewer, and the nobleman's command to seize Juliana ends on a cliffhanger, urging viewers to see what happens next.",
+  "heuristic_score": 3.63,
+  "notes": "",
+  "id": "E27-3",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.1,
+  "formula_rank": 20,
+  "rank": 20
+ },
+ {
+  "episode": 43,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 43,
+    "start": "00:00.60",
+    "end": "00:18.00",
+    "start_s": 0.6,
+    "end_s": 18.0
+   },
+   {
+    "episode": 43,
+    "start": "00:26.10",
+    "end": "01:04.20",
+    "start_s": 26.1,
+    "end_s": 64.2
+   }
+  ],
+  "length_s": 55.5,
+  "hook": "\"You're lying!\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Rupert Ashburn.\"",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "missing_context": "Viewer may not know the characters' titles (Alexander, Rupert, Lord Sterling) but the betrayal is clear",
+  "spoiler": false,
+  "why": "Begins with a frantic accusation that grabs attention and ends with damning evidence naming the traitor, leaving viewers desperate to see the fallout.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E43-1",
+  "base": 4.35,
+  "formula": 4.35,
+  "formula_adj": 4.1,
+  "formula_rank": 21,
+  "rank": 21
+ },
+ {
+  "episode": 6,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 6,
+    "start": "01:17.80",
+    "end": "01:46.00",
+    "start_s": 77.8,
+    "end_s": 106.0
+   }
+  ],
+  "length_s": 28.2,
+  "hook": "He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame.",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"And yet...\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Juliana's recent loss of home and family",
+  "spoiler": false,
+  "why": "Starts with the dramatic spark of fire‑lighting, then cuts to a haunting voice‑over that ends on an open‑ended “And yet…”, compelling viewers to seek the answer.",
+  "heuristic_score": 2.6,
+  "notes": "",
+  "id": "E6-2",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 22,
+  "rank": 22
+ },
+ {
+  "episode": 31,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 31,
+    "start": "00:06.90",
+    "end": "00:23.50",
+    "start_s": 6.9,
+    "end_s": 23.5
+   },
+   {
+    "episode": 31,
+    "start": "01:58.40",
+    "end": "02:04.00",
+    "start_s": 118.4,
+    "end_s": 124.0
+   }
+  ],
+  "length_s": 22.2,
+  "hook": "\"Look at you.\"",
+  "hook_type": "confrontation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Then why are you so desperate to make me kneel?\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "The rivalry between Catherine and Juliana and why they are in a dungeon is not explained",
+  "spoiler": false,
+  "why": "A sharp opening taunt grabs attention and the later question ‘Why are you so desperate to make me kneel?’ leaves viewers needing the backstory.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E31-1",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 23,
+  "rank": 23
+ },
+ {
+  "episode": 35,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 35,
+    "start": "00:37.00",
+    "end": "00:48.00",
+    "start_s": 37.0,
+    "end_s": 48.0
+   },
+   {
+    "episode": 35,
+    "start": "02:06.00",
+    "end": "02:30.00",
+    "start_s": 126.0,
+    "end_s": 150.0
+   }
+  ],
+  "length_s": 35.0,
+  "hook": "\"Alexander!\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"The men behind it... are the same men ruling Ashwood now.\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Who is Alexander? What is Ashwood?",
+  "spoiler": false,
+  "why": "A desperate shout grabs attention, then a chilling reveal about the hidden rulers leaves viewers desperate for answers.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E35-1",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 24,
+  "rank": 24
+ },
+ {
+  "episode": 36,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 36,
+    "start": "01:27.20",
+    "end": "02:21.50",
+    "start_s": 87.2,
+    "end_s": 141.5
+   }
+  ],
+  "length_s": 54.3,
+  "hook": "\"She did come to me.\"",
+  "hook_type": "reveal",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"When?\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Juliana's identity and why her execution matters",
+  "spoiler": false,
+  "why": "Reveals Juliana's capture and looming execution, ending on a deadly deadline that forces viewers to want to know what Alexander will do.",
+  "heuristic_score": 4.55,
+  "notes": "",
+  "id": "E36-1",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 25,
+  "rank": 25
+ },
+ {
+  "episode": 42,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 42,
+    "start": "00:18.00",
+    "end": "00:39.80",
+    "start_s": 18.0,
+    "end_s": 39.8
+   }
+  ],
+  "length_s": 21.8,
+  "hook": "\"Guards! Arrest this imposter!\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"And yet, here I stand. That is the lie you built your life upon.\"",
+  "cliff_strength": 4.0,
+  "standalone": 3.0,
+  "missing_context": "Rupert is the usurper; new viewers don’t know his identity",
+  "spoiler": false,
+  "why": "Begins with a guard’s defiant shout that stops scrolling and ends with Alexander’s challenge to the lie, leaving the conflict unresolved.",
+  "heuristic_score": 9.13,
+  "notes": "",
+  "id": "E42-1",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 26,
+  "rank": 26
+ },
+ {
+  "episode": 46,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 46,
+    "start": "00:58.50",
+    "end": "01:40.40",
+    "start_s": 58.5,
+    "end_s": 100.4
+   }
+  ],
+  "length_s": 41.9,
+  "hook": "\"I didn't ask this church for permission to survive, Father.\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"And I have the power to undo in one hearing what took you three years to steal!\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "who Juliana is, why the church opposes her, and who Catherine is",
+  "spoiler": false,
+  "why": "Juliana’s defiant claim grabs attention, and the priest’s threat of undoing her three‑year struggle leaves the conflict unresolved.",
+  "heuristic_score": 7.84,
+  "notes": "",
+  "id": "E46-2",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 4.05,
+  "formula_rank": 27,
+  "rank": 27
+ },
+ {
+  "episode": 10,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 10,
+    "start": "00:25.50",
+    "end": "01:19.00",
+    "start_s": 25.5,
+    "end_s": 79.0
+   }
+  ],
+  "length_s": 53.5,
+  "hook": "\"Then removing your shirt should not trouble you.\"",
+  "hook_type": "confrontation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Perhaps it is your hand.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Alexander’s scarred past is hinted but not explained.",
+  "spoiler": false,
+  "why": "A provocative command sparks intrigue, and the vulnerable confession about his hand creates a cliffhanger that urges viewers to see what follows.",
+  "heuristic_score": 2.92,
+  "notes": "",
+  "id": "E10-2",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 28,
+  "rank": 28
+ },
+ {
+  "episode": 14,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 14,
+    "start": "00:00.50",
+    "end": "00:13.50",
+    "start_s": 0.5,
+    "end_s": 13.5
+   },
+   {
+    "episode": 14,
+    "start": "01:16.50",
+    "end": "01:27.63",
+    "start_s": 76.5,
+    "end_s": 87.63
+   }
+  ],
+  "length_s": 24.1,
+  "hook": "Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+  "hook_type": "reveal",
+  "hook_strength": 5.0,
+  "cliffhanger": "Ominous, resonating low bass boom swelling into sudden silence as the screen cuts to black.",
+  "cliff_strength": 3.0,
+  "standalone": 4.0,
+  "missing_context": "The identities of Juliana and Alexander and why the emerald ring matters are not explained",
+  "spoiler": false,
+  "why": "Opens with the striking visual of the emerald signet ring (instant hook) and cuts to a solemn vow followed by an ominous boom and blackout, leaving the viewer desperate to learn who they are and what comes next.",
+  "heuristic_score": null,
+  "notes": "cliff capped at 3: final line is a stage direction",
+  "id": "E14-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 29,
+  "rank": 29
+ },
+ {
+  "episode": 17,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 17,
+    "start": "00:16.80",
+    "end": "00:35.80",
+    "start_s": 16.8,
+    "end_s": 35.8
+   },
+   {
+    "episode": 17,
+    "start": "01:39.50",
+    "end": "01:41.50",
+    "start_s": 99.5,
+    "end_s": 101.5
+   }
+  ],
+  "length_s": 21.0,
+  "hook": "\"For what?\"",
+  "hook_type": "confrontation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Not yet.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The opening question \"For what?\" instantly grabs attention, then the vow \"I just did\" builds tension, and the final \"Not yet\" leaves the promise unresolved, compelling viewers to watch the full episode.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E17-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 30,
+  "rank": 30
+ },
+ {
+  "episode": 18,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 18,
+    "start": "01:51.50",
+    "end": "02:40.80",
+    "start_s": 111.5,
+    "end_s": 160.8
+   }
+  ],
+  "length_s": 49.3,
+  "hook": "Alexander leaps forward, using his shoulder and back to shatter through the burning window frame, carrying Juliana safely in his arms out into the night.",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Someone wanted us out.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Viewer doesn't know who Alexander and Juliana are or why they're fleeing the fire",
+  "spoiler": false,
+  "why": "Shows a dramatic escape through a burning window and ends on an ominous threat, creating immediate tension and a question that compels new viewers to watch the full episode",
+  "heuristic_score": 2.35,
+  "notes": "",
+  "id": "E18-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 31,
+  "rank": 31
+ },
+ {
+  "episode": 23,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 23,
+    "start": "01:19.00",
+    "end": "02:11.20",
+    "start_s": 79.0,
+    "end_s": 131.2
+   }
+  ],
+  "length_s": 52.2,
+  "hook": "\"Someone is poisoning her.\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "Loud, metallic clack of the door latch turning, followed by the slow creak of wood hinges.",
+  "cliff_strength": 3.0,
+  "standalone": 4.0,
+  "missing_context": "Juliana is a lady trying to save the dying Duchess; new viewers won’t know their relationship or the stakes",
+  "spoiler": false,
+  "why": "The line “Someone is poisoning her” instantly raises stakes, then the door latch creaks, leaving the threat hanging and compelling viewers to click.",
+  "heuristic_score": 10.23,
+  "notes": "cliff capped at 3: final line is a stage direction",
+  "id": "E23-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 32,
+  "rank": 32
+ },
+ {
+  "episode": 29,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 29,
+    "start": "00:21.00",
+    "end": "00:56.50",
+    "start_s": 21.0,
+    "end_s": 56.5
+   }
+  ],
+  "length_s": 35.5,
+  "hook": "\"Your mother's little book of weeds?\"",
+  "hook_type": "reveal",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"...no one will remember what was written inside.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Shows Catherine’s cruel threat and Juliana’s desperate defiance, ending on a chilling promise that leaves the conflict unresolved.",
+  "heuristic_score": 5.48,
+  "notes": "",
+  "id": "E29-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 33,
+  "rank": 33
+ },
+ {
+  "episode": 30,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 30,
+    "start": "00:08.80",
+    "end": "00:39.80",
+    "start_s": 8.8,
+    "end_s": 39.8
+   },
+   {
+    "episode": 30,
+    "start": "02:02.40",
+    "end": "02:31.21",
+    "start_s": 122.4,
+    "end_s": 151.21
+   }
+  ],
+  "length_s": 59.8,
+  "hook": "\"You have a rat in your cellar, Rupert. And the servants are beginning to smell it.\"",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "Juliana clutches a rough burlap rag to her trembling chest, her tear-stained face lifting upward in dread and fragile hope as the frame holds, cutting abruptly to black.",
+  "cliff_strength": 3.0,
+  "standalone": 4.0,
+  "missing_context": "Juliana's imprisonment and why she is targeted",
+  "spoiler": false,
+  "why": "A visceral physical threat grabs attention, then the cut to Juliana in darkness leaves viewers desperate to know her fate.",
+  "heuristic_score": null,
+  "notes": "cliff capped at 3: final line is a stage direction",
+  "id": "E30-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 34,
+  "rank": 34
+ },
+ {
+  "episode": 37,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 37,
+    "start": "00:19.00",
+    "end": "00:29.80",
+    "start_s": 19.0,
+    "end_s": 29.8
+   },
+   {
+    "episode": 37,
+    "start": "01:33.50",
+    "end": "01:59.80",
+    "start_s": 93.5,
+    "end_s": 119.8
+   }
+  ],
+  "length_s": 37.1,
+  "hook": "\"And no one will question what happened to the woman who tried to stop us.\"",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Do you think she'll actually be executed?\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Juliana's identity and why she is condemned",
+  "spoiler": false,
+  "why": "Opens with a chilling threat about the condemned woman, jumps to Juliana’s fierce defiance in the dungeon, and ends on a skeptical question that leaves her fate uncertain, creating immediate tension for new viewers.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E37-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 35,
+  "rank": 35
+ },
+ {
+  "episode": 47,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 47,
+    "start": "01:15.20",
+    "end": "01:41.00",
+    "start_s": 75.2,
+    "end_s": 101.0
+   }
+  ],
+  "length_s": 25.8,
+  "hook": "\"Do it, Vaughn! Throw her past the estate perimeter!\"",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"As a scullery maid.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Catherine's status as a desperate outsider being ordered out",
+  "spoiler": false,
+  "why": "Starts with a violent command to expel Catherine, then flips to the shocking offer of servitude, leaving the outcome unknown.",
+  "heuristic_score": 5.12,
+  "notes": "",
+  "id": "E47-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 4.0,
+  "formula_rank": 36,
+  "rank": 36
+ },
+ {
+  "episode": 4,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 4,
+    "start": "00:56.80",
+    "end": "01:56.80",
+    "start_s": 56.8,
+    "end_s": 116.8
+   }
+  ],
+  "length_s": 60.0,
+  "hook": "\"I will not become anyone's charity.\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"You have thrown yourself away!\"",
+  "cliff_strength": 4.0,
+  "standalone": 3.0,
+  "missing_context": "Gerald's relationship to Juliana and why he opposes the marriage",
+  "spoiler": false,
+  "why": "Shows Juliana's defiant refusal, the solemn vow, and the immediate family backlash, ending on Gerald's furious outburst that leaves the conflict unresolved.",
+  "heuristic_score": 7.71,
+  "notes": "",
+  "id": "E4-1",
+  "base": 3.7,
+  "formula": 4.1,
+  "formula_adj": 3.85,
+  "formula_rank": 37,
+  "rank": 37
+ },
+ {
+  "episode": 36,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 36,
+    "start": "02:51.60",
+    "end": "03:16.80",
+    "start_s": 171.6,
+    "end_s": 196.8
+   }
+  ],
+  "length_s": 25.2,
+  "hook": "\"They stole my home!\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"...their dead Duke is coming home.\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "who the dead Duke is and his relevance to the plot",
+  "spoiler": false,
+  "why": "Shows Alexander’s fury over stolen home and ends with the ominous promise of a dead Duke returning, a cliffhanger that begs continuation.",
+  "heuristic_score": 4.01,
+  "notes": "",
+  "id": "E36-2",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 3.8,
+  "formula_rank": 38,
+  "rank": 38
+ },
+ {
+  "episode": 42,
+  "type": "B",
+  "segments": [
+   {
+    "episode": 42,
+    "start": "00:11.20",
+    "end": "00:14.60",
+    "start_s": 11.2,
+    "end_s": 14.6
+   },
+   {
+    "episode": 42,
+    "start": "00:34.00",
+    "end": "01:17.50",
+    "start_s": 34.0,
+    "end_s": 77.5
+   }
+  ],
+  "length_s": 46.9,
+  "hook": "\"Who are you?\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"And now, Rupert... we settle what you stole.\"",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "missing_context": "Rupert is the antagonist who claimed the dukedom",
+  "spoiler": false,
+  "why": "A shocked question grabs attention, then the cut jumps to Alexander’s deadly promise to Rupert, creating a compelling cliffhanger.",
+  "heuristic_score": null,
+  "notes": "",
+  "id": "E42-2",
+  "base": 4.05,
+  "formula": 4.05,
+  "formula_adj": 3.8,
+  "formula_rank": 39,
+  "rank": 39
+ },
+ {
+  "episode": 20,
+  "type": "A",
+  "segments": [
+   {
+    "episode": 20,
+    "start": "00:02.90",
+    "end": "00:25.40",
+    "start_s": 2.9,
+    "end_s": 25.4
+   }
+  ],
+  "length_s": 22.5,
+  "hook": "\"Or has your sudden climb to power sweetened your taste already?\"",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"...the title is mine.\"",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "missing_context": "Alexander's death and title claim may be unclear to new viewers",
+  "spoiler": false,
+  "why": "Shows the ruthless power grab with a sharp hook and leaves the claim to the dukedom unresolved, enticing curiosity.",
+  "heuristic_score": 2.76,
+  "notes": "",
+  "id": "E20-1",
+  "base": 4.0,
+  "formula": 4.0,
+  "formula_adj": 3.75,
+  "formula_rank": 40,
+  "rank": 40
+ }
+]

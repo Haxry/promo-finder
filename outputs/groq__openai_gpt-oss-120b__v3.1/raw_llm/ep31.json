@@ -1,0 +1,66 @@
+{
+ "episode": 31,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L5",
+     "end_line": "L14"
+    },
+    {
+     "start_line": "L65",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L5",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L65",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "The rivalry between Catherine and Juliana and why they are in a dungeon is not explained",
+   "spoiler": false,
+   "why": "A sharp opening taunt grabs attention and the later question ‘Why are you so desperate to make me kneel?’ leaves viewers needing the backstory."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L33"
+    },
+    {
+     "start_line": "L74",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L85",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Why Catherine is burning Juliana’s mother’s book and what the book contains",
+   "spoiler": false,
+   "why": "The sizzling iron sound instantly hooks, and the final image of the iron inches from Juliana’s eyes creates a tense cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L70",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L70",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L85",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "The history of the feud and why the iron is being used as a weapon",
+   "spoiler": false,
+   "why": "Catherine’s enraged scream is a visceral hook, and the threat of the flame turning the book to ash ends on a high‑stakes, unresolved moment."
+  }
+ ]
+}

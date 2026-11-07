@@ -1,0 +1,45 @@
+{
+ "episode": 37,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L15"
+    },
+    {
+     "start_line": "L51",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L64",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Juliana's identity and why she is condemned",
+   "spoiler": false,
+   "why": "Opens with a chilling threat about the condemned woman, jumps to Juliana’s fierce defiance in the dungeon, and ends on a skeptical question that leaves her fate uncertain, creating immediate tension for new viewers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L53",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L64",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Why Juliana is being starved and executed",
+   "spoiler": false,
+   "why": "Starts with Juliana’s raw declaration that hunger won’t break her, then cuts to a skeptical noble’s question about her execution, leaving the outcome hanging and enticing viewers."
+  }
+ ]
+}

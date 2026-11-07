@@ -1,0 +1,28 @@
+{
+ "episode": 38,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L15"
+    },
+    {
+     "start_line": "L42",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Who Alexander is and why the wedding bells signal Juliana's execution",
+   "spoiler": false,
+   "why": "The secret bread handoff and the sudden toll of wedding bells create instant tension, ending on a deadly cliff that compels viewers to watch the full episode."
+  }
+ ]
+}

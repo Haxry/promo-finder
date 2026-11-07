@@ -1,0 +1,83 @@
+{
+ "episode": 3,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L58",
+     "end_line": "L84"
+    }
+   ],
+   "hook_line": "L58",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L84",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Why are the guards trying to seize Juliana in the chapel?",
+   "spoiler": false,
+   "why": "A bold command stops the guards, then the stranger’s ominous half‑sentence leaves viewers hanging on his true intent."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L46",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The opening mockery instantly grabs attention, and the sudden “Guards! Remove her!” leaves the audience desperate to see if she escapes."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L95",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L95",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Who is the scarred stranger and why does he propose?",
+   "spoiler": false,
+   "why": "A simple, unexpected confession (“Because I want to.”) leads straight into a dramatic marriage proposal that stops before her answer."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L80",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L80",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A protective threat (“Good. Then don't touch her again.”) builds tension, culminating in a cliff‑hanger proposal that begs for her response."
+  }
+ ]
+}

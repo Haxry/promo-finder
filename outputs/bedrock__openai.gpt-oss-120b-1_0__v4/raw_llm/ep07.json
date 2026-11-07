@@ -1,0 +1,64 @@
+{
+ "episode": 7,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L45",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "Why Gerald suddenly flees when the scarred man appears.",
+   "spoiler": false,
+   "why": "Gerald’s threatening boast is smashed by the scarred warrior’s silent arrival, ending on Gerald’s panicked retreat – a perfect hook‑and‑cliff that teases the showdown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L10",
+     "end_line": "L41"
+    }
+   ],
+   "hook_line": "L10",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L41",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The episode opens with Gerald’s cruel mockery, then builds tension until the scarred man’s arrival freezes Gerald – a dramatic, unanswered threat that compels viewers to watch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "threat",
+   "missing_context": "Why the scarred beggar’s presence scares Gerald so much.",
+   "spoiler": false,
+   "why": "Juliana’s accusation that Gerald chose a “scarred beggar” instantly raises stakes, and the clip ends as Gerald bolts away, leaving the confrontation unresolved."
+  }
+ ]
+}

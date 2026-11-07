@@ -1,0 +1,70 @@
+{
+ "episode": 41,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L9",
+     "end_line": "L20"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L9",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana is being paraded in chains at a high‑society wedding when the cathedral is blown up",
+   "spoiler": false,
+   "why": "The abrupt command ‘Bring her in.’ instantly grabs attention, then the sudden explosion and mysterious armed figures leave the story hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L4",
+     "end_line": "L12"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Catherine halts her wedding vows to publicly disgrace Juliana, then the cathedral erupts",
+   "spoiler": false,
+   "why": "A power‑play line from the bride‑to‑be hooks viewers, and the later blast creates a dramatic cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L37"
+    },
+    {
+     "start_line": "L46",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana defiantly challenges Catherine just as the cathedral is detonated",
+   "spoiler": false,
+   "why": "Juliana’s defiant question is a strong hook, and the cut to the explosion with unknown attackers forces viewers to want more."
+  }
+ ]
+}

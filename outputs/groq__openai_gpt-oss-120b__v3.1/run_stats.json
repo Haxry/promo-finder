@@ -1,0 +1,22 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "groq",
+ "prompt_version": "v3.1",
+ "episodes": 50,
+ "failed_episodes": [
+  48
+ ],
+ "proposed": 115,
+ "valid": 106,
+ "rejected": 9,
+ "duplicates_dropped": 34,
+ "ranked": 40,
+ "ranking": "formula only",
+ "llm_usage_this_run": {
+  "calls": 44,
+  "prompt_tokens": 95391,
+  "completion_tokens": 85015,
+  "seconds": 211.39999999999998
+ },
+ "wall_seconds": 1331.0
+}

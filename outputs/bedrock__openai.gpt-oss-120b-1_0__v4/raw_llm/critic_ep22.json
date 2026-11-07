@@ -1,0 +1,507 @@
+{
+ "items": {
+  "E22-1": {
+   "sig": "d4122b3d38e3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Then prove it. The manor has no use for useless girls.\" is a dismissive challenge, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Who has been treating you?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A servant sneaks into forbidden area, finds a sick noblewoman showing signs of poisoning. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the Dowager Duchess is being poisoned, a late reveal. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a dismissive challenge, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Who has been treating you?\" is an unanswered_question. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E22-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Then prove it. The manor has no use for useless girls.\" is a dismissive challenge, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A servant sneaks into forbidden area, finds a sick noblewoman showing signs of poisoning."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the Dowager Duchess is being poisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a dismissive challenge, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Then prove it. The manor has no use for useless girls.\" is a dismissive line, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no line answers it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A servant sneaks into a sickroom and discovers poisoning; clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the Dowager Duchess is being poisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a dismissive challenge, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments show a continuous infiltration and discovery."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Then prove it. The manor has no use for useless girls.\" is a dismissive challenge, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid helps a lady sneak into a forbidden wing to find a sick duchess showing poisoning symptoms."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows discovery of poisoning, which viewers know by EP5; doesn't reveal the poisoners' identities or late twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a dismissive challenge, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A servant (Prudence) helps a lady (Juliana) navigate a manor to secretly visit a sick duchess.",
+    "conflict_between": "Juliana vs. the manor's rules/secrets",
+    "want_to_know_next": "What is wrong with the duchess and who has been treating her?",
+    "would_keep_watching": true,
+    "why": "The clip establishes clear tension, mystery, and a sense of danger, making me want to know the secret of the illness."
+   }
+  },
+  "E22-2": {
+   "sig": "8284866b6c6c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"And can you keep your eyes and ears where they belong?\" is a threat/question, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"This isn't ordinary fever.\" is a shocking realization that raises an unanswered question about what it is. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last line resolves it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Servant being warned, sneaking to a sickbed - clear stakes. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana discovering illness, doesn't reveal poisoning conspiracy or identities. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Threat/question about obedience, not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or direct threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"This isn't ordinary fever.\" is an about_to_learn_truth cliffhanger - she's realizing the secret. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "about_to_learn_truth",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E22-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And can you keep your eyes and ears where they belong?\" is a threat/question, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"This isn't ordinary fever.\" is a statement/realization, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Servant being warned, sneaking to a sickbed - clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana discovering illness, doesn't reveal poisoning conspiracy or identities."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Threat/question about obedience, not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Statement of realization, not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And can you keep your eyes and ears where they belong?\" is a warning, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"This isn't ordinary fever.\" is a shocking realization that raises an unanswered question about what it is."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the realization line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A servant is warned, sneaks into a forbidden wing, and finds a sick noble with something wrong - clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The poisoning reveal is known by EP5; this clip shows discovery, not the resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a warning/threat, but not a direct public humiliation, attack, arrest, shocking line, identity reveal, or immediate threat with stakes."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"This isn't ordinary fever.\" is an about_to_learn_truth cliffhanger - she's realizing the secret."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments flow logically: warning → sneaking → finding the sick duchess → realization."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "about_to_learn_truth",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And can you keep your eyes and ears where they belong?\" is a warning, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"This isn't ordinary fever.\" is a shocking realization that implies a hidden truth."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the shocking line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A servant is warned, sneaks into a sickroom, and discovers something is wrong."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The poisoning plot is known by EP5; the clip doesn't reveal the perpetrators or resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a stern warning/threat, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"This isn't ordinary fever.\" is an about_to_learn_truth cliffhanger."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "about_to_learn_truth",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A servant (Lady Juliana) is sneaking to care for a sick person in a restricted area of a manor",
+    "conflict_between": "Lady Juliana vs. Housekeeper/authority",
+    "want_to_know_next": "What is wrong with the sick person and why is it secret",
+    "would_keep_watching": true,
+    "why": "Intriguing mystery with clear stakes and atmospheric tension"
+   }
+  },
+  "E22-3": {
+   "sig": "39aa135375d8",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"And can you keep your eyes and ears where they belong?\" is a routine warning, not an immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Who has been treating you?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question; no line answers it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A maid sneaks into a forbidden wing and discovers a sick noblewoman being mistreated. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows Juliana discovering the Duchess's illness, which is setup, not a late reveal. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "The first lines are a warning/threat, but not one of the listed hook types. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Who has been treating you?\" is an unanswered_question. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut from the warning to sneaking into the West Wing connects as a continuous infiltration. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E22-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And can you keep your eyes and ears where they belong?\" is a routine warning, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no line answers it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid sneaks into a forbidden wing and discovers a sick noblewoman being mistreated."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana discovering the Duchess's illness, which is setup, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "The first lines are a warning/threat, but not one of the listed hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the warning to sneaking into the West Wing connects as a continuous infiltration."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a housekeeper giving orders, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Servants sneaking to a sick noble, clear stakes."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Juliana discovering the poisoning, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from warning about West Wing to Juliana entering it flows logically."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E22-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And can you keep your eyes and ears where they belong?\" is a warning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A servant sneaks into forbidden area to find a sick noble, suspects foul play."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows poisoning suspicion but not the culprits or resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a warning/threat, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who has been treating you?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from hallway warning to sneaking into West Wing flows logically."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A servant (Lady Juliana) is secretly visiting a sick Dowager Duchess in the forbidden West Wing, discovering her illness is unnatural.",
+    "conflict_between": "Lady Juliana vs. the oppressive household authority",
+    "want_to_know_next": "Who has been treating the Duchess and what is causing her unnatural illness",
+    "would_keep_watching": true,
+    "why": "The clip reveals a mystery about poisoning or foul play in a gothic manor setting."
+   }
+  }
+ }
+}

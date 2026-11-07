@@ -1,0 +1,572 @@
+{
+ "key": {
+  "ids": [
+   "E1-4",
+   "E3-1",
+   "B5-1",
+   "E12-1",
+   "E15-3",
+   "E33-4",
+   "E46-2",
+   "E2-1",
+   "E4-2",
+   "E1-3",
+   "E3-2",
+   "E7-1",
+   "E10-1",
+   "E11-1",
+   "B16-1",
+   "E22-2",
+   "E24-1",
+   "E27-1",
+   "E29-2",
+   "E31-3",
+   "E32-1",
+   "E34-2",
+   "E47-2",
+   "E3-4",
+   "E29-3"
+  ],
+  "sigs": [
+   "0e93e42ccbb1",
+   "51456da1b9fd",
+   "5a7f6cf90bd4",
+   "bef711aef7e0",
+   "ae7b6936aeb8",
+   "9fe1d7da88c6",
+   "3860b265a775",
+   "91962c5c7e42",
+   "5cae1a8ce228",
+   "ddea73e098bc",
+   "df36896b30b7",
+   "1f54609ccc69",
+   "df4ca741627c",
+   "f428433c4e48",
+   "06490ee1b42e",
+   "8284866b6c6c",
+   "047d68dbda92",
+   "1f3c0ea5b406",
+   "c2e742da841d",
+   "8cdcd4f6ae74",
+   "78d9118413fc",
+   "f3b121bf55ea",
+   "a00dd6d80c15",
+   "a587035d3b6e",
+   "f4b299bfe9de"
+  ],
+  "quality": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "group_size": 5,
+  "rounds": 2,
+  "prompt": "v4"
+ },
+ "groups": [
+  {
+   "group": [
+    "E15-3",
+    "E33-4",
+    "B16-1",
+    "E22-2",
+    "E29-3"
+   ],
+   "answer": [
+    {
+     "id": "B16-1",
+     "reason": "First 3 seconds show a visually arresting, superhuman action that immediately stops the scroll and establishes the underdog premise without context needed."
+    },
+    {
+     "id": "E29-3",
+     "reason": "Opening with visceral physical struggle creates instant tension and empathy, making viewers need to know why she's being dragged."
+    },
+    {
+     "id": "E15-3",
+     "reason": "Clear verbal conflict and humiliation hook creates immediate social drama that's universally understandable."
+    },
+    {
+     "id": "E33-4",
+     "reason": "Mysterious 'praying or chanting' hook intrigues, but is slightly more abstract than the physical conflicts above."
+    },
+    {
+     "id": "E22-2",
+     "reason": "Longest clip with QA flags about context makes it weakest for stopping new viewers' scrolls immediately."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E3-1",
+    "E4-2",
+    "E7-1",
+    "E29-2",
+    "E34-2"
+   ],
+   "answer": [
+    {
+     "id": "E3-1",
+     "reason": "Strongest hook ('Take your hands off her.') instantly creates a clear, high-stakes conflict that stops a scroll, and the rescue pattern is universally understood without spoilers."
+    },
+    {
+     "id": "E34-2",
+     "reason": "Hook ('The people call it poisoning!') implies a shocking public scandal and moral outrage, creating immediate intrigue about the protagonist's controversial actions."
+    },
+    {
+     "id": "E7-1",
+     "reason": "Hook ('I have enough influence to make a beggar disappear.') establishes a powerful villain and clear underdog dynamic, making the viewer root for the protagonist's defiance."
+    },
+    {
+     "id": "E29-2",
+     "reason": "Hook ('And when they find your corpse at the end of the rope...') is a vivid, threatening image, but the conflict is slightly more abstract than the higher-ranked clips."
+    },
+    {
+     "id": "E4-2",
+     "reason": "Hook ('You have thrown yourself away!') is emotionally charged but less immediately gripping than physical threats or public scandals for a new viewer."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E12-1",
+    "E46-2",
+    "E11-1",
+    "E24-1",
+    "E3-4"
+   ],
+   "answer": [
+    {
+     "id": "E12-1",
+     "reason": "Strongest hook ('I want to see you crawl') immediately establishes high-stakes humiliation-revenge dynamic, shortest length maximizes retention, and cliffhanger creates urgent, clear stakes for new viewers."
+    },
+    {
+     "id": "E46-2",
+     "reason": "Powerful hook ('mistake my patience for weakness') establishes authority conflict instantly, underdog pattern is universally relatable, and cliffhanger ('lose her twice') creates emotional investment with a clear deadline."
+    },
+    {
+     "id": "E3-4",
+     "reason": "Rescue pattern is immediately clear ('don't touch her again'), protective dynamic sells the premise effectively, and cliffhanger ('accept my hand') offers romantic/heroic payoff that hooks new viewers."
+    },
+    {
+     "id": "E11-1",
+     "reason": "Legal conflict hook ('complaint of theft') is understandable but less visceral than above clips, and QA flags (open question, weak cliff) reduce urgency compared to stronger options."
+    },
+    {
+     "id": "E24-1",
+     "reason": "Visual hook (violent strike) is strong but lacks dialogue punch, excessive length risks scroll-through, and multiple QA failures (nothing resolves, weak cliff) make it least effective for new viewer acquisition."
+    }
+   ]
+  },
+  {
+   "group": [
+    "B5-1",
+    "E2-1",
+    "E10-1",
+    "E27-1",
+    "E47-2"
+   ],
+   "answer": [
+    {
+     "id": "E47-2",
+     "reason": "Strongest hook: immediate power reversal with concrete humiliation ('scrub the floors') that's instantly understandable to strangers, plus clear stakes in cliffhanger."
+    },
+    {
+     "id": "B5-1",
+     "reason": "Emotionally charged hook about mother's legacy desecrated creates immediate outrage, revenge pattern is proven for engagement, and cliffhanger builds tension without QA issues."
+    },
+    {
+     "id": "E2-1",
+     "reason": "Direct personal insult ('Look at you') creates instant conflict, humiliation pattern works for new viewers, despite QA flags the raw confrontation stops scrolls."
+    },
+    {
+     "id": "E27-1",
+     "reason": "Medical authority challenge creates intriguing premise conflict, 'poison plot' suggests high stakes, but hook is more conceptual than visceral for immediate stopping power."
+    },
+    {
+     "id": "E10-1",
+     "reason": "Weakest for new viewers: blood observation hook lacks context/conflict, long runtime, and QA flags indicate it doesn't establish premise clearly enough."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E1-4",
+    "E1-3",
+    "E3-2",
+    "E31-3",
+    "E32-1"
+   ],
+   "answer": [
+    {
+     "id": "E1-4",
+     "reason": "Strongest opening with immediate emotional conflict ('You knew this before I walked through those doors!') that stops scrolls and introduces core betrayal premise without spoilers."
+    },
+    {
+     "id": "E1-3",
+     "reason": "Clear premise-setting with 'Why are you holding her hand?' betrayal hook that new viewers instantly understand, despite QA notes."
+    },
+    {
+     "id": "E32-1",
+     "reason": "Powerful underdog confrontation with visceral dialogue that creates immediate empathy and curiosity about the outcome."
+    },
+    {
+     "id": "E31-3",
+     "reason": "Intense physical danger cliffhanger with vivid imagery, but requires more context than earlier clips for maximum impact."
+    },
+    {
+     "id": "E3-2",
+     "reason": "Longest clip with weaker opening hook; humiliation/revenge pattern less immediately gripping than betrayal for new viewers."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E4-2",
+    "E3-2",
+    "E10-1",
+    "E22-2",
+    "E24-1"
+   ],
+   "answer": [
+    {
+     "id": "E24-1",
+     "reason": "First 3 seconds show immediate, shocking physical violence that stops scrolls hardest and clearly establishes an underdog vs. noble conflict."
+    },
+    {
+     "id": "E3-2",
+     "reason": "Opens with a direct, contemptuous line that creates instant tension, and the humiliation-to-revenge pattern is universally compelling for new viewers."
+    },
+    {
+     "id": "E10-1",
+     "reason": "The visual hook of blood creates immediate intrigue, and the ending question creates personal, mysterious tension that demands resolution."
+    },
+    {
+     "id": "E22-2",
+     "reason": "The hook question establishes a power dynamic and surveillance tension, but is slightly more abstract than the more visceral clips above."
+    },
+    {
+     "id": "E4-2",
+     "reason": "The shortest clip lacks immediate visual impact in first seconds, and QA noted issues with open-ended questions that may confuse new viewers."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E15-3",
+    "E2-1",
+    "E7-1",
+    "E32-1",
+    "E3-4"
+   ],
+   "answer": [
+    {
+     "id": "E7-1",
+     "reason": "Hook establishes immediate power imbalance with 'make a beggar disappear' - clear villain vs underdog dynamic stops scrolls fastest"
+    },
+    {
+     "id": "E32-1",
+     "reason": "'Chained woman' line creates instant moral outrage and underdog sympathy, though hook lacks context it's emotionally gripping"
+    },
+    {
+     "id": "E15-3",
+     "reason": "Rescue pattern with 'crying over weeds' mockery creates immediate conflict, but less intense than top two hooks"
+    },
+    {
+     "id": "E2-1",
+     "reason": "Humiliation premise clear but 'Why are you surprised' hook less arresting than direct threats or moral outrage"
+    },
+    {
+     "id": "E3-4",
+     "reason": "Longest clip with slower start ('Good. Then don't touch her') - least effective for immediate scroll-stopping"
+    }
+   ]
+  },
+  {
+   "group": [
+    "B5-1",
+    "E46-2",
+    "E1-3",
+    "E34-2",
+    "E29-3"
+   ],
+   "answer": [
+    {
+     "id": "E1-3",
+     "reason": "First 3 seconds establish immediate romantic betrayal tension that anyone understands without context, creating instant curiosity about the relationship."
+    },
+    {
+     "id": "E29-3",
+     "reason": "Visual opening of physical struggle and 'witchcraft' accusation creates visceral, high-stakes drama that stops scrolling with clear conflict."
+    },
+    {
+     "id": "B5-1",
+     "reason": "Emotional hook about mother's legacy being desecrated provides strong character motivation and humiliation-revenge arc that promises satisfying payoff."
+    },
+    {
+     "id": "E46-2",
+     "reason": "Powerful threat with concrete stakes ('lose her twice') creates urgency, though requires slightly more context than top clips."
+    },
+    {
+     "id": "E34-2",
+     "reason": "Public accusation scene has drama but ending is more procedural than emotionally gripping compared to others, making it less scroll-stopping."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E1-4",
+    "E3-1",
+    "E12-1",
+    "B16-1",
+    "E47-2"
+   ],
+   "answer": [
+    {
+     "id": "B16-1",
+     "reason": "Visual action of catching a club mid-swing stops scrolls hardest with immediate physical stakes and power display."
+    },
+    {
+     "id": "E12-1",
+     "reason": "Clear villain dialogue \"I want to see you crawl, sister\" establishes conflict instantly with high emotional stakes."
+    },
+    {
+     "id": "E1-4",
+     "reason": "Betrayal accusation \"You knew this before I walked through those doors!\" introduces core drama premise effectively for new viewers."
+    },
+    {
+     "id": "E47-2",
+     "reason": "Humiliation premise is clear but less urgent than earlier clips; apron ultimatum creates curiosity about identity."
+    },
+    {
+     "id": "E3-1",
+     "reason": "Rescue scenario is generic; lacks the immediate visceral hook or premise-establishing power of higher-ranked clips."
+    }
+   ]
+  },
+  {
+   "group": [
+    "E33-4",
+    "E11-1",
+    "E27-1",
+    "E29-2",
+    "E31-3"
+   ],
+   "answer": [
+    {
+     "id": "E31-3",
+     "reason": "Most visceral first 3 seconds with 'Enough!' plus immediate high-stakes physical threat that anyone understands without context."
+    },
+    {
+     "id": "E33-4",
+     "reason": "Intriguing 'praying or chanting?' hook creates immediate mystery, and 'My testimony?!' cliffhanger suggests a courtroom betrayal twist."
+    },
+    {
+     "id": "E29-2",
+     "reason": "Strong threatening hook about a corpse on a rope sets clear stakes, and the underdog question creates immediate rooting interest."
+    },
+    {
+     "id": "E27-1",
+     "reason": "Medical authority challenge hook establishes clear conflict, but longer length and QA issues make it less scroll-stopping."
+    },
+    {
+     "id": "E11-1",
+     "reason": "Theft complaint hook is clear but less dramatic than others, plus it has multiple QA failures including weak cliffhanger structure."
+    }
+   ]
+  }
+ ],
+ "log": [
+  {
+   "round": 1,
+   "group": [
+    "E1-4",
+    "E1-3",
+    "E3-2",
+    "E31-3",
+    "E32-1"
+   ],
+   "order": [
+    "E1-4",
+    "E1-3",
+    "E32-1",
+    "E31-3",
+    "E3-2"
+   ]
+  },
+  {
+   "round": 1,
+   "group": [
+    "E3-1",
+    "E4-2",
+    "E7-1",
+    "E29-2",
+    "E34-2"
+   ],
+   "order": [
+    "E3-1",
+    "E34-2",
+    "E7-1",
+    "E29-2",
+    "E4-2"
+   ]
+  },
+  {
+   "round": 1,
+   "group": [
+    "B5-1",
+    "E2-1",
+    "E10-1",
+    "E27-1",
+    "E47-2"
+   ],
+   "order": [
+    "E47-2",
+    "B5-1",
+    "E2-1",
+    "E27-1",
+    "E10-1"
+   ]
+  },
+  {
+   "round": 1,
+   "group": [
+    "E12-1",
+    "E46-2",
+    "E11-1",
+    "E24-1",
+    "E3-4"
+   ],
+   "order": [
+    "E12-1",
+    "E46-2",
+    "E3-4",
+    "E11-1",
+    "E24-1"
+   ]
+  },
+  {
+   "round": 1,
+   "group": [
+    "E15-3",
+    "E33-4",
+    "B16-1",
+    "E22-2",
+    "E29-3"
+   ],
+   "order": [
+    "B16-1",
+    "E29-3",
+    "E15-3",
+    "E33-4",
+    "E22-2"
+   ]
+  },
+  {
+   "round": 2,
+   "group": [
+    "E1-4",
+    "E3-1",
+    "E12-1",
+    "B16-1",
+    "E47-2"
+   ],
+   "order": [
+    "B16-1",
+    "E12-1",
+    "E1-4",
+    "E47-2",
+    "E3-1"
+   ]
+  },
+  {
+   "round": 2,
+   "group": [
+    "B5-1",
+    "E46-2",
+    "E1-3",
+    "E34-2",
+    "E29-3"
+   ],
+   "order": [
+    "E1-3",
+    "E29-3",
+    "B5-1",
+    "E46-2",
+    "E34-2"
+   ]
+  },
+  {
+   "round": 2,
+   "group": [
+    "E15-3",
+    "E2-1",
+    "E7-1",
+    "E32-1",
+    "E3-4"
+   ],
+   "order": [
+    "E7-1",
+    "E32-1",
+    "E15-3",
+    "E2-1",
+    "E3-4"
+   ]
+  },
+  {
+   "round": 2,
+   "group": [
+    "E33-4",
+    "E11-1",
+    "E27-1",
+    "E29-2",
+    "E31-3"
+   ],
+   "order": [
+    "E31-3",
+    "E33-4",
+    "E29-2",
+    "E27-1",
+    "E11-1"
+   ]
+  },
+  {
+   "round": 2,
+   "group": [
+    "E4-2",
+    "E3-2",
+    "E10-1",
+    "E22-2",
+    "E24-1"
+   ],
+   "order": [
+    "E24-1",
+    "E3-2",
+    "E10-1",
+    "E22-2",
+    "E4-2"
+   ]
+  }
+ ]
+}

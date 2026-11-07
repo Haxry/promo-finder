@@ -1,0 +1,66 @@
+{
+ "episode": 35,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L19",
+     "end_line": "L23"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L19",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L69",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who is Alexander? What is Ashwood?",
+   "spoiler": false,
+   "why": "A desperate shout grabs attention, then a chilling reveal about the hidden rulers leaves viewers desperate for answers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L58",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L58",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L69",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who is Alexander? What is Ashwood?",
+   "spoiler": false,
+   "why": "A single, ominous line about a false death hooks viewers, ending on a powerful conspiracy reveal."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L33"
+    },
+    {
+     "start_line": "L58",
+     "end_line": "L69"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "question",
+   "hook_strength": 3,
+   "cliff_line": "L69",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who is Alexander? What is Ashwood?",
+   "spoiler": false,
+   "why": "A desperate question sparks curiosity, followed by the same menacing conspiracy cliffhanger."
+  }
+ ]
+}

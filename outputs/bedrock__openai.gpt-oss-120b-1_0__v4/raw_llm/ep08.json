@@ -1,0 +1,26 @@
+{
+ "episode": 8,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L45",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "pattern": "hidden_identity",
+   "missing_context": "The intimacy of Juliana offering to trim Alexander's beard hints at a deeper bond that new viewers won’t yet understand.",
+   "spoiler": false,
+   "why": "The bold suggestion (“I could trim them for you.”) grabs attention instantly, then the clip cuts off mid‑instruction, leaving viewers hanging on what Alexander will teach next."
+  }
+ ]
+}

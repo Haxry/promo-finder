@@ -1,0 +1,946 @@
+{
+ "items": {
+  "E27-1": {
+   "sig": "1f3c0ea5b406",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line \"And you decided you knew better than every physician in this house?\" shows immediate conflict between authority figure and defiant servant. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line \"Take her\" is a command/arrest order, not an unanswered question or threat that hasn't landed. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the arrest order with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: nobleman accuses maid of unauthorized treatment, she claims antidote, gets framed for poisoning. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Accusation matches early premise, doesn't reveal late poisoning plot resolution [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is \"shocking_line\" - servant defying all physicians breaks norms. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line \"Take her\" is arrest order but not a CLIFFHANGER TYPE - it's execution of threat, not pending threat. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E27-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line \"And you decided you knew better than every physician in this house?\" shows immediate conflict between authority figure and defiant servant."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"Take her\" is a command/arrest order, not an unanswered question or threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the arrest order with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: nobleman accuses maid of unauthorized treatment, she claims antidote, gets framed for poisoning."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals poisoning plot (Juliana's antidote claim) which is a LATE REVEAL viewers shouldn't know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is \"shocking_line\" - servant defying all physicians breaks norms."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line \"Take her\" is arrest order but not a CLIFFHANGER TYPE - it's execution of threat, not pending threat."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate accusation: 'you decided you knew better than every physician'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "'Take her' is a command, not an unanswered question or cut threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on 'Take her' with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: maid accused of poisoning vs noble accusers"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Accusation matches early premise, doesn't reveal late poisoning plot resolution"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are public accusation/interrogation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'Take her' is an order, not a cliffhanger type"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E27-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"And you decided you knew better than every physician in this house?\" is an immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Take her.\" is a command, not an unanswered question, threat, or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the arrest command."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is accused of poisoning a noblewoman by a nobleman and another lady."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows an accusation of poisoning, which is known by Ep5, not the late reveal of who the poisoners are."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"And you decided you knew better...\" is a public_humiliation hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Take her.\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A maid is being accused of poisoning a duchess after secretly administering an antidote.",
+    "conflict_between": "Juliana (the maid) vs Blond Nobleman and Lady Catherine",
+    "want_to_know_next": "Is Juliana telling the truth about the poisoning, and who is really poisoning the duchess?",
+    "would_keep_watching": true,
+    "why": "The tension between the accused maid and the noble accusers creates immediate intrigue about who is lying and what will happen to the duchess."
+   }
+  },
+  "E27-2": {
+   "sig": "0a115e3b0e9d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show a shaky old woman asking about a ring, not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line is an unanswered question: 'What is your husband's name?' [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman questions another about her husband's ring, suggesting a hidden identity. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the ring's connection to the Duchess's son, a late reveal about Alexander's identity. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E27-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a shaky old woman asking about a ring, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is an unanswered question: 'What is your husband's name?'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman questions another about her husband's ring, suggesting a hidden identity."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the ring's connection to the Duchess's son, a late reveal about Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E27-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a question about a ring, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"What is your husband's name?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger understands an older woman recognizes a ring and questions a younger woman about her husband."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander's true identity (the lost son) which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a question about a ring, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line \"What is your husband's name?\" is unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E27-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a confused old woman asking about a ring, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"What is your husband's name?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman sees a ring, suspects a connection to her lost son, asks the wife."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the ring's ducal crest and hints Alexander is the lost son, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are questioning a ring, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman recognizes a ring belonging to her lost son on a soldier's wife",
+    "conflict_between": "Dowager Duchess vs Juliana (over the ring's origin and husband's identity)",
+    "want_to_know_next": "Is Juliana's husband the Duchess's lost son or did he acquire the ring another way?",
+    "would_keep_watching": true,
+    "why": "The emotional revelation creates compelling mystery about identity and family secrets"
+   }
+  },
+  "E27-3": {
+   "sig": "654c0009ba9c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine's accusatory 'What is that maid doing in Her Grace's private chamber?' immediately establishes conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "The last line 'And you decided you knew better than every physician in this house?' is a rhetorical accusation, not an unanswered question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the interrogating line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A maid is caught giving medicine without permission to a dying duchess, creating clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows Juliana's risky act but doesn't reveal the poisoning conspiracy or Alexander's identity. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "The first lines are an accusation and questioning, not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "The last line is a rhetorical accusation, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth moment. [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E27-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's accusatory 'What is that maid doing in Her Grace's private chamber?' immediately establishes conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "The last line 'And you decided you knew better than every physician in this house?' is a rhetorical accusation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the interrogating line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is caught giving medicine without permission to a dying duchess, creating clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana's risky act but doesn't reveal the poisoning conspiracy or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "The first lines are an accusation and questioning, not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The last line is a rhetorical accusation, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth moment."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E27-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate accusation: 'What is that maid doing in Her Grace's private chamber?'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a rhetorical accusation, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: noblewoman interrogating maid about unauthorized medicine."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows tension but doesn't reveal poisoning plot or identity reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "shocking_line: Immediate accusation of trespass in private chamber."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Other: Rhetorical accusation, not an open-ended cliffhanger type."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E27-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line: 'What is that maid doing in Her Grace's private chamber?' shows immediate accusation and conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line: 'And you decided you knew better than every physician in this house?' is an unanswered question challenging Juliana's authority."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the interrogating question with no answer or resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is caught giving medicine without permission to a dying duchess, with nobles questioning her authority."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana helping the Duchess, which aligns with her established character by EP5, not revealing late poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are an accusation/question ('What is that maid doing...'), not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question challenging Juliana's decision."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A maid is being interrogated for giving medicine to a dying duchess without permission.",
+    "conflict_between": "Juliana (the maid) vs Lady Catherine and the blond nobleman",
+    "want_to_know_next": "What will happen to Juliana for her unauthorized actions?",
+    "would_keep_watching": true,
+    "why": "The tension is high with clear class conflict and potential consequences for a compassionate act."
+   }
+  },
+  "E27-4": {
+   "sig": "667819768aad",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First lines show poisoning accusation and immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action of arrest, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends with Juliana being dragged away [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear setup: servant accused of poisoning a noblewoman. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Juliana is framed for poisoning, a late reveal. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines contain 'poison' accusation - shocking_line. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is arrest action, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "shocking_line",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E27-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show poisoning accusation and immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action of arrest, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Not applicable - no cliffhanger present."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear setup: servant accused of poisoning a noblewoman."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana is framed for poisoning, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines contain 'poison' accusation - shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is arrest action, not a cliffhanger type."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show immediate accusation of poisoning"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line shows arrest in progress, not an open question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with Juliana being dragged away"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear accusation, denial, and arrest - villain frames heroine"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows poisoning plot but not the late reveal of who's behind it"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Poison\" is a shocking line"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Arrest action is not a cliffhanger type"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines: 'Poison.' and 'Someone has been poisoning Her Grace.' show immediate accusation."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action of arrest, not an unanswered question, threat, cut-off, or about-to-learn moment."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with Juliana being dragged away; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Juliana is accused of poisoning a noblewoman and arrested."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals poisoning plot and Juliana's arrest, which are late reveals (poisoning conspiracy, framing)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines: 'Poison.' is a shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action, not a cliffhanger type."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A servant is being falsely accused of poisoning a duchess.",
+    "conflict_between": "Juliana vs Lady Catherine and the Blond Nobleman",
+    "want_to_know_next": "Will Juliana be able to prove her innocence?",
+    "would_keep_watching": true,
+    "why": "The scene creates immediate tension with a clear injustice and a character in peril."
+   }
+  },
+  "E27-5": {
+   "sig": "e96707560fae",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A nobleman demands a maid show what she's holding - immediate authority conflict. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"You hear that?!\" is a rhetorical exclamation, not an unanswered question or cut threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Catherine's line; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A maid is caught giving unauthorized medicine, accused of acting without permission. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals Juliana knows about the poisoning plot, a late reveal (Rupert and Catherine are poisoning the Dowager Duchess). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are an interrogation/demand, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a rhetorical exclamation, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E27-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A nobleman demands a maid show what she's holding - immediate authority conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"You hear that?!\" is a rhetorical exclamation, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's line; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is caught giving unauthorized medicine, accused of acting without permission."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana knows about the poisoning plot, a late reveal (Rupert and Catherine are poisoning the Dowager Duchess)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an interrogation/demand, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical exclamation, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Girl. Show me what you are holding.\" is a command, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"You hear that?!\" is a rhetorical exclamation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line, nothing resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is accused of giving unauthorized medicine, claiming it's an antidote to poison."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Juliana discovering the poisoning plot, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an interrogation, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical exclamation, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Blond Nobleman demands 'Show me what you are holding' - immediate authority challenge."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'You hear that?!' is a rhetorical exclamation, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's exclamation with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Maid caught giving unauthorized medicine, accused of poisoning - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals poisoning plot against Duchess, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a command/investigation, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is exclamation/accusation, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A maid is accused of giving unauthorized medicine to a dying duchess.",
+    "conflict_between": "Juliana (maid) vs Blond Nobleman and Lady Catherine",
+    "want_to_know_next": "Who is poisoning the Duchess and why?",
+    "would_keep_watching": true,
+    "why": "The accusation of poisoning creates immediate high stakes and mystery."
+   }
+  },
+  "E27-6": {
+   "sig": "cabb83a66cdd",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lines show Catherine accusing a maid of unauthorized medicine administration. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an accusation, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Catherine's accusation. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Conflict between maid and nobles over unauthorized medicine is clear. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals poisoning plot, which is a LATE REVEAL. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are accusation/interrogation, not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an accusation, not a listed cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E27-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show Catherine accusing a maid of unauthorized medicine administration."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Catherine's accusation."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Conflict between maid and nobles over unauthorized medicine is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals poisoning plot, which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are accusation/interrogation, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A maid is accused of giving unauthorized medicine to a duchess."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation ('She admits...'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No lines follow the cliffhanger accusation."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid is accused of poisoning a duchess; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the poisoning plot, which is a late reveal (Rupert and Catherine poisoning the Dowager Duchess)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an accusation ('Who permitted you...'), not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E27-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A maid is accused of giving medicine without permission - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an accusation statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Accusation ends the clip with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: maid accused of poisoning a duchess without permission."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows accusation but not the resolution of poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are questioning/accusation, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an accusation statement, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A maid is being accused of giving unauthorized medicine to a dying duchess, and she claims it was an antidote to poison.",
+    "conflict_between": "Juliana (the maid) vs Lady Catherine and the Blond Nobleman",
+    "want_to_know_next": "Who is poisoning the Duchess and whether Juliana's claims are true.",
+    "would_keep_watching": true,
+    "why": "The accusation of poisoning creates high stakes and mystery about palace intrigue."
+   }
+  }
+ }
+}

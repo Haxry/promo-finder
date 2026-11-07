@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E2-1": {
+   "sig": "91962c5c7e42",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Mocking sister immediately shames protagonist's appearance. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the line \"Dignity?\" with no resolution. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A sister mocks another at a wedding, groom tells her to leave; clear rivalry. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are public_humiliation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line \"Dignity?\" is not an unanswered_question, threat_with_stakes, etc. [0/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E2-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are insults about a gown and face, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line \"Dignity?\" with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A sister mocks another at a wedding, groom tells her to leave; clear rivalry."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are insults, not a slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line \"Dignity?\" is not an unanswered_question, threat_with_stakes, etc."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E2-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Mocking sister immediately shames protagonist's appearance."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on her defiant line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: sister mocks protagonist at a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a rhetorical echo, not a cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E2-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show immediate public humiliation: 'Why are you surprised, sister? Look at you.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Dignity?' is rhetorical, not an unanswered question needing resolution."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is not open-ended, so this check is irrelevant."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: sister mocks protagonist's appearance at a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is rhetorical, not an unanswered_question or other cliff type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman in a gold gown is mocking another woman (Juliana) at a wedding, insulting her appearance and suggesting she's not worthy of the groom Gerald. Another voice scolds Juliana, and the groom tells her to leave quietly.",
+    "conflict_between": "Lady in gold gown vs Juliana, and possibly others vs Juliana",
+    "want_to_know_next": "Why is Juliana being targeted? What is her relationship to Gerald?",
+    "would_keep_watching": true,
+    "why": "The insults suggest a deeper backstory about Juliana's connection to the groom and why she's being publicly shamed."
+   }
+  },
+  "E2-2": {
+   "sig": "917111543ba4",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are insults, not a physical conflict or immediate threat. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the line. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is being insulted and dismissed at a wedding. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows early humiliation, not a late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Insults are not a listed hook type. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "A rhetorical question is not a listed cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E2-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are insults, not a physical conflict or immediate threat."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being insulted and dismissed at a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Insults are not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "A rhetorical question is not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E2-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show a woman being insulted at a wedding ('kitchen maid', 'dull creature'), immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Dignity?' is a rhetorical question, not an unanswered cliffhanger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check fails, so this is not applicable."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a woman is being mocked at a wedding by guests and groom."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Only shows early humiliation, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s lines are 'public_humiliation' (insulted as kitchen maid)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'Dignity?' is not an unanswered question needing answer, threat, cut-off, or reveal."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E2-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are insults, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Line ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is being mocked at a wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Insults are public humiliation, but not in first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Dignity?\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being insulted and dismissed at a wedding",
+    "conflict_between": "Lady Juliana vs the wedding attendees",
+    "want_to_know_next": "How Juliana responds to being told to leave",
+    "would_keep_watching": true,
+    "why": "The power dynamics and Juliana's defiant tone create compelling tension"
+   }
+  }
+ }
+}

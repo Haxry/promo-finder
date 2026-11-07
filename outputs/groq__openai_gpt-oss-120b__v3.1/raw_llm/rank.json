@@ -1,0 +1,36 @@
+{
+ "ids": [
+  "E1-1",
+  "E2-1",
+  "E2-2",
+  "E2-3",
+  "E3-1",
+  "E3-3"
+ ],
+ "order": [
+  {
+   "id": "E2-1",
+   "reason": "Strong, instantly conflict‑driven hook and no missing context, with a cliffhanger that begs continuation"
+  },
+  {
+   "id": "E3-1",
+   "reason": "Powerful command hook, zero missing context, and an ambiguous \"I can...\" cliffhanger adds tension"
+  },
+  {
+   "id": "E2-2",
+   "reason": "Emotionally charged hook that sells Juliana’s defiance and a compelling \"leave without a husband\" cliffhanger despite slight context gap"
+  },
+  {
+   "id": "E1-1",
+   "reason": "Matriarch’s warning introduces core premise, hook is solid and the groom’s sudden change creates intrigue, adding variety"
+  },
+  {
+   "id": "E2-3",
+   "reason": "Sister’s taunt brings family rivalry into view, offering a different beat and a dignified‑exit cliffhanger"
+  },
+  {
+   "id": "E3-3",
+   "reason": "Final exile decree reinforces stakes, closing with a clear, punchy hook and decisive \"You leave\" cliffhanger"
+  }
+ ]
+}

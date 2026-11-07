@@ -1,0 +1,45 @@
+{
+ "episode": 2,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L54"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L54",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The audience doesn’t yet know why Juliana’s sister is mocking her or that Gerald just left her at the altar.",
+   "spoiler": false,
+   "why": "Starts with a cutting insult that grabs attention, then ends on Juliana’s defiant “Dignity?” leaving viewers craving her next move."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L37",
+     "end_line": "L54"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L54",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "New viewers won’t know the back‑story of the wedding betrayal, but the insult and Juliana’s question are self‑contained.",
+   "spoiler": false,
+   "why": "The cruel taunt (“You look like a kitchen maid…”) shocks the scroll, and the clip cuts on Juliana’s pointed question, creating an irresistible hook."
+  }
+ ]
+}

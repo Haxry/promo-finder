@@ -1,0 +1,66 @@
+{
+ "episode": 34,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L5"
+    },
+    {
+     "start_line": "L101",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The opening accusation instantly grabs attention and the final judge’s raised hand leaves the verdict unknown, creating a strong hook‑cliffhanger loop that works without prior knowledge."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L47",
+     "end_line": "L70"
+    },
+    {
+     "start_line": "L101",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L47",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "the identity of the Lord and why he opposes Juliana",
+   "spoiler": false,
+   "why": "Juliana’s furious outburst (“It was not a ritual!”) is a visceral hook, and the judge’s looming judgment at the end creates a tense cliffhanger that compels viewers to watch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L95",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L95",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L115",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The judge’s warning “Think carefully” is a direct threat that hooks the audience, and the final hand‑raised judgment leaves the outcome unresolved, delivering a concise, suspenseful promo."
+  }
+ ]
+}

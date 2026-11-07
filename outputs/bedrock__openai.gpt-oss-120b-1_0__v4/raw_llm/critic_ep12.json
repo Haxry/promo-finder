@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E12-1": {
+   "sig": "bef711aef7e0",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"I want to see you crawl, sister.\" is a clear conflict of humiliation between sisters. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line \"Fail, or refuse, and your husband hangs from the gallows.\" is a threat with stakes that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the threat; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clarissa demands Juliana retrieve a ring from dangerous thorns to save her husband from hanging; clear antagonist-victim dynamic. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows ongoing cruelty and threat, not revealing Alexander's true identity, the poisoning plot, or marriage invalidation. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I want to see you crawl, sister.\" is public_humiliation (shaming in front of others). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is threat_with_stakes. [3/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E12-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is a clear conflict of humiliation between sisters."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"Fail, or refuse, and your husband hangs from the gallows.\" is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clarissa demands Juliana retrieve a ring from dangerous thorns to save her husband from hanging; clear antagonist-victim dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows ongoing cruelty and threat, not revealing Alexander's true identity, the poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is public_humiliation (shaming in front of others)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E12-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is a clear humiliation demand."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is a threat with stakes that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat is the final line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel sister forces her sibling to retrieve a ring from dangerous thorns or her husband will hang."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows ongoing cruelty but doesn't reveal Alexander's identity, the poisoning plot, or the marriage's invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E12-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" - immediate sibling humiliation"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" - threat with stakes"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Sister demands cruel task under threat of husband's execution"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals husband is captured/under threat - late plot point"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "public_humiliation"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "threat_with_stakes"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Clarissa is forcing her sister to retrieve a ring from dangerous thorns",
+    "conflict_between": "Clarissa vs her sister",
+    "want_to_know_next": "Will the sister attempt the dangerous task?",
+    "would_keep_watching": true,
+    "why": "The high-stakes blackmail creates immediate tension and curiosity about the sister's choice"
+   }
+  },
+  "E12-2": {
+   "sig": "399f49ae94fc",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"I want to see you crawl, sister.\" is a clear conflict of humiliation. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Tell me where the garden is.\" is a command, not an open question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Juliana's question; no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clarissa demands Juliana crawl and retrieve a ring; Juliana's husband is threatened; she agrees to do it. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "The clip shows ongoing persecution, not a late reveal like Alexander's true identity or the poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"I want to see you crawl, sister.\" is public_humiliation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Tell me where the garden is.\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [1/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E12-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is a clear conflict of humiliation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Tell me where the garden is.\" is an unanswered question about location."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clarissa demands Juliana crawl and retrieve a ring; Juliana's husband is threatened; she agrees to do it."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows ongoing persecution, not a late reveal like Alexander's true identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Tell me where the garden is.\" is unanswered_question."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E12-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tell me where the garden is.\" is a command, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clarissa demands Juliana retrieve a ring or her husband hangs; Juliana agrees."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conflict but not late reveals like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Tell me where the garden is.\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E12-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" - immediate power dynamic and cruelty"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Tell me where the garden is.\" is a command/demand, not an open question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's demand with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: cruel sister forces heroine to retrieve ring under threat to her husband"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing humiliation plot but doesn't reveal Alexander's identity or resolution"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"I want to see you crawl, sister.\" is public_humiliation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Tell me where the garden is.\" is not an unanswered question, threat, cut-off, or about-to-learn-truth"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Clarissa is forcing Juliana to retrieve her ring from dangerous thorns to drop charges against Juliana's husband.",
+    "conflict_between": "Clarissa vs Juliana",
+    "want_to_know_next": "Will Juliana actually retrieve the ring, and will Clarissa keep her word?",
+    "would_keep_watching": true,
+    "why": "High stakes emotional drama with clear villain and sacrificial hero."
+   }
+  },
+  "E12-3": {
+   "sig": "c1b43e184198",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Constable immediately arrests Alexander for theft. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"I want to see you crawl, sister\" is a cruel command, not an open question or threat with stakes. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Clarissa's line with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: a man is arrested for theft, his wife defends him, accusers mock them. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip shows Alexander arrested for theft, revealing a frame-up plot that viewers don't know until later episodes. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"Put out your hands, veteran. You are under arrest for theft\" is an arrest_accusation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"I want to see you crawl, sister\" is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E12-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable immediately arrests Alexander for theft."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister\" is a cruel command, not an open question or threat with stakes."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Clarissa's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: a man is arrested for theft, his wife defends him, accusers mock them."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Alexander arrested for theft, revealing a frame-up plot that viewers don't know until later episodes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Put out your hands, veteran. You are under arrest for theft\" is an arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister\" is not an unanswered question, threat with stakes, cut mid-sentence, or about to learn truth."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E12-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A constable arrests a veteran for theft in the first line."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister.\" is a cruel command/statement, not an open question or threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Clarissa's line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man is arrested for theft, his wife defends him, accuses others of planting evidence, and her sister taunts her with a cruel demand."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Alexander arrested for theft, a frame-up that is part of the late poisoning/witchcraft plot against Juliana."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Put out your hands, veteran. You are under arrest for theft.\" is an arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister.\" is a cruel statement/command, not one of the defined cliffhanger types."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E12-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Constable arresting Alexander for theft creates immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister\" is a command/threat, not an unanswered question or cut-off sentence"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clarissa's line ends the clip"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear setup: man arrested for theft, wife defends him, sister taunts and makes demand"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Alexander arrested for theft - this frames him as criminal/beggar, spoiling his true ducal identity reveal"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Put out your hands, veteran. You are under arrest for theft\" is arrest_accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I want to see you crawl, sister\" is a threat but not with immediate stakes - more of a command/taunt"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A veteran is being falsely accused of theft by a constable, with a smug man and taunting sister manipulating the situation.",
+    "conflict_between": "Juliana & Alexander vs Constable, Gerald & Clarissa",
+    "want_to_know_next": "What deal Clarissa will propose and how Juliana will respond to her cruel demand.",
+    "would_keep_watching": true,
+    "why": "The tension is high with clear injustice, complex family dynamics, and a cliffhanger proposal that creates immediate curiosity."
+   }
+  }
+ }
+}

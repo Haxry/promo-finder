@@ -1,0 +1,95 @@
+{
+ "episode": 32,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L100",
+     "end_line": "L108"
+    },
+    {
+     "start_line": "L112",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L102",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The clip opens with a chilling threat and builds to the branding iron stopping inches from Juliana’s eye, leaving viewers desperate to see if she survives."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L90",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L90",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine’s frantic scream shouts Juliana down, then the iron hovers menacingly—an instant hook and a nail‑biting cliff."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L45"
+    },
+    {
+     "start_line": "L112",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Juliana is publicly called a “disgraced woman,” then the scene jumps to the branding iron about to strike—perfect tension for new viewers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L56",
+     "end_line": "L71"
+    },
+    {
+     "start_line": "L112",
+     "end_line": "L115"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L115",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "Juliana is chained in a dungeon, which new viewers may not know.",
+   "spoiler": false,
+   "why": "Her declaration of freedom and love for a “nobody” surprises viewers, then the branding iron looms—an emotional hook followed by lethal danger."
+  }
+ ]
+}

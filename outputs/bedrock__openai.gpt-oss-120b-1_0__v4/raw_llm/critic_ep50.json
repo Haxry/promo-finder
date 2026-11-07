@@ -1,0 +1,503 @@
+{
+ "items": {
+  "E50-1": {
+   "sig": "5bb8122679bb",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Name your price.\" is an offer, not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Or perhaps discretion isn't the only thing you've developed a taste for.\" is a suggestive statement, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The suggestive line is the last line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "A stranger wouldn't know who Catherine and Father Thomas are, what 'the hearing' is, or why their deal matters. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals Catherine conspiring with Father Thomas, a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Name your price.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "The last line is a suggestive statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E50-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Name your price.\" is an offer, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Or perhaps discretion isn't the only thing you've developed a taste for.\" is a suggestive statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The suggestive line is the last line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Catherine and Father Thomas are, what 'the hearing' is, or why their deal matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Catherine conspiring with Father Thomas, a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Name your price.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The last line is a suggestive statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a business negotiation, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a suggestive statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The suggestive line ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two characters negotiate a corrupt deal; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Catherine's affair with Father Thomas, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are transactional, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a suggestive statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Name your price.\" is a negotiation, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Or perhaps discretion isn't the only thing you've developed a taste for.\" is a suggestive statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the suggestive line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Catherine and Father Thomas are, why the west territory matters, or what hearing they're discussing."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine and Father Thomas are conspiring and having an affair, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Name your price.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The last line is a suggestive statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A negotiation between a woman and a priest where she's buying his silence about their affair with territory and tax collection rights.",
+    "conflict_between": "Catherine vs Father Thomas",
+    "want_to_know_next": "What hearing are they referring to and what exactly needs to be kept secret?",
+    "would_keep_watching": true,
+    "why": "The dialogue reveals a complex power dynamic mixing religion, politics, and forbidden romance with sharp, layered writing."
+   }
+  },
+  "E50-2": {
+   "sig": "1f3d91d57d8e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Unsupervised. In your hands alone.\" is cryptic dialogue without immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "SFX gasp is not an unanswered question, threat, cut-off sentence, or reveal about to happen. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The gasp is the final moment. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A maid witnesses a noblewoman and a priest in a secret affair. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Affair is not a late reveal; Catherine's scheming is known early. [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are cryptic plotting, not a defined hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "SFX gasp is not a defined cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments flow from secret conversation to Agnes witnessing the affair. [2/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E50-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Unsupervised. In your hands alone.\" is cryptic dialogue without immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "SFX gasp is not an unanswered question, threat, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The gasp is the final moment."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A maid witnesses a noblewoman and a priest in a secret affair."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Affair is not a late reveal; Catherine's scheming is known early."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are cryptic plotting, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "SFX gasp is not a defined cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from secret conversation to Agnes witnessing the affair."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are cryptic dialogue about supervision and hearings, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered question, threat, cut-off, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is just a gasp; no line after it exists to resolve anything."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a maid witnessing a secret affair between a noblewoman and a priest."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Affair is known early; doesn't reveal late poisoning, usurpation, or execution plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s lines are suggestive dialogue about a hearing and bedchamber, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the gasp with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Viewer can infer a secret affair witnessed by a maid."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Catherine's affair with Father Thomas, a late plot point."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from dialogue to Agnes witnessing the affair."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A forbidden romantic encounter between a priest and Catherine is discovered by Agnes",
+    "conflict_between": "Catherine and Father Thomas vs societal/religious norms",
+    "want_to_know_next": "What will Agnes do with this discovery",
+    "would_keep_watching": true,
+    "why": "The tension of a secret affair being discovered creates compelling drama"
+   }
+  },
+  "E50-3": {
+   "sig": "3b5af62853f5",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a negotiation about taxes and discretion, not an immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a gasp sound effect, not an unanswered question, threat, or cut-off. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The gasp is the final moment; nothing after it resolves the scene. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A viewer can follow: a corrupt priest and a noblewoman are making a deal and having an affair, witnessed by a maid. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Catherine's affair with Father Thomas, known by EP5 [2/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a negotiation, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a gasp, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The segments connect: deal-making leads to intimate moment, then Agnes witnesses it. [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E50-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a negotiation about taxes and discretion, not an immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gasp sound effect, not an unanswered question, threat, or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The gasp is the final moment; nothing after it resolves the scene."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A viewer can follow: a corrupt priest and a noblewoman are making a deal and having an affair, witnessed by a maid."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Catherine's affair with Father Thomas, a late reveal about their conspiracy."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a negotiation, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a gasp, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The segments connect: deal-making leads to intimate moment, then Agnes witnesses it."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about tax collection routing, not immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Gasp is the final moment"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: corrupt priest and noblewoman making a deal, then caught in affair"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's affair with Father Thomas, known by EP5"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are about tax deal, not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a gasp, not a cliffhanger type"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Continuous story: deal → affair → witness discovery"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E50-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a negotiation about taxes and absolution, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered question, threat, cut-off, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The gasp is the final moment."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A corrupt priest and a noblewoman make a deal, then are caught in an affair by a maid."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's affair with Father Thomas, which is known scheming, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are a financial negotiation, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a gasp SFX, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from negotiation to affair to maid witnessing it."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A priest is demanding control over tax collection in exchange for discretion about a secret affair, which is then discovered by a witness.",
+    "conflict_between": "Father Thomas vs Catherine (negotiation), Agnes vs the secret (discovery)",
+    "want_to_know_next": "Will Agnes expose them and what will happen to the tax deal?",
+    "would_keep_watching": true,
+    "why": "High stakes political and personal drama with immediate consequences from the discovery."
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "episode": 5,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L57",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "viewer may not know Juliana's family feud or who the Mysterious Bearded Man is",
+   "spoiler": false,
+   "why": "A visceral slap on the ledger grabs attention instantly, then the Bearded Man’s cold warning leaves the conflict unresolved, compelling viewers to watch."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L6",
+     "end_line": "L33"
+    }
+   ],
+   "hook_line": "L6",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L33",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "relationship between Juliana and Lord Ashcroft isn’t explained",
+   "spoiler": false,
+   "why": "Lord Ashcroft’s harsh decree hooks the audience, and the ledger’s brutal destruction ends on a shocking slap, creating a strong cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L24",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L24",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L57",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "who Lady Ashcroft is and why the ledger matters",
+   "spoiler": false,
+   "why": "Lady Ashcroft’s demand for the ledger sets a tense tone, culminating in the Bearded Man’s lethal warning that leaves viewers craving the next move."
+  }
+ ]
+}

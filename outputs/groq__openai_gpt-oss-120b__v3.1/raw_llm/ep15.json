@@ -1,0 +1,28 @@
+{
+ "episode": 15,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L8",
+     "end_line": "L30"
+    },
+    {
+     "start_line": "L47",
+     "end_line": "L54"
+    }
+   ],
+   "hook_line": "L8",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L54",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Viewer doesn't know Alexander's backstory or his vow to protect Juliana",
+   "spoiler": false,
+   "why": "Begins with Juliana bursting into the garden as thugs destroy her mother's herbs (instant hook), builds tension through her defiance, then cuts to Alexander’s fierce arrival and ends on a dramatic cello swell, leaving the conflict unresolved."
+  }
+ ]
+}

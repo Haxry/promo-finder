@@ -1,0 +1,58 @@
+{
+ "episode": 7,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "the scarred bearded man’s identity is unknown to new viewers",
+   "spoiler": false,
+   "why": "A bold threat followed by the sudden, silent arrival of a mysterious figure creates instant tension and leaves the audience hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L8",
+     "end_line": "L31"
+    }
+   ],
+   "hook_line": "L8",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L31",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "viewers don’t know the history between Juliana, Gerald and the aristocratic woman",
+   "spoiler": false,
+   "why": "The aristocratic woman’s cruel taunt grabs attention, then the scene escalates to a menacing threat, ending on a cliff that begs for resolution."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L55"
+    }
+   ],
+   "hook_line": "L35",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L53",
+   "cliff_strength": 3,
+   "standalone": 4,
+   "missing_context": "the scarred bearded man is Juliana’s mysterious husband, unknown to newcomers",
+   "spoiler": false,
+   "why": "The silent, imposing entrance of the bearded man intrigues viewers, and Juliana’s quiet admiration leaves the mystery of his power unresolved."
+  }
+ ]
+}

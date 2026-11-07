@@ -1,0 +1,83 @@
+{
+ "episode": 15,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "viewers don’t know who the thugs are or why they’re attacking the garden",
+   "spoiler": false,
+   "why": "A fierce threat (“Get out of the way!”) instantly grabs attention, then Alexander’s arrival leads to a tense showdown that ends on a taunting question, leaving the conflict hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "slap_attack",
+   "hook_strength": 5,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "new viewers won’t know Juliana’s backstory or why the thugs are destroying her mother’s herbs",
+   "spoiler": false,
+   "why": "The brutal shove is a visceral hook, and the clip builds to Alexander’s protective stance before cutting on the thugs’ challenge, promising a fight."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L40",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L40",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "pattern": "humiliation_revenge",
+   "missing_context": "the audience doesn’t yet know Juliana’s noble status or the significance of the garden",
+   "spoiler": false,
+   "why": "The thug’s mocking line humiliates Juliana, pulling the viewer in, then the scene cuts on a daring question that teases a showdown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L45",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L45",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "rescue",
+   "missing_context": "viewers won’t know Alexander’s identity or why he’s defending Juliana",
+   "spoiler": false,
+   "why": "Alexander’s sudden, fierce entrance is a visual threat that instantly excites, ending on the thugs’ provocative question to leave the outcome unknown."
+  }
+ ]
+}

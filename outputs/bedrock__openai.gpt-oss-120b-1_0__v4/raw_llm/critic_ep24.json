@@ -1,0 +1,648 @@
+{
+ "items": {
+  "E24-1": {
+   "sig": "047d68dbda92",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A noblewoman strikes Juliana with a riding crop - immediate physical conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "N/A - no cliffhanger present. [1/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear power dynamic: noblewoman abuses maid Juliana, who secretly plots revenge. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana's undercover mission but doesn't reveal Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First 3s show 'slap_attack' - a riding crop strike. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a defiant declaration, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E24-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A noblewoman strikes Juliana with a riding crop - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "N/A - no cliffhanger present."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: noblewoman abuses maid Juliana, who secretly plots revenge."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's undercover mission but doesn't reveal Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show 'slap_attack' - a riding crop strike."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defiant declaration, not a cliffhanger type."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A noblewoman strikes Juliana with a riding crop in the first seconds."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "N/A - no cliffhanger present."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: noblewoman abuses maid Juliana, who secretly plans defiance."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's undercover role as maid, which is known by Ep5; doesn't reveal late twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show a physical strike (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defiant statement, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A noblewoman strikes Juliana with a riding crop in the first seconds."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line \"I will return. You cannot stop the healer.\" is a declaration, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the defiant voiceover line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman abuses a maid; the maid secretly plans defiance."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Juliana humiliated but secretly defiant, not revealing late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show a physical strike (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defiant statement, not an unanswered question or threat."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman is violently disciplining and humiliating a maid named Juliana, forcing her to clean a filthy hearth while asserting her social inferiority.",
+    "conflict_between": "Noblewoman vs Juliana",
+    "want_to_know_next": "What is Juliana secretly planning with her hidden journal and bottle?",
+    "would_keep_watching": true,
+    "why": "Juliana's hidden defiance and secret knowledge create intriguing tension beneath the surface abuse."
+   }
+  },
+  "E24-2": {
+   "sig": "a8b0a0da3b7b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L25: 'Juliana gasps in pain, clutching her stomach...absorbing the brutal strike' shows immediate physical conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "L68: 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": false,
+      "reason": "Cliffhanger check failed, so this is N/A. [1/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear power dynamic: noblewoman demeaning a maid forced to clean. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana humbled as a maid, which aligns with EP5 knowledge. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L25: ACTION line shows a physical strike, qualifying as slap_attack. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L68: Declaration of intent is not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E24-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L25: 'Juliana gasps in pain, clutching her stomach...absorbing the brutal strike' shows immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L68: 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this is N/A."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power dynamic: noblewoman demeaning a maid forced to clean."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana humbled as a maid, which aligns with EP5 knowledge."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L25: ACTION line shows a physical strike, qualifying as slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L68: Declaration of intent is not a cliffhanger type."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana gasps in pain from a brutal strike while being told 'You are a maid' - immediate physical conflict and status humiliation"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the declaration with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Noblewoman demeaning maid Juliana while she secretly plans resistance - clear power dynamic"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's undercover work but doesn't reveal Alexander's identity or poisoning plot resolution"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Combines physical strike (slap_attack) with 'You are a maid' (public_humiliation)"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'I will return. You cannot stop the healer.' is a declaration, not a cliffhanger type"
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Juliana gasps in pain from a strike, immediately showing conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is the last line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Noblewoman demeans Juliana as a maid; Juliana secretly plots as a healer."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's undercover struggle, not late reveals like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show Juliana gasping from a strike (action line), but no hook type like slap_attack or public_humiliation is clearly present in the marked lines."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defiant vow, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman is humiliating and punishing Juliana, forcing her to clean a filthy fireplace while asserting her low status.",
+    "conflict_between": "Juliana vs the noblewoman",
+    "want_to_know_next": "Why is Juliana pretending to be just a maid? What is her real identity and purpose?",
+    "would_keep_watching": true,
+    "why": "The secret defiance and hidden identity create intriguing tension about what will happen next."
+   }
+  },
+  "E24-3": {
+   "sig": "5804f8bafcfc",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A noblewoman thrusts a riding crop into Prudence's face and threatens her. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"I will return. You cannot stop the healer.\" is a declaration, not an unanswered question, threat with stakes, cut-off sentence, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the declaration; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A noblewoman threatens a maid while another maid secretly plots revenge; clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana disguised and plotting, which is established by Ep5; doesn't reveal late twists like Alexander's identity or the poisoning frame-up. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Thrusting a riding crop into someone's face is a physical attack (slap_attack). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a declaration of intent, not an unanswered question, threat with stakes, cut-off sentence, or about-to-learn-truth. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E24-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A noblewoman thrusts a riding crop into Prudence's face and threatens her."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a declaration, not an unanswered question, threat with stakes, cut-off sentence, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the declaration; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman threatens a maid while another maid secretly plots revenge; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana disguised and plotting, which is established by Ep5; doesn't reveal late twists like Alexander's identity or the poisoning frame-up."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thrusting a riding crop into someone's face is a physical attack (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a declaration of intent, not an unanswered question, threat with stakes, cut-off sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "The noblewoman thrusts a riding crop into Prudence's face and threatens her."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a declaration, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the V.O. line; no further action or dialogue resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman threatens a maid while another maid secretly plots; clear power conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana disguised as a maid, which is known by Ep5; doesn't reveal late poison plot or identity reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show a physical threat with a weapon (riding crop thrust)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a defiant statement, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E24-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Noblewoman thrusts riding crop into Prudence's face and threatens her."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a declaration of intent ('I will return'), not an open question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the declaration with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Noblewoman threatens maid while Juliana scrubs, showing class conflict and Juliana's hidden defiance."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana disguised as maid with secret plan, which aligns with EP5 knowledge of her disowned status."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thrusting riding crop into face is a physical attack (slap_attack)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a declaration, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman threatens a servant while another servant secretly plots rebellion",
+    "conflict_between": "Lady Juliana vs the noblewoman",
+    "want_to_know_next": "What is Juliana planning with her mother's journal and how will she return",
+    "would_keep_watching": true,
+    "why": "Intriguing setup of hidden identity and secret revenge with strong visual storytelling"
+   }
+  },
+  "E24-4": {
+   "sig": "08119d728d37",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"Then let her suffer.\" vs \"I cannot do that.\" shows immediate refusal of cruelty. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the defiant statement. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A noblewoman abuses a maid (Juliana) who secretly plans to heal someone. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana humiliated as a maid, which is known by Ep5; doesn't reveal Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Dialogue about letting someone suffer is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "The cut from the riding crop threat to Prudence's fear shows continuous abuse in the same scene. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E24-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Then let her suffer.\" and \"I cannot do that.\" require backstory to understand who 'her' is and why this matters."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the defiant statement."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman abuses a maid (Juliana) who secretly plans to heal someone."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana humiliated as a maid, which is known by Ep5; doesn't reveal Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Dialogue about letting someone suffer is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the riding crop threat to Prudence's fear shows continuous abuse in the same scene."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Then let her suffer.\" vs \"I cannot do that.\" shows immediate refusal of cruelty."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a defiant statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Juliana's defiant voiceover with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Noblewoman abuses maid Juliana who secretly plans to heal someone - clear power struggle."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's undercover role but doesn't reveal Alexander's identity or poisoning plot resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Then let her suffer.\" is a cruel command but not a slap/attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a defiant promise, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from riding crop threat to Prudence's submission flows naturally as continuous abuse scene."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E24-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Then let her suffer.\" followed by \"I cannot do that.\" shows immediate defiance against a cruel order."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a declaration of intent, not an unanswered question, threat with stakes, cut-off sentence, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the defiant voiceover line; nothing after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A noblewoman orders a maid (Juliana) to suffer/clean, strikes her, and is defied; clear power conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana humbled as a maid and defiant, which aligns with her known disowned status by EP5; no late reveal given away."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Then let her suffer.\" / \"I cannot do that.\" is a refusal, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I will return. You cannot stop the healer.\" is a declaration of intent, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the riding crop thrust to Prudence's terrified reaction flows naturally as one continuous scene of intimidation."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman is punishing a maid named Juliana by forcing her to clean a filthy fireplace while asserting her dominance.",
+    "conflict_between": "Noblewoman vs Juliana",
+    "want_to_know_next": "What will Juliana do with the remedy journal and how will she resist?",
+    "would_keep_watching": true,
+    "why": "Juliana's hidden defiance and secret knowledge create intriguing tension against the noblewoman's cruelty."
+   }
+  }
+ }
+}

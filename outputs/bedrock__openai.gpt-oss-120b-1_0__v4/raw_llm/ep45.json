@@ -1,0 +1,64 @@
+{
+ "episode": 45,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L59"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L59",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Catherine's betrayal and her link to the poison plot are unknown to a new viewer.",
+   "spoiler": true,
+   "why": "A visceral accusation followed by a sudden ecclesiastical threat creates instant drama and leaves the viewer desperate to know the outcome."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L59"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L59",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Who are the two women Alexander mentions and why is Catherine being condemned?",
+   "spoiler": false,
+   "why": "A furious condemnation builds tension, then the High Priest’s ominous interruption freezes the conflict at its peak."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L20",
+     "end_line": "L42"
+    }
+   ],
+   "hook_line": "L20",
+   "hook_type": "identity_reveal",
+   "hook_strength": 5,
+   "cliff_line": "L42",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "The audience doesn’t yet know why Alexander is accusing Catherine or the stakes of his revelation.",
+   "spoiler": true,
+   "why": "The moment Alexander claims his ducal title hooks viewers, and his fierce accusation leaves the story hanging on a dangerous question."
+  }
+ ]
+}

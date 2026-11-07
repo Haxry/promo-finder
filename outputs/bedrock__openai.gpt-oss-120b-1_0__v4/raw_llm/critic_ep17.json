@@ -1,0 +1,161 @@
+{
+ "items": {
+  "E17-1": {
+   "sig": "bd5d30be62a5",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"I just did.\" has no visible conflict a stranger would feel immediately. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Of them?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "No context for who 'them' is or why she was frightened. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows tender moment, no late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"I just did.\" is not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Of them?\" is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E17-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"I just did.\" has no visible conflict a stranger would feel immediately."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'them' is or why she was frightened."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows tender moment, no late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"I just did.\" is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E17-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a quiet reassurance and a tender action, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question \"Of them?\""
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'them' is or why Juliana was frightened."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a tender moment, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E17-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"I just did.\" has no conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after answers the question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who 'them' is and why Juliana was frightened is unclear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows domestic tenderness, no late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"I just did.\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Of them?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana is tending to Alexander's wounds after a conflict, showing care and vulnerability.",
+    "conflict_between": "",
+    "want_to_know_next": "What happened the night before that caused their injuries?",
+    "would_keep_watching": true,
+    "why": "The emotional intimacy and mystery about their shared past conflict creates compelling intrigue."
+   }
+  }
+ }
+}

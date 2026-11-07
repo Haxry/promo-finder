@@ -1,0 +1,58 @@
+{
+ "episode": 20,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L15"
+    }
+   ],
+   "hook_line": "L3",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L15",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Alexander's death and title claim may be unclear to new viewers",
+   "spoiler": false,
+   "why": "Shows the ruthless power grab with a sharp hook and leaves the claim to the dukedom unresolved, enticing curiosity."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L52",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Juliana’s defiant stand against the valley fever creates immediate high stakes and ends on her unresolved determination."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "who the old Duchess is and why the house matters",
+   "spoiler": false,
+   "why": "Catherine’s cruel proclamation hooks viewers, and her final claim that the house will bow to her leaves the power struggle hanging."
+  }
+ ]
+}

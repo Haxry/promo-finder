@@ -1,0 +1,161 @@
+{
+ "items": {
+  "E6-2": {
+   "sig": "d26a3f5cb8a2",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show Juliana lifting her gown in the rain, no conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"You are not disappointed?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question, no answer follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know why she's in a wedding dress in the woods or who the man is. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows her marriage to the scarred stranger, which is known by Ep5. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"You are not disappointed?\" is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E6-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Juliana lifting her gown in the rain, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"You are not disappointed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman in a wedding dress walks with a man to a cottage in the rain; clear she's leaving something behind."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows her marriage to the scarred stranger, which is known by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"You are not disappointed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E6-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Juliana lifting her gown in mud, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"You are not disappointed?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question, no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know why she's in a wedding dress in the woods or who the man is."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows aftermath of wedding, doesn't reveal Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are descriptive action, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line \"You are not disappointed?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E6-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Juliana lifting her gown in rain - no conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'You are not disappointed?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question - no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is the bearded man? Why is she in a wedding dress in the rain? No context."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows only their escape, not Alexander's identity or late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show no hook type - just her walking in rain."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'You are not disappointed?' is unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A bride in her wedding dress is led through a rainy forest to a humble cottage by a mysterious man who apologizes for her circumstances.",
+    "conflict_between": "",
+    "want_to_know_next": "Why is she there instead of at her wedding? Who is the man?",
+    "would_keep_watching": true,
+    "why": "The atmosphere is compelling and the mystery of why a bride is in this situation is intriguing."
+   }
+  }
+ }
+}

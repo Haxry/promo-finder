@@ -1,0 +1,177 @@
+{
+ "items": {
+  "E35-1": {
+   "sig": "860f859ee42a",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show tender reunion, not conflict [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Who?\" is an unanswered question [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Mother thought son dead, he survived ambush, someone wanted him erased [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's mother is alive (late reveal) [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Tender reunion, not a hook type [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Who?\" is unanswered_question [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "First part shows reunion, second shows his rage about ambush - connected story [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E35-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show tender reunion, not conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Mother thought son dead, he survived ambush, someone wanted him erased"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Tender reunion, not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who?\" is unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "First part shows reunion, second shows his rage about ambush - connected story"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E35-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a tender reunion, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Who?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question 'Who?' with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A mother learns her son survived an ambush, now suspects murder plot."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a reunion, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'Who?' is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from reunion to conspiracy accusation connects emotionally."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E35-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a tender reunion, not conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question \"Who?\""
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Mother thought son dead, he survived an ambush, someone wanted him erased"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are identity_reveal (mother recognizes son), but no conflict"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who?\" is unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut connects mother's question to Alexander's revelation about the ambush"
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A soldier presumed dead has returned home to his grieving mother, revealing that his regiment's destruction was intentional.",
+    "conflict_between": "Alexander vs. unknown conspirators",
+    "want_to_know_next": "Who ordered the ambush and why they wanted Alexander erased",
+    "would_keep_watching": true,
+    "why": "The emotional reunion combined with the mystery of military betrayal creates compelling tension."
+   }
+  }
+ }
+}

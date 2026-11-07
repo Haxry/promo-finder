@@ -1,0 +1,45 @@
+{
+ "episode": 40,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L37"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L37",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Who is the \"witch\" being referenced?",
+   "spoiler": false,
+   "why": "Starts with a chilling line about Juliana’s fate, then ramps to the conspirators’ deadly promise, ending on the looming execution of the “witch.”"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L31"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L31",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Why are all entrances being sealed?",
+   "spoiler": false,
+   "why": "A menacing warning is followed by the tense question about sealing the cathedral, leaving viewers wondering how Juliana will escape."
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "episode": 47,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L36",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L36",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L52",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Catherine's status as a desperate outsider being ordered out",
+   "spoiler": false,
+   "why": "Starts with a violent command to expel Catherine, then flips to the shocking offer of servitude, leaving the outcome unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L48",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "Lady Ashbourne's authority and Catherine's plea for refuge",
+   "spoiler": false,
+   "why": "Begins with Lady Ashbourne's sharp accusation, builds tension, and ends on Juliana's conditional offer, a cliffhanger that teases Catherine's fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L38",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L38",
+   "hook_type": "pleading",
+   "hook_strength": 4,
+   "cliff_line": "L66",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "The prior conflict between Alexander, Juliana, and Catherine",
+   "spoiler": false,
+   "why": "Shows Catherine's desperate begging, then cuts to Juliana's ultimatum, creating a high‑stakes decision that compels viewers to watch."
+  }
+ ]
+}

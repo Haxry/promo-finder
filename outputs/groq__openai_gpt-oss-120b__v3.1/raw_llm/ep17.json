@@ -1,0 +1,28 @@
+{
+ "episode": 17,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L26"
+    },
+    {
+     "start_line": "L64",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L65",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The opening question \"For what?\" instantly grabs attention, then the vow \"I just did\" builds tension, and the final \"Not yet\" leaves the promise unresolved, compelling viewers to watch the full episode."
+  }
+ ]
+}

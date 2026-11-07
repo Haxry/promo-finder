@@ -1,0 +1,350 @@
+{
+ "items": {
+  "E16-1": {
+   "sig": "c137d7d5dd68",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug attacks with club, Alexander catches it - immediate physical conflict [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Who?!\" is an unanswered question demanding an answer [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question \"Who?!\" with no resolution [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger sees Alexander defending against thugs, demanding who sent them [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander fighting thugs - no late reveals about identity or poisoning plots [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Thug swings club, Alexander catches it - slap_attack [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Who?!\" is an unanswered_question [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from Juliana's reaction to Alexander interrogating thug - continuous fight scene [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "slap_attack",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug attacks with club, Alexander catches it - immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?!\" is an unanswered question demanding an answer"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question \"Who?!\" with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger sees Alexander defending against thugs, demanding who sent them"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander fighting thugs - no late reveals about identity or poisoning plots"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Thug swings club, Alexander catches it - slap_attack"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who?!\" is an unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from Juliana's reaction to Alexander interrogating thug - continuous fight scene"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug attacks with club, Alexander catches it - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'Who?!' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question 'Who?!' with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a man who fights back and interrogates them - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander fighting thugs, no late reveals about identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s show 'slap_attack' (thug swings club)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'Who?!' is 'unanswered_question'."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from Juliana saying 'Alexander...' to him interrogating thug - continuous fight scene."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E16-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug swings club, Alexander catches it mid-air - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?!\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on \"Who?!\" with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: thugs attack, hero fights back, demands to know who sent them."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander fighting thugs, no late reveal given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First 3s: thug swings club - slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line \"Who?!\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from Juliana's breathless reaction to Alexander interrogating thug - continuous fight scene."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Alexander fights off multiple attackers, then interrogates one",
+    "conflict_between": "Alexander vs thugs",
+    "want_to_know_next": "Who sent the thugs",
+    "would_keep_watching": false,
+    "why": "Generic action scene with predictable interrogation trope"
+   }
+  },
+  "E16-2": {
+   "sig": "c8d34825c24e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Thug says 'Move aside, soldier' - immediate confrontation [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Ends on 'Who?!' - unanswered question [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after 'Who?!' answers it [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Thugs attack, protector defends woman, demands who sent them [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander fighting but not his identity or late reveals [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "'Move aside, soldier' is a command/threat but not a listed hook type [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "'Who?!' is unanswered_question [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from fight to interrogation flows as one continuous scene [3/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "threat",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E16-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Thug says 'Move aside, soldier' - immediate confrontation"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends on 'Who?!' - unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after 'Who?!' answers it"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack, protector defends woman, demands who sent them"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander fighting but not his identity or late reveals"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "'Move aside, soldier' is a command/threat but not a listed hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "'Who?!' is unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from fight to interrogation flows as one continuous scene"
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E16-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Move aside, soldier.\" is a direct challenge with immediate tension."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?!\" is an unanswered question demanding an answer."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question \"Who?!\" with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a man protecting a woman; he fights back and demands to know who sent them."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a fight scene and a threat, but doesn't reveal Alexander's true identity or any late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Move aside, soldier.\" is a threat, but not a direct physical blow, public humiliation, arrest, shocking line, identity reveal, or explicit threat with stakes."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who?!\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "The cut from the fight to Alexander interrogating a thug flows as one continuous confrontation."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E16-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Move aside, soldier.\" - immediate confrontation with a command"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Who?!\" - ends on an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after \"Who?!\" answers or defuses it"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Thugs attack a couple, protector fights back, demands to know who sent them"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander fighting but doesn't reveal his identity or late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Move aside, soldier.\" - threat type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Who?!\" - unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Fight scene flows into interrogation with clear cause-and-effect"
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man named Alexander is protecting a woman named Juliana from multiple thugs, easily defeating them and interrogating their leader.",
+    "conflict_between": "Alexander vs. the thugs",
+    "want_to_know_next": "Who sent the thugs and why they're attacking",
+    "would_keep_watching": true,
+    "why": "The action is intense and the mystery of who sent the thugs creates immediate intrigue."
+   }
+  }
+ }
+}

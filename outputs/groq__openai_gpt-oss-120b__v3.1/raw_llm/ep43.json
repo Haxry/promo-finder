@@ -1,0 +1,62 @@
+{
+ "episode": 43,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L13"
+    },
+    {
+     "start_line": "L24",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L51",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Viewer may not know the characters' titles (Alexander, Rupert, Lord Sterling) but the betrayal is clear",
+   "spoiler": false,
+   "why": "Begins with a frantic accusation that grabs attention and ends with damning evidence naming the traitor, leaving viewers desperate to see the fallout."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L4",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L49",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Names of the conspirators are revealed without prior introduction",
+   "spoiler": false,
+   "why": "Starts with a bold claim of imposture and cuts to the moment the secret names are read, creating a tense cliffhanger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L56",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L56",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L85",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "The significance of Lord Sterling’s escape isn’t explained",
+   "spoiler": false,
+   "why": "Alexander’s furious accusation hooks the viewer, and the final line hints at a looming chase, demanding to see what happens next."
+  }
+ ]
+}

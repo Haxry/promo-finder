@@ -1,0 +1,208 @@
+[
+ {
+  "episode": 1,
+  "proposal": 3,
+  "reason": "total length 62.2s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L83"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L83",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Who the former groom is and why he can reject her",
+   "spoiler": false,
+   "why": "The groom’s cold “I changed my mind” shocks, and his later dismissal “You have nothing to offer me anymore” leaves Juliana’s fate uncertain."
+  }
+ },
+ {
+  "episode": 9,
+  "proposal": 1,
+  "reason": "total length 62.1s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L5",
+     "end_line": "L31"
+    },
+    {
+     "start_line": "L70",
+     "end_line": "L87"
+    }
+   ],
+   "hook_line": "L5",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L87",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Why the Blond Nobleman says \"Impossible\" about the rumor",
+   "spoiler": false,
+   "why": "Starts with a tense command as the door is forced open, then jumps to a nobleman's shocked whisper, leaving a mystery that compels viewers to watch."
+  }
+ },
+ {
+  "episode": 11,
+  "proposal": 2,
+  "reason": "total length 10.9s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L41"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L41",
+   "cliff_strength": 3,
+   "standalone": 2,
+   "missing_context": "Who is threatening whom and why the constable is involved",
+   "spoiler": false,
+   "why": "Shows the accusation escalating to a forced search, creating immediate tension and an unresolved question about the outcome"
+  }
+ },
+ {
+  "episode": 11,
+  "proposal": 3,
+  "reason": "total length 10.0s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L51",
+   "cliff_strength": 3,
+   "standalone": 2,
+   "missing_context": "Why the constable is rummaging through their home",
+   "spoiler": false,
+   "why": "Highlights the invasive search and ends on Juliana’s desperate plea, a cliffhanger that compels viewers to watch the resolution"
+  }
+ },
+ {
+  "episode": 19,
+  "proposal": 2,
+  "reason": "cliffhanger line ending 01:28.90 is not in the last 6s (clip ends 01:40.00)",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L5"
+    },
+    {
+     "start_line": "L42",
+     "end_line": "L53"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "The fire and the characters' titles are new, but the stakes are clear.",
+   "spoiler": false,
+   "why": "Shows the devastation then jumps to the secret meeting where Alexander vows revenge, giving a dramatic contrast and unresolved promise."
+  }
+ },
+ {
+  "episode": 28,
+  "proposal": 3,
+  "reason": "total length 60.2s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L52",
+     "end_line": "L91"
+    }
+   ],
+   "hook_line": "L52",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L91",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Shows the brutal removal of Juliana’s heirloom and her desperate plea about her mother’s work, cutting off before the final threat."
+  }
+ },
+ {
+  "episode": 33,
+  "proposal": 1,
+  "reason": "total length 60.2s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L46",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L46",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L79",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Lord is coercing the maid to testify against Juliana; new viewers may not know who Juliana is or why the brother matters",
+   "spoiler": false,
+   "why": "A desperate plea and a shocked reaction create immediate tension and leave the audience hanging on what the maid will say"
+  }
+ },
+ {
+  "episode": 40,
+  "proposal": 2,
+  "reason": "hook line at 01:14.80 is not in the first 4s (clip starts 01:09.80)",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L50",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who the \"witch\" is and why she must die",
+   "spoiler": false,
+   "why": "The conspirators declare the witch’s death, then cut to black on the triumphant couple, leaving the outcome of the execution unknown and enticing viewers."
+  }
+ },
+ {
+  "episode": 46,
+  "proposal": 1,
+  "reason": "total length 112.1s outside 20-60s",
+  "raw": {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L63"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L63",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "viewer may not know who Alexander, Juliana, and the High Priest are or why the Crown matters",
+   "spoiler": false,
+   "why": "Starts with the High Priest’s shocking seizure decree and ends on a high‑stakes ten‑day threat, creating immediate tension for new viewers."
+  }
+ }
+]

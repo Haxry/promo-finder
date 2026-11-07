@@ -1,0 +1,58 @@
+{
+ "episode": 36,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L86"
+    }
+   ],
+   "hook_line": "L53",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L86",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Juliana's identity and why her execution matters",
+   "spoiler": false,
+   "why": "Reveals Juliana's capture and looming execution, ending on a deadly deadline that forces viewers to want to know what Alexander will do."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L105",
+     "end_line": "L118"
+    }
+   ],
+   "hook_line": "L105",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L118",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "who the dead Duke is and his relevance to the plot",
+   "spoiler": false,
+   "why": "Shows Alexander’s fury over stolen home and ends with the ominous promise of a dead Duke returning, a cliffhanger that begs continuation."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L86",
+     "end_line": "L99"
+    }
+   ],
+   "hook_line": "L86",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L99",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "who Alexander's wife is and why she’s targeted",
+   "spoiler": false,
+   "why": "Starts with the stark threat of Juliana’s execution and spikes to the murderous wedding plan, leaving a tense unanswered question."
+  }
+ ]
+}

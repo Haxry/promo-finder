@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E31-1": {
+   "sig": "79878eeed13d",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines describe a facial reaction ('smug expression freezes'), not physical conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line describes a reaction ('recoils... gasping'), not an unanswered question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the iron about to strike. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain torturing a chained victim over a treasured object. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Catherine's cruelty but no late plot twists. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are 'shocking_line' type (defiant insult), not physical conflict hook. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a reaction ('recoils'), not a cliffhanger type from rubric. [1/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.29,
+   "raw_samples": [
+    {
+     "id": "E31-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L66: 'the blow lands squarely' shows immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L85: 'the searing iron stops inches from her eyes' is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the iron about to strike."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain torturing a chained victim over a treasured object."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but no late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L66: 'the blow lands squarely' is a slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L85: 'the searing iron stops inches from her eyes' is threat_with_stakes."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E31-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines describe a facial reaction ('smug expression freezes'), not physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes a reaction ('recoils... gasping'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is not open-ended; it's a reaction to an action that already happened."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain tormenting restrained heroine over a treasured object."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing cruelty but doesn't reveal late plot twists like poisoning or identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are 'shocking_line' type (defiant insult), not physical conflict hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a reaction ('recoils'), not a cliffhanger type from rubric."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E31-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line is a facial reaction ('smug expression freezes'), not a physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line describes a reaction ('recoils...gasping'), not an unanswered question, threat, or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the cliffhanger moment."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain tormenting chained heroine over a treasured object."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing conflict, not a late reveal or arc resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show a facial reaction, not a slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a reaction ('recoils...gasping'), not a defined cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Catherine is destroying Juliana's mother's book to hurt her while Juliana is chained and helpless",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Catherine actually burn the book and what will happen to Juliana",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high with a mother's legacy being destroyed and Juliana's vulnerability creates tension"
+   }
+  },
+  "E31-2": {
+   "sig": "a9fa9115f2d8",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine taunts Juliana about her mother's book, showing immediate cruelty. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Juliana recoils... as the searing iron stops inches from her eyes\" is a threat that hasn't landed. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the iron poised near her eyes, no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain tormenting chained victim over a sentimental object. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows ongoing torment, not a late reveal or arc resolution. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s are a 'shocking_line' (cruel taunt), not an action hook. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is threat_with_stakes: \"...the searing iron stops inches from her eyes.\" [2/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "shocking_line",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E31-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine taunts Juliana about her mother's book, showing immediate cruelty."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana recoils... as the searing iron stops inches from her eyes\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the iron poised near her eyes, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain tormenting chained victim over a sentimental object."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing torment, not a late reveal or arc resolution."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a shocking_line: \"This pathetic book is the only thing you still have from your mother.\""
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is threat_with_stakes: \"...the searing iron stops inches from her eyes.\""
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E31-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine's line 'This pathetic book is the only thing you still have from your mother' shows immediate cruelty and conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Juliana recoils back...' is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with Juliana in terror, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain tormenting chained heroine over a treasured object."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but no late reveals about Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are a 'shocking_line' (cruel taunt), not an action hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a reaction (gasping), not a cliffhanger type."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E31-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine taunts Juliana about her mother's book while Juliana is chained, showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana recoils back... as the searing iron stops inches from her eyes\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with the iron poised inches from her eyes, unresolved."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A cruel captor torments a chained prisoner with a treasured object - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but doesn't reveal late plot twists about poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"This pathetic book...\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"The searing iron stops inches from her eyes\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman named Catherine is tormenting a chained prisoner named Juliana by threatening to burn her mother's book.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Catherine actually burn the book?",
+    "would_keep_watching": true,
+    "why": "The emotional intensity and cruelty create compelling tension about what will happen next."
+   }
+  },
+  "E31-3": {
+   "sig": "8cdcd4f6ae74",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Catherine screams 'Enough!' and paper scorches immediately [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Ends with searing iron inches from her eyes - threat hasn't landed [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Cliffhanger is final line [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villain torturing restrained heroine over mother's book [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows ongoing torture but no late reveals [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Shocking line 'Enough!' with scorching paper [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Threat with stakes - iron stops inches from eyes [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "shocking_line",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E31-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Catherine screams 'Enough!' and paper scorches immediately"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends with searing iron inches from her eyes - threat hasn't landed"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is final line"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain torturing restrained heroine over mother's book"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows ongoing torture but no late reveals"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Shocking line 'Enough!' with scorching paper"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Threat with stakes - iron stops inches from eyes"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E31-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Enraged scream 'Enough!' and scorching parchment show immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Ends with searing iron inches from her eyes - threat hasn't landed"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is final line"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain tormenting chained heroine over sentimental object"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but no late reveals about poisoning or usurpation"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "shocking_line - 'Enough!' breaks norm"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "threat_with_stakes - iron stops inches from eyes"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E31-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s: 'Enough!' + SFX of burning paper - no clear conflict target or stakes for a stranger."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line: 'Juliana recoils... as the searing iron stops inches from her eyes' - threat hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final action - no line after it defuses the threat."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villain destroys heroine's last memento while she's chained up."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Catherine's cruelty but doesn't reveal late twists like poisoning or Alexander's identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s: 'Enough!' + burning SFX - not a listed hook type (no attack, humiliation, arrest, shocking line, identity reveal, or direct threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line: 'searing iron stops inches from her eyes' = threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Catherine is burning Juliana's cherished book from her mother while Juliana is chained and helpless.",
+    "conflict_between": "Catherine vs Juliana",
+    "want_to_know_next": "Will Catherine actually burn the book or stop?",
+    "would_keep_watching": true,
+    "why": "Intense emotional cruelty creates compelling drama about what happens next."
+   }
+  }
+ }
+}

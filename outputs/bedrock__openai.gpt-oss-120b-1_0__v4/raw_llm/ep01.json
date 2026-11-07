@@ -1,0 +1,83 @@
+{
+ "episode": 1,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L46",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Who Gerald and Clarissa are; why the altar matters",
+   "spoiler": false,
+   "why": "Shows the brutal public abandonment and ends on a burning question, pulling viewers in."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L66"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L66",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Juliana's relationship to Gerald",
+   "spoiler": false,
+   "why": "Starts with the groom's cold declaration, ends on Juliana's shocked question, leaving tension."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L7",
+     "end_line": "L23"
+    }
+   ],
+   "hook_line": "L7",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L23",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Why the matriarch can command her",
+   "spoiler": false,
+   "why": "Immediate command to turn away, then Juliana's desperate question, creating intrigue."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L46",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Who Clarissa is",
+   "spoiler": false,
+   "why": "Juliana's furious accusation leads to the sister's chilling admission, ending on a question."
+  }
+ ]
+}

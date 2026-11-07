@@ -1,0 +1,64 @@
+{
+ "episode": 12,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L44"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L44",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Clarissa is Juliana's cruel sister; new viewers may not know their relationship.",
+   "spoiler": false,
+   "why": "A chilling threat is delivered within seconds, then the stakes are raised – her husband will hang if she fails. The clip ends on the looming danger, pulling viewers into the impossible challenge."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L53"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L53",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Clarissa’s relation to Juliana isn’t explained, but the audience sees a sister demanding a brutal task.",
+   "spoiler": false,
+   "why": "The clip opens with a brutal ultimatum and cuts to Juliana demanding the garden’s location – a question that promises a reveal, leaving viewers desperate to see what happens next."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L31"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L31",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Alexander is the scarred warrior husband; newcomers may not know his identity yet.",
+   "spoiler": false,
+   "why": "A sudden arrest grabs attention, then the sister’s vicious threat escalates the tension. Ending on the threat leaves the audience hanging on Juliana’s fate."
+  }
+ ]
+}

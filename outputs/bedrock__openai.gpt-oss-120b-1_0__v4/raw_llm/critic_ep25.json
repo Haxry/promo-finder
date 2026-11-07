@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E25-1": {
+   "sig": "9ea6e6216e10",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are about making medicine and treating someone - no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"This time.\" is a closing statement, not an unanswered question or cut-off threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on \"This time.\" with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: she treated a poisoned woman without telling him, putting herself in danger. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals poisoning plot (\"someone is poisoning a woman\") which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are exposition about medicine, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"This time.\" is a closing statement, not a cliffhanger type. [1/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E25-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about making medicine and treating someone - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"This time.\" is a closing statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on \"This time.\" with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: she treated a poisoned woman without telling him, putting herself in danger."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (\"someone is poisoning a woman\") which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are exposition about medicine, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"This time.\" is a closing statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E25-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about treating a sick woman, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"This time.\" is a closing statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the cliffhanger line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "References 'she', 'her', 'they' without establishing who is poisoning whom."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (a late reveal) and that Juliana is involved."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"This time.\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E25-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are calm description of medical treatment."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"This time.\" implies threat hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on \"This time.\" with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: she treated poisoned woman, he fears for her safety."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (Dowager Duchess) which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "No hook type - starts with medical report."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"This time.\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana treated a sick woman without telling Alexander, who is angry she put herself in danger.",
+    "conflict_between": "Juliana vs Alexander",
+    "want_to_know_next": "Who is poisoning the woman and why?",
+    "would_keep_watching": true,
+    "why": "The tension between care and danger creates compelling drama."
+   }
+  },
+  "E25-2": {
+   "sig": "81687b0740eb",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Lady Catherine.\" is just a name, no conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Arsenic.\" is a statement, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the reveal of poison. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger can follow that someone found a duchess poisoned. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the Dowager Duchess is being poisoned, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Lady Catherine.\" is not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"Arsenic.\" is not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E25-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is just a name, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is a statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the reveal of poison."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow that someone found a duchess poisoned."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the Dowager Duchess is being poisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E25-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is just a name, no conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after \"Arsenic.\" answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Juliana found Duchess poisoned, Alexander interrogates her."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E25-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is a greeting, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is a statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the reveal of poison."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow that Juliana found a Duchess being poisoned."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the Dowager Duchess is being poisoned, a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Lady Catherine.\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana reveals she entered Ashburg Manor to help the Dowager Duchess, who was being poisoned with arsenic.",
+    "conflict_between": "Juliana vs unknown poisoner",
+    "want_to_know_next": "Who poisoned the Dowager Duchess and why?",
+    "would_keep_watching": true,
+    "why": "The clip reveals a murder mystery with high stakes and historical intrigue."
+   }
+  }
+ }
+}

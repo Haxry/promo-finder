@@ -1,0 +1,946 @@
+{
+ "items": {
+  "E33-1": {
+   "sig": "6bb7cdcb3af0",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lord threatens to jail a child, creating immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Praying... or chanting?\" is an unanswered question implying witchcraft. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the lord's taunting question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A lord is coercing a maid to accuse someone of witchcraft by threatening her child. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the witchcraft framing plot, a late reveal. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Threat to jail a child is a 'threat' hook. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Praying... or chanting?\" is an 'unanswered_question' cliffhanger. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "threat",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E33-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens to jail a child, creating immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Praying... or chanting?\" is an unanswered question implying witchcraft."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the lord's taunting question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord is coercing a maid to accuse someone of witchcraft by threatening her child."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the witchcraft framing plot, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Threat to jail a child is a 'threat' hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Praying... or chanting?\" is an 'unanswered_question' cliffhanger."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens to jail a child: 'One word from me, and the county gaol will take him before sunrise.'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is an unanswered question: 'Praying... or chanting?'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord is coercing a maid by threatening her child to extract testimony about a 'she' using herbs and a book."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows coercion to frame someone (likely Juliana) for witchcraft, which aligns with known framing plots by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Hook is a threat with stakes against a child, fitting 'threat' type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered question, fitting 'unanswered_question' type."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens to jail a child unless maid cooperates."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Praying... or chanting?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord coercing a maid to accuse someone of witchcraft is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the witchcraft framing plot, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Threat to jail a child is a 'threat' hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Praying... or chanting?\" is an 'unanswered_question'."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord is coercing a maid into revealing details about a woman's ritualistic actions around a sick child.",
+    "conflict_between": "Lord vs Maid",
+    "want_to_know_next": "What ritual was performed and why the lord is investigating it",
+    "would_keep_watching": true,
+    "why": "The power dynamic and mysterious ritual create compelling tension about what's really happening."
+   }
+  },
+  "E33-2": {
+   "sig": "49ac41c3f3f6",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lord threatens to jail a child: 'One word from me, and the county gaol will take him before sunrise.' [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'And she opened her mother's book...' is a statement, not a question, threat, cut-off, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the Lord's coercive statement with no resolution. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A lord threatens a maid's child to force her testimony; conflict is clear. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows coercion to frame someone, but doesn't reveal late twists like Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is a direct threat with stakes: 'the county gaol will take him before sunrise.' [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a statement advancing the coercion, not an unanswered question, threat, cut-off, or about-to-learn-truth. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E33-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens to jail a child: 'One word from me, and the county gaol will take him before sunrise.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And she opened her mother's book...' is a statement, not a question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed, so this check is irrelevant."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord threatens a maid's child to force her testimony; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows coercion to frame someone, but doesn't reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a direct threat with stakes: 'the county gaol will take him before sunrise.'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement advancing the coercion, not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E33-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens a child's imprisonment immediately: 'One word from me, and the county gaol will take him before sunrise.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And she opened her mother's book...' is a statement, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the Lord's coercive statement with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord threatens a maid's child to force her testimony about a 'she' using herbs and a book."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Does not reveal Alexander's identity, the poisoning plot resolution, or the marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a direct threat with stakes (threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord threatens to jail a child unless maid cooperates."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement describing an action, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the lord's statement, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord threatens a maid's child to extract testimony about a 'she' using herbs."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or the poisoning conspiracy."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Threat to imprison a child unless maid cooperates."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a descriptive statement, not an unanswered question, threat with stakes, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord is threatening a maid with her son's imprisonment to extract information about someone's actions",
+    "conflict_between": "Lord vs Maid",
+    "want_to_know_next": "What the maid will reveal about the 'she' and the book",
+    "would_keep_watching": true,
+    "why": "The power dynamic and emotional stakes create compelling tension"
+   }
+  },
+  "E33-3": {
+   "sig": "cb0a3960a57b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are an interrogation about past actions, not immediate conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line '...and spoke words you could not understand.' is a statement, not an open question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Cliffhanger line is the end of the clip. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "No context for who 'she' is or why the herbs/book matter. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals witchcraft accusation plotline (late reveal: 'frame Juliana for witchcraft'). [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Interrogation is not a listed hook type. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a sinister statement, not an unanswered question, threat, cut-off, or reveal about to happen. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.43,
+   "raw_samples": [
+    {
+     "id": "E33-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate accusation of witchcraft: 'She drew something around the bed, did she not?'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line '...and spoke words you could not understand.' is a statement, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger line is the end of the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear interrogation about witchcraft ritual, accuser vs. witness."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals witchcraft accusation plotline (late reveal: 'frame Juliana for witchcraft')."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Shocking_line: immediate witchcraft accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a sinister statement, not an unanswered question, threat, cut-off, or reveal about to happen."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E33-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are an interrogation about past actions, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement describing past actions, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the Lord's sinister statement."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'she' is or why the herbs/book matter."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows the framing for witchcraft, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Interrogation is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Sinister statement is not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are questioning about herbs/books, no immediate conflict felt"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement describing actions, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the sinister line with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "No context for who 'she' is or why herbs/books matter"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late plot twists about Alexander's identity or poisoning"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Questioning about herbs is not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Sinister statement about speaking words is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord interrogates a maid about a woman performing ritualistic actions around a bed",
+    "conflict_between": "Lord vs Maid",
+    "want_to_know_next": "What ritual was performed and why",
+    "would_keep_watching": true,
+    "why": "The tension and mystery around the ritual and the lord's coercive questioning create intrigue"
+   }
+  },
+  "E33-4": {
+   "sig": "9fe1d7da88c6",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line 'Praying... or chanting?' immediately frames the maid as suspect. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'My testimony?!' is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the maid's shocked question, no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A lord is coercing a maid into a false witchcraft testimony. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Does not reveal late twists like Alexander's identity or poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is an accusation, fitting 'arrest_accusation'. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is an unanswered question, fitting 'unanswered_question'. [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E33-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Praying... or chanting?' immediately frames the maid as suspect."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'My testimony?!' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the maid's shocked question, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord is coercing a maid into a false witchcraft testimony."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Does not reveal late twists like Alexander's identity or poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an accusation, fitting 'arrest_accusation'."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered question, fitting 'unanswered_question'."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E33-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord's taunting 'Praying... or chanting?' immediately establishes interrogation conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "'My testimony?!' is an unanswered question reacting to coercion."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the maid's shocked question with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: a lord pressures a maid to give false testimony about witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Witchcraft accusation is established early; no late reveal given away."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is a 'shocking_line' (accusatory question implying witchcraft)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an 'unanswered_question' (maid's shocked repetition)."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E33-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Praying... or chanting?' immediately frames a hostile interrogation."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'My testimony?!' is an unanswered question of shock and disbelief."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the maid's shocked question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord pressuring a maid to give false testimony about witchcraft is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Witchcraft accusation is an early plot point, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is an accusation, fitting 'arrest_accusation' (interrogation as accusation)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered question, fitting 'unanswered_question'."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord is interrogating a maid about witnessing witchcraft",
+    "conflict_between": "Lord vs Maid",
+    "want_to_know_next": "Will the maid testify against the woman who healed Toby?",
+    "would_keep_watching": true,
+    "why": "The tension between authority and morality creates compelling drama"
+   }
+  },
+  "E33-5": {
+   "sig": "cb8acb13c148",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"You saw her use a forbidden book.\" - No immediate conflict; it's an accusation without a target or reaction. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'My testimony?!' is an unanswered question expressing shock at being forced to testify. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the maid's shocked question with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: a lord pressures a maid to give false testimony about witchcraft. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal late plot twists like Alexander's identity or poisoning schemes. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"You saw her use a forbidden book.\" - Not a hook type; it's an accusation without public humiliation or immediate action. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is 'unanswered_question' - maid's shocked 'My testimony?!' [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E33-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines L70-L72 show a lord accusing someone of using forbidden books and speaking strange words - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'My testimony?!' is an unanswered question expressing shock at being forced to testify."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the maid's shocked question with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: a lord pressures a maid to give false testimony about witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late plot twists like Alexander's identity or poisoning schemes."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are 'arrest_accusation' - a lord building a witchcraft case."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is 'unanswered_question' - maid's shocked 'My testimony?!'"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"You saw her use a forbidden book.\" - No immediate conflict; it's an accusation without a target or reaction."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"My testimony?!\" - An unanswered question expressing shock and disbelief."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the maid's shocked question; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A lord accuses someone of witchcraft, a maid defends her, and the lord demands her testimony; clear conflict of authority vs. witness."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows a witchcraft accusation, which aligns with known framing plots; doesn't reveal late twists like the invalid marriage or execution ploy."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"You saw her use a forbidden book.\" - Not a hook type; it's an accusation without public humiliation or immediate action."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"My testimony?!\" - unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E33-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are accusations about a 'forbidden book' and 'words you could not understand' - a stranger wouldn't know who 'her' is or feel immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'My testimony?!' is an unanswered question expressing shock."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the maid's shocked question with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'she' is, who Toby is, or why saving him is being framed as witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows a witchcraft accusation, which aligns with known framing plots but doesn't reveal late twists like the poisoning or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are accusations about a book and words - not a physical attack, public humiliation, arrest, shocking line, identity reveal, or direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'My testimony?!' is an unanswered question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord accuses a woman of witchcraft for using a forbidden book to heal a child, while her maid defends her.",
+    "conflict_between": "Lord vs maid (and accused woman)",
+    "want_to_know_next": "What will the maid do with her forced testimony?",
+    "would_keep_watching": true,
+    "why": "The tension between authority and truth, with high stakes for the accused."
+   }
+  },
+  "E33-6": {
+   "sig": "31f283550af5",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines describe seeing a woman draw herbs/use a book - no immediate conflict a stranger feels [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"My testimony?!\" is an unanswered question about what she'll say [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on \"My testimony?!\" - no answer follows [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Lord accuses witchcraft, maid defends \"she saved Toby\" - clear accusation/defense conflict [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Witchcraft accusation fits early premise, doesn't reveal late plot twists [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines describe witnessing actions, not a hook type [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"My testimony?!\" is unanswered_question [3/3 yes]"
+     }
+    },
+    "pattern": "betrayal",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E33-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines describe seeing a woman draw herbs/use a book - no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is an unanswered question about what she'll say"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on \"My testimony?!\" - no answer follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Lord accuses witchcraft, maid defends \"she saved Toby\" - clear accusation/defense conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Witchcraft accusation fits early premise, doesn't reveal late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines describe witnessing actions, not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    },
+    {
+     "id": "E33-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines describe witnessing actions, not immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the maid's shocked question"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear accusation of witchcraft vs. defense of healing"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Witchcraft accusation is known early; no late reveals given"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines describe witnessing, not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is unanswered_question"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E33-6",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines describe seeing a woman draw herbs and use a book - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is an unanswered question reacting to the Lord's command."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the maid's shocked question with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Lord accuses witchcraft, maid defends woman who saved a child."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are accusations but not public humiliation, attack, or shocking line without context."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"My testimony?!\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A lord is accusing a woman of witchcraft based on observations, while a maid defends her.",
+    "conflict_between": "Lord vs maid defending accused woman",
+    "want_to_know_next": "What will happen to the accused woman and the maid?",
+    "would_keep_watching": true,
+    "why": "The tension between authority and defense creates compelling stakes."
+   }
+  }
+ }
+}

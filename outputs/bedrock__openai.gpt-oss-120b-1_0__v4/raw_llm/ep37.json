@@ -1,0 +1,87 @@
+{
+ "episode": 37,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L13",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L13",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Juliana is the woman referenced as ‘the woman who tried to stop us.’",
+   "spoiler": true,
+   "why": "The opening line shocks with the execution‑after‑wedding reveal, then cuts on a chilling threat, leaving the fate of Juliana unknown."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L45",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L45",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L64",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "humiliation_revenge",
+   "missing_context": "None – the threat and the question are self‑contained.",
+   "spoiler": true,
+   "why": "A direct threat to any woman who defies her place leads straight into a tense question about Juliana’s execution, stopping before the answer."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L3",
+     "end_line": "L5"
+    },
+    {
+     "start_line": "L45",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L3",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L64",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "pattern": "threat",
+   "missing_context": "Rupert’s invitation plan is new to viewers.",
+   "spoiler": true,
+   "why": "Rupert’s command forces the county to watch, then jumps to the unanswered question about Juliana’s execution, creating a tight, suspenseful bite."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L53",
+     "end_line": "L64"
+    }
+   ],
+   "hook_line": "L53",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L64",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "underdog_stands_up",
+   "missing_context": "Juliana is starving in a dungeon, which new viewers infer from the dialogue.",
+   "spoiler": true,
+   "why": "Juliana’s defiant declaration about hunger hooks the audience, then the clip ends on the looming question of whether she’ll be executed."
+  }
+ ]
+}

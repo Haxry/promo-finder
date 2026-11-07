@@ -1,0 +1,161 @@
+{
+ "items": {
+  "E10-1": {
+   "sig": "df4ca741627c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"There is blood running down your arm.\" is observation, not conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Why do you look at me like that?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Woman tending to man's wound, tension about his scars and feelings. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows intimacy, not a plot resolution or late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Observation of injury, not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Why do you look at me like that?\" is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E10-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"There is blood running down your arm.\" is observation, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Woman tending to man's wound, tension about his scars and feelings."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows intimacy, not a plot resolution or late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Observation of injury, not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E10-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"There is blood running down your arm.\" is concern, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman tending a man's wound and questioning his look is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana caring for Alexander's wound, no late plot reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are concern/injury, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E10-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"There is blood running down your arm.\" is concern, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman tends to a man's wound; they have a tender, intimate dynamic."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows domestic care, no late reveals about identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines show concern/worry, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Why do you look at me like that?\" is unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Juliana discovers Alexander is injured and insists on treating his wound, revealing deeper scars and emotional tension.",
+    "conflict_between": "Juliana vs Alexander (her concern vs his resistance)",
+    "want_to_know_next": "What caused Alexander's scars and why he's hiding his pain.",
+    "would_keep_watching": true,
+    "why": "The emotional tension and mystery around Alexander's past injuries create compelling intrigue."
+   }
+  }
+ }
+}

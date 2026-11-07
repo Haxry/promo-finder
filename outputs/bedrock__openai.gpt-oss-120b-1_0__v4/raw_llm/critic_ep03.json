@@ -1,0 +1,632 @@
+{
+ "items": {
+  "E3-1": {
+   "sig": "51456da1b9fd",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"Take your hands off her.\" shows immediate conflict over a woman's restraint. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"I can...\" is a sentence cut off before completion. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the cut-off line \"I can...\" with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger protects a woman from guards/family, clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows a protective stranger, not revealing his identity or late plot twists. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"Take your hands off her.\" is a direct threat with stakes (threat). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"I can...\" is cut off mid-sentence (cut_mid_sentence). [2/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "threat",
+    "cliff_type": "cut_mid_sentence",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E3-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" shows immediate conflict over a woman's restraint."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"I can...\" is a sentence cut off before completion."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the cut-off line \"I can...\" with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger protects a woman from guards/family, clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a protective stranger, not revealing his identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" is a direct threat with stakes (threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"I can...\" is cut off mid-sentence (cut_mid_sentence)."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "cut_mid_sentence",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" shows immediate confrontation over someone being restrained."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I can...\" is a cut-off sentence, but the last line is the matriarch's statement \"You cannot interfere in a family matter!\" which is a command/accusation, not open."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends with the matriarch's line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger protects woman from guards/family; clear conflict between protector and authorities."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander defending Juliana, which viewers know by EP5; doesn't reveal his identity or late plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" is a threat with stakes (hook type: threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line \"You cannot interfere in a family matter!\" is a command/accusation, not a cliffhanger type."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" shows immediate conflict over a captive."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"I can...\" is cut off mid-sentence."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the cut-off line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger protects woman from guards/family; conflict is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander defending Juliana, known by Ep5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Take your hands off her.\" is a threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"I can...\" is cut_mid_sentence."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "cut_mid_sentence",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A stranger intervenes to protect a woman from her family during a confrontation in a chapel.",
+    "conflict_between": "The Bearded Stranger vs Noble Matriarch and guards",
+    "want_to_know_next": "Who is the stranger and why is he protecting Juliana?",
+    "would_keep_watching": true,
+    "why": "The scene establishes immediate tension, clear stakes, and intriguing character dynamics with unanswered questions."
+   }
+  },
+  "E3-2": {
+   "sig": "df36896b30b7",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L1/L3: 'Look at you... still clinging to that little locket' shows immediate scorn and conflict. [2/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "L46: 'Guards! Remove her!' is a threat that hasn't landed yet. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the order 'Remove her!' with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A woman is being mocked and ordered removed from a church; clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L1/L3: 'Look at you...' is public_humiliation. [2/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "L46: 'Guards! Remove her!' is threat_with_stakes. [2/3 yes]"
+     }
+    },
+    "pattern": "humiliation_revenge",
+    "hook_type": "public_humiliation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.43,
+   "raw_samples": [
+    {
+     "id": "E3-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L1/L3: 'Look at you... still clinging to that little locket' shows immediate scorn and conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L46: 'Guards! Remove her!' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the order 'Remove her!' with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being mocked and ordered removed from a church; clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L1/L3: 'Look at you...' is public_humiliation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "L46: 'Guards! Remove her!' is threat_with_stakes."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E3-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are mocking words, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Guards! Remove her!\" is a threat with stakes."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the order; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear underdog vs. cruel family over a stolen wedding."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation, not late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Mocking line is not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Guards! Remove her!\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "humiliation_revenge"
+    },
+    {
+     "id": "E3-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L1-L3: 'Look at you... still clinging to that little locket as if it can make you worthy of a place here.' - A stranger sees one woman mocking another's worth."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L46: 'Guards! Remove her!' - A command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "L46 is the last line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A woman is being mocked and disowned in a church; clear conflict between Juliana and her family."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows early humiliation; doesn't reveal Alexander's identity, poisoning, or later rescues."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L1-L3: public_humiliation - '...worthy of a place here.' shames Juliana in front of others."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L46: 'Guards! Remove her!' - A command, not an unanswered question, threat, cut-off, or reveal."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "humiliation_revenge"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman (Juliana) is being publicly shamed and cast out by her family, with another woman (in gold) gloating about taking her wedding.",
+    "conflict_between": "Lady Juliana vs. Lady in Gold Gown and Noble Matriarch",
+    "want_to_know_next": "What will happen to Juliana now that she's being forcibly removed?",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high with clear betrayal and injustice, making me want to see if Juliana gets revenge or redemption."
+   }
+  },
+  "E3-3": {
+   "sig": "0d65c194fdc7",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a calm statement of intent ('Because I want to'), not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a proposal ('accept my hand'), a command/request, not an open question or threat. [1/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The proposal is the final line; nothing after it answers or defuses it. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger offering marriage to a wronged woman is clear. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander's proposal, which is the premise, not a late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a proposal/request, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [1/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E3-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a calm statement of intent ('Because I want to'), not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a proposal ('accept my hand'), a command/request, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The proposal is the final line; nothing after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger offering marriage to a wronged woman is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander's proposal, which is the premise, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a proposal/request, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a quiet offer, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Lady Juliana... accept my hand.\" is an unanswered proposal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the proposal."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger offers marriage to a humiliated woman in a church."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The proposal is the premise, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a calm statement of intent ('Because I want to'), not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a proposal ('accept my hand'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "The proposal is the end, but it's a closing statement, not a cliffhanger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger sees a man proposing to a woman in a church after she was wronged."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander's proposal, which is known by episode 5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a proposal, not an unanswered question, threat, cut-off, or about-to-learn truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A stranger is proposing marriage to Lady Juliana in a cathedral",
+    "conflict_between": "Lady Juliana vs The Bearded Stranger",
+    "want_to_know_next": "Will she accept the proposal?",
+    "would_keep_watching": true,
+    "why": "Intriguing mystery about why a stranger would propose and how she'll respond"
+   }
+  },
+  "E3-4": {
+   "sig": "a587035d3b6e",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "\"Good. Then don't touch her again.\" is a direct threat/command showing immediate conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Lady Juliana... accept my hand.\" is a proposal/command, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the proposal answers or resolves it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger defends woman from family dragging her from church, then proposes - clear conflict and stakes. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Alexander's proposal, which viewers know by EP5; doesn't reveal his true identity or later plots. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "\"Good. Then don't touch her again.\" is a direct threat (threat hook type). [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Proposal is not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [0/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "threat",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E3-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Good. Then don't touch her again.\" is a direct threat/command showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Lady Juliana... accept my hand.\" is a proposal/command, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the proposal answers or resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger defends woman from family dragging her from church, then proposes - clear conflict and stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander's proposal, which viewers know by EP5; doesn't reveal his true identity or later plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Good. Then don't touch her again.\" is a direct threat (threat hook type)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Proposal is not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Good. Then don't touch her again.\" is a direct threat/command showing immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Lady Juliana... accept my hand.\" is a proposal/request, not an unanswered question, cut-off, or pending threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The proposal line is the last line; no answer follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger defends a woman from a hostile family and proposes marriage; clear conflict and stakes."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows Alexander's proposal, which viewers know by Ep5; doesn't reveal his identity as the rightful Duke."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Good. Then don't touch her again.\" is a direct threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Lady Juliana... accept my hand.\" is a proposal, not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E3-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First lines show a stranger threatening someone about touching 'her' and a matriarch protesting interference."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a proposal command ('accept my hand'), not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the proposal; no line after answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger defends a woman being dragged from church, proposes marriage; clear underdog rescue."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Alexander's proposal, which viewers know by EP5; doesn't reveal his ducal identity."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Good. Then don't touch her again.' is a direct threat with stakes."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'Lady Juliana... accept my hand.' is a proposal command, not a cliffhanger type."
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A stranger intervenes to protect a woman being forced from a church, then proposes to her.",
+    "conflict_between": "The Bearded Stranger vs Noble Matriarch/family",
+    "want_to_know_next": "Will she accept his sudden proposal?",
+    "would_keep_watching": true,
+    "why": "Sudden, high-stakes proposal creates compelling intrigue about her choice and his motives."
+   }
+  }
+ }
+}

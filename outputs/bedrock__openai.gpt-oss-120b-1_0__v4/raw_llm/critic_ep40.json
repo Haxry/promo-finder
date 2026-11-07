@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E40-1": {
+   "sig": "8ff730b22333",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are vague taunting about 'Juliana seeing this' - no immediate conflict a stranger feels. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'And its witch will be dead' is a threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the threat; no line after it answers or defuses it. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear villains plotting against 'Juliana' and 'witch' with wedding setting - conflict understandable. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the witch execution plot which is a LATE REVEAL (public execution ploy). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are taunting but not one of the specified hook types (no attack, humiliation, arrest, shocking line, identity reveal, or direct threat). [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is 'threat_with_stakes' (witch will be dead). [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E40-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are vague taunting about 'Juliana seeing this' - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And its witch will be dead' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear villains plotting against 'Juliana' and 'witch' with wedding setting - conflict understandable."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the witch execution plot which is a LATE REVEAL (public execution ploy)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are taunting but not one of the specified hook types (no attack, humiliation, arrest, shocking line, identity reveal, or direct threat)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is 'threat_with_stakes' (witch will be dead)."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E40-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Imagine Juliana seeing this.\" - vague taunt, no immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"And its witch will be dead.\" - threat that hasn't landed yet"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat line"
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Juliana is or why she's a 'witch'"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana will be framed as a witch (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are taunting, not a defined hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"And its witch will be dead.\" - threat_with_stakes"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E40-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are vague conversation about 'Juliana seeing this' with no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And its witch will be dead' is a threat with stakes that hasn't happened yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger can follow that nobles are plotting against 'Juliana' and calling her a witch."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the witch execution plot, which is a late reveal (Rupert frames Juliana for witchcraft)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noble couple and an elder nobleman are plotting something sinister at a wedding, likely targeting Juliana.",
+    "conflict_between": "The Harringtons/Elder Nobleman vs Juliana",
+    "want_to_know_next": "What will happen to Juliana at the wedding?",
+    "would_keep_watching": true,
+    "why": "The dialogue creates suspense about a planned harm at a wedding."
+   }
+  },
+  "E40-2": {
+   "sig": "960e7289df37",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"She won't be seeing anything for long.\" is vague - no clear conflict a stranger feels immediately. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"All entrances are covered?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who Juliana is or why she's being targeted. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Doesn't reveal late twists about Alexander's identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a vague threat, not a clear hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"All entrances are covered?\" is an unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E40-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"She won't be seeing anything for long.\" is vague - no clear conflict a stranger feels immediately."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"All entrances are covered?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Juliana is or why she's being targeted."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a vague threat, not a clear hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"All entrances are covered?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E40-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"She won't be seeing anything for long.\" is vague - a stranger doesn't know who 'she' is or what conflict this represents."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"All entrances are covered?\" is an unanswered question about security preparations."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question - no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who the Harringtons are, who Juliana is, or why this wedding matters - too many unexplained characters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows conspirators planning but doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"She won't be seeing anything for long.\" is a vague threat, not one of the defined hook types (slap_attack, public_humiliation, etc.)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"All entrances are covered?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E40-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are vague threats about 'she' with no immediate conflict shown."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'All entrances are covered?' is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who 'she' is or why the wedding matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity, poisoning, or marriage invalidation."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a vague threat, not a clear hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noble couple discusses someone named Juliana's misfortune while attending a wedding.",
+    "conflict_between": "Lord and Lady Harrington vs Juliana",
+    "want_to_know_next": "What will happen to Juliana at the wedding?",
+    "would_keep_watching": true,
+    "why": "Intriguing setup with sinister characters and impending drama at a wedding."
+   }
+  }
+ }
+}

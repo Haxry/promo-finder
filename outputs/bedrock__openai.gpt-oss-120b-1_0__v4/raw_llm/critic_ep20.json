@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E20-1": {
+   "sig": "dd5f7754a4d3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are flirtatious banter about power sweetening taste, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a promise ('They will learn their place...'), not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the last line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Two schemers discuss usurping an estate and poisoning a dowager. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Rupert plotting Alexander's death and poisoning the Dowager, which are late reveals. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are flirtatious banter, not a defined hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a closing promise, not a defined cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E20-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are flirtatious banter about power sweetening taste, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a promise ('They will learn their place...'), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the last line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Viewer doesn't know who Rupert, Catherine, Alexander, or the Dowager are."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert plotting Alexander's death and poisoning the Dowager, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are flirtatious banter, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a closing promise, not a defined cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E20-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Or has your sudden climb to power sweetened your taste already?\" is a suggestive taunt, not a clear conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"They will learn their place when you wear the ducal crown.\" is a closing statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the last line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two schemers discuss usurping an estate and poisoning a dowager."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert's plot to kill Alexander and poison the Dowager Duchess, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First line is a taunt, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a promise/statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E20-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line 'Or has your sudden climb to power sweetened your taste already?' is flirtatious banter, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'They will learn their place when you wear the ducal crown.' is a closing promise, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on that line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two schemers discussing usurping a title and poisoning an old woman is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert and Catherine are poisoning the Dowager Duchess, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are flirtatious banter, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a closing promise, not a defined cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Two scheming aristocrats discuss securing a dukedom through suspicious deaths",
+    "conflict_between": "Rupert and Catherine vs the Dowager and possibly the Crown",
+    "want_to_know_next": "Will they succeed in their plot to inherit the estate?",
+    "would_keep_watching": false,
+    "why": "The characters are unlikable schemers with no redeeming qualities shown"
+   }
+  },
+  "E20-2": {
+   "sig": "605718677747",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are conspirators planning, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a statement of assurance, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear two conspirators plotting a title grab and poisoning. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Rupert's poisoning plot against the Dowager, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "Not a hook type - it's conspirators planning. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Not a cliffhanger type - it's a closing statement. [0/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E20-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are conspirators planning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement of assurance, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear two conspirators plotting a title grab and poisoning."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert's poisoning plot against the Dowager, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "Not a hook type - it's conspirators planning."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Not a cliffhanger type - it's a closing statement."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E20-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are exposition about a title claim, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a cold statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Rupert's line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander, Rupert, or the Dowager are."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Rupert's plot to poison the Dowager Duchess, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a hook type; they're conspiratorial planning."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E20-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines are conspiratorial planning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a statement about ensuring 'quiet comfort', not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after L26 answers or defuses the poisoning implication."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two conspirators plotting to inherit a title by harming an elderly relative is clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Rupert and Catherine are poisoning the Dowager Duchess, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are conspiratorial planning, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a cold statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Two people are discussing inheritance and the convenient decline of an elderly relative.",
+    "conflict_between": "Rupert and Catherine vs the Dowager",
+    "want_to_know_next": "Will the Dowager die as planned, and will Rupert get the title?",
+    "would_keep_watching": false,
+    "why": "The dialogue feels like generic scheming in a period drama without enough unique hook."
+   }
+  },
+  "E20-3": {
+   "sig": "f185abf51ac3",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show Seamus taking a basket handle and Juliana talking about lung fever - no immediate conflict a stranger feels. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"And I am not finished\" is a closing statement, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the cliffhanger line. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: Seamus objects to Juliana's peasant work, she insists on her healing duty. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana's resilience but no late reveals about identity, poisoning, or marriage. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"And I am not finished\" is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E20-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Seamus taking a basket handle and Juliana talking about lung fever - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"And I am not finished\" is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the cliffhanger line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Seamus objects to Juliana's peasant work, she insists on her healing duty."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's resilience but no late reveals about identity, poisoning, or marriage."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"And I am not finished\" is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E20-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Seamus taking a basket handle and Juliana talking about lung fever - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And I am not finished' is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is not open-ended, so this check doesn't apply."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict between Juliana's determination to help villagers and Seamus's concern for her status."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's resilience but doesn't reveal late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E20-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Seamus taking a basket handle and Juliana talking about lung fever - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And I am not finished' is a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line 'And I am not finished' with no resolution after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Seamus wants Juliana to stop working, she refuses as the village's only healer."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's resilience but doesn't reveal Alexander's identity, poisoning plots, or late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are about taking a basket and discussing lung fever - none of the hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'And I am not finished' is a closing statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A noblewoman turned healer refuses to abandon her duties despite a man's protests.",
+    "conflict_between": "Juliana vs Seamus",
+    "want_to_know_next": "What will Seamus do next and how will Juliana's work affect the village?",
+    "would_keep_watching": true,
+    "why": "The character's defiance and the stakes of the lung fever create compelling tension."
+   }
+  }
+ }
+}

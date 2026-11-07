@@ -1,0 +1,28 @@
+{
+ "episode": 8,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L14",
+     "end_line": "L20"
+    },
+    {
+     "start_line": "L45",
+     "end_line": "L60"
+    }
+   ],
+   "hook_line": "L15",
+   "hook_type": "reveal",
+   "hook_strength": 3,
+   "cliff_line": "L60",
+   "cliff_strength": 3,
+   "standalone": 4,
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The reveal of Alexander’s war‑learned herbal knowledge grabs attention, and the final line leaves Juliana’s new outlook on wealth unresolved, enticing viewers to watch the full episode."
+  }
+ ]
+}

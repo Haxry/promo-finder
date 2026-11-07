@@ -1,0 +1,640 @@
+{
+ "items": {
+  "E39-1": {
+   "sig": "acb21bbcc282",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "The driver leaps off and strikes the sentry - immediate physical conflict. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"I am taking back my house\" is a declaration, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the declaration with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A disguised man sheds his disguise to reclaim his house - clear underdog reclaiming power. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke (a late reveal). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Driver strikes sentry - slap_attack. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "\"I am taking back my house\" is a declaration, not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "slap_attack",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E39-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "The driver leaps off and strikes the sentry - immediate physical conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I am taking back my house\" is a declaration, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the declaration with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A disguised man sheds his disguise to reclaim his house - clear underdog reclaiming power."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (a late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Driver strikes sentry - slap_attack."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I am taking back my house\" is a declaration, not a cliffhanger type."
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Driver leaps off cart and strikes sentry - immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I am taking back my house\" is a declaration, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on that line"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Warrior sheds disguise and declares intent to reclaim his house - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "slap_attack - physical attack lands immediately"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Driver leaps off cart and violently tackles sentry - immediate physical conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"I am taking back my house\" is a declaration, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the declaration with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: someone attacking guards, then transforming to reclaim power"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke (late reveal)"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "slap_attack: driver tackles sentry violently"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"I am taking back my house\" is a statement, not a cliffhanger type"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Clear progression: attack → transformation → preparation → declaration"
+      }
+     },
+     "hook_type": "slap_attack",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man in exile eliminates a guard, transforms from ragged to noble appearance, and declares his return to reclaim power.",
+    "conflict_between": "Alexander Ashwin vs those who exiled him",
+    "want_to_know_next": "Who exiled him and what his plan is",
+    "would_keep_watching": true,
+    "why": "The transformation from hunted exile to commanding noble creates compelling intrigue about his revenge."
+   }
+  },
+  "E39-2": {
+   "sig": "05bdbe786370",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are a reflective monologue about a past identity, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a determined vow ('I am bringing my wife home'), not an open question, threat, or cut-off. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the vow with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger can see a man declaring his return to reclaim his house and wife. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's true identity as the rightful duke, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are an identity_reveal, but it's reflective, not an immediate conflict hook. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a vow, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "identity_reveal",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E39-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a reflective monologue about a past identity, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a determined vow ('I am bringing my wife home'), not an open question, threat, or cut-off."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the vow with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see a man declaring his return to reclaim his house and wife."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's true identity as the rightful duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an identity_reveal, but it's reflective, not an immediate conflict hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a vow, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "FIRST 3s: 'They buried Alexander Ashwin three years ago.' is backstory, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "LAST LINE: 'Alexander's eyes burn with furious determination' is a description, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the action line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'Alexander Ashwin' is or why 'taking back my house' matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander's full name and ducal status, which are LATE REVEALS (the rightful Duke)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "FIRST 3s: 'They buried Alexander Ashwin three years ago.' is identity_reveal, but requires context; 'Alexander lightly traces...' is an action line that is NOT a hook (facial/reaction)."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "LAST LINE: 'Alexander's eyes burn with furious determination' is not a CLIFFHANGER TYPE (it's a reaction/description)."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a man tracing his scar and declaring his return, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Alexander's eyes burn with furious determination' is a closing statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the cliffhanger line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can understand a powerful man is returning to reclaim his home and wife."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is the rightful Duke, a late reveal viewers don't know until later."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are identity_reveal, but not in first 3 seconds - the conflict is missing."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action line (determined look), not a cliffhanger type."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man presumed dead returns to reclaim his title and rescue his wife.",
+    "conflict_between": "Alexander vs those who buried him/took his house",
+    "want_to_know_next": "Who took his house and where is his wife?",
+    "would_keep_watching": true,
+    "why": "The scar, the vow, and the determination create a compelling revenge/rescue mission."
+   }
+  },
+  "E39-3": {
+   "sig": "b26fb9cc6e32",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show Alexander emerging in splendor - no conflict [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is 'Alexander's eyes burn with furious determination' - a closing statement [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Screen cuts to black after cliffhanger line [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Shows a duke reclaiming his house and wife - clear conflict [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is a duke - major late reveal [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show emergence in splendor - not a hook type [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is 'eyes burn with determination' - not a cliff type [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E39-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Alexander emerging in splendor - no conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is 'Alexander's eyes burn with furious determination' - a closing statement"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Screen cuts to black after cliffhanger line"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a duke reclaiming his house and wife - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is a duke - major late reveal"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show emergence in splendor - not a hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is 'eyes burn with determination' - not a cliff type"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Alexander emerging in splendor - no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Alexander's eyes burn...' is a description, not an open question/threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the determined gaze with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a powerful man declaring he's taking back his house and bringing his wife home."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is 'Your Grace' (duke) which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show an arrival in splendor - not one of the defined hook types."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action description of determination, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Alexander emerging in finery, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a determined gaze, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cut to black after 'eyes burn with furious determination' ends the clip."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander is, why he's taking back his house, or who his wife is."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander's ducal status, a late reveal (rightful Duke)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show an arrival in finery, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a determined gaze, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman emerges in formal attire and orders his loyalists to secure a chapel, declaring he will reclaim his home and rescue his wife.",
+    "conflict_between": "Alexander vs whoever took his house/wife",
+    "want_to_know_next": "Will he succeed in taking back his house and rescuing his wife?",
+    "would_keep_watching": true,
+    "why": "The clip establishes high stakes with a determined protagonist on a rescue mission, creating immediate intrigue."
+   }
+  },
+  "E39-4": {
+   "sig": "63889f975b44",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show a man touching his scar and declaring 'Today, he comes home' - no immediate conflict visible. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is 'Alexander's eyes burn with furious determination' - a description, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the determined gaze with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "A stranger wouldn't know who 'he' is, what 'house' he's taking back, or why his wife needs bringing home. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip shows Alexander in ducal splendor being called 'Your Grace' - reveals his true noble status which is a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action description of determination, not an unanswered question, threat, cut-off sentence, or about-to-learn-truth moment. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E39-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a man touching his scar and declaring 'Today, he comes home' - no immediate conflict visible."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is 'Alexander's eyes burn with furious determination' - a description, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the determined gaze with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'he' is, what 'house' he's taking back, or why his wife needs bringing home."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Alexander in ducal splendor being called 'Your Grace' - reveals his true noble status which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action description of determination, not an unanswered question, threat, cut-off sentence, or about-to-learn-truth moment."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a man touching his scar and declaring 'Today, he comes home' - no immediate conflict a stranger can feel."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is 'Alexander's eyes burn with furious determination' - a description, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the determined look with no resolution after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man in ducal attire is taking back his house and bringing his wife home - clear conflict of reclaiming power."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Alexander in ducal splendor and being called 'Your Grace' - reveals his hidden identity as Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are 'identity_reveal' (showing ducal attire) but happen after 3s; initial 3s show no hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action description ('eyes burn'), not a cliffhanger type."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E39-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show Alexander tracing his scar and declaring 'Today, he comes home' - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is 'Alexander's eyes burn with furious determination' - a closing statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the determined look with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'he' is, what house he's taking back, or who his wife is."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's ducal identity and that he has a wife - both are late reveals (rightful Duke, marriage)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman declares his intent to reclaim his home and rescue his wife",
+    "conflict_between": "Alexander vs whoever took his house and wife",
+    "want_to_know_next": "Will he succeed in rescuing his wife and reclaiming his house?",
+    "would_keep_watching": true,
+    "why": "The clip establishes high stakes with a compelling protagonist and emotional motivation"
+   }
+  }
+ }
+}

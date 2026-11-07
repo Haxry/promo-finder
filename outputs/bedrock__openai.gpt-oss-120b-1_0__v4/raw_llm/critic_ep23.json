@@ -1,0 +1,648 @@
+{
+ "items": {
+  "E23-1": {
+   "sig": "c0733067cca7",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Someone is poisoning her.\" is an accusation without immediate visible conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Door opening with someone coming creates imminent threat. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the door opening, no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear poisoning plot with victim, helpers, and approaching danger. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals the poisoning plot (arsenic) which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Someone is poisoning her.\" is not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Door opening is 'about_to_learn_truth' - someone is about to discover them. [2/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "about_to_learn_truth",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E23-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Someone is poisoning her.\" is an accusation without immediate visible conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Door opening with someone coming creates imminent threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the door opening, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear poisoning plot with victim, helpers, and approaching danger."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Someone is poisoning her.\" is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Door opening is 'about_to_learn_truth' - someone is about to discover them."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "about_to_learn_truth",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Line 'Someone is poisoning her' is an accusation without immediate confrontation"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "SFX of door opening creates immediate danger about to be revealed"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on door opening sound with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear poisoning plot with victim, accuser, and imminent discovery"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot which is a LATE REVEAL (Rupert and Catherine are poisoning the Dowager Duchess)"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "'Someone is poisoning her' is not a listed hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Door opening is 'about_to_learn_truth'"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "about_to_learn_truth",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Someone is poisoning her.\" is a statement, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a sound effect (door opening), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the door opening sound."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear poisoning plot, urgency, and approaching danger."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Someone is poisoning her.\" is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Sound effect of door opening is not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Lady Juliana is urgently preparing a charcoal antidote for a poisoned Duchess while someone approaches",
+    "conflict_between": "Lady Juliana vs the poisoner",
+    "want_to_know_next": "Who is entering the room and what will happen to the Duchess",
+    "would_keep_watching": true,
+    "why": "The tension between the urgent medical treatment and the approaching threat creates compelling suspense"
+   }
+  },
+  "E23-2": {
+   "sig": "d792848542f8",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Can you save her?\" is a question about helping, not a conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is a door opening SFX, not a question, threat, or cut-off sentence. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The door creak is the final sound. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Two people trying to save someone while someone approaches is clear. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows a rescue attempt, not the poisoning plot's resolution. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "A question about saving someone is not a listed hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "A door opening SFX is not a listed cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E23-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Can you save her?\" is a question about helping, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a door opening SFX, not a question, threat, or cut-off sentence."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The door creak is the final sound."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people trying to save someone while someone approaches is clear."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a rescue attempt, not the poisoning plot's resolution."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "A question about saving someone is not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "A door opening SFX is not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E23-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Can you save her?\" is a question needing context."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is SFX of a door opening, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger is the end, but it's not an open-ended cliff."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is 'her'? Why must they act quickly? No clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows a medical attempt and interruption, no late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a request and a promise, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is SFX of a door opening, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E23-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Can you save her?\" is a request, not a conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "SFX of door opening is not a question, threat, cut-off, or about-to-learn-truth."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the door opening sound."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is poisoned, they're trying to help, and intruder arrives."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows poisoning attempt but not the conspirators' identities or late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Can you save her?\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "SFX of door opening is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is trying to save another person using charcoal treatment while someone approaches",
+    "conflict_between": "Healers vs approaching intruder",
+    "want_to_know_next": "Who is at the door and what they want",
+    "would_keep_watching": true,
+    "why": "The tension between urgent medical treatment and imminent interruption creates suspense"
+   }
+  },
+  "E23-4": {
+   "sig": "e80f9ae23c1c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "\"Arsenic.\" is just a word; no immediate conflict shown. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Juliana... someone is coming.\" is a threat that hasn't landed. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the warning line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Someone is poisoned, Juliana is trying to save her, danger approaches. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the poisoning plot (arsenic) which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "\"Arsenic.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"someone is coming\" is a threat_with_stakes. [2/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.43,
+   "raw_samples": [
+    {
+     "id": "E23-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is just a word; no immediate conflict shown."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Juliana... someone is coming.\" is an observation, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the warning line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who is poisoned, who 'her' is, or why someone coming matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"Juliana... someone is coming.\" is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Arsenic.\" alone is just a word; no conflict shown."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is a threat that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the warning."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Someone is poisoned, Juliana is trying to save her, danger approaches."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning method (arsenic) and that Juliana is trying to save the victim."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"someone is coming\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Arsenic.\" is a shocking line but lacks immediate conflict a stranger feels without backstory."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line about someone coming, no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A poisoning victim, a healer trying to save her, and an approaching threat are clear."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals the poisoning plot (arsenic) and that Juliana is trying to save the Duchess, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Arsenic.\" is a shocking_line."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is a threat_with_stakes."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman has been poisoned with arsenic, and another woman is attempting to treat her with charcoal while someone approaches.",
+    "conflict_between": "Lady Juliana vs the poison/approaching person",
+    "want_to_know_next": "Who is approaching and whether the treatment will work",
+    "would_keep_watching": true,
+    "why": "The combination of medical urgency and approaching danger creates immediate tension."
+   }
+  },
+  "E23-3": {
+   "sig": "5e2e040b474b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines list medical symptoms, no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Juliana... someone is coming.\" is a threat about to happen. [2/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the warning line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Juliana identifies poisoning, tries to save the Duchess, and danger approaches. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals the poisoning plot (arsenic) which is a LATE REVEAL. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are a diagnosis, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"someone is coming\" is about_to_learn_truth. [2/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Cut from Prudence asking \"What are you saying?\" to her horrified \"Poison?\" connects clearly. [3/3 yes]"
+     }
+    },
+    "pattern": "poison_plot",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E23-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines list medical symptoms, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Juliana... someone is coming.\" is an observation, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the warning line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Juliana identifies poisoning, tries to save the Duchess, and danger approaches."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals the poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a diagnosis, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a warning, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from Prudence asking \"What are you saying?\" to her horrified \"Poison?\" connects clearly."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines list symptoms without showing conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is a threat about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the warning with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear poisoning crisis with urgency and approaching danger."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals poisoning plot (arsenic) which is a LATE REVEAL."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "\"Weakness. Dry mouth...\" is not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"someone is coming\" is about_to_learn_truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from suspicion to confirmation flows as one mini-story."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "about_to_learn_truth",
+     "pattern": "poison_plot"
+    },
+    {
+     "id": "E23-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines describe medical symptoms, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the warning, no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: Juliana identifies poisoning, tries to treat victim, intruder approaches."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Juliana knows arsenic poisoning symptoms and is treating the Duchess, which is part of the poisoning plot viewers don't know until later."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are medical description, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Juliana... someone is coming.\" is threat_with_stakes."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Cut from Prudence asking \"What are you saying?\" to her horrified \"Poison?\" flows logically."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "poison_plot"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is showing symptoms of arsenic poisoning while another tries to treat her.",
+    "conflict_between": "",
+    "want_to_know_next": "Who is coming and why?",
+    "would_keep_watching": true,
+    "why": "The medical emergency combined with the approaching threat creates compelling tension."
+   }
+  }
+ }
+}

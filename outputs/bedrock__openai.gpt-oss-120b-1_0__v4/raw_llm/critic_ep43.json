@@ -1,0 +1,833 @@
+{
+ "items": {
+  "E43-1": {
+   "sig": "f5d1020fe765",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L2: 'Rupert lunges forward' shows immediate physical aggression. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "L45: 'No...' is a reaction, not an unanswered question, threat, or cut-off sentence. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on L45 with no resolution after Rupert's 'No...' [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A usurper is exposed by guards siding with the true duke, using a secret dossier. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals Alexander is the rightful Duke, a late reveal. [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L4: 'Arrest him!' is an arrest_accusation. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L45: 'No...' is a reaction, not a cliffhanger type. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": "The clip contains no [cut] marker, so this check should not be included. [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.75,
+   "raw_samples": [
+    {
+     "id": "E43-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L2: 'Rupert lunges forward' shows immediate physical aggression."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L45: 'No...' is a reaction, not an unanswered question, threat, or cut-off sentence."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on L45 with no resolution after Rupert's 'No...'"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A usurper is exposed by guards siding with the true duke, using a secret dossier."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L4: 'Arrest him!' is an arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L45: 'No...' is a reaction, not a cliffhanger type."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from accusation to guard defiance to dossier reveal seamlessly."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L2: 'Rupert lunges forward' shows immediate physical aggression."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L45: 'No...' is a reaction, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on L45's 'No...' with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger sees a man (Rupert) ordering an arrest, guards refusing, and a rival (Alexander) producing evidence against him."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows a confrontation about Alexander's identity and a military report, which aligns with early-episode knowledge of his mysterious past."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L2+L4: 'Rupert lunges forward' + 'This man is an imposter! Arrest him!' is arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L45: 'No...' is a reaction, not one of the CLIFFHANGER TYPES."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "The clip contains no [cut] marker, so this check should not be included."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Rupert lunges forward, shouting 'This man is an imposter! Arrest him!' - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'No...' is a reaction, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Rupert's terrified 'No...' with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A nobleman accuses a man of being an imposter, guards refuse, accused man produces royal documents - clear power struggle."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's identity as the rightful Duke (a late reveal) and that Rupert betrayed him militarily."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show 'arrest_accusation' - 'This man is an imposter! Arrest him!'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'No...' is not an unanswered question, threat, cut-off, or about-to-learn-truth - it's a reaction."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man claiming to be Duke Alexander Ashburn is being accused of being an imposter by Lord Rupert Ashburn, but the guards refuse to arrest him and instead show loyalty to Alexander, who presents a secret dossier revealing Rupert betrayed Alexander's military unit years ago.",
+    "conflict_between": "Alexander vs Rupert",
+    "want_to_know_next": "What exactly did Rupert do and what will be the consequences?",
+    "would_keep_watching": true,
+    "why": "The sudden revelation of betrayal and the guards' defiance creates intense drama and raises stakes about power and truth."
+   }
+  },
+  "E43-2": {
+   "sig": "28b678edc683",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "A man shouts 'This man is an imposter! Arrest him!' - immediate conflict with arrest demand. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'No...' is a reaction, not an unanswered question, threat, cut-off, or reveal about to happen. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on Rupert's terrified 'No...' with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A nobleman demands arrest of another man, guards refuse, documents reveal betrayal - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke and Rupert's betrayal - major late reveal from show bible. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First line is 'arrest_accusation' - guards/police seizing someone. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line 'No...' is not one of the CLIFFHANGER TYPES (it's a reaction). [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.88,
+   "raw_samples": [
+    {
+     "id": "E43-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "A man shouts 'This man is an imposter! Arrest him!' - immediate conflict with arrest demand."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'No...' is a reaction, not an unanswered question, threat, cut-off, or reveal about to happen."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Rupert's terrified 'No...' with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A nobleman demands arrest of another man, guards refuse, documents reveal betrayal - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke and Rupert's betrayal - major late reveal from show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First line is 'arrest_accusation' - guards/police seizing someone."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'No...' is not one of the CLIFFHANGER TYPES (it's a reaction)."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate conflict: 'This man is an imposter! Arrest him!'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'No...' is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Rupert's terrified whisper."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: nobleman vs. man being called imposter, guards side with Alexander."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "arrest_accusation: 'This man is an imposter! Arrest him!'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'No...' is not a cliffhanger type; it's a reaction."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow continuously from accusation to dossier reading to Rupert's reaction."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate accusation: 'This man is an imposter! Arrest him!'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'No...' is a reaction, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Rupert's terrified reaction"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: nobleman vs. guards over who is the real duke"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is rightful Duke, a late reveal"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "arrest_accusation: 'Arrest him!'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'No...' is not a cliffhanger type"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man claiming to be Duke Alexander Ashburn is being accused of being an imposter by Lord Rupert Ashburn, but the guards refuse to arrest him, and Alexander presents official documents suggesting Rupert betrayed him.",
+    "conflict_between": "Alexander vs Rupert",
+    "want_to_know_next": "What the documents reveal about Rupert's betrayal and who Alexander really is.",
+    "would_keep_watching": true,
+    "why": "The tension is high with a clear power struggle and a mystery about identity and betrayal."
+   }
+  },
+  "E43-3": {
+   "sig": "2b97d89f47c5",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Lines show immediate conflict: 'I am Lord Rupert Ashburn!' vs 'No. He is your Duke.' [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'And when you believed I was dead...' is a cut-off sentence, not a complete threat or question. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the cut-off line; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear power struggle: one man claims to be Duke, guard says another is, treason accusations follow. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke, which is a late reveal (spoiler). [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines show identity_reveal: 'Your Duke!' vs 'He is your Duke.' [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is cut_mid_sentence: 'And when you believed I was dead...' [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "identity_reveal",
+    "cliff_type": "cut_mid_sentence",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E43-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show immediate conflict: 'I am Lord Rupert Ashburn!' vs 'No. He is your Duke.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And when you believed I was dead...' is a cut-off sentence, not a complete threat or question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the cut-off line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear power struggle: one man claims to be Duke, guard says another is, treason accusations follow."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, which is a late reveal (spoiler)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show identity_reveal: 'Your Duke!' vs 'He is your Duke.'"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is cut_mid_sentence: 'And when you believed I was dead...'"
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "cut_mid_sentence",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate conflict: 'I am Lord Rupert Ashburn!' vs 'No. He is your Duke.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And when you believed I was dead...' is cut off, making it a cliffhanger."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the cut-off line; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear usurper vs rightful duke conflict with treason accusation."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal per bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an identity_reveal (Alexander's true status)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is cut_mid_sentence ('...')."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "cut_mid_sentence",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show immediate conflict: 'I am Lord Rupert Ashburn!' vs 'No. He is your Duke.'"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'And when you believed I was dead...' is a cut-off sentence, not a complete statement."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the cut-off line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows a power struggle between two men claiming authority, with documents proving betrayal."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's true identity as Duke and Rupert's usurpation, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines show identity_reveal: Alexander being declared the true Duke."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is cut_mid_sentence: 'And when you believed I was dead...'"
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "cut_mid_sentence",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman is being publicly accused of treason against a Duke during what appears to be a formal hearing.",
+    "conflict_between": "Alexander vs Rupert Ashburn",
+    "want_to_know_next": "What evidence will be presented next and how Rupert will defend himself",
+    "would_keep_watching": true,
+    "why": "The dramatic revelation of treason and high-stakes confrontation creates compelling tension."
+   }
+  },
+  "E43-4": {
+   "sig": "f24292592561",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are exposition about a title transfer, not immediate conflict. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "L80: 'My Lord?' is a reaction, not an unanswered question, threat, cut-off, or imminent reveal. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "L80 is the last line; nothing after it resolves the shock. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: official says duke dead/fraud, nobleman panics/blames Sterling, Alexander confronts, Catherine shocked. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is alive and rightful duke, a late reveal from show bible. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are identity_reveal, but not in the first 3 seconds. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L80: 'My Lord?' is not a cliffhanger type - it's a reaction, not unanswered question/threat/cut-off/imminent truth. [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": false,
+      "reason": " [1/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "identity_reveal",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.5,
+   "raw_samples": [
+    {
+     "id": "E43-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L69-L71: Official declares Duke Alexander dead, estate transferred under false authority - immediate conflict over legitimacy."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L80: 'My Lord?' is a reaction, not an unanswered question, threat, cut-off, or imminent reveal."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "L80 is the last line; nothing after it resolves the shock."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: official says duke dead/fraud, nobleman panics/blames Sterling, Alexander confronts, Catherine shocked."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is alive and rightful duke, a late reveal from show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L69-L71: identity_reveal - Alexander's true status as alive/rightful duke declared."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L80: 'My Lord?' is not a cliffhanger type - it's a reaction, not unanswered question/threat/cut-off/imminent truth."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Continuous scene: official's declaration → nobleman's panic → Alexander's cold reply → nobleman's betrayal → Catherine's shock."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are exposition about a title transfer, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"My Lord?\" is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's shocked line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: a nobleman exposed for false title transfer."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are identity_reveal, but not in the first 3 seconds."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"My Lord?\" is not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-4",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are exposition about a title transfer, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"My Lord?\" is a reaction, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on Catherine's line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Alexander, the Blond Nobleman, or Catherine are, or why the title transfer matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is the rightful Duke, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an identity_reveal, but it's exposition, not a hook."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "\"My Lord?\" is not a cliffhanger type; it's a reaction."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman is being confronted about a false death report and estate transfer",
+    "conflict_between": "Alexander vs the blond nobleman",
+    "want_to_know_next": "Who is Sterling and what was their role?",
+    "would_keep_watching": true,
+    "why": "Intriguing mystery about false death reports and betrayal in nobility"
+   }
+  },
+  "E43-5": {
+   "sig": "6ba94bf99710",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are about estate transfers and false reports - no immediate conflict a stranger feels. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on the question with no answer. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who Sterling is or why his arrest matters. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Sterling's involvement in the false report conspiracy, which is part of the usurpation plot [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are about legal/administrative fraud, not a hook type. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered_question. [3/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Segments flow from fraud accusation to arrest attempt coherently. [2/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 0.38,
+   "raw_samples": [
+    {
+     "id": "E43-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are about estate transfers and false reports - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Sterling is or why his arrest matters."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal late twists about Alexander's identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are about legal/administrative fraud, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from fraud accusation to arrest attempt coherently."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lines show official accusation of false authority transfer and nobleman's desperate denial"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered question"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the constable's question with no answer"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Shows authority figure accusing fraud, nobleman panicking and betraying Sterling, then Sterling being caught"
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Sterling's involvement in the false report conspiracy, which is part of the usurpation plot"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Crown Official's accusation of false authority transfer is an arrest_accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"Going somewhere, Lord Sterling?\" is an unanswered_question"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Segments flow from accusation → denial → betrayal → confrontation with Sterling"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E43-5",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "Lines L71-L75 are about estate transfers and being told someone was dead - no immediate conflict a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "L85 \"Going somewhere, Lord Sterling?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the constable's question with no answer."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Sterling is, why his report matters, or who is against whom."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals that Sterling handled a false report about someone's death, which is part of the usurpation conspiracy (a late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are about false authority and being misled - not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is an unanswered_question."
+      },
+      "cuts_make_sense": {
+       "pass": false,
+       "reason": "The jump from Catherine murmuring \"My Lord?\" to a door creaking and then a constable addressing Sterling is confusing - a stranger can't tell how these scenes connect."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman is being confronted about fraudulent transfer of an estate, revealing betrayal and deception.",
+    "conflict_between": "Crown officials vs Lord Sterling and his associates",
+    "want_to_know_next": "Who Sterling is and what happens to him",
+    "would_keep_watching": true,
+    "why": "Intriguing revelation of conspiracy and immediate arrest creates suspense."
+   }
+  }
+ }
+}

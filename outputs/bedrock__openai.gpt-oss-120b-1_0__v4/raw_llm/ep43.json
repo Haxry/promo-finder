@@ -1,0 +1,102 @@
+{
+ "episode": 43,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L2",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "slap_attack",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Viewers may not know why Rupert lunges or who the Guard Captain is.",
+   "spoiler": false,
+   "why": "Starts with a sudden attack and ends on a tense whisper, leaving the conflict unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L4",
+     "end_line": "L45"
+    }
+   ],
+   "hook_line": "L4",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 4,
+   "cliff_line": "L45",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "The accusation sounds dramatic but new viewers won’t know the back‑story of the imposter claim.",
+   "spoiler": false,
+   "why": "Arrest accusation hook grabs attention, clip ends on a breath‑held “No…” leaving viewers hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L13",
+     "end_line": "L60"
+    }
+   ],
+   "hook_line": "L13",
+   "hook_type": "identity_reveal",
+   "hook_strength": 4,
+   "cliff_line": "L60",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Rupert’s claim of dukedom is unclear to newcomers.",
+   "spoiler": true,
+   "why": "Identity reveal of Rupert as a duke spikes intrigue, cut on Alexander’s ominous “And when you believed I was dead…” creates a cliff."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L69",
+     "end_line": "L80"
+    }
+   ],
+   "hook_line": "L69",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L80",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "The false death of Duke Alexander is a major twist for new viewers.",
+   "spoiler": true,
+   "why": "Shocking line that the Duke is declared dead, ending on a questioning “Going somewhere, Lord Sterling?” leaves the plot hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L71",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L71",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L85",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Transfer of title under false authority may confuse newcomers.",
+   "spoiler": true,
+   "why": "Shows the illegal transfer of the dukedom, ending on a confrontational question that promises fallout."
+  }
+ ]
+}

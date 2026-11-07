@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E19-1": {
+   "sig": "84e4e066c11b",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show a man emerging and bowing, no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'My mother is a prisoner in her own house' is a statement, not an unanswered question or cut-off threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "No line after the last one to resolve it. [2/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: Alexander learns his mother is imprisoned and his estate usurped. [2/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show an arrival and bow, not a slap_attack, public_humiliation, etc. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a statement of fact, not an unanswered_question or threat_with_stakes. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.71,
+   "raw_samples": [
+    {
+     "id": "E19-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show a man emerging and bowing, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'My mother is a prisoner in her own house' is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "No line after the last one to resolve it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: Alexander learns his mother is imprisoned and his estate usurped."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show an arrival and bow, not a slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of fact, not an unanswered_question or threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E19-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show a man bowing and saying 'Your Grace' - no conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'My mother is a prisoner...' is a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on that line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who Alexander, Rupert, Catherine, or the mother are."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of fact, not an unanswered question, threat, cut-off, or about-to-learn."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E19-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a man bowing respectfully, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'My mother is a prisoner in her own house' is a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": false,
+       "reason": "Cliffhanger check failed - last line is not a cliffhanger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear someone is usurping power while rightful heir's mother is imprisoned."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned - a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines show deference/arrival, not a conflict hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of fact, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A nobleman receives a report about political usurpation and family imprisonment in his absence.",
+    "conflict_between": "Alexander vs Lord Sterling/Rupert",
+    "want_to_know_next": "What will Alexander do about the situation?",
+    "would_keep_watching": true,
+    "why": "The clip establishes high stakes with family betrayal and political intrigue that creates immediate investment."
+   }
+  },
+  "E19-2": {
+   "sig": "ed1227595f75",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines are exposition about political influence, no immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "\"Then Ashburg will remember who it belongs to\" is a closing statement, not an open question/threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The clip ends on that line, nothing resolves after. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who Alexander is, who Rupert/Sterling are, or why Ashburg matters. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s lines are exposition, not a slap_attack, public_humiliation, etc. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a vow/statement, not an unanswered_question, threat_with_stakes, etc. [0/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E19-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are exposition about political influence, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"Then Ashburg will remember who it belongs to\" is a closing statement, not an open question/threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on that line, nothing resolves after."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander is, who Rupert/Sterling are, or why Ashburg matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s lines are exposition, not a slap_attack, public_humiliation, etc."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a vow/statement, not an unanswered_question, threat_with_stakes, etc."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E19-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are exposition about Lord Sterling's influence, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a vow of vengeance, not an unanswered question or cut threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The vow is the final line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander, Lord Sterling, Rupert, or Ashburg are."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are exposition, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a vow/statement, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E19-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s are exposition about Lord Sterling's influence, no immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Then Ashburg will remember who it belongs to' is a closing vow, not an open question/threat/cut."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The vow is the final line."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who Alexander is, who Rupert is, or why Ashburg matters."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and imprisoned, a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are exposition, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a vow, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "An informant reveals to Alexander that his family's estate has been usurped in his absence.",
+    "conflict_between": "Alexander vs Lord Sterling/Rupert",
+    "want_to_know_next": "What proof they need and how Alexander will reclaim his home.",
+    "would_keep_watching": true,
+    "why": "The stakes are high with a mother imprisoned and a vow of vengeance, creating compelling intrigue."
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "episode": 40,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L11",
+     "end_line": "L24"
+    }
+   ],
+   "hook_line": "L11",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L24",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Juliana's identity and why she is targeted",
+   "spoiler": false,
+   "why": "Shows the Harringtons' chilling threat to Juliana and ends on a promise of what follows, pulling viewers into the looming danger."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L35",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": "L37",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L50",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who the \"witch\" is and why she must die",
+   "spoiler": false,
+   "why": "The conspirators declare the witch’s death, then cut to black on the triumphant couple, leaving the outcome of the execution unknown and enticing viewers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L38",
+     "end_line": "L49"
+    }
+   ],
+   "hook_line": "L38",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L49",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "missing_context": "The significance of Catherine’s smug comment and the broader plot against Juliana",
+   "spoiler": false,
+   "why": "Begins with the dramatic cathedral doors swinging open and ends on Catherine’s confident jab, creating tension without resolution."
+  }
+ ]
+}

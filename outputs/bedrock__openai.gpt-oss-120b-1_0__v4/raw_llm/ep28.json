@@ -1,0 +1,83 @@
+{
+ "episode": 28,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L52",
+     "end_line": "L85"
+    }
+   ],
+   "hook_line": "L52",
+   "hook_type": "slap_attack",
+   "hook_strength": 5,
+   "cliff_line": "L85",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "Juliana's locket is a family heirloom; viewers don’t yet know why Catherine wants it.",
+   "spoiler": false,
+   "why": "A brutal yank of Juliana’s heirloom locket followed by a chilling order to drag her to the dungeon grabs attention and ends on a life‑or‑death threat."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L72",
+     "end_line": "L94"
+    }
+   ],
+   "hook_line": "L72",
+   "hook_type": "identity_reveal",
+   "hook_strength": 5,
+   "cliff_line": "L94",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "The audience may not know Juliana’s true noble house, but the line “Lady Juliana Ashcroft” is self‑explanatory.",
+   "spoiler": false,
+   "why": "The moment Catherine names Juliana’s true title shocks the viewer, then a vicious threat about the gallows leaves the fate hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L12",
+     "end_line": "L33"
+    }
+   ],
+   "hook_line": "L12",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 4,
+   "cliff_line": "L33",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "New viewers won’t know why Catherine is accusing Juliana of poison, but the accusation itself is clear.",
+   "spoiler": false,
+   "why": "Catherine’s venomous claim that Juliana is a poisoner builds tension, ending with “Catherine knew!” which begs the question of what she knows."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L20",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L20",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L35",
+   "cliff_type": "cut_mid_sentence",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "pattern": "poison_plot",
+   "missing_context": "The Duchess’s frailty and the poison accusation are introduced without prior back‑story, but the drama is evident.",
+   "spoiler": false,
+   "why": "The desperate “Stop this!” command followed by the Duchess’s sudden collapse creates a dramatic pause that leaves viewers wondering what will happen next."
+  }
+ ]
+}

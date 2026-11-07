@@ -1,0 +1,62 @@
+{
+ "episode": 45,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L0",
+     "end_line": "L20"
+    },
+    {
+     "start_line": "L56",
+     "end_line": "L71"
+    }
+   ],
+   "hook_line": "L0",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L71",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "viewers won’t know Alexander’s claim to the dukedom or Juliana’s previous status",
+   "spoiler": false,
+   "why": "Shows the dramatic rescue and marriage proclamation then cuts to the shocking legal challenge, leaving the outcome unknown"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L59"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L59",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "the rivalry between Alexander and Catherine and why the accusation matters",
+   "spoiler": false,
+   "why": "Starts with a fierce accusation that grabs attention and ends on the priest’s sudden interruption, creating immediate tension"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L51",
+     "end_line": "L63"
+    }
+   ],
+   "hook_line": "L52",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L63",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "the significance of a ducal title and the Crown marriage license in this world",
+   "spoiler": false,
+   "why": "Begins with the triumphant proclamation of Juliana as Duchess, then abruptly halts with the priest declaring the ceremony invalid, forcing viewers to wonder what happens next"
+  }
+ ]
+}

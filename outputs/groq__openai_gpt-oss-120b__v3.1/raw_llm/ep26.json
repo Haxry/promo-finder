@@ -1,0 +1,62 @@
+{
+ "episode": 26,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "question",
+   "hook_strength": 4,
+   "cliff_line": "L48",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana's secret past and the poisoned Duchess",
+   "spoiler": false,
+   "why": "Starts with a probing question that hints at hidden identity, ends on a desperate demand about a mysterious ring, leaving viewers craving the answer."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L6",
+     "end_line": "L13"
+    },
+    {
+     "start_line": "L34",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L6",
+   "hook_type": "reveal",
+   "hook_strength": 5,
+   "cliff_line": "L48",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Why the Duchess is interrogating Juliana and the significance of the ring",
+   "spoiler": false,
+   "why": "Begins with a tense confrontation, cuts to the shocking ring reveal, and finishes on a frantic demand, creating a tight, high‑stakes teaser."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L48",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Who are Rupert and Catherine and why they are poisoning the Duchess",
+   "spoiler": false,
+   "why": "Uses the Duchess’s accusation of a murder plot as a hook and ends on the urgent demand about the ring, promising a dangerous secret."
+  }
+ ]
+}

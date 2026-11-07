@@ -1,0 +1,121 @@
+{
+ "episode": 27,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L55",
+     "end_line": "L90"
+    }
+   ],
+   "hook_line": "L55",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L90",
+   "cliff_type": "arrest_accusation",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A sharp accusation followed by an immediate order to seize her creates instant tension and ends on her being dragged away."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L24"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L24",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "hidden_identity",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The mysterious ring and the urgent question about Juliana’s husband hook viewers, ending on a question that demands answers."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L30",
+     "end_line": "L55"
+    }
+   ],
+   "hook_line": "L30",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L55",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine’s accusation instantly shames Juliana, and the noble’s threatening line leaves the audience hanging on her fate."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L74",
+     "end_line": "L92"
+    }
+   ],
+   "hook_line": "L74",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L92",
+   "cliff_type": "arrest_accusation",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A whispered “Poison” spikes tension, then the guard’s brutal grab ends on a cliff that begs “What will happen next?”"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L40",
+     "end_line": "L78"
+    }
+   ],
+   "hook_line": "L40",
+   "hook_type": "arrest_accusation",
+   "hook_strength": 5,
+   "cliff_line": "L78",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The noble’s demand to see the hand escalates quickly, culminating in Juliana’s desperate confession of poisoning, leaving the truth unresolved."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L45",
+     "end_line": "L80"
+    }
+   ],
+   "hook_line": "L45",
+   "hook_type": "public_humiliation",
+   "hook_strength": 4,
+   "cliff_line": "L80",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "Catherine’s mocking “Medicine?” humiliates Juliana, and the climax where she’s accused of poisoning the Duchess stops right before any defense is heard."
+  }
+ ]
+}

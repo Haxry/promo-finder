@@ -1,0 +1,26 @@
+{
+ "episode": 17,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L26",
+     "end_line": "L42"
+    }
+   ],
+   "hook_line": "L26",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L42",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "underdog_stands_up",
+   "missing_context": "The audience won’t know who “them” refers to – the attackers from the previous night’s assault.",
+   "spoiler": false,
+   "why": "The line “I just did.” instantly grabs attention with a bold promise, then the cut ends on the haunting question “Of them?” leaving viewers desperate to learn what fear still haunts Juliana."
+  }
+ ]
+}

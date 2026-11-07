@@ -1,0 +1,64 @@
+{
+ "episode": 44,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L17",
+     "end_line": "L46"
+    }
+   ],
+   "hook_line": "L17",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L46",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "betrayal",
+   "missing_context": "Catherine's past relationship with Alexander is unknown to new viewers.",
+   "spoiler": false,
+   "why": "A heart‑wrenching confession followed by a cold, unanswered question hooks viewers and leaves them desperate to know Alexander’s true feelings."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L10",
+     "end_line": "L52"
+    }
+   ],
+   "hook_line": "L10",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L52",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "The identities of the “Blond Nobleman” and why he shouts at Catherine are unclear without prior episodes.",
+   "spoiler": false,
+   "why": "A frantic shout and a sudden gasp “Her?!” create instant tension and a mystery that compels viewers to click."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L34",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": "L34",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L50",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "betrayal",
+   "missing_context": "Why Catherine believes she should be Duchess and why Alexander rejects her is not explained for newcomers.",
+   "spoiler": false,
+   "why": "A desperate claim of being a Duchess followed by Alexander walking away leaves the audience hanging on his next move."
+  }
+ ]
+}

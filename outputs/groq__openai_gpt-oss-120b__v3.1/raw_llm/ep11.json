@@ -1,0 +1,62 @@
+{
+ "episode": 11,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L8",
+     "end_line": "L15"
+    },
+    {
+     "start_line": "L75",
+     "end_line": "L83"
+    }
+   ],
+   "hook_line": "L8",
+   "hook_type": "confrontation",
+   "hook_strength": 4,
+   "cliff_line": "L83",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Gerald's accusation and the gold watch’s importance are unclear to a new viewer",
+   "spoiler": false,
+   "why": "Begins with a tense confrontation between Juliana and Gerald and ends with the shocking discovery of the gold watch, leaving viewers desperate to see the fallout"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L33",
+     "end_line": "L41"
+    }
+   ],
+   "hook_line": "L33",
+   "hook_type": "threat",
+   "hook_strength": 3,
+   "cliff_line": "L41",
+   "cliff_strength": 3,
+   "standalone": 2,
+   "missing_context": "Who is threatening whom and why the constable is involved",
+   "spoiler": false,
+   "why": "Shows the accusation escalating to a forced search, creating immediate tension and an unresolved question about the outcome"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L51"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "shocking_line",
+   "hook_strength": 3,
+   "cliff_line": "L51",
+   "cliff_strength": 3,
+   "standalone": 2,
+   "missing_context": "Why the constable is rummaging through their home",
+   "spoiler": false,
+   "why": "Highlights the invasive search and ends on Juliana’s desperate plea, a cliffhanger that compels viewers to watch the resolution"
+  }
+ ]
+}

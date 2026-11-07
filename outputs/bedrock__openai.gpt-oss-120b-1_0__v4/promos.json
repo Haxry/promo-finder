@@ -1,0 +1,3690 @@
+[
+ {
+  "episode": 12,
+  "episodes": [
+   12
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 12,
+    "start": "00:44.00",
+    "end": "01:09.20",
+    "start_s": 44.0,
+    "end_s": 69.2,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   12,
+   31
+  ],
+  "cliff_ref": [
+   12,
+   44
+  ],
+  "length_s": 25.2,
+  "hook": "\"I want to see you crawl, sister.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Fail, or refuse, and your husband hangs from the gallows.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Clarissa is Juliana's cruel sister; new viewers may not know their relationship.",
+  "spoiler": false,
+  "why": "A chilling threat is delivered within seconds, then the stakes are raised – her husband will hang if she fails. The clip ends on the looming danger, pulling viewers into the impossible challenge.",
+  "notes": "",
+  "id": "E12-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "\"I want to see you crawl, sister.\" is a clear conflict of humiliation between sisters. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Last line \"Fail, or refuse, and your husband hangs from the gallows.\" is a threat with stakes that hasn't landed yet. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the threat; no line after it answers or defuses it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clarissa demands Juliana retrieve a ring from dangerous thorns to save her husband from hanging; clear antagonist-victim dynamic. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "The clip shows ongoing cruelty and threat, not revealing Alexander's true identity, the poisoning plot, or marriage invalidation. [2/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"I want to see you crawl, sister.\" is public_humiliation (shaming in front of others). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"Fail, or refuse, and your husband hangs from the gallows.\" is threat_with_stakes. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Clarissa is forcing her sister to retrieve a ring from dangerous thorns",
+   "conflict_between": "Clarissa vs her sister",
+   "want_to_know_next": "Will the sister attempt the dangerous task?",
+   "would_keep_watching": true,
+   "why": "The high-stakes blackmail creates immediate tension and curiosity about the sister's choice"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.86,
+  "post_reason": "Hook 'I want to see you crawl, sister' instantly establishes high-stakes conflict with clear power dynamic, and the cliffhanger with husband's life threatened creates immediate urgency for next moment.",
+  "rank": 1
+ },
+ {
+  "episode": 1,
+  "episodes": [
+   1
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 1,
+    "start": "00:46.80",
+    "end": "01:10.40",
+    "start_s": 46.8,
+    "end_s": 70.4,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   1,
+   30
+  ],
+  "cliff_ref": [
+   1,
+   46
+  ],
+  "length_s": 23.6,
+  "hook": "\"You knew this before I walked through those doors!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"And you knew?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Who Clarissa is",
+  "spoiler": false,
+  "why": "Juliana's furious accusation leads to the sister's chilling admission, ending on a question.",
+  "notes": "standalone capped at 4: model listed missing context",
+  "id": "E1-4",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "\"You knew this before I walked through those doors!\" shows immediate accusation. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"And you knew?\" is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A bride is accusing her groom and sister of betrayal at the altar. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows the premise betrayal, not late reveals. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First lines are a shocking_line (broken promise). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Last line is an unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A bride discovers her groom has jilted her at the altar, with apparent collusion from others.",
+   "conflict_between": "Lady Juliana vs The Former Groom and Lady In Gold Gown",
+   "want_to_know_next": "Why the groom changed his mind and who else was involved in the deception.",
+   "would_keep_watching": true,
+   "why": "The raw emotional betrayal and mystery of the conspiracy create compelling drama."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "betrayal",
+  "hook_type_critic": "shocking_line",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "Opening line 'You knew this before I walked through those doors!' delivers immediate betrayal tension that's universally relatable, making strangers instantly understand the emotional core.",
+  "rank": 2
+ },
+ {
+  "episode": 5,
+  "episodes": [
+   5
+  ],
+  "type": "B",
+  "segments": [
+   {
+    "episode": 5,
+    "start": "00:59.00",
+    "end": "01:14.50",
+    "start_s": 59.0,
+    "end_s": 74.5,
+    "scene": 1
+   },
+   {
+    "episode": 5,
+    "start": "01:17.80",
+    "end": "01:40.80",
+    "start_s": 77.8,
+    "end_s": 100.8,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   5,
+   35
+  ],
+  "cliff_ref": [
+   5,
+   57
+  ],
+  "length_s": 38.5,
+  "hook": "\"Even your mother's precious legacy has been cast into the dirt!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "other",
+  "hook_strength": 3.0,
+  "cliffhanger": "\"Choose your next words carefully.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 3.0,
+  "standalone": 3.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Shows the cruel sister’s taunt, the scarred stranger’s protective aid, and ends on his chilling warning, packing betrayal, hope, and danger into a 38‑second mini‑story.",
+  "notes": "merged segments 2 and 3 (gap 0.5s: a pointless jump cut)",
+  "id": "B5-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Clarissa's mocking line about Juliana's mother's legacy being 'cast into the dirt' shows immediate conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "'Choose your next words carefully.' is a threat that hasn't landed yet. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the threat; no line answers or defuses it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A stranger can see a woman is being mocked by a cruel couple while a mysterious man defends her. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "The clip shows Juliana's humiliation and a stranger's defense, which is known by Ep5; it doesn't reveal Alexander's true identity or the poisoning plot. [3/3 ye"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Clarissa's line 'Even your mother's precious legacy has been cast into the dirt!' is public_humiliation. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "'Choose your next words carefully.' is threat_with_stakes. [3/3 yes]"
+   },
+   "cuts_make_sense": {
+    "pass": true,
+    "reason": "The cut from the courtyard to the man handing her the ledger shows a continuous mini-story of humiliation and rescue. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman's mother's legacy has been destroyed, and a mysterious man comforts her while confronting the mockers.",
+   "conflict_between": "Juliana and the Mysterious Bearded Man vs. Clarissa and Gerald",
+   "want_to_know_next": "Who is the Mysterious Bearded Man, and what will Gerald do next?",
+   "would_keep_watching": true,
+   "why": "The emotional stakes are high, and the mysterious man's protective presence creates intrigue."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 8,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 1.0,
+  "post_reason": "Hook about mother's legacy being 'cast into the dirt' combines personal and generational stakes, while 'Choose your next words carefully' cliffhanger creates suspense about impending confrontation.",
+  "rank": 3
+ },
+ {
+  "episode": 46,
+  "episodes": [
+   46
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 46,
+    "start": "01:29.30",
+    "end": "02:03.60",
+    "start_s": 89.3,
+    "end_s": 123.6,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   46,
+   49
+  ],
+  "cliff_ref": [
+   46,
+   63
+  ],
+  "length_s": 34.3,
+  "hook": "\"Careful, girl. You mistake my patience for weakness.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Ten days. And if the council rules against you, this county watches you lose her twice.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The High Priest’s warning grabs attention, then the clip cuts on the High Priest’s ominous ten‑day ultimatum.",
+  "notes": "",
+  "id": "E46-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "High Priest threatens a girl immediately: 'Careful, girl. You mistake my patience for weakness.' [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"this county watches you lose her twice\" is a threat with stakes that hasn't landed. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The threat ends the clip; no line follows to answer or defuse it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Conflict is clear: High Priest challenges a marriage's validity; Alexander defends it as a Duke. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Clip shows ongoing conflict about marriage validity, not revealing late twists like poisoning or usurpation. [2/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First lines are a direct threat: 'Careful, girl. You mistake my patience for weakness.' [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"lose her twice\" is a threat_with_stakes. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A religious authority is challenging the validity of a marriage, threatening to annul it through ecclesiastical power.",
+   "conflict_between": "Alexander vs High Priest",
+   "want_to_know_next": "Will Alexander's marriage be annulled by the High Religious Council?",
+   "would_keep_watching": true,
+   "why": "The high-stakes power struggle between secular nobility and religious authority creates compelling tension."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.29,
+  "post_reason": "Hook establishes immediate power dynamic with 'Careful, girl' that stops scrolls, and the cliffhanger's 'lose her twice' creates urgent emotional stakes a stranger can grasp without context.",
+  "rank": 4
+ },
+ {
+  "episode": 3,
+  "episodes": [
+   3
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 3,
+    "start": "01:09.90",
+    "end": "01:40.80",
+    "start_s": 69.9,
+    "end_s": 100.8,
+    "scene": 3
+   }
+  ],
+  "hook_ref": [
+   3,
+   58
+  ],
+  "cliff_ref": [
+   3,
+   84
+  ],
+  "length_s": 30.9,
+  "hook": "\"Take your hands off her.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"I can...\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Why are the guards trying to seize Juliana in the chapel?",
+  "spoiler": false,
+  "why": "A bold command stops the guards, then the stranger’s ominous half‑sentence leaves viewers hanging on his true intent.",
+  "notes": "",
+  "id": "E3-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "\"Take your hands off her.\" shows immediate conflict over a woman's restraint. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"I can...\" is a sentence cut off before completion. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the cut-off line \"I can...\" with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A stranger protects a woman from guards/family, clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows a protective stranger, not revealing his identity or late plot twists. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"Take your hands off her.\" is a direct threat with stakes (threat). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"I can...\" is cut off mid-sentence (cut_mid_sentence). [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A stranger intervenes to protect a woman from her family during a confrontation in a chapel.",
+   "conflict_between": "The Bearded Stranger vs Noble Matriarch and guards",
+   "want_to_know_next": "Who is the stranger and why is he protecting Juliana?",
+   "would_keep_watching": true,
+   "why": "The scene establishes immediate tension, clear stakes, and intriguing character dynamics with unanswered questions."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "rescue",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "cut_mid_sentence",
+  "critic_agreement": 0.71,
+  "post_reason": "'Take your hands off her' is a clear rescue scenario with immediate physical tension, though slightly more generic than the top clips' specific emotional hooks.",
+  "rank": 5
+ },
+ {
+  "episode": 33,
+  "episodes": [
+   33
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 33,
+    "start": "01:48.00",
+    "end": "02:17.00",
+    "start_s": 108.0,
+    "end_s": 137.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   33,
+   65
+  ],
+  "cliff_ref": [
+   33,
+   79
+  ],
+  "length_s": 29.0,
+  "hook": "\"Praying... or chanting?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"My testimony?!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The maid’s frantic “Praying… or chanting?” question ends on her shocked reaction, a perfect cliff for new viewers.",
+  "notes": "",
+  "id": "E33-4",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "First line 'Praying... or chanting?' immediately frames the maid as suspect. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Last line 'My testimony?!' is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the maid's shocked question, no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A lord is coercing a maid into a false witchcraft testimony. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Does not reveal late twists like Alexander's identity or poisoning plot. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First line is an accusation, fitting 'arrest_accusation'. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Last line is an unanswered question, fitting 'unanswered_question'. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A lord is interrogating a maid about witnessing witchcraft",
+   "conflict_between": "Lord vs Maid",
+   "want_to_know_next": "Will the maid testify against the woman who healed Toby?",
+   "would_keep_watching": true,
+   "why": "The tension between authority and morality creates compelling drama"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "betrayal",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "Intriguing 'Praying... or chanting?' hook creates mystery, but the 'My testimony?!' cliffhanger relies more on existing plot knowledge than E46-2's standalone emotional threat.",
+  "rank": 6
+ },
+ {
+  "episode": 15,
+  "episodes": [
+   15
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 15,
+    "start": "00:57.30",
+    "end": "01:22.40",
+    "start_s": 57.3,
+    "end_s": 82.4,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   15,
+   40
+  ],
+  "cliff_ref": [
+   15,
+   52
+  ],
+  "length_s": 25.1,
+  "hook": "\"Look at her! Crying over weeds!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"What? You want to fight us, veteran?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 3.0,
+  "weak_cold_open": false,
+  "missing_context": "the audience doesn’t yet know Juliana’s noble status or the significance of the garden",
+  "spoiler": false,
+  "why": "The thug’s mocking line humiliates Juliana, pulling the viewer in, then the scene cuts on a daring question that teases a showdown.",
+  "notes": "",
+  "id": "E15-3",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Thug mocks crying woman, she screams 'Stop!' as another raises club to destroy herbs - immediate conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered challenge/question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the thug's challenge; no resolution follows. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Thugs threaten woman destroying her herbs, protector arrives - clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Alexander protecting Juliana, which is established by EP5; no late reveals given. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First 3s show thug mocking and raising club to attack herbs - qualifies as slap_attack (destruction of property/threat of violence). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Last line 'What? You want to fight us, veteran?' is an unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Thugs are destroying someone's herbs while she protests, then a man intervenes to protect her.",
+   "conflict_between": "Alexander vs the thugs",
+   "want_to_know_next": "Will Alexander fight the thugs and what will happen?",
+   "would_keep_watching": true,
+   "why": "The tension is high with a clear protector vs bullies dynamic that creates immediate stakes."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 4,
+  "quality_7": 7,
+  "pattern": "rescue",
+  "hook_type_critic": "slap_attack",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "Hook about crying over weeds sets up bullying scenario, but requires more context than others to feel immediately high-stakes for a new viewer.",
+  "rank": 7
+ },
+ {
+  "episode": 1,
+  "episodes": [
+   1
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 1,
+    "start": "00:11.30",
+    "end": "00:37.70",
+    "start_s": 11.3,
+    "end_s": 37.7,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   1,
+   7
+  ],
+  "cliff_ref": [
+   1,
+   23
+  ],
+  "length_s": 26.4,
+  "hook": "\"You should turn around, Juliana.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Why are you holding her hand?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Why the matriarch can command her",
+  "spoiler": false,
+  "why": "Immediate command to turn away, then Juliana's desperate question, creating intrigue.",
+  "notes": "",
+  "id": "E1-3",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"You should turn around, Juliana.\" is a command, not immediate conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"Why are you holding her hand?\" is an unanswered question. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "No line after answers the question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Juliana arrives for wedding, is stopped, sees fiancé with another woman. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows premise betrayal, not late reveals. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "Command to turn around is not a listed hook type. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"Why are you holding her hand?\" is an unanswered_question. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Juliana arrives expecting to meet Gerald, but the Matriarch stops her and reveals Gerald is with someone else at the altar.",
+   "conflict_between": "Juliana vs Matriarch, and potentially Juliana vs Gerald",
+   "want_to_know_next": "Who is Gerald holding hands with and why?",
+   "would_keep_watching": true,
+   "why": "The emotional betrayal and shock create immediate intrigue about the relationships and what will happen next."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "betrayal",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 0.71,
+  "post_reason": "First 3 seconds deliver a direct, ominous command that stops the scroll hardest, and the cliffhanger question creates immediate relationship tension a stranger understands.",
+  "rank": 8
+ },
+ {
+  "episode": 4,
+  "episodes": [
+   4
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 4,
+    "start": "01:55.00",
+    "end": "02:20.80",
+    "start_s": 115.0,
+    "end_s": 140.8,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   4,
+   86
+  ],
+  "cliff_ref": [
+   4,
+   102
+  ],
+  "length_s": 25.8,
+  "hook": "\"You have thrown yourself away!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Come, Lady Juliana.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Gerald’s explosive outburst grabs attention, then the clip ends on the stranger’s invitation, teasing the escape without revealing the outcome.",
+  "notes": "",
+  "id": "E4-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - a stranger feels the conflict immediately. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line 'Come, Lady Juliana.' is a command/offer, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The last line is the end of the clip. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A man is furious a woman chose a 'penniless nobody,' she rejects him, and a mother figure disowns her - clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana's defiance and disownment, which viewers know by EP5; doesn't reveal Alexander's identity or late plots. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Gerald's lines are a public_humiliation, shaming her choice in front of others. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line 'Come, Lady Juliana.' is a protective offer, not a cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman is being disowned by her family for choosing a man they disapprove of.",
+   "conflict_between": "Juliana vs Gerald and Lady Ashcroft",
+   "want_to_know_next": "Who is the mysterious man and what will happen to Juliana now?",
+   "would_keep_watching": true,
+   "why": "The emotional confrontation creates compelling stakes and the mysterious man adds intrigue."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 1.0,
+  "post_reason": "Hook is a powerful emotional accusation that creates instant drama, and the underdog standing up pattern is universally compelling for new viewers.",
+  "rank": 9
+ },
+ {
+  "episode": 7,
+  "episodes": [
+   7
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 7,
+    "start": "01:05.60",
+    "end": "01:30.00",
+    "start_s": 65.6,
+    "end_s": 90.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   7,
+   31
+  ],
+  "cliff_ref": [
+   7,
+   44
+  ],
+  "length_s": 24.4,
+  "hook": "\"I have enough influence to make a beggar disappear.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"What are you staring at?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Why Gerald suddenly flees when the scarred man appears.",
+  "spoiler": false,
+  "why": "Gerald’s threatening boast is smashed by the scarred warrior’s silent arrival, ending on Gerald’s panicked retreat – a perfect hook‑and‑cliff that teases the showdown.",
+  "notes": "cliffhanger moved to the last dialogue line '\"What are you staring at?\"' (cliffhanger is a reaction/mood action, not a plot beat); trimmed end to the cliffhanger (2 line(s) after it removed, e.g. 'Gerald rapidly turns on his heel toward ')",
+  "id": "E7-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Gerald threatens to make a beggar disappear, showing immediate conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"What are you staring at?\" is a defensive command, not an open question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Gerald's line, no resolution follows. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A man threatens another's disappearance while a scarred man approaches; clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "No late reveals about Alexander's identity, poisoning, or marriage invalidation are given. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"I have enough influence to make a beggar disappear\" is a direct threat. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"What are you staring at?\" is not an unanswered question, threat, cut-off, or about-to-learn truth. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A threatening aristocrat is confronted by a scarred man carrying firewood",
+   "conflict_between": "Gerald vs the scarred bearded man",
+   "want_to_know_next": "Who is the scarred man and why does he frighten Gerald",
+   "would_keep_watching": true,
+   "why": "The power dynamic shift from arrogant threat to sudden fear creates intriguing tension"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.88,
+  "post_reason": "Threat of power imbalance ('make a beggar disappear') establishes clear stakes quickly, and the pattern reinforces the core underdog premise effectively.",
+  "rank": 10
+ },
+ {
+  "episode": 16,
+  "episodes": [
+   16
+  ],
+  "type": "B",
+  "segments": [
+   {
+    "episode": 16,
+    "start": "00:14.40",
+    "end": "00:21.80",
+    "start_s": 14.4,
+    "end_s": 21.8,
+    "scene": 1
+   },
+   {
+    "episode": 16,
+    "start": "00:41.20",
+    "end": "00:54.40",
+    "start_s": 41.2,
+    "end_s": 54.4,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   16,
+   13
+  ],
+  "cliff_ref": [
+   16,
+   45
+  ],
+  "length_s": 20.6,
+  "hook": "The thug swings the club down with full force, but Alexander catches the weapon mid-air in his bare hand with chilling ease.",
+  "hook_kind": "action",
+  "hook_type": "other",
+  "hook_strength": 3.0,
+  "cliffhanger": "\"Gerald...\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 3.0,
+  "standalone": 3.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Shows Alexander’s superhuman defense, then flips to the shocking confession that Gerald hired the thugs, ending on the thugs’ desperate flight to leave the audience hanging.",
+  "notes": "cliffhanger moved to the last dialogue line '\"Gerald...\"' (cliffhanger is a reaction/mood action, not a plot beat); trimmed end to the cliffhanger (2 line(s) after it removed, e.g. 'The Thug with Cap scrambles to his feet ')",
+  "id": "B16-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "A thug attacks with a club and Alexander catches it mid-swing. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Gerald...\" is a reaction, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Juliana's reaction; no answer follows. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A stranger sees a thug attack, gets beaten, reveals a client's name, and the heroine reacts. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Gerald's betrayal is known by Ep5; no late reveal is given away. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "A physical attack lands in the first seconds (club swing). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"Gerald...\" is a reaction, not a cliffhanger type. [0/3 yes]"
+   },
+   "cuts_make_sense": {
+    "pass": true,
+    "reason": "The cut flows from the fight to the interrogation seamlessly. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A man named Alexander is violently interrogating a thug who attacked him, demanding to know who hired them.",
+   "conflict_between": "Alexander vs the thug",
+   "want_to_know_next": "Who is Gerald Harrington and why did he send thugs?",
+   "would_keep_watching": true,
+   "why": "The action is intense and the reveal of Gerald Harrington creates immediate intrigue about the larger conflict."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 6,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "slap_attack",
+  "cliff_type_critic": "other",
+  "critic_agreement": 1.0,
+  "post_reason": "Visual hook of catching a weapon bare-handed stops scrolls instantly with clear physical conflict, shortest length maintains tension.",
+  "rank": 11
+ },
+ {
+  "episode": 3,
+  "episodes": [
+   3
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 3,
+    "start": "01:34.10",
+    "end": "02:20.30",
+    "start_s": 94.1,
+    "end_s": 140.3,
+    "scene": 3
+   }
+  ],
+  "hook_ref": [
+   3,
+   80
+  ],
+  "cliff_ref": [
+   3,
+   115
+  ],
+  "length_s": 46.2,
+  "hook": "\"Good. Then don't touch her again.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Lady Juliana... accept my hand.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "A protective threat (“Good. Then don't touch her again.”) builds tension, culminating in a cliff‑hanger proposal that begs for her response.",
+  "notes": "",
+  "id": "E3-4",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "\"Good. Then don't touch her again.\" is a direct threat/command showing immediate conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Lady Juliana... accept my hand.\" is a proposal/command, not an unanswered question or cut-off threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "No line after the proposal answers or resolves it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Stranger defends woman from family dragging her from church, then proposes - clear conflict and stakes. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Alexander's proposal, which viewers know by EP5; doesn't reveal his true identity or later plots. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"Good. Then don't touch her again.\" is a direct threat (threat hook type). [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Proposal is not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A stranger intervenes to protect a woman being forced from a church, then proposes to her.",
+   "conflict_between": "The Bearded Stranger vs Noble Matriarch/family",
+   "want_to_know_next": "Will she accept his sudden proposal?",
+   "would_keep_watching": true,
+   "why": "Sudden, high-stakes proposal creates compelling intrigue about her choice and his motives."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "rescue",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "other",
+  "critic_agreement": 1.0,
+  "post_reason": "Rescue pattern is engaging but the hook is less immediately arresting than the top three, and the clip is longest which may reduce completion.",
+  "rank": 12
+ },
+ {
+  "episode": 24,
+  "episodes": [
+   24
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 24,
+    "start": "00:32.50",
+    "end": "01:29.80",
+    "start_s": 32.5,
+    "end_s": 89.8,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   24,
+   23
+  ],
+  "cliff_ref": [
+   24,
+   68
+  ],
+  "length_s": 57.3,
+  "hook": "The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+  "hook_kind": "action",
+  "hook_type": "slap_attack",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"I will return. You cannot stop the healer.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Why is Juliana being struck and forced to clean the hearth?",
+  "spoiler": false,
+  "why": "The brutal strike grabs attention instantly and the final defiant stare leaves the conflict unresolved.",
+  "notes": "standalone capped at 4: model listed missing context",
+  "id": "E24-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "A noblewoman strikes Juliana with a riding crop - immediate physical conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line 'I will return. You cannot stop the healer.' is a declaration, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": false,
+    "reason": "N/A - no cliffhanger present. [1/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear power dynamic: noblewoman abuses maid Juliana, who secretly plots revenge. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana's undercover mission but doesn't reveal Alexander's identity or poisoning plot. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First 3s show 'slap_attack' - a riding crop strike. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is a defiant declaration, not a cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A noblewoman is violently disciplining and humiliating a maid named Juliana, forcing her to clean a filthy hearth while asserting her social inferiority.",
+   "conflict_between": "Noblewoman vs Juliana",
+   "want_to_know_next": "What is Juliana secretly planning with her hidden journal and bottle?",
+   "would_keep_watching": true,
+   "why": "Juliana's hidden defiance and secret knowledge create intriguing tension beneath the surface abuse."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 4,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "slap_attack",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.86,
+  "post_reason": "Sudden violence from noblewoman creates immediate shock value and establishes clear underdog premise for new viewers.",
+  "rank": 13
+ },
+ {
+  "episode": 2,
+  "episodes": [
+   2
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 2,
+    "start": "00:47.80",
+    "end": "01:16.40",
+    "start_s": 47.8,
+    "end_s": 76.4,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   2,
+   33
+  ],
+  "cliff_ref": [
+   2,
+   54
+  ],
+  "length_s": 28.6,
+  "hook": "\"Why are you surprised, sister? Look at you.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Dignity?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "The audience doesn’t yet know why Juliana’s sister is mocking her or that Gerald just left her at the altar.",
+  "spoiler": false,
+  "why": "Starts with a cutting insult that grabs attention, then ends on Juliana’s defiant “Dignity?” leaving viewers craving her next move.",
+  "notes": "",
+  "id": "E2-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Mocking sister immediately shames protagonist's appearance. [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Dignity?\" is a rhetorical echo, not an unanswered question or cut-off threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the line \"Dignity?\" with no resolution. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A sister mocks another at a wedding, groom tells her to leave; clear rivalry. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First lines are public_humiliation. [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line \"Dignity?\" is not an unanswered_question, threat_with_stakes, etc. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman in a gold gown is mocking another woman (Juliana) at a wedding, insulting her appearance and suggesting she's not worthy of the groom Gerald. Another voice scolds Juliana, and the groom tells her to leave quietly.",
+   "conflict_between": "Lady in gold gown vs Juliana, and possibly others vs Juliana",
+   "want_to_know_next": "Why is Juliana being targeted? What is her relationship to Gerald?",
+   "would_keep_watching": true,
+   "why": "The insults suggest a deeper backstory about Juliana's connection to the groom and why she's being publicly shamed."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.57,
+  "post_reason": "Humiliation/revenge pattern works but the hook requires more context ('sister') and is less instantly gripping than the others for a new viewer.",
+  "rank": 14
+ },
+ {
+  "episode": 11,
+  "episodes": [
+   11
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 11,
+    "start": "00:37.40",
+    "end": "01:27.50",
+    "start_s": 37.4,
+    "end_s": 87.5,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   11,
+   33
+  ],
+  "cliff_ref": [
+   11,
+   71
+  ],
+  "length_s": 50.1,
+  "hook": "\"I have received a complaint of theft.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "arrest_accusation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"One blow would end this.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Viewers may not know who the Constable is or why he’s accusing Alexander.",
+  "spoiler": false,
+  "why": "Starts with a sudden accusation and ends on Alexander’s ominous half‑sentence, leaving the outcome unknown.",
+  "notes": "standalone capped at 4: model listed missing context",
+  "id": "E11-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "A constable accuses someone of theft immediately. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"One blow would end this.\" is a statement, not an unanswered question or cut-off threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Alexander's line with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A constable searches a home on a false theft accusation while a cruel man taunts the couple. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows a false accusation and harassment, not a late reveal about Alexander's identity or the poisoning plot. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"I have received a complaint of theft.\" is an arrest_accusation. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"One blow would end this.\" is a statement of intent, not a cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A constable is searching a home for stolen goods based on a complaint, while the residents protest the invasion.",
+   "conflict_between": "Juliana and Alexander vs. Constable and Gerald",
+   "want_to_know_next": "Will they find anything incriminating, and will Alexander act on his violent thoughts?",
+   "would_keep_watching": true,
+   "why": "The tension is high with personal history and potential violence, making it compelling."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.88,
+  "post_reason": "Theft accusation creates immediate intrigue about what was stolen and from whom, with clear stakes.",
+  "rank": 15
+ },
+ {
+  "episode": 31,
+  "episodes": [
+   31
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 31,
+    "start": "02:11.00",
+    "end": "02:35.20",
+    "start_s": 131.0,
+    "end_s": 155.2,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   31,
+   70
+  ],
+  "cliff_ref": [
+   31,
+   85
+  ],
+  "length_s": 24.2,
+  "hook": "\"Enough!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 3.0,
+  "cliffhanger": "Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.",
+  "cliff_kind": "action",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "The power dynamic between Catherine and the imprisoned Juliana.",
+  "spoiler": false,
+  "why": "Catherine’s enraged scream ‘Enough!’ erupts into a deadly iron‑blade moment, delivering a concise, high‑stakes hook.",
+  "notes": "ending group failed: reaction/mood action",
+  "id": "E31-3",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Catherine screams 'Enough!' and paper scorches immediately [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Ends with searing iron inches from her eyes - threat hasn't landed [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Cliffhanger is final line [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear villain torturing restrained heroine over mother's book [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows ongoing torture but no late reveals [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Shocking line 'Enough!' with scorching paper [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Threat with stakes - iron stops inches from eyes [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Catherine is burning Juliana's cherished book from her mother while Juliana is chained and helpless.",
+   "conflict_between": "Catherine vs Juliana",
+   "want_to_know_next": "Will Catherine actually burn the book or stop?",
+   "would_keep_watching": true,
+   "why": "Intense emotional cruelty creates compelling drama about what happens next."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 7,
+  "pattern": "betrayal",
+  "hook_type_critic": "shocking_line",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.71,
+  "post_reason": "The first 3 seconds ('Enough!' + immediate visual of torture) stop a scroll hardest with primal, wordless tension, and its visceral cliffhanger (iron near eyes) creates a more urgent need to see the next moment than the others.",
+  "rank": 16
+ },
+ {
+  "episode": 10,
+  "episodes": [
+   10
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 10,
+    "start": "00:09.15",
+    "end": "01:06.10",
+    "start_s": 9.15,
+    "end_s": 66.1,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   10,
+   10
+  ],
+  "cliff_ref": [
+   10,
+   47
+  ],
+  "length_s": 56.9,
+  "hook": "\"There is blood running down your arm.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Why do you look at me like that?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Who is Alexander and why is he bloodied?",
+  "spoiler": false,
+  "why": "The urgent call about blood grabs attention, then the sudden question leaves viewers hanging on their chemistry.",
+  "notes": "",
+  "id": "E10-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"There is blood running down your arm.\" is observation, not conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"Why do you look at me like that?\" is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Woman tending to man's wound, tension about his scars and feelings. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows intimacy, not a plot resolution or late reveal. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "Observation of injury, not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"Why do you look at me like that?\" is an unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Juliana discovers Alexander is injured and insists on treating his wound, revealing deeper scars and emotional tension.",
+   "conflict_between": "Juliana vs Alexander (her concern vs his resistance)",
+   "want_to_know_next": "What caused Alexander's scars and why he's hiding his pain.",
+   "would_keep_watching": true,
+   "why": "The emotional tension and mystery around Alexander's past injuries create compelling intrigue."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "Blood observation creates mystery but lacks the immediate visual impact of higher-ranked clips.",
+  "rank": 17
+ },
+ {
+  "episode": 29,
+  "episodes": [
+   29
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 29,
+    "start": "00:50.10",
+    "end": "01:18.10",
+    "start_s": 50.1,
+    "end_s": 78.1,
+    "scene": 2
+   }
+  ],
+  "hook_ref": [
+   29,
+   31
+  ],
+  "cliff_ref": [
+   29,
+   47
+  ],
+  "length_s": 28.0,
+  "hook": "\"And when they find your corpse at the end of the rope...\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"What exactly do you think a penniless veteran can do against Ashbrook?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Catherine threatens Juliana’s death (“And when they find your corpse…”) and then challenges her husband’s power with “What exactly do you think a penniless veteran can do against Ashbrook?” – a daring question that stops the scene.",
+  "notes": "",
+  "id": "E29-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Threat of corpse on rope shows immediate danger. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line is a rhetorical put-down, not an open question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on Catherine's derisive question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear villain threatening heroine about her husband. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Doesn't reveal Alexander's true identity or late plot twists. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"And when they find your corpse at the end of the rope...\" is a threat. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is a rhetorical challenge, not an unanswered question or cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman named Catherine is threatening Juliana with hanging and mocking her defiance.",
+   "conflict_between": "Catherine vs Juliana",
+   "want_to_know_next": "Will Juliana's husband actually be able to rescue her?",
+   "would_keep_watching": true,
+   "why": "The power dynamic and personal history hinted at creates compelling tension."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "other",
+  "critic_agreement": 1.0,
+  "post_reason": "The hook ('corpse at the end of the rope') is a strong, direct threat that establishes high stakes quickly, and the underdog question at the end is a clearer, more motivating call-to-action for a new viewer than E27-1's medical dispute.",
+  "rank": 18
+ },
+ {
+  "episode": 22,
+  "episodes": [
+   22
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 22,
+    "start": "01:06.00",
+    "end": "02:05.80",
+    "start_s": 66.0,
+    "end_s": 125.8,
+    "scene": 2
+   }
+  ],
+  "hook_ref": [
+   22,
+   42
+  ],
+  "cliff_ref": [
+   22,
+   75
+  ],
+  "length_s": 59.8,
+  "hook": "\"And can you keep your eyes and ears where they belong?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"This isn't ordinary fever.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "A menacing threat from the Housekeeper hooks viewers, and Juliana’s shocked realization that the Duchess’s fever is unnatural teases a deadly secret.",
+  "notes": "",
+  "id": "E22-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"And can you keep your eyes and ears where they belong?\" is a threat/question, not immediate conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"This isn't ordinary fever.\" is a shocking realization that raises an unanswered question about what it is. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "No line after the last line resolves it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Servant being warned, sneaking to a sickbed - clear stakes. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana discovering illness, doesn't reveal poisoning conspiracy or identities. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "Threat/question about obedience, not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or direct threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"This isn't ordinary fever.\" is an about_to_learn_truth cliffhanger - she's realizing the secret. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A servant (Lady Juliana) is sneaking to care for a sick person in a restricted area of a manor",
+   "conflict_between": "Lady Juliana vs. Housekeeper/authority",
+   "want_to_know_next": "What is wrong with the sick person and why is it secret",
+   "would_keep_watching": true,
+   "why": "Intriguing mystery with clear stakes and atmospheric tension"
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "poison_plot",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "about_to_learn_truth",
+  "critic_agreement": 0.62,
+  "post_reason": "Poison plot premise is less immediately gripping than physical confrontations for new viewers unfamiliar with characters.",
+  "rank": 19
+ },
+ {
+  "episode": 27,
+  "episodes": [
+   27
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 27,
+    "start": "01:28.20",
+    "end": "02:24.90",
+    "start_s": 88.2,
+    "end_s": 144.9,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   27,
+   55
+  ],
+  "cliff_ref": [
+   27,
+   90
+  ],
+  "length_s": 56.7,
+  "hook": "\"And you decided you knew better than every physician in this house?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Take her.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "A sharp accusation followed by an immediate order to seize her creates instant tension and ends on her being dragged away.",
+  "notes": "",
+  "id": "E27-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "First line \"And you decided you knew better than every physician in this house?\" shows immediate conflict between authority figure and defiant servant. [3/3 yes"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line \"Take her\" is a command/arrest order, not an unanswered question or threat that hasn't landed. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the arrest order with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear conflict: nobleman accuses maid of unauthorized treatment, she claims antidote, gets framed for poisoning. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Accusation matches early premise, doesn't reveal late poisoning plot resolution [2/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First line is \"shocking_line\" - servant defying all physicians breaks norms. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line \"Take her\" is arrest order but not a CLIFFHANGER TYPE - it's execution of threat, not pending threat. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A maid is being accused of poisoning a duchess after secretly administering an antidote.",
+   "conflict_between": "Juliana (the maid) vs Blond Nobleman and Lady Catherine",
+   "want_to_know_next": "Is Juliana telling the truth about the poisoning, and who is really poisoning the duchess?",
+   "would_keep_watching": true,
+   "why": "The tension between the accused maid and the noble accusers creates immediate intrigue about who is lying and what will happen to the duchess."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "poison_plot",
+  "hook_type_critic": "shocking_line",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.86,
+  "post_reason": "While the professional arrogance in the hook has conflict, it's more niche and slower to establish universal stakes than the direct threats and physical peril of the clips ranked above it.",
+  "rank": 20
+ },
+ {
+  "episode": 32,
+  "episodes": [
+   32
+  ],
+  "type": "B",
+  "segments": [
+   {
+    "episode": 32,
+    "start": "01:13.40",
+    "end": "01:17.60",
+    "start_s": 73.4,
+    "end_s": 77.6,
+    "scene": 1
+   },
+   {
+    "episode": 32,
+    "start": "02:12.00",
+    "end": "02:31.20",
+    "start_s": 132.0,
+    "end_s": 151.2,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   32,
+   102
+  ],
+  "cliff_ref": [
+   32,
+   113
+  ],
+  "length_s": 23.4,
+  "hook": "\"You have to threaten a chained woman to feel powerful!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Then let's see how brave you are when it touches your skin!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The clip opens with a chilling threat and builds to the branding iron stopping inches from Juliana’s eye, leaving viewers desperate to see if she survives.",
+  "notes": "merged segments 1 and 2 (gap 1.5s: a pointless jump cut); cliffhanger moved to the last dialogue line '\"Then let\\'s see how brave you are when i' (cliffhanger is a reaction/mood action, not a plot beat); trimmed end to the cliffhanger (1 line(s) after it removed, e.g. 'Juliana gasps, freezing as the glowing t'); too short (19.2s): prepended setup line L56 '\"I was freed. And I found a man who neve' (4.2s)",
+  "id": "E32-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"I was freed. And I found a man who never asked me what I was worth.\" is a reflective statement, not an immediate conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"Then let's see how brave you are when it touches your skin!\" is a direct threat that hasn't landed yet. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Catherine's threat with the branding rod raised. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A prisoner (Juliana) is being taunted by a captor (Catherine) who is about to brand her. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows conflict with Catherine but doesn't reveal late plot twists about Alexander's identity or the poisoning. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First line is a reflective statement, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Last line is a threat_with_stakes (branding threat). [3/3 yes]"
+   },
+   "cuts_make_sense": {
+    "pass": true,
+    "reason": "The cut from Juliana's reflective line to her mocking Catherine flows as a continuous confrontation. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman who was once enslaved confronts her former oppressor who now holds power over her",
+   "conflict_between": "Juliana vs Catherine",
+   "want_to_know_next": "Will Catherine actually brand Juliana, and what will be the consequences?",
+   "would_keep_watching": true,
+   "why": "The power dynamics and raw emotional confrontation create compelling tension"
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 6,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 1.0,
+  "post_reason": "",
+  "rank": 21
+ },
+ {
+  "episode": 33,
+  "episodes": [
+   33
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 33,
+    "start": "01:04.40",
+    "end": "01:38.00",
+    "start_s": 64.4,
+    "end_s": 98.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   33,
+   39
+  ],
+  "cliff_ref": [
+   33,
+   57
+  ],
+  "length_s": 33.6,
+  "hook": "\"One word from me, and the county gaol will take him before sunrise.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"And she opened her mother's book...\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Shows the escalating coercion and hints at a forbidden book, leaving viewers craving the secret.",
+  "notes": "",
+  "id": "E33-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Lord threatens to jail a child: 'One word from me, and the county gaol will take him before sunrise.' [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line 'And she opened her mother's book...' is a statement, not a question, threat, cut-off, or imminent reveal. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the Lord's coercive statement with no resolution. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A lord threatens a maid's child to force her testimony; conflict is clear. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Clip shows coercion to frame someone, but doesn't reveal late twists like Alexander's identity or poisoning plot. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First line is a direct threat with stakes: 'the county gaol will take him before sunrise.' [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is a statement advancing the coercion, not an unanswered question, threat, cut-off, or about-to-learn-truth. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A lord is threatening a maid with her son's imprisonment to extract information about someone's actions",
+   "conflict_between": "Lord vs Maid",
+   "want_to_know_next": "What the maid will reveal about the 'she' and the book",
+   "would_keep_watching": true,
+   "why": "The power dynamic and emotional stakes create compelling tension"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "threat",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.86,
+  "post_reason": "",
+  "rank": 22
+ },
+ {
+  "episode": 34,
+  "episodes": [
+   34
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 34,
+    "start": "01:50.10",
+    "end": "02:27.00",
+    "start_s": 110.1,
+    "end_s": 147.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   34,
+   68
+  ],
+  "cliff_ref": [
+   34,
+   90
+  ],
+  "length_s": 36.9,
+  "hook": "\"The people call it poisoning!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Lady Juliana, if you wish to save yourself, renounce these practices.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Starts with the crowd’s outcry that Juliana’s remedies are “poisoning,” then ends on the judge’s ominous demand for her to renounce her practices – the outcome remains unknown.",
+  "notes": "",
+  "id": "E34-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "L68: 'The people call it poisoning!' - immediate accusation of poisoning in front of assembly [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or cut-off threat [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "L90 is the last line, no resolution follows [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear courtroom conflict: Juliana accused of poisoning with herbs, defends her actions as medicine [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana on trial for using herbs - doesn't reveal late poisoning conspiracy or Alexander's identity [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "L68: 'The people call it poisoning!' - public accusation fits 'arrest_accusation' [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or threat with stakes [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman is on trial for using herbs as medicine without physician approval",
+   "conflict_between": "Lady Juliana vs the court/Lord",
+   "want_to_know_next": "Will Lady Juliana renounce her practices to save herself?",
+   "would_keep_watching": true,
+   "why": "The moral dilemma between following rules and helping people creates compelling tension"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 1.0,
+  "post_reason": "",
+  "rank": 23
+ },
+ {
+  "episode": 47,
+  "episodes": [
+   47
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 47,
+    "start": "01:45.20",
+    "end": "02:07.20",
+    "start_s": 105.2,
+    "end_s": 127.2,
+    "scene": 4
+   }
+  ],
+  "hook_ref": [
+   47,
+   56
+  ],
+  "cliff_ref": [
+   47,
+   66
+  ],
+  "length_s": 22.0,
+  "hook": "\"You will scrub the floors you walked on as an impostor.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"I offer you bread and honest labor. Take the apron, or leave the county.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Juliana’s fierce decree forces Catherine into a humiliating choice, ending on the moment she must decide – a perfect cliffhanger.",
+  "notes": "",
+  "id": "E47-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Juliana orders Catherine to scrub floors as an impostor - immediate power reversal. [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line is an ultimatum/command ('Take the apron, or leave the county'), not an open question or threat. [1/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on Juliana's ultimatum with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear someone in power is humiliating someone who wronged them. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana's rise to power but doesn't reveal Alexander's identity or poisoning plot. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"You will scrub the floors you walked on as an impostor\" is public_humiliation. [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is an ultimatum/command, not an unanswered question, threat with stakes, cut mid-sentence, or about-to-learn-truth. [1/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman in authority is imposing harsh domestic punishments on someone who previously deceived her.",
+   "conflict_between": "Juliana vs Catherine",
+   "want_to_know_next": "Will Catherine accept the demeaning work or leave?",
+   "would_keep_watching": true,
+   "why": "The power dynamic and humiliation create compelling tension about Catherine's choice."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 5,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.43,
+  "post_reason": "",
+  "rank": 24
+ },
+ {
+  "episode": 13,
+  "episodes": [
+   13
+  ],
+  "type": "B",
+  "segments": [
+   {
+    "episode": 13,
+    "start": "00:41.80",
+    "end": "01:23.00",
+    "start_s": 41.8,
+    "end_s": 83.0,
+    "scene": 1
+   },
+   {
+    "episode": 13,
+    "start": "01:23.80",
+    "end": "01:42.50",
+    "start_s": 83.8,
+    "end_s": 102.5,
+    "scene": 2
+   }
+  ],
+  "hook_ref": [
+   13,
+   24
+  ],
+  "cliff_ref": [
+   13,
+   65
+  ],
+  "length_s": 59.9,
+  "hook": "\"Perhaps the beggar's wife will finally learn what her new life is worth.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Please, ring... you have to be here.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Who is the ‘beggar’s wife’ and why is a ring being sought?",
+  "spoiler": true,
+  "why": "Gerald’s sneering line shames Juliana, then the clip cuts just as she pleads for the ring, creating a tense, unanswered moment.",
+  "notes": "too long (60.7s): cut middle line L55 'Juliana continues clawing forw' (0.8s) -> 2 segments",
+  "id": "E13-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Gerald's line 'Perhaps the beggar's wife will finally learn what her new life is worth' is a direct humiliation. [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Last line 'Please, ring... you have to be here' is an unanswered question about finding the ring. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Juliana's plea; no line after it answers or defuses it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A stranger sees a woman being forced to crawl through thorns while a man is restrained and taunted. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": false,
+    "reason": "Shows Alexander restrained and Juliana tortured, revealing a late plot point of their capture and torment. [1/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Gerald's line is public_humiliation. [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "Last line is unanswered_question. [2/3 yes]"
+   },
+   "cuts_make_sense": {
+    "pass": true,
+    "reason": "The cut continues the same scene of Juliana crawling through thorns under torment. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman named Juliana is crawling through painful blackthorn briars, apparently searching for something (a ring?) while being mocked by onlookers Gerald and Clarissa, as a man named Alexander desperately tries to stop her.",
+   "conflict_between": "Juliana vs. Gerald/Clarissa (and the physical obstacle of the thorns)",
+   "want_to_know_next": "What is Juliana searching for, and will she find it?",
+   "would_keep_watching": true,
+   "why": "The clip creates strong tension with visceral pain and cruelty, making me want to see if Juliana succeeds and what the consequences are."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": false
+  },
+  "quality_4": 3,
+  "quality_7": 7,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 0.38,
+  "post_reason": "",
+  "rank": 25
+ },
+ {
+  "episode": 42,
+  "episodes": [
+   42
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 42,
+    "start": "00:18.00",
+    "end": "01:17.50",
+    "start_s": 18.0,
+    "end_s": 77.5,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   42,
+   9
+  ],
+  "cliff_ref": [
+   42,
+   35
+  ],
+  "length_s": 59.5,
+  "hook": "\"Guards! Arrest this imposter!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "arrest_accusation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"And now, Rupert... we settle what you stole.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Viewers won’t know who the “imposter” is or why Rupert is being threatened.",
+  "spoiler": true,
+  "why": "The frantic call for arrest grabs attention, and the final threat leaves the showdown hanging.",
+  "notes": "",
+  "id": "E42-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "First line 'Guards! Arrest this imposter!' shows immediate conflict with authority figures. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat that hasn't landed yet. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the threat - no resolution follows. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear conflict: nobleman vs. guards, identity reveal, mother confirms rightful heir. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": false,
+    "reason": "Reveals Alexander is the rightful Duke - a late reveal from show bible. [0/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "'Guards! Arrest this imposter!' is arrest_accusation hook. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "'And now, Rupert... we settle what you stole.' is threat_with_stakes cliffhanger. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A presumed-dead noble returns to claim his title, confronting the usurper.",
+   "conflict_between": "Alexander vs Rupert",
+   "want_to_know_next": "What did Rupert steal and how will Alexander settle it?",
+   "would_keep_watching": true,
+   "why": "The emotional reunion and clear stakes create immediate investment in the resolution."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": false
+  },
+  "quality_4": 3,
+  "quality_7": 6,
+  "pattern": "hidden_identity",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 1.0,
+  "post_reason": "",
+  "rank": 26
+ },
+ {
+  "episode": 44,
+  "episodes": [
+   44
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 44,
+    "start": "00:14.00",
+    "end": "01:10.40",
+    "start_s": 14.0,
+    "end_s": 70.4,
+    "scene": 2
+   }
+  ],
+  "hook_ref": [
+   44,
+   10
+  ],
+  "cliff_ref": [
+   44,
+   52
+  ],
+  "length_s": 56.4,
+  "hook": "\"Get your hands off me! Catherine!\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Her?!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "The identities of the “Blond Nobleman” and why he shouts at Catherine are unclear without prior episodes.",
+  "spoiler": true,
+  "why": "A frantic shout and a sudden gasp “Her?!” create instant tension and a mystery that compels viewers to click.",
+  "notes": "standalone capped at 4: model listed missing context",
+  "id": "E44-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Royal guard forces nobleman down - immediate physical conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"Her?!\" is an incredulous question left unanswered. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on Catherine's shocked question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear: man rejects woman's claims of love for another woman. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": false,
+    "reason": "Reveals Catherine's past love for Alexander, a late reveal about their relationship. [1/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Guard forcing Rupert down is an arrest_accusation. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"Her?!\" is an unanswered_question. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman confronts a man who she believed was dead, revealing their past relationship and her grief, while he rejects her claims and affections.",
+   "conflict_between": "Catherine vs Alexander",
+   "want_to_know_next": "Why Alexander is rejecting Catherine and what happened to him.",
+   "would_keep_watching": true,
+   "why": "The emotional tension and mystery of their past relationship is compelling."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": false
+  },
+  "quality_4": 3,
+  "quality_7": 6,
+  "pattern": "betrayal",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 0.5,
+  "post_reason": "",
+  "rank": 27
+ },
+ {
+  "episode": 45,
+  "episodes": [
+   45
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 45,
+    "start": "00:54.00",
+    "end": "01:30.80",
+    "start_s": 54.0,
+    "end_s": 90.8,
+    "scene": 2
+   }
+  ],
+  "hook_ref": [
+   45,
+   39
+  ],
+  "cliff_ref": [
+   45,
+   59
+  ],
+  "length_s": 36.8,
+  "hook": "\"You poisoned my mother. You tortured my wife.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"No one will bow yet!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Catherine's betrayal and her link to the poison plot are unknown to a new viewer.",
+  "spoiler": true,
+  "why": "A visceral accusation followed by a sudden ecclesiastical threat creates instant drama and leaves the viewer desperate to know the outcome.",
+  "notes": "",
+  "id": "E45-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "\"You poisoned my mother. You tortured my wife.\" is an immediate accusation. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"No one will bow yet!\" is a threat that hasn't landed. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the High Priest's line. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A man accuses a woman of poisoning, then presents his wife as Duchess, interrupted by a priest. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": false,
+    "reason": "Reveals Alexander and Juliana are married and she is Duchess, a late reveal. [0/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "First line is an accusation of poisoning. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"No one will bow yet!\" is a threat_with_stakes. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A man publicly accuses a woman of harming his family and reveals his secret marriage",
+   "conflict_between": "Alexander vs Catherine",
+   "want_to_know_next": "Why Catherine is shocked about the wife and what the Bishop's arrival means",
+   "would_keep_watching": true,
+   "why": "The dramatic accusations, secret marriage reveal, and sudden arrival of religious/legal authorities create compelling tension"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": false
+  },
+  "quality_4": 3,
+  "quality_7": 6,
+  "pattern": "hidden_identity",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.5,
+  "post_reason": "",
+  "rank": 28
+ },
+ {
+  "episode": 29,
+  "episodes": [
+   29
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 29,
+    "start": "00:02.90",
+    "end": "00:40.00",
+    "start_s": 2.9,
+    "end_s": 40.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   29,
+   3
+  ],
+  "cliff_ref": [
+   29,
+   21
+  ],
+  "length_s": 37.1,
+  "hook": "Juliana resists furiously, her feet stumbling on the wet flagstones as the guards forcibly propel her forward.",
+  "hook_kind": "action",
+  "hook_type": "slap_attack",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"The magistrate will call it witchcraft.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The clip opens with Juliana being violently forced forward, then builds to Catherine’s chilling warning “The magistrate will call it witchcraft,” a threat that leaves the audience hanging.",
+  "notes": "hook group failed: reaction/mood action",
+  "id": "E29-3",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "L3: 'Juliana resists furiously... as the guards forcibly propel her forward' shows immediate physical conflict. [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "L21: 'The magistrate will call it witchcraft' is a threat that hasn't landed yet. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on Catherine's threat about witchcraft. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A prisoner is being dragged while pleading for her mother's book, which the captor mocks and threatens to frame as witchcraft. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Juliana being arrested and threatened with witchcraft fits early-episode conflicts, not late reveals. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "L3: Guards forcibly propelling Juliana is an arrest/seizure. [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "L21: Threat of witchcraft accusation is a threat_with_stakes. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "Juliana is being dragged by guards while pleading for her mother's book, which Catherine mocks as worthless and potentially witchcraft.",
+   "conflict_between": "Juliana vs Catherine",
+   "want_to_know_next": "Will Juliana's book be saved or condemned as witchcraft?",
+   "would_keep_watching": true,
+   "why": "The emotional stakes are high with a mother's legacy threatened by accusations of witchcraft."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 7,
+  "pattern": "poison_plot",
+  "hook_type_critic": "arrest_accusation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.71,
+  "post_reason": "",
+  "rank": 29
+ },
+ {
+  "episode": 47,
+  "episodes": [
+   47
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 47,
+    "start": "00:56.80",
+    "end": "01:18.50",
+    "start_s": 56.8,
+    "end_s": 78.5,
+    "scene": 3
+   }
+  ],
+  "hook_ref": [
+   47,
+   25
+  ],
+  "cliff_ref": [
+   47,
+   36
+  ],
+  "length_s": 21.7,
+  "hook": "\"You dare show your face in Ashbourne courtyard?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Do it, Vaughn! Throw her past the estate perimeter!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Viewer may not know who Lady Ashbourne is or why Catherine is suddenly accused of poisoning the Dowager Duchess.",
+  "spoiler": true,
+  "why": "A bold accusation shames Catherine instantly, then Alexander orders her to be thrown out – the tension of whether she’ll survive hangs in the air.",
+  "notes": "",
+  "id": "E47-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Immediate confrontation: 'You dare show your face in Ashbourne courtyard?' [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line is a command ('Do it, Vaughn!'), not an unanswered question or cut-off threat [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": false,
+    "reason": "Cliffhanger is not open-ended (command is executed) [1/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear power dynamic: noblewoman ordering punishment of desperate woman [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Catherine's downfall but doesn't reveal poisoning resolution [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "\"You dare show your face in Ashbourne courtyard?\" is public_humiliation. [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is a command execution, not threat_with_stakes or unanswered_question [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A desperate woman is being expelled from an estate by angry nobles",
+   "conflict_between": "Lady Ashbourne/Alexander vs Catherine",
+   "want_to_know_next": "Why Catherine is accused of aiding poison and what will happen to her",
+   "would_keep_watching": true,
+   "why": "The dramatic confrontation and poisoning accusation create immediate intrigue"
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 4,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.71,
+  "post_reason": "",
+  "rank": 30
+ },
+ {
+  "episode": 3,
+  "episodes": [
+   3
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 3,
+    "start": "00:02.10",
+    "end": "01:00.00",
+    "start_s": 2.1,
+    "end_s": 60.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   3,
+   1
+  ],
+  "cliff_ref": [
+   3,
+   46
+  ],
+  "length_s": 57.9,
+  "hook": "\"Look at you...\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 3.0,
+  "cliffhanger": "\"Guards! Remove her!\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 5.0,
+  "weak_cold_open": true,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The opening mockery instantly grabs attention, and the sudden “Guards! Remove her!” leaves the audience desperate to see if she escapes.",
+  "notes": "weak cold open '\"Look at you...\"': hook capped at 3, quality -1; quality -1: weak cold open",
+  "id": "E3-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "L1/L3: 'Look at you... still clinging to that little locket' shows immediate scorn and conflict. [2/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "L46: 'Guards! Remove her!' is a threat that hasn't landed yet. [2/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on the order 'Remove her!' with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A woman is being mocked and ordered removed from a church; clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows early humiliation, not late reveals like Alexander's identity or poisoning. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "L1/L3: 'Look at you...' is public_humiliation. [2/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "L46: 'Guards! Remove her!' is threat_with_stakes. [2/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman (Juliana) is being publicly shamed and cast out by her family, with another woman (in gold) gloating about taking her wedding.",
+   "conflict_between": "Lady Juliana vs. Lady in Gold Gown and Noble Matriarch",
+   "want_to_know_next": "What will happen to Juliana now that she's being forcibly removed?",
+   "would_keep_watching": true,
+   "why": "The emotional stakes are high with clear betrayal and injustice, making me want to see if Juliana gets revenge or redemption."
+  },
+  "quality_groups": {
+   "hook": true,
+   "ending": true,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 3,
+  "quality_7": 7,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "public_humiliation",
+  "cliff_type_critic": "threat_with_stakes",
+  "critic_agreement": 0.43,
+  "post_reason": "",
+  "rank": 31
+ },
+ {
+  "episode": 6,
+  "episodes": [
+   6
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 6,
+    "start": "00:00.00",
+    "end": "01:00.00",
+    "start_s": 0.0,
+    "end_s": 60.0,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   6,
+   1
+  ],
+  "cliff_ref": [
+   6,
+   51
+  ],
+  "length_s": 60.0,
+  "hook": "Juliana lifts the hem of her white satin wedding gown to keep it out of the pooling mud, shivering under her dark hooded cloak.",
+  "hook_kind": "action",
+  "hook_type": "public_humiliation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"You are not disappointed?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The opening shows a drenched bride in mud – an instant visual shock. It ends on the stranger’s puzzled question “You are not disappointed?” which forces viewers to wonder what will happen next.",
+  "notes": "",
+  "id": "E6-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "First 3s show Juliana lifting her gown in the rain, no conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"You are not disappointed?\" is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the question, no answer follows. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": false,
+    "reason": "cold viewer could not name a conflict"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows her marriage to the scarred stranger, which is known by Ep5. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First 3s lines are not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"You are not disappointed?\" is an unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A bride in her wedding dress is led through a rainy forest to a humble cottage by a mysterious man who apologizes for her circumstances.",
+   "conflict_between": "",
+   "want_to_know_next": "Why is she there instead of at her wedding? Who is the man?",
+   "would_keep_watching": true,
+   "why": "The atmosphere is compelling and the mystery of why a bride is in this situation is intriguing."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": false,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 4,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 0.86,
+  "post_reason": "",
+  "rank": 32
+ },
+ {
+  "episode": 7,
+  "episodes": [
+   7
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 7,
+    "start": "00:25.00",
+    "end": "01:11.20",
+    "start_s": 25.0,
+    "end_s": 71.2,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   7,
+   10
+  ],
+  "cliff_ref": [
+   7,
+   33
+  ],
+  "length_s": 46.2,
+  "hook": "\"A fitting home for a woman who threw away everything for a penniless soldier.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "public_humiliation",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Where is that beggar husband?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "The episode opens with Gerald’s cruel mockery, then builds tension until the scarred man’s arrival freezes Gerald – a dramatic, unanswered threat that compels viewers to watch.",
+  "notes": "cliffhanger moved to the last dialogue line '\"Where is that beggar husband?\"' (cliffhanger is a reaction/mood action, not a plot beat); trimmed end to the cliffhanger (1 line(s) after it removed, e.g. 'Gerald freezes, his arrogant bravado ins')",
+  "id": "E7-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "First line is an insult about a home, not immediate conflict. [1/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line is an action description, not an open question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The action line is the end. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear conflict: ex-fiancé insults heroine's new life with her scarred husband. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows ongoing tension but no late reveals about Alexander's true identity or poisoning plots. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First lines are insults, not a defined hook type (slap_attack, public_humiliation, etc.). [1/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Last line is an action description, not a defined cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman named Juliana is being insulted in her modest home by two aristocratic visitors who mock her lifestyle and marriage choice.",
+   "conflict_between": "Juliana vs Gerald and the Aristocratic Woman",
+   "want_to_know_next": "Will the scarred husband arrive and what will happen when he confronts Gerald?",
+   "would_keep_watching": true,
+   "why": "The tension is escalating with Gerald's threat and the husband's imminent arrival creates suspense about a potential confrontation."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 3,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.57,
+  "post_reason": "",
+  "rank": 33
+ },
+ {
+  "episode": 18,
+  "episodes": [
+   18
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 18,
+    "start": "02:38.00",
+    "end": "03:06.50",
+    "start_s": 158.0,
+    "end_s": 186.5,
+    "scene": 5
+   }
+  ],
+  "hook_ref": [
+   18,
+   73
+  ],
+  "cliff_ref": [
+   18,
+   79
+  ],
+  "length_s": 28.5,
+  "hook": "\"Someone wanted us out.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"What are you going to do?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "Starts with a chilling threat and ends on Juliana’s desperate question, leaving viewers hanging on his next move.",
+  "notes": "",
+  "id": "E18-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "First lines show comforting embrace, not immediate conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"What are you going to do?\" is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "Clip ends on Juliana's question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": false,
+    "reason": "Stranger wouldn't know who 'they' are or what was taken. [0/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows conflict but no late reveal. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First lines are comfort, not a hook type. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"What are you going to do?\" is unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A couple has been forced from their home and are comforting each other while discussing retaliation.",
+   "conflict_between": "Alexander and Juliana vs unknown antagonists",
+   "want_to_know_next": "Who forced them out and what Alexander plans to do.",
+   "would_keep_watching": true,
+   "why": "The emotional stakes are high and the mystery of who 'they' are creates immediate intrigue."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": false,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 4,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "",
+  "rank": 34
+ },
+ {
+  "episode": 20,
+  "episodes": [
+   20
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 20,
+    "start": "01:06.70",
+    "end": "01:28.00",
+    "start_s": 66.7,
+    "end_s": 88.0,
+    "scene": 3
+   }
+  ],
+  "hook_ref": [
+   20,
+   39
+  ],
+  "cliff_ref": [
+   20,
+   52
+  ],
+  "length_s": 21.3,
+  "hook": "\"If I stop, Seamus, the lung fever in the valley wins.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"And I am not finished.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 3.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Viewer may not know the village’s lung fever crisis or why Juliana is the only healer.",
+  "spoiler": false,
+  "why": "Juliana’s fierce declaration of stakes hooks the audience, and her final “I am not finished” leaves her next move unknown.",
+  "notes": "",
+  "id": "E20-3",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "First lines show Seamus taking a basket handle and Juliana talking about lung fever - no immediate conflict a stranger feels. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"And I am not finished\" is a closing statement, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the cliffhanger line. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear conflict: Seamus objects to Juliana's peasant work, she insists on her healing duty. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Juliana's resilience but no late reveals about identity, poisoning, or marriage. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"And I am not finished\" is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A noblewoman turned healer refuses to abandon her duties despite a man's protests.",
+   "conflict_between": "Juliana vs Seamus",
+   "want_to_know_next": "What will Seamus do next and how will Juliana's work affect the village?",
+   "would_keep_watching": true,
+   "why": "The character's defiance and the stakes of the lung fever create compelling tension."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 3,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.86,
+  "post_reason": "",
+  "rank": 35
+ },
+ {
+  "episode": 23,
+  "episodes": [
+   23
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 23,
+    "start": "01:34.50",
+    "end": "02:11.20",
+    "start_s": 94.5,
+    "end_s": 131.2,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   23,
+   48
+  ],
+  "cliff_ref": [
+   23,
+   62
+  ],
+  "length_s": 36.7,
+  "hook": "\"Can you save her?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Juliana... someone is coming.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "New viewers won’t know who is in danger, but the desperate plea “Can you save her?” creates immediate urgency.",
+  "spoiler": false,
+  "why": "A frantic question sets the stakes, and the sudden door latch turn stops the clip right before the intruder appears.",
+  "notes": "cliffhanger moved to the last dialogue line '\"Juliana... someone is coming.\"' (cliffhanger is a sound cue, not a story beat)",
+  "id": "E23-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"Can you save her?\" is a question about helping, not a conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "Last line is a door opening SFX, not a question, threat, or cut-off sentence. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The door creak is the final sound. [2/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Two people trying to save someone while someone approaches is clear. [2/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows a rescue attempt, not the poisoning plot's resolution. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "A question about saving someone is not a listed hook type. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "A door opening SFX is not a listed cliffhanger type. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman is trying to save another person using charcoal treatment while someone approaches",
+   "conflict_between": "Healers vs approaching intruder",
+   "want_to_know_next": "Who is at the door and what they want",
+   "would_keep_watching": true,
+   "why": "The tension between urgent medical treatment and imminent interruption creates suspense"
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 3,
+  "pattern": "rescue",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.71,
+  "post_reason": "",
+  "rank": 36
+ },
+ {
+  "episode": 28,
+  "episodes": [
+   28
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 28,
+    "start": "01:10.80",
+    "end": "02:04.70",
+    "start_s": 70.8,
+    "end_s": 124.7,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   28,
+   52
+  ],
+  "cliff_ref": [
+   28,
+   85
+  ],
+  "length_s": 53.9,
+  "hook": "Catherine ruthlessly yanks the silver locket off Juliana's neck.",
+  "hook_kind": "action",
+  "hook_type": "slap_attack",
+  "hook_strength": 5.0,
+  "cliffhanger": "\"Drag her to the wet cells beneath the south tower.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Juliana's locket is a family heirloom; viewers don’t yet know why Catherine wants it.",
+  "spoiler": false,
+  "why": "A brutal yank of Juliana’s heirloom locket followed by a chilling order to drag her to the dungeon grabs attention and ends on a life‑or‑death threat.",
+  "notes": "standalone capped at 4: model listed missing context; hook group failed: reaction/mood action",
+  "id": "E28-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": true,
+    "reason": "Catherine yanks locket off Juliana's neck - immediate physical conflict [3/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Drag her to the wet cells\" is a command, not an unanswered question or threat [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "No line after the command answers or defuses it [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear villain (Catherine) humiliating victim (Juliana) over stolen heirloom [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Shows Catherine's cruelty but doesn't reveal poisoning plot or Alexander's identity [2/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": true,
+    "reason": "Catherine yanking locket is physical action happening TO someone [3/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"Drag her to the wet cells\" is a command, not a cliffhanger type [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A noblewoman is tormenting a servant, revealing her secret noble identity and taking her mother's locket.",
+   "conflict_between": "Catherine vs Juliana",
+   "want_to_know_next": "What will happen to Juliana in the wet cells?",
+   "would_keep_watching": true,
+   "why": "The power dynamics and revealed secrets create compelling tension."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 5,
+  "pattern": "humiliation_revenge",
+  "hook_type_critic": "slap_attack",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.86,
+  "post_reason": "",
+  "rank": 37
+ },
+ {
+  "episode": 38,
+  "episodes": [
+   38
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 38,
+    "start": "00:57.50",
+    "end": "01:18.50",
+    "start_s": 57.5,
+    "end_s": 78.5,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   38,
+   37
+  ],
+  "cliff_ref": [
+   38,
+   51
+  ],
+  "length_s": 21.0,
+  "hook": "\"And if I have only one thing left to give...\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"Then I suppose I'm next.\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 5.0,
+  "standalone": 5.0,
+  "weak_cold_open": false,
+  "missing_context": "none",
+  "spoiler": false,
+  "why": "A defiant, emotionally charged line grabs attention instantly and ends on a chilling implication of execution, leaving viewers desperate to know her fate.",
+  "notes": "",
+  "id": "E38-1",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"And if I have only one thing left to give...\" is a vague statement, not a clear conflict. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Then I suppose I'm next.\" is a closing statement, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the line, nothing answers or defuses it. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "Clear someone is imprisoned and a threatening wedding is starting [2/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Clip shows Juliana in a cell, which is consistent with her disowned status by Ep5. [2/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First lines are a vow of loyalty, not a slap_attack, public_humiliation, etc. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "\"Then I suppose I'm next.\" is a statement, not an unanswered_question or threat_with_stakes. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A woman in a dungeon realizes a wedding is starting while defiantly refusing to betray her husband.",
+   "conflict_between": "Juliana vs whoever imprisoned her",
+   "want_to_know_next": "Who is getting married and why Juliana is imprisoned",
+   "would_keep_watching": true,
+   "why": "The dramatic tension and mystery about the wedding and her fate are compelling."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 3,
+  "pattern": "underdog_stands_up",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.71,
+  "post_reason": "",
+  "rank": 38
+ },
+ {
+  "episode": 40,
+  "episodes": [
+   40
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 40,
+    "start": "00:26.20",
+    "end": "01:06.80",
+    "start_s": 26.2,
+    "end_s": 66.8,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   40,
+   12
+  ],
+  "cliff_ref": [
+   40,
+   31
+  ],
+  "length_s": 40.6,
+  "hook": "\"She won't be seeing anything for long.\"",
+  "hook_kind": "dialogue",
+  "hook_type": "threat",
+  "hook_strength": 4.0,
+  "cliffhanger": "\"All entrances are covered?\"",
+  "cliff_kind": "dialogue",
+  "cliff_strength": 4.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "Why are all entrances being sealed?",
+  "spoiler": false,
+  "why": "A menacing warning is followed by the tense question about sealing the cathedral, leaving viewers wondering how Juliana will escape.",
+  "notes": "standalone capped at 4: model listed missing context",
+  "id": "E40-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"She won't be seeing anything for long.\" is vague - no clear conflict a stranger feels immediately. [0/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": true,
+    "reason": "\"All entrances are covered?\" is an unanswered question. [3/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the question. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": false,
+    "reason": "Stranger wouldn't know who Juliana is or why she's being targeted. [0/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Doesn't reveal late twists about Alexander's identity or poisoning. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "First lines are a vague threat, not a clear hook type. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": true,
+    "reason": "\"All entrances are covered?\" is an unanswered_question. [3/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A noble couple discusses someone named Juliana's misfortune while attending a wedding.",
+   "conflict_between": "Lord and Lady Harrington vs Juliana",
+   "want_to_know_next": "What will happen to Juliana at the wedding?",
+   "would_keep_watching": true,
+   "why": "Intriguing setup with sinister characters and impending drama at a wedding."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": true,
+   "standalone": false,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 4,
+  "pattern": "poison_plot",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "unanswered_question",
+  "critic_agreement": 1.0,
+  "post_reason": "",
+  "rank": 39
+ },
+ {
+  "episode": 41,
+  "episodes": [
+   41
+  ],
+  "type": "A",
+  "segments": [
+   {
+    "episode": 41,
+    "start": "00:58.00",
+    "end": "01:33.50",
+    "start_s": 58.0,
+    "end_s": 93.5,
+    "scene": 1
+   }
+  ],
+  "hook_ref": [
+   41,
+   33
+  ],
+  "cliff_ref": [
+   41,
+   51
+  ],
+  "length_s": 35.5,
+  "hook": "\"You needed an entire chapel to feel powerful over one chained woman?\"",
+  "hook_kind": "dialogue",
+  "hook_type": "shocking_line",
+  "hook_strength": 4.0,
+  "cliffhanger": "Silhouetted armed figures emerge through the smoke and rubble of the breached doorway. Juliana slowly turns her head, glancing back toward the light.",
+  "cliff_kind": "action",
+  "cliff_strength": 5.0,
+  "standalone": 4.0,
+  "weak_cold_open": false,
+  "missing_context": "The viewer sees Juliana’s defiance but doesn’t know who the silhouetted figures are.",
+  "spoiler": false,
+  "why": "Juliana’s bold line hooks the audience, and the reveal of mysterious armed figures creates a cliffhanger.",
+  "notes": "",
+  "id": "E41-2",
+  "checks": {
+   "hook_conflict_no_context": {
+    "pass": false,
+    "reason": "\"You needed an entire chapel to feel powerful over one chained woman?\" is a defiant question, not immediate conflict. [1/3 yes]"
+   },
+   "open_question_at_end": {
+    "pass": false,
+    "reason": "\"Juliana slowly turns her head, glancing back toward the light.\" is an action, not an unanswered question or threat. [0/3 yes]"
+   },
+   "nothing_resolves_after_cliff": {
+    "pass": true,
+    "reason": "The clip ends on the action line with no resolution. [3/3 yes]"
+   },
+   "standalone_understandable": {
+    "pass": true,
+    "reason": "A woman is chained in a chapel, conspirators plot a title, then an explosion and armed figures arrive - clear conflict. [3/3 yes]"
+   },
+   "not_a_spoiler": {
+    "pass": true,
+    "reason": "Doesn't reveal Alexander's identity, poisoning plot, or marriage invalidation. [3/3 yes]"
+   },
+   "hook_in_rubric": {
+    "pass": false,
+    "reason": "Defiant question and murmured line are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+   },
+   "cliff_in_rubric": {
+    "pass": false,
+    "reason": "Action of figures emerging and Juliana turning is not unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth. [0/3 yes]"
+   }
+  },
+  "cold_viewer": {
+   "what_is_happening": "A tense confrontation in a chapel between Juliana and Catherine, interrupted by a violent explosion.",
+   "conflict_between": "Juliana vs Catherine",
+   "want_to_know_next": "Who are the armed figures and what happens to Juliana?",
+   "would_keep_watching": true,
+   "why": "The explosion creates immediate high stakes and introduces new armed characters."
+  },
+  "quality_groups": {
+   "hook": false,
+   "ending": false,
+   "standalone": true,
+   "not_a_spoiler": true
+  },
+  "quality_4": 2,
+  "quality_7": 3,
+  "pattern": "rescue",
+  "hook_type_critic": "other",
+  "cliff_type_critic": "other",
+  "critic_agreement": 0.75,
+  "post_reason": "",
+  "rank": 40
+ }
+]

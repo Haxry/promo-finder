@@ -1,0 +1,487 @@
+{
+ "items": {
+  "E18-1": {
+   "sig": "9c1cab512419",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines show comforting embrace, not immediate conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "\"What are you going to do?\" is an unanswered question. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Juliana's question. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Stranger wouldn't know who 'they' are or what was taken. [0/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows conflict but no late reveal. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are comfort, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "\"What are you going to do?\" is unanswered_question. [3/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "unanswered_question",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E18-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show comforting embrace, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"What are you going to do?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana's question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who 'they' are or what was taken."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows conflict but no late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are comfort, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"What are you going to do?\" is unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E18-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show comforting embrace, not conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"What are you going to do?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Stranger wouldn't know who 'they' are or what 'home' was taken."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Doesn't reveal Alexander's identity or late plot twists."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are comfort, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"What are you going to do?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E18-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines show a comforting embrace, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line \"What are you going to do?\" is an unanswered question."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the question; no line after answers it."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "A stranger wouldn't know who 'they' are or why 'our home' was taken."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows general conflict, no late reveals about identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are an embrace and vague line, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line \"What are you going to do?\" is an unanswered_question."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "unanswered_question",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A couple has been forced from their home and are comforting each other while discussing retaliation.",
+    "conflict_between": "Alexander and Juliana vs unknown antagonists",
+    "want_to_know_next": "Who forced them out and what Alexander plans to do.",
+    "would_keep_watching": true,
+    "why": "The emotional stakes are high and the mystery of who 'they' are creates immediate intrigue."
+   }
+  },
+  "E18-2": {
+   "sig": "199691d1bc4c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show Juliana crying and Alexander shouting 'Get up!' - no immediate conflict a stranger feels [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is Juliana charging toward desk - an action, not an unanswered question/threat/cut-off [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends with her charging toward fire - no resolution [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Fire emergency with two characters trying to escape - clear conflict [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Fire scene doesn't reveal late identity or plot resolutions [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s show distress and urgency but no hook type from rubric [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is action charging toward danger, not a cliffhanger type from rubric [0/3 yes]"
+     },
+     "cuts_make_sense": {
+      "pass": true,
+      "reason": "Continuous fire escape sequence flows logically [2/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.62,
+   "raw_samples": [
+    {
+     "id": "E18-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Juliana crying and Alexander shouting 'Get up!' - no immediate conflict a stranger feels"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is Juliana charging toward desk - an action, not an unanswered question/threat/cut-off"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with her charging toward fire - no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Fire emergency with two characters trying to escape - clear conflict"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Fire scene doesn't reveal late identity or plot resolutions"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s show distress and urgency but no hook type from rubric"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is action charging toward danger, not a cliffhanger type from rubric"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E18-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show Juliana crying in bed, not immediate conflict"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is Juliana charging toward desk - action, not open question/threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with her charging into danger"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear: couple trapped in fire, she risks life for ledger"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Fire scene doesn't reveal late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s: crying, door crash - not a listed hook type"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line: action of charging - not a listed cliffhanger type"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Continuous fire escape sequence flows logically"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E18-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Door kicked open, urgent rescue command"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Action line shows her charging toward desk - not a question, threat, cut-off, or reveal about to happen"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with her charging toward fire"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Man rescues woman from fire, she tries to retrieve something important"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Fire scene doesn't reveal late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Door kicked open qualifies as 'arrival' in ACTION LINES"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Action of charging toward fire is not one of CLIFFHANGER TYPES"
+      },
+      "cuts_make_sense": {
+       "pass": true,
+       "reason": "Continuous fire escape sequence with clear cause-effect"
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is trapped in a burning room, rescued by a man who tries to lead her to safety.",
+    "conflict_between": "Juliana vs Alexander",
+    "want_to_know_next": "Will Juliana retrieve the ledger and survive?",
+    "would_keep_watching": true,
+    "why": "High-stakes rescue scene with emotional tension and a dangerous choice creates suspense."
+   }
+  },
+  "E18-3": {
+   "sig": "8b40ed1be7b0",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s show burning rafters falling, not a human conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action (charging toward desk), not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on Juliana charging toward danger. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Two people in a burning building argue over retrieving something. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows a burning building scene, no late reveals about identity or poisoning. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s are environmental danger, not a hook type. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "rescue",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E18-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show burning rafters falling, not a human conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (charging toward desk), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Juliana charging toward danger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people in a burning building argue over retrieving something."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a burning building scene, no late reveals about identity or poisoning."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are environmental danger, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E18-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show only SFX of falling rafters, no immediate human conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (Juliana charges toward desk), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on her charging toward danger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people in a fire, one wants to retrieve something, the other tries to stop them."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a fire scene with no late reveals about identity or poisoning plots."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are SFX/action of falling rafters, not a hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (charging toward desk), not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    },
+    {
+     "id": "E18-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s show only sound effects and Juliana pointing at a book."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (Juliana charges toward desk), not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends with her charging into danger."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Two people argue over retrieving something from a fire."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows a fire scene, not a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "No hook type present; first lines are sound/action without conflict."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action, not a cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "rescue"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "Two people are escaping a burning building, one tries to retrieve a ledger from a burning desk while the other tries to pull them to safety.",
+    "conflict_between": "Juliana vs Alexander",
+    "want_to_know_next": "Will Juliana get the ledger and escape before the ceiling collapses?",
+    "would_keep_watching": true,
+    "why": "High-stakes tension with immediate danger and character conflict creates compelling urgency."
+   }
+  }
+ }
+}

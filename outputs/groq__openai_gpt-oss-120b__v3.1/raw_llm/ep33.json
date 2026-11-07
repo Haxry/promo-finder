@@ -1,0 +1,58 @@
+{
+ "episode": 33,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L46",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L46",
+   "hook_type": "shocking_line",
+   "hook_strength": 5,
+   "cliff_line": "L79",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Lord is coercing the maid to testify against Juliana; new viewers may not know who Juliana is or why the brother matters",
+   "spoiler": false,
+   "why": "A desperate plea and a shocked reaction create immediate tension and leave the audience hanging on what the maid will say"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L72"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L72",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "The lord threatens the maid's brother; viewers may need context that the maid is being forced to accuse Juliana of witchcraft",
+   "spoiler": false,
+   "why": "A clear, menacing threat followed by an ominous statement about unheard words hooks viewers and ends on a chilling unanswered question"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L24"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "reveal",
+   "hook_strength": 3,
+   "cliff_line": "L24",
+   "cliff_strength": 3,
+   "standalone": 3,
+   "missing_context": "The maid is being interrogated about Juliana’s actions; new viewers may not know who Juliana is or the significance of the mother’s book",
+   "spoiler": false,
+   "why": "An early reveal about the brother’s recovery leads into a probing question about a forbidden book, providing intrigue without needing prior knowledge"
+  }
+ ]
+}

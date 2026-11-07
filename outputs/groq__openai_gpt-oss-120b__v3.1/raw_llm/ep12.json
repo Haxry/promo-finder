@@ -1,0 +1,58 @@
+{
+ "episode": 12,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L15",
+     "end_line": "L44"
+    }
+   ],
+   "hook_line": "L15",
+   "hook_type": "confrontation",
+   "hook_strength": 5,
+   "cliff_line": "L44",
+   "cliff_strength": 5,
+   "standalone": 3,
+   "missing_context": "Juliana doesn't know who Clarissa is or why she can order a death threat",
+   "spoiler": false,
+   "why": "A fierce accusation launches into Clarissa's deadly ultimatum, ending on the hanging threat that forces viewers to wonder if she'll comply"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L31",
+     "end_line": "L53"
+    }
+   ],
+   "hook_line": "L31",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L53",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Clarissa's power and the significance of the garden are unclear to newcomers",
+   "spoiler": false,
+   "why": "A chilling threat followed by Juliana demanding the garden location leaves the audience hanging on the next move"
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L13"
+    }
+   ],
+   "hook_line": "L1",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L13",
+   "cliff_strength": 3,
+   "standalone": 2,
+   "missing_context": "Who is the Constable, why is the watch important, and who is Juliana's husband",
+   "spoiler": false,
+   "why": "The opening arrest command grabs attention, and the final line raises a question about Juliana's wife’s involvement, prompting curiosity"
+  }
+ ]
+}

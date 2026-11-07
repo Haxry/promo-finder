@@ -1,0 +1,475 @@
+{
+ "items": {
+  "E42-1": {
+   "sig": "e53390b2ab95",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "First line 'Guards! Arrest this imposter!' shows immediate conflict with authority figures. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the threat - no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear conflict: nobleman vs. guards, identity reveal, mother confirms rightful heir. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander is the rightful Duke - a late reveal from show bible. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "'Guards! Arrest this imposter!' is arrest_accusation hook. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "'And now, Rupert... we settle what you stole.' is threat_with_stakes cliffhanger. [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E42-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "First line 'Guards! Arrest this imposter!' shows immediate conflict with authority figures."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat - no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: nobleman vs. guards, identity reveal, mother confirms rightful heir."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke - a late reveal from show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Guards! Arrest this imposter!' is arrest_accusation hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "'And now, Rupert... we settle what you stole.' is threat_with_stakes cliffhanger."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "\"Guards! Arrest this imposter!\" shows immediate conflict with no backstory needed."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"And now, Rupert... we settle what you stole.\" is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat line with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A nobleman orders guards to arrest an imposter, guards refuse, mother reveals he's the rightful Duke."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, which is a late reveal viewers don't know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "\"Guards! Arrest this imposter!\" is arrest_accusation."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "\"And now, Rupert... we settle what you stole.\" is threat_with_stakes."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Immediate conflict: 'Guards! Arrest this imposter!' shows arrest demand with clear opposition."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat - no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear conflict: nobleman demands arrest, guards refuse, identity reveal establishes rightful duke vs usurper."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is rightful Duke and his mother is alive - both are late reveals per show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "'Guards! Arrest this imposter!' is arrest_accusation hook."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "'And now, Rupert... we settle what you stole.' is threat_with_stakes cliffhanger."
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A presumed-dead noble returns to claim his title, confronting the usurper.",
+    "conflict_between": "Alexander vs Rupert",
+    "want_to_know_next": "What did Rupert steal and how will Alexander settle it?",
+    "would_keep_watching": true,
+    "why": "The emotional reunion and clear stakes create immediate investment in the resolution."
+   }
+  },
+  "E42-2": {
+   "sig": "c744ddd73752",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Blond Nobleman's denial 'You cannot be him. Alexander died!' shows immediate conflict about identity. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat that hasn't landed yet. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The threat ends the clip with no resolution. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A stranger can follow: someone thought dead returns, is revealed as rightful Duke, and threatens someone named Rupert. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip reveals Alexander is the rightful Duke, a late reveal viewers don't know by EP5. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "First lines are an identity_reveal: Alexander is alive and being denied. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is a threat_with_stakes: 'we settle what you stole.' [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "identity_reveal",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E42-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Blond Nobleman's denial 'You cannot be him. Alexander died!' shows immediate conflict about identity."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The threat ends the clip with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: someone thought dead returns, is revealed as rightful Duke, and threatens someone named Rupert."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander is the rightful Duke, a late reveal viewers don't know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an identity_reveal: Alexander is alive and being denied."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes: 'we settle what you stole.'"
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Blond Nobleman's denial 'You cannot be him. Alexander died!' shows immediate disbelief and conflict."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no line follows to answer or defuse it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: someone believed dead returns, is declared rightful Duke, and threatens someone named Rupert."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke, a late reveal per show bible."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Blond Nobleman's line 'You cannot be him. Alexander died!' is a shocking_line (identity denial)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat_with_stakes."
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Blond Nobleman's denial 'You cannot be him. Alexander died!' shows immediate conflict about identity."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat with stakes that hasn't landed yet."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: someone believed dead returns, is revealed as rightful duke, and confronts a usurper."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander is the rightful Duke of Ashburn, which is a LATE REVEAL (spoiler)."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "First lines are an identity_reveal (Alexander's return from supposed death)."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes ('we settle what you stole')."
+      }
+     },
+     "hook_type": "identity_reveal",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A man believed dead returns to claim his title, confronting his usurper and reuniting with his mother.",
+    "conflict_between": "Alexander vs Rupert (the usurper)",
+    "want_to_know_next": "How Rupert stole the title and what Alexander will do next.",
+    "would_keep_watching": true,
+    "why": "The emotional reunion with the mother and the clear revenge plot create compelling stakes."
+   }
+  },
+  "E42-3": {
+   "sig": "fd005ef0d10c",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First line 'And yet, here I stand. That is the lie you built your life upon.' is cryptic without context. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": true,
+      "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat with stakes. [3/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Clip ends on the threat; no resolution follows. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": false,
+      "reason": "Viewer wouldn't know who Rupert is or what was stolen without context. [1/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Reveals Alexander's mother is alive and he is rightful Duke, which are late reveals. [0/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": true,
+      "reason": "Last line is threat_with_stakes. [3/3 yes]"
+     }
+    },
+    "pattern": "hidden_identity",
+    "hook_type": "other",
+    "cliff_type": "threat_with_stakes",
+    "samples": 3
+   },
+   "agreement": 0.86,
+   "raw_samples": [
+    {
+     "id": "E42-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line 'And yet, here I stand. That is the lie you built your life upon.' is cryptic without context."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line 'And now, Rupert... we settle what you stole.' is a threat with stakes."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Viewer wouldn't know who Rupert is or what was stolen without context."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and he is rightful Duke, which are late reveals."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are not slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First line is cryptic: 'That is the lie you built your life upon.'"
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "Last line is a threat with stakes: 'we settle what you stole.'"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the threat; no resolution follows."
+      },
+      "standalone_understandable": {
+       "pass": false,
+       "reason": "Who is Rupert? Why does Alexander's mother matter? No context given."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Reveals Alexander's mother is alive and he is the rightful Duke (late reveal)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s are a cryptic statement, not a defined hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is 'threat_with_stakes'."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    },
+    {
+     "id": "E42-3",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"And yet, here I stand. That is the lie you built your life upon.\" is cryptic and requires context."
+      },
+      "open_question_at_end": {
+       "pass": true,
+       "reason": "\"And now, Rupert... we settle what you stole.\" is a threat with stakes that hasn't landed."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the threat; no line after it answers or defuses it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: a scarred man confronts a 'Rupert' about a theft after his mother reveals him as the rightful Duke."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip reveals Alexander's mother is alive and publicly declares him the rightful Duke, a major late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a confrontation but not a clear slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": true,
+       "reason": "Last line is a threat_with_stakes."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "threat_with_stakes",
+     "pattern": "hidden_identity"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A son returns home to confront his past, and his mother publicly acknowledges him as the rightful heir.",
+    "conflict_between": "Alexander vs Rupert",
+    "want_to_know_next": "What did Rupert steal and how will Alexander settle it?",
+    "would_keep_watching": true,
+    "why": "The emotional reunion and sudden shift to vengeance creates compelling drama."
+   }
+  }
+ }
+}

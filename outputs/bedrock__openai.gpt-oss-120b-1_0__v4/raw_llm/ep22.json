@@ -1,0 +1,64 @@
+{
+ "episode": 22,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L46",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L46",
+   "hook_type": "public_humiliation",
+   "hook_strength": 5,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "humiliation_revenge",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The Housekeeper’s humiliating taunt grabs attention instantly, then Juliana’s desperate question leaves the mystery of the Duchess’s illness hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L42",
+     "end_line": "L75"
+    }
+   ],
+   "hook_line": "L42",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L75",
+   "cliff_type": "about_to_learn_truth",
+   "cliff_strength": 4,
+   "standalone": 4,
+   "pattern": "poison_plot",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "A menacing threat from the Housekeeper hooks viewers, and Juliana’s shocked realization that the Duchess’s fever is unnatural teases a deadly secret."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L42",
+     "end_line": "L79"
+    }
+   ],
+   "hook_line": "L42",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L79",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 5,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "none",
+   "spoiler": false,
+   "why": "The threat line instantly creates tension, and the final question “Who has been treating you?” stops the clip on a cliffhanger that demands answers."
+  }
+ ]
+}

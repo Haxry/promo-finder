@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E4-1": {
+   "sig": "508f50ef3826",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First lines 'Look at him. A penniless nobody for a discarded bride.' require context to feel conflict. [0/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'You don't know what my family has done to me.' is a statement, not an open question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Cliffhanger is the final line. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Stranger can follow: a man mocks a woman's new partner, she feels betrayed, a mysterious man defends her. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Clip shows early conflict but doesn't reveal Alexander's identity or the poisoning plot. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First lines are mocking commentary, not a slap, humiliation, arrest, shocking line, identity reveal, or threat. [0/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is a bitter statement, not an unanswered question, threat, cut-off sentence, or about-to-learn-truth. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E4-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines 'Look at him. A penniless nobody for a discarded bride.' require context to feel conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'You don't know what my family has done to me.' is a statement, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Cliffhanger is the final line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Stranger can follow: a man mocks a woman's new partner, she feels betrayed, a mysterious man defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Clip shows early conflict but doesn't reveal Alexander's identity or the poisoning plot."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are mocking commentary, not a slap, humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a bitter statement, not an unanswered question, threat, cut-off sentence, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E4-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Look at him.\" and \"A penniless nobody for a discarded bride.\" are insults, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"You don't know what my family has done to me.\" is a statement, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the last line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can see a man is being insulted, a woman is being taunted, and a mysterious man defends her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows early conflict and a proposal, not late reveals like Alexander's true identity."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are insults, not a slap, public humiliation, arrest, shocking line, identity reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is a statement of hidden pain, not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E4-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "\"Look at him.\" and \"A penniless nobody for a discarded bride.\" are insults, but no physical conflict or immediate stakes a stranger feels."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "\"You don't know what my family has done to me.\" is a statement, not an unanswered question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on that line, nothing resolves it."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A stranger can follow: a man insults a woman and her new partner, she questions why he'd help her, he says she's been betrayed."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows early conflict and Alexander's proposal, which viewers know by EP5."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "The first lines are mocking insults, not a slap_attack, public_humiliation, arrest_accusation, shocking_line, identity_reveal, or threat."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "The last line is a bitter statement, not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "betrayal"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being publicly mocked for her engagement to a poor man, while a mysterious man defends her.",
+    "conflict_between": "Gerald and Clarissa vs Juliana, with mysterious man supporting Juliana",
+    "want_to_know_next": "Who is the mysterious man and why is he defending Juliana?",
+    "would_keep_watching": true,
+    "why": "Intriguing dynamic between the bullied woman and her unexpected defender creates curiosity about their connection."
+   }
+  },
+  "E4-2": {
+   "sig": "5cae1a8ce228",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - a stranger feels the conflict immediately. [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line 'Come, Lady Juliana.' is a command/offer, not an unanswered question or threat. [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "The last line is the end of the clip. [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "A man is furious a woman chose a 'penniless nobody,' she rejects him, and a mother figure disowns her - clear conflict. [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana's defiance and disownment, which viewers know by EP5; doesn't reveal Alexander's identity or late plots. [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "Gerald's lines are a public_humiliation, shaming her choice in front of others. [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line 'Come, Lady Juliana.' is a protective offer, not a cliffhanger type. [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "public_humiliation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E4-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - a stranger feels the conflict immediately."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Come, Lady Juliana.' is a command/offer, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The last line is the end of the clip."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man is furious a woman chose a 'penniless nobody,' she rejects him, and a mother figure disowns her - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's defiance and disownment, which viewers know by EP5; doesn't reveal Alexander's identity or late plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's lines are a public_humiliation, shaming her choice in front of others."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line 'Come, Lady Juliana.' is a protective offer, not a cliffhanger type."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E4-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald shouts 'You have thrown yourself away! For a penniless nobody!' - immediate conflict over Juliana's choice."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "'Come, Lady Juliana.' is a protective command, not an unanswered question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the line 'Come, Lady Juliana.' with no resolution after."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man is furious at a woman's choice, she rejects him, she's disowned, a mysterious man protects her - clear conflict."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "The clip shows Juliana being disowned after choosing Alexander, which viewers know by Ep5; no late reveals given."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's lines are public_humiliation - shaming Juliana for her choice in front of others."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'Come, Lady Juliana.' is a protective command, not a cliffhanger type from the rubric."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E4-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Gerald shouts 'You have thrown yourself away!' and 'For a penniless nobody!' - immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line 'Come, Lady Juliana.' is a command/invitation, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the invitation line."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "A man is furious a woman chose someone else; she rejects him; she's disowned; a stranger invites her."
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's defiance and disowning, which viewers know by Ep5; doesn't reveal Alexander's identity or late plots."
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Gerald's lines are public humiliation ('penniless nobody')."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "'Come, Lady Juliana.' is not an unanswered question, threat, cut-off, or about-to-learn-truth."
+      }
+     },
+     "hook_type": "public_humiliation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being disowned by her family for choosing a man they disapprove of.",
+    "conflict_between": "Juliana vs Gerald and Lady Ashcroft",
+    "want_to_know_next": "Who is the mysterious man and what will happen to Juliana now?",
+    "would_keep_watching": true,
+    "why": "The emotional confrontation creates compelling stakes and the mysterious man adds intrigue."
+   }
+  }
+ }
+}

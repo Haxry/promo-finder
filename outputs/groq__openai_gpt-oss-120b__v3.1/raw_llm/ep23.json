@@ -1,0 +1,58 @@
+{
+ "episode": 23,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L39",
+     "end_line": "L65"
+    }
+   ],
+   "hook_line": "L39",
+   "hook_type": "threat",
+   "hook_strength": 5,
+   "cliff_line": "L65",
+   "cliff_strength": 5,
+   "standalone": 4,
+   "missing_context": "Juliana is a lady trying to save the dying Duchess; new viewers won’t know their relationship or the stakes",
+   "spoiler": false,
+   "why": "The line “Someone is poisoning her” instantly raises stakes, then the door latch creaks, leaving the threat hanging and compelling viewers to click."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L25",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L25",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L57",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Juliana is preparing a remedy for the Duchess; newcomers won’t know who they are or why time is critical",
+   "spoiler": false,
+   "why": "A gasp‑filled discovery followed by a sudden thump and footsteps creates urgent tension that ends on an unanswered arrival."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L44",
+     "end_line": "L57"
+    }
+   ],
+   "hook_line": "L44",
+   "hook_type": "reveal",
+   "hook_strength": 4,
+   "cliff_line": "L57",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "The significance of arsenic and Juliana’s role aren’t explained for first‑time viewers",
+   "spoiler": false,
+   "why": "Naming the poison spikes curiosity, and the abrupt hallway thump leaves the scene hanging, prompting viewers to watch the full episode."
+  }
+ ]
+}

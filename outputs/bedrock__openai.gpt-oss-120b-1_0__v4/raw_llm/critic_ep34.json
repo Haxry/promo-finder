@@ -1,0 +1,318 @@
+{
+ "items": {
+  "E34-1": {
+   "sig": "278d5fc95055",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": false,
+      "reason": "First 3s: 'Lady Juliana, if you wish to save yourself, renounce these practices.' - No immediate conflict, just a request. [1/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "Last line is an action (Judge extends hand in judgment), not an open question/threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "Scene fades to black on the judgment gesture [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear courtroom conflict: judge accuses witchcraft, Juliana defiantly refuses [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": false,
+      "reason": "Clip shows Juliana on trial for witchcraft, which is a late reveal (Rupert and Catherine frame Juliana for witchcraft). [1/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": false,
+      "reason": "First 3s: 'Lady Juliana, if you wish to save yourself, renounce these practices.' - Not a hook type; it's a request. [1/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "Last line is an action (Judge extends hand), not a cliffhanger type [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "other",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 0.57,
+   "raw_samples": [
+    {
+     "id": "E34-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Judge demands renunciation, Juliana refuses immediately"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is an action (Judge extends hand in judgment), not an open question/threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Scene fades to black on the judgment gesture"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom conflict: judge accuses witchcraft, Juliana defiantly refuses"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows accusation/resistance but not resolution of witchcraft plot"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Judge's demand is a threat with stakes (renounce or face consequences)"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action (Judge extends hand), not a cliffhanger type"
+      }
+     },
+     "hook_type": "threat",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E34-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First 3s: 'Lady Juliana, if you wish to save yourself, renounce these practices.' - No immediate conflict, just a request."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line: 'The Judge extends his raised hand high in judgment' - A closing action, not an open question or threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "The clip ends on the judgment gesture with no resolution."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom scene with judge pressuring Juliana about witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Clip shows Juliana on trial for witchcraft, which is a late reveal (Rupert and Catherine frame Juliana for witchcraft)."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First 3s: 'Lady Juliana, if you wish to save yourself, renounce these practices.' - Not a hook type; it's a request."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line: 'The Judge extends his raised hand high in judgment' - Not a cliffhanger type; it's an action line."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E34-1",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": false,
+       "reason": "First lines are a judge's warning, not immediate conflict."
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Last line is a gesture of judgment, not an open question or cut-off threat."
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Fade to black after judgment gesture."
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom scene with accusation of witchcraft."
+      },
+      "not_a_spoiler": {
+       "pass": false,
+       "reason": "Shows Juliana on trial for witchcraft, which is a late reveal."
+      },
+      "hook_in_rubric": {
+       "pass": false,
+       "reason": "First lines are a warning, not a listed hook type."
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Last line is an action line, not a listed cliffhanger type."
+      }
+     },
+     "hook_type": "other",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is being tried for witchcraft and refuses to renounce her practices",
+    "conflict_between": "Lady Juliana vs the Judge/legal system",
+    "want_to_know_next": "What sentence will Lady Juliana receive",
+    "would_keep_watching": true,
+    "why": "The tension between personal conviction and legal persecution creates compelling drama"
+   }
+  },
+  "E34-2": {
+   "sig": "f3b121bf55ea",
+   "critic": {
+    "checks": {
+     "hook_conflict_no_context": {
+      "pass": true,
+      "reason": "L68: 'The people call it poisoning!' - immediate accusation of poisoning in front of assembly [3/3 yes]"
+     },
+     "open_question_at_end": {
+      "pass": false,
+      "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or cut-off threat [0/3 yes]"
+     },
+     "nothing_resolves_after_cliff": {
+      "pass": true,
+      "reason": "L90 is the last line, no resolution follows [3/3 yes]"
+     },
+     "standalone_understandable": {
+      "pass": true,
+      "reason": "Clear courtroom conflict: Juliana accused of poisoning with herbs, defends her actions as medicine [3/3 yes]"
+     },
+     "not_a_spoiler": {
+      "pass": true,
+      "reason": "Shows Juliana on trial for using herbs - doesn't reveal late poisoning conspiracy or Alexander's identity [3/3 yes]"
+     },
+     "hook_in_rubric": {
+      "pass": true,
+      "reason": "L68: 'The people call it poisoning!' - public accusation fits 'arrest_accusation' [3/3 yes]"
+     },
+     "cliff_in_rubric": {
+      "pass": false,
+      "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or threat with stakes [0/3 yes]"
+     }
+    },
+    "pattern": "underdog_stands_up",
+    "hook_type": "arrest_accusation",
+    "cliff_type": "other",
+    "samples": 3
+   },
+   "agreement": 1.0,
+   "raw_samples": [
+    {
+     "id": "E34-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L68: 'The people call it poisoning!' - immediate accusation of poisoning in front of assembly"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "L90 is the last line, no resolution follows"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom conflict: Juliana accused of poisoning with herbs, defends her actions as medicine"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana on trial for using herbs - doesn't reveal late poisoning conspiracy or Alexander's identity"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L68: 'The people call it poisoning!' - public accusation fits 'arrest_accusation'"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L90: 'renounce these practices' - a command/ultimatum, not an unanswered question or threat with stakes"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E34-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "L68: 'The people call it poisoning!' - immediate accusation of poisoning"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "L90: 'renounce these practices' - a command, not an unanswered question or threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on Judge's command with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom scene with Juliana accused of poisoning/illegal medicine"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana's herbal knowledge but doesn't reveal late plot twists"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "L68: 'The people call it poisoning!' - shocking accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "L90: 'renounce these practices' - command, not a cliffhanger type"
+      }
+     },
+     "hook_type": "shocking_line",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    },
+    {
+     "id": "E34-2",
+     "checks": {
+      "hook_conflict_no_context": {
+       "pass": true,
+       "reason": "Lord's accusation 'The people call it poisoning!' immediately frames Juliana as accused of poisoning"
+      },
+      "open_question_at_end": {
+       "pass": false,
+       "reason": "Judge's command 'renounce these practices' is a demand, not an unanswered question or cut-off threat"
+      },
+      "nothing_resolves_after_cliff": {
+       "pass": true,
+       "reason": "Clip ends on the judge's demand with no resolution"
+      },
+      "standalone_understandable": {
+       "pass": true,
+       "reason": "Clear courtroom conflict: Juliana is accused of poisoning/illegal medicine, defends her actions"
+      },
+      "not_a_spoiler": {
+       "pass": true,
+       "reason": "Shows Juliana defending her herbal medicine, doesn't reveal poisoning conspiracy or Alexander's identity"
+      },
+      "hook_in_rubric": {
+       "pass": true,
+       "reason": "Lord's accusation 'The people call it poisoning!' is an arrest_accusation"
+      },
+      "cliff_in_rubric": {
+       "pass": false,
+       "reason": "Judge's command to renounce is not an unanswered_question, threat_with_stakes, cut_mid_sentence, or about_to_learn_truth"
+      }
+     },
+     "hook_type": "arrest_accusation",
+     "cliff_type": "other",
+     "pattern": "underdog_stands_up"
+    }
+   ],
+   "cold": {
+    "what_is_happening": "A woman is on trial for using herbs as medicine without physician approval",
+    "conflict_between": "Lady Juliana vs the court/Lord",
+    "want_to_know_next": "Will Lady Juliana renounce her practices to save herself?",
+    "would_keep_watching": true,
+    "why": "The moral dilemma between following rules and helping people creates compelling tension"
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "episode": 16,
+ "model": "openai/gpt-oss-120b",
+ "prompt": "v3.1",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L1",
+     "end_line": "L35"
+    }
+   ],
+   "hook_line": "L2",
+   "hook_type": "threat",
+   "hook_strength": 4,
+   "cliff_line": "L35",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Viewer doesn't know who Alexander or Juliana are or why thugs are attacking",
+   "spoiler": false,
+   "why": "Early threat line stops scrolling, the fight showcases action, and it ends on an unanswered question that teases the mystery."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L13",
+     "end_line": "L48"
+    }
+   ],
+   "hook_line": "L13",
+   "hook_type": "slap",
+   "hook_strength": 5,
+   "cliff_line": "L48",
+   "cliff_strength": 4,
+   "standalone": 3,
+   "missing_context": "Gerald Harrington's role and the stakes are unclear to new viewers",
+   "spoiler": true,
+   "why": "Shows Alexander's superhuman combat skill and the shocking confession, then cuts as the thugs flee, leaving tension."
+  }
+ ]
+}

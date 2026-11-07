@@ -1,0 +1,22 @@
+{
+ "version": "s1",
+ "episode": 16,
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L13",
+     "end_line": "L16"
+    },
+    {
+     "start_line": "L34",
+     "end_line": "L47"
+    }
+   ],
+   "hook_line": "L13",
+   "cliff_line": "L47",
+   "pattern": "action‑reveal",
+   "why": "Shows Alexander’s superhuman defense, then flips to the shocking confession that Gerald hired the thugs, ending on the thugs’ desperate flight to leave the audience hanging."
+  }
+ ]
+}

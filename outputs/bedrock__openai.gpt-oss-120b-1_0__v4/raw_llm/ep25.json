@@ -1,0 +1,45 @@
+{
+ "episode": 25,
+ "model": "openai.gpt-oss-120b-1:0",
+ "prompt": "v4",
+ "proposals": [
+  {
+   "segments": [
+    {
+     "start_line": "L57",
+     "end_line": "L84"
+    }
+   ],
+   "hook_line": "L57",
+   "hook_type": "shocking_line",
+   "hook_strength": 4,
+   "cliff_line": "L84",
+   "cliff_type": "threat_with_stakes",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "The pronoun \"her\" refers to the Dowager Duchess, whose mysterious illness the new viewer hasn't seen yet.",
+   "spoiler": false,
+   "why": "A sudden confession of systematic poisoning grabs attention, then a chilling threat leaves the mystery hanging."
+  },
+  {
+   "segments": [
+    {
+     "start_line": "L23",
+     "end_line": "L50"
+    }
+   ],
+   "hook_line": "L23",
+   "hook_type": "identity_reveal",
+   "hook_strength": 4,
+   "cliff_line": "L50",
+   "cliff_type": "unanswered_question",
+   "cliff_strength": 4,
+   "standalone": 5,
+   "pattern": "poison_plot",
+   "missing_context": "Viewers need to know that the Dowager Duchess is the target of a deadly scheme.",
+   "spoiler": false,
+   "why": "The name‑drop of Lady Catherine instantly raises stakes, and the reveal of \"Arsenic\" ends on a question that forces viewers to wonder who’s behind the poison."
+  }
+ ]
+}
